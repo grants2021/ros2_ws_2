@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:96 (add_dependencies):
+  The dependency target "vrx_gazebo_generate_messages_cpp" of target
+  "gui_task_widget" does not exist.
+
+
+CMake Warning at CMakeLists.txt:83 (add_library):
+  Cannot generate a safe runtime search path for target gui_task_widget
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libuuid.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/grant/miniconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

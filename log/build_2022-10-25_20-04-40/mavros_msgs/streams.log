@@ -1,0 +1,129 @@
+[0.086s] Invoking command in '/home/grant/ros2_ws/build/mavros_msgs': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/mavros_msgs -- -j8 -l8
+[0.497s] [  0%] Built target mavros_msgs__dds_connext_idl
+[0.530s] [  0%] Built target mavros_msgs__cpp
+[0.573s] [  6%] Built target mavros_msgs__rosidl_generator_c
+[0.573s] [ 12%] Built target mavros_msgs__rosidl_typesupport_cpp
+[0.573s] [ 18%] Built target mavros_msgs__rosidl_typesupport_c
+[0.573s] [ 25%] Built target mavros_msgs__rosidl_typesupport_introspection_cpp
+[0.573s] [ 31%] Built target mavros_msgs__rosidl_typesupport_fastrtps_cpp
+[0.587s] [ 37%] Built target mavros_msgs__rosidl_typesupport_introspection_c
+[0.650s] [ 44%] Built target mavros_msgs__rosidl_typesupport_fastrtps_c
+[1.254s] [ 69%] Built target mavros_msgs__rosidl_typesupport_connext_cpp
+[1.986s] [ 94%] Built target mavros_msgs__rosidl_typesupport_connext_c
+[2.007s] [ 94%] Built target mavros_msgs
+[2.033s] [ 94%] Built target mavros_msgs__py
+[2.075s] [35m[1mScanning dependencies of target mavros_msgs__python[0m
+[2.216s] [ 94%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_actuator_control_s.c.o[0m
+[2.216s] [ 94%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_altitude_s.c.o[0m
+[2.216s] [ 94%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_attitude_target_s.c.o[0m
+[2.216s] [ 94%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_adsb_vehicle_s.c.o[0m
+[2.216s] [ 94%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_camera_image_captured_s.c.o[0m
+[2.216s] [ 94%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_command_code_s.c.o[0m
+[2.217s] [ 94%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_cam_imu_stamp_s.c.o[0m
+[2.225s] [ 94%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_cellular_status_s.c.o[0m
+[2.332s] [ 94%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_debug_value_s.c.o[0m
+[2.333s] [ 94%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_esc_info_s.c.o[0m
+[2.335s] [ 94%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_esc_status_s.c.o[0m
+[2.336s] [ 94%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_companion_process_status_s.c.o[0m
+[2.337s] [ 94%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_esc_info_item_s.c.o[0m
+[2.375s] [ 94%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_esc_telemetry_s.c.o[0m
+[2.390s] [ 94%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_esc_telemetry_item_s.c.o[0m
+[2.397s] [ 95%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_esc_status_item_s.c.o[0m
+[2.436s] [ 95%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_extended_state_s.c.o[0m
+[2.439s] [ 95%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_estimator_status_s.c.o[0m
+[2.446s] [ 95%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_file_entry_s.c.o[0m
+[2.451s] [ 95%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_gpsinput_s.c.o[0m
+[2.481s] [ 95%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_gpsraw_s.c.o[0m
+[2.524s] [ 95%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_gpsrtk_s.c.o[0m
+[2.529s] [ 95%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_hil_actuator_controls_s.c.o[0m
+[2.536s] [ 95%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_global_position_target_s.c.o[0m
+[2.557s] [ 95%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_hil_controls_s.c.o[0m
+[2.560s] [ 95%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_hil_gps_s.c.o[0m
+[2.568s] [ 95%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_hil_sensor_s.c.o[0m
+[2.609s] [ 95%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_hil_state_quaternion_s.c.o[0m
+[2.619s] [ 95%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_home_position_s.c.o[0m
+[2.633s] [ 96%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_landing_target_s.c.o[0m
+[2.634s] [ 96%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_log_data_s.c.o[0m
+[2.650s] [ 96%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_log_entry_s.c.o[0m
+[2.666s] [ 96%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_magnetometer_reporter_s.c.o[0m
+[2.666s] [ 96%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_manual_control_s.c.o[0m
+[2.678s] [ 96%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_mavlink_s.c.o[0m
+[2.735s] [ 96%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_mount_control_s.c.o[0m
+[2.745s] [ 96%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_nav_controller_output_s.c.o[0m
+[2.746s] [ 96%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_onboard_computer_status_s.c.o[0m
+[2.749s] [ 96%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_optical_flow_rad_s.c.o[0m
+[2.750s] [ 96%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_override_rc_in_s.c.o[0m
+[2.751s] [ 96%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_param_s.c.o[0m
+[2.788s] [ 96%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_param_event_s.c.o[0m
+[2.806s] [ 96%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_param_value_s.c.o[0m
+[2.819s] [ 96%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_play_tune_v2_s.c.o[0m
+[2.843s] [ 96%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_position_target_s.c.o[0m
+[2.858s] [ 96%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_rc_in_s.c.o[0m
+[2.867s] [ 97%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_rc_out_s.c.o[0m
+[2.868s] [ 97%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_rtcm_s.c.o[0m
+[2.874s] [ 97%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_rtk_baseline_s.c.o[0m
+[2.901s] [ 97%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_radio_status_s.c.o[0m
+[2.922s] [ 97%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_state_s.c.o[0m
+[2.948s] [ 97%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_status_text_s.c.o[0m
+[2.973s] [ 97%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_terrain_report_s.c.o[0m
+[2.973s] [ 97%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_thrust_s.c.o[0m
+[3.005s] [ 97%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_timesync_status_s.c.o[0m
+[3.019s] [ 97%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_trajectory_s.c.o[0m
+[3.020s] [ 97%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_tunnel_s.c.o[0m
+[3.075s] [ 97%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_vehicle_info_s.c.o[0m
+[3.093s] [ 97%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_vfr_hud_s.c.o[0m
+[3.096s] [ 97%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_vibration_s.c.o[0m
+[3.118s] [ 97%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_waypoint_list_s.c.o[0m
+[3.124s] [ 97%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_waypoint_s.c.o[0m
+[3.141s] [ 97%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_waypoint_reached_s.c.o[0m
+[3.181s] [ 97%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/msg/_wheel_odom_stamped_s.c.o[0m
+[3.189s] [ 98%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_command_ack_s.c.o[0m
+[3.195s] [ 98%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_command_bool_s.c.o[0m
+[3.216s] [ 98%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_command_home_s.c.o[0m
+[3.259s] [ 98%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_command_int_s.c.o[0m
+[3.287s] [ 98%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_command_long_s.c.o[0m
+[3.294s] [ 98%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_command_tol_s.c.o[0m
+[3.304s] [ 98%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_command_trigger_control_s.c.o[0m
+[3.305s] [ 98%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_command_trigger_interval_s.c.o[0m
+[3.312s] [ 98%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_command_vtol_transition_s.c.o[0m
+[3.375s] [ 98%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_endpoint_add_s.c.o[0m
+[3.391s] [ 98%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_file_close_s.c.o[0m
+[3.391s] [ 98%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_file_checksum_s.c.o[0m
+[3.403s] [ 98%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_file_list_s.c.o[0m
+[3.405s] [ 98%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_endpoint_del_s.c.o[0m
+[3.440s] [ 98%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_file_make_dir_s.c.o[0m
+[3.465s] [ 98%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_file_open_s.c.o[0m
+[3.524s] [ 98%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_file_read_s.c.o[0m
+[3.528s] [ 99%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_file_remove_s.c.o[0m
+[3.528s] [ 99%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_file_remove_dir_s.c.o[0m
+[3.556s] [ 99%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_file_rename_s.c.o[0m
+[3.571s] [ 99%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_file_truncate_s.c.o[0m
+[3.602s] [ 99%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_file_write_s.c.o[0m
+[3.625s] [ 99%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_log_request_data_s.c.o[0m
+[3.654s] [ 99%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_log_request_list_s.c.o[0m
+[3.655s] [ 99%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_log_request_end_s.c.o[0m
+[3.673s] [ 99%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_message_interval_s.c.o[0m
+[3.709s] [ 99%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_mount_configure_s.c.o[0m
+[3.730s] [ 99%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_param_get_s.c.o[0m
+[3.742s] [ 99%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_param_pull_s.c.o[0m
+[3.786s] [ 99%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_param_push_s.c.o[0m
+[3.794s] [ 99%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_param_set_s.c.o[0m
+[3.795s] [ 99%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_param_set_v2_s.c.o[0m
+[3.795s] [ 99%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_set_mav_frame_s.c.o[0m
+[3.804s] [ 99%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_set_mode_s.c.o[0m
+[3.826s] [100%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_stream_rate_s.c.o[0m
+[3.884s] [100%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_vehicle_info_get_s.c.o[0m
+[3.918s] [100%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_waypoint_clear_s.c.o[0m
+[3.925s] [100%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_waypoint_pull_s.c.o[0m
+[3.933s] [100%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_waypoint_push_s.c.o[0m
+[3.936s] [100%] [32mBuilding C object CMakeFiles/mavros_msgs__python.dir/rosidl_generator_py/mavros_msgs/srv/_waypoint_set_current_s.c.o[0m
+[4.055s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mavros_msgs/libmavros_msgs__python.so[0m
+[4.172s] [100%] Built target mavros_msgs__python
+[4.209s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mavros_msgs/mavros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.209s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mavros_msgs/mavros_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.232s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mavros_msgs/mavros_msgs_s__rosidl_typesupport_connext_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.232s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/mavros_msgs/mavros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[4.289s] [100%] Built target mavros_msgs__rosidl_typesupport_c__pyext
+[4.294s] [100%] Built target mavros_msgs__rosidl_typesupport_introspection_c__pyext
+[4.371s] [100%] Built target mavros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.550s] [100%] Built target mavros_msgs__rosidl_typesupport_connext_c__pyext

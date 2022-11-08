@@ -1,0 +1,5 @@
+[console_scripts]
+drone_control = ros2_robotx.drone_control:main
+teleop_key = ros2_robotx.teleop_key:main
+wamv_sim = ros2_robotx.wamv_sim:main
+

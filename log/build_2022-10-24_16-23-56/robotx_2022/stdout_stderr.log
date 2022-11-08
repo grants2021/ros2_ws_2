@@ -1,0 +1,8 @@
+[ 50%] Built target ArduCopterIRLockPlugin
+[100%] Built target ArduPilotPlugin
+-- Install configuration: ""
+CMake Error at cmake_install.cmake:49 (file):
+  file INSTALL cannot make directory "/config": Permission denied.
+
+
+-- Installing: /config

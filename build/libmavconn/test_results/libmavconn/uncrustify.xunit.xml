@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="libmavconn.uncrustify"
+  tests="13"
+  failures="0"
+  errors="0"
+  time="0.045"
+>
+  <testcase
+    name="include/mavconn/console_bridge_compat.hpp"
+    classname="libmavconn.uncrustify"/>
+  <testcase
+    name="include/mavconn/interface.hpp"
+    classname="libmavconn.uncrustify"/>
+  <testcase
+    name="include/mavconn/mavlink_dialect.hpp"
+    classname="libmavconn.uncrustify"/>
+  <testcase
+    name="include/mavconn/msgbuffer.hpp"
+    classname="libmavconn.uncrustify"/>
+  <testcase
+    name="include/mavconn/serial.hpp"
+    classname="libmavconn.uncrustify"/>
+  <testcase
+    name="include/mavconn/tcp.hpp"
+    classname="libmavconn.uncrustify"/>
+  <testcase
+    name="include/mavconn/thread_utils.hpp"
+    classname="libmavconn.uncrustify"/>
+  <testcase
+    name="include/mavconn/udp.hpp"
+    classname="libmavconn.uncrustify"/>
+  <testcase
+    name="src/interface.cpp"
+    classname="libmavconn.uncrustify"/>
+  <testcase
+    name="src/serial.cpp"
+    classname="libmavconn.uncrustify"/>
+  <testcase
+    name="src/tcp.cpp"
+    classname="libmavconn.uncrustify"/>
+  <testcase
+    name="src/udp.cpp"
+    classname="libmavconn.uncrustify"/>
+  <testcase
+    name="test/test_mavconn.cpp"
+    classname="libmavconn.uncrustify"/>
+  <system-out>Checked files:
+* include/mavconn/console_bridge_compat.hpp
+* include/mavconn/interface.hpp
+* include/mavconn/mavlink_dialect.hpp
+* include/mavconn/msgbuffer.hpp
+* include/mavconn/serial.hpp
+* include/mavconn/tcp.hpp
+* include/mavconn/thread_utils.hpp
+* include/mavconn/udp.hpp
+* src/interface.cpp
+* src/serial.cpp
+* src/tcp.cpp
+* src/udp.cpp
+* test/test_mavconn.cpp</system-out>
+</testsuite>

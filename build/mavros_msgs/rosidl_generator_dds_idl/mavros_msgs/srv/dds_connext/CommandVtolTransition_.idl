@@ -1,0 +1,57 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:srv/CommandVtolTransition.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__srv__command_vtol_transition__idl__
+#define __mavros_msgs__srv__command_vtol_transition__idl__
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+module CommandVtolTransition_Request_Constants {
+const octet STATE_MC_ = 3;
+const octet STATE_FW_ = 4;
+
+};
+
+struct CommandVtolTransition_Request_ {
+std_msgs::msg::dds_::Header_ header_;
+octet state_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct CommandVtolTransition_Response_ {
+boolean success_;
+octet result_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__srv__command_vtol_transition__idl__

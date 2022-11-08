@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="7" failures="0" disabled="0" errors="0" timestamp="2022-10-23T22:36:48" time="0.433" name="AllTests">
+  <testsuite name="FRAME_TF" tests="7" failures="0" disabled="0" errors="0" time="0.433">
+    <testcase name="quaternion_from_rpy__check_compatibility" status="run" time="0" classname="mavros.FRAME_TF" />
+    <testcase name="quaternion_from_rpy__paranoic_check" status="run" time="0" classname="mavros.FRAME_TF" />
+    <testcase name="quaternion_to_rpy__123" status="run" time="0" classname="mavros.FRAME_TF" />
+    <testcase name="quaternion_to_rpy__pm_pi" status="run" time="0.428" classname="mavros.FRAME_TF" />
+    <testcase name="quaternion_get_yaw__123" status="run" time="0" classname="mavros.FRAME_TF" />
+    <testcase name="quaternion_get_yaw__pm_pi" status="run" time="0.004" classname="mavros.FRAME_TF" />
+    <testcase name="quaternion_to_mavlink__123" status="run" time="0" classname="mavros.FRAME_TF" />
+  </testsuite>
+</testsuites>

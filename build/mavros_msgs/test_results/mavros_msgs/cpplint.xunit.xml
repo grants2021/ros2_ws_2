@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="mavros_msgs.cpplint"
+  tests="1"
+  failures="0"
+  errors="0"
+  time="0.054"
+>
+  <testcase
+    name="/home/grant/ros2_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.hpp"
+    classname="mavros_msgs.cpplint"/>
+  <system-out>Checked files:
+* /home/grant/ros2_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.hpp</system-out>
+</testsuite>

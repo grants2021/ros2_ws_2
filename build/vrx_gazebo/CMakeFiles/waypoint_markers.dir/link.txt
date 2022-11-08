@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++17     -shared -Wl,-soname,libwaypoint_markers.so -o libwaypoint_markers.so CMakeFiles/waypoint_markers.dir/src/waypoint_markers.cc.o   -L/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0 

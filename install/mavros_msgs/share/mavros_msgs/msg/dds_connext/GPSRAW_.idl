@@ -1,0 +1,59 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/GPSRAW.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__gpsraw__idl__
+#define __mavros_msgs__msg__gpsraw__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module GPSRAW_Constants {
+const octet GPS_FIX_TYPE_NO_GPS_ = 0;
+const octet GPS_FIX_TYPE_NO_FIX_ = 1;
+const octet GPS_FIX_TYPE_2D_FIX_ = 2;
+const octet GPS_FIX_TYPE_3D_FIX_ = 3;
+const octet GPS_FIX_TYPE_DGPS_ = 4;
+const octet GPS_FIX_TYPE_RTK_FLOATR_ = 5;
+const octet GPS_FIX_TYPE_RTK_FIXEDR_ = 6;
+const octet GPS_FIX_TYPE_STATIC_ = 7;
+const octet GPS_FIX_TYPE_PPP_ = 8;
+
+};
+
+struct GPSRAW_ {
+std_msgs::msg::dds_::Header_ header_;
+octet fix_type_;
+long lat_;
+long lon_;
+long alt_;
+unsigned short eph_;
+unsigned short epv_;
+unsigned short vel_;
+unsigned short cog_;
+octet satellites_visible_;
+long alt_ellipsoid_;
+unsigned long h_acc_;
+unsigned long v_acc_;
+unsigned long vel_acc_;
+long hdg_acc_;
+unsigned short yaw_;
+octet dgps_numch_;
+unsigned long dgps_age_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__gpsraw__idl__

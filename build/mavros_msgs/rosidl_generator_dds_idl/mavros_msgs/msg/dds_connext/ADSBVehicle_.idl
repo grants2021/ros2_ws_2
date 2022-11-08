@@ -1,0 +1,79 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/ADSBVehicle.idl
+// generated code does not contain a copyright notice
+#include "builtin_interfaces/msg/dds_connext/Duration_.idl"
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__adsb_vehicle__idl__
+#define __mavros_msgs__msg__adsb_vehicle__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module ADSBVehicle_Constants {
+const octet ALT_PRESSURE_QNH_ = 0;
+const octet ALT_GEOMETRIC_ = 1;
+const octet EMITTER_NO_INFO_ = 0;
+const octet EMITTER_LIGHT_ = 1;
+const octet EMITTER_SMALL_ = 2;
+const octet EMITTER_LARGE_ = 3;
+const octet EMITTER_HIGH_VORTEX_LARGE_ = 4;
+const octet EMITTER_HEAVY_ = 5;
+const octet EMITTER_HIGHLY_MANUV_ = 6;
+const octet EMITTER_ROTOCRAFT_ = 7;
+const octet EMITTER_UNASSIGNED_ = 8;
+const octet EMITTER_GLIDER_ = 9;
+const octet EMITTER_LIGHTER_AIR_ = 10;
+const octet EMITTER_PARACHUTE_ = 11;
+const octet EMITTER_ULTRA_LIGHT_ = 12;
+const octet EMITTER_UNASSIGNED2_ = 13;
+const octet EMITTER_UAV_ = 14;
+const octet EMITTER_SPACE_ = 15;
+const octet EMITTER_UNASSGINED3_ = 16;
+const octet EMITTER_EMERGENCY_SURFACE_ = 17;
+const octet EMITTER_SERVICE_SURFACE_ = 18;
+const octet EMITTER_POINT_OBSTACLE_ = 19;
+const unsigned short FLAG_VALID_COORDS_ = 1;
+const unsigned short FLAG_VALID_ALTITUDE_ = 2;
+const unsigned short FLAG_VALID_HEADING_ = 4;
+const unsigned short FLAG_VALID_VELOCITY_ = 8;
+const unsigned short FLAG_VALID_CALLSIGN_ = 16;
+const unsigned short FLAG_VALID_SQUAWK_ = 32;
+const unsigned short FLAG_SIMULATED_ = 64;
+const unsigned short FLAG_VERTICAL_VELOCITY_VALID_ = 128;
+const unsigned short FLAG_BARO_VALID_ = 256;
+const unsigned short FLAG_SOURCE_UAT_ = 32768;
+
+};
+
+struct ADSBVehicle_ {
+std_msgs::msg::dds_::Header_ header_;
+unsigned long icao_address_;
+string callsign_;
+double latitude_;
+double longitude_;
+float altitude_;
+float heading_;
+float hor_velocity_;
+float ver_velocity_;
+octet altitude_type_;
+octet emitter_type_;
+builtin_interfaces::msg::dds_::Duration_ tslc_;
+unsigned short flags_;
+unsigned short squawk_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__adsb_vehicle__idl__

@@ -1,0 +1,8 @@
+CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake:74 (message):
+  ament_package() called with unused arguments:
+  INCLUDE_DIRS;include;LIBRARIES;Hydrodynamics;WavefieldModelPlugin;WavefieldVisualPlugin;wavegauge_plugin;DEPENDS;gazebo_ros
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake:68 (_ament_package)
+  CMakeLists.txt:31 (ament_package)
+
+

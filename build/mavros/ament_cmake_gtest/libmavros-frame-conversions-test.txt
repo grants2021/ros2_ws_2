@@ -1,0 +1,34 @@
+-- run_test.py: invoking following command in '/home/grant/ros2_ws/build/mavros':
+ - /home/grant/ros2_ws/build/mavros/libmavros-frame-conversions-test --gtest_output=xml:/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-frame-conversions-test.gtest.xml
+
+[==========] Running 9 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 9 tests from FRAME_TF
+[ RUN      ] FRAME_TF.transform_static_frame__aircraft_to_baselink_123
+[       OK ] FRAME_TF.transform_static_frame__aircraft_to_baselink_123 (0 ms)
+[ RUN      ] FRAME_TF.transform_static_frame__baselink_to_aircraft_123
+[       OK ] FRAME_TF.transform_static_frame__baselink_to_aircraft_123 (0 ms)
+[ RUN      ] FRAME_TF.transform_static_frame__enu_to_ned_123
+[       OK ] FRAME_TF.transform_static_frame__enu_to_ned_123 (0 ms)
+[ RUN      ] FRAME_TF.transform_static_frame__ned_to_enu_123
+[       OK ] FRAME_TF.transform_static_frame__ned_to_enu_123 (0 ms)
+[ RUN      ] FRAME_TF.transform_static_frame__ecef_to_enu_123_00
+[       OK ] FRAME_TF.transform_static_frame__ecef_to_enu_123_00 (0 ms)
+[ RUN      ] FRAME_TF.transform_static_frame__enu_to_ecef_123_00
+[       OK ] FRAME_TF.transform_static_frame__enu_to_ecef_123_00 (0 ms)
+[ RUN      ] FRAME_TF.transform_static_frame__ecef_to_enu_123_4030
+[       OK ] FRAME_TF.transform_static_frame__ecef_to_enu_123_4030 (0 ms)
+[ RUN      ] FRAME_TF.transform_static_frame__enu_to_ecef_123_4030
+[       OK ] FRAME_TF.transform_static_frame__enu_to_ecef_123_4030 (0 ms)
+[ RUN      ] FRAME_TF.quaternion_transforms__ned_to_ned_123
+[       OK ] FRAME_TF.quaternion_transforms__ned_to_ned_123 (0 ms)
+[----------] 9 tests from FRAME_TF (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 9 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-frame-conversions-test.gtest.xml'
+-- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-frame-conversions-test.gtest.xml'

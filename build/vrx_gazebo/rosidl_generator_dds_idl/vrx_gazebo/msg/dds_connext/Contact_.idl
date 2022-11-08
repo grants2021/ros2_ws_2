@@ -1,0 +1,32 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from vrx_gazebo:msg/Contact.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __vrx_gazebo__msg__contact__idl__
+#define __vrx_gazebo__msg__contact__idl__
+
+
+module vrx_gazebo {
+
+module msg {
+
+module dds_ {
+
+
+struct Contact_ {
+std_msgs::msg::dds_::Header_ header_;
+string collision1_;
+string collision2_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module vrx_gazebo
+
+
+#endif  // __vrx_gazebo__msg__contact__idl__

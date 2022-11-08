@@ -1,0 +1,45 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/ExtendedState.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__extended_state__idl__
+#define __mavros_msgs__msg__extended_state__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module ExtendedState_Constants {
+const octet VTOL_STATE_UNDEFINED_ = 0;
+const octet VTOL_STATE_TRANSITION_TO_FW_ = 1;
+const octet VTOL_STATE_TRANSITION_TO_MC_ = 2;
+const octet VTOL_STATE_MC_ = 3;
+const octet VTOL_STATE_FW_ = 4;
+const octet LANDED_STATE_UNDEFINED_ = 0;
+const octet LANDED_STATE_ON_GROUND_ = 1;
+const octet LANDED_STATE_IN_AIR_ = 2;
+const octet LANDED_STATE_TAKEOFF_ = 3;
+const octet LANDED_STATE_LANDING_ = 4;
+
+};
+
+struct ExtendedState_ {
+std_msgs::msg::dds_::Header_ header_;
+octet vtol_state_;
+octet landed_state_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__extended_state__idl__

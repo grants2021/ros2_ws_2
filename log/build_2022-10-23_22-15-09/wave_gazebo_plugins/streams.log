@@ -1,0 +1,126 @@
+[0.028s] Invoking command in '/home/grant/ros2_ws/build/wave_gazebo_plugins': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/wave_gazebo_plugins
+[0.046s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.076s] -- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+[0.371s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.401s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.402s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.407s] -- Searching for dependencies of ignition-math6
+[0.409s] -- Looking for OGRE...
+[0.413s] -- Found Ogre Ghadamon (1.9.0)
+[0.413s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.424s] -- Looking for OGRE_Paging...
+[0.424s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.424s] -- Looking for OGRE_Terrain...
+[0.424s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.424s] -- Looking for OGRE_Property...
+[0.424s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.425s] -- Looking for OGRE_RTShaderSystem...
+[0.425s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.425s] -- Looking for OGRE_Volume...
+[0.425s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.425s] -- Looking for OGRE_Overlay...
+[0.425s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.605s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.605s] -- Looking for ignition-transport8 -- found version 8.3.0
+[0.606s] -- Searching for dependencies of ignition-transport8
+[0.621s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[0.626s] -- Checking for module 'uuid'
+[0.637s] --   Found uuid, version 2.34.0
+[0.663s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[0.663s] -- Searching for dependencies of ignition-msgs5
+[0.678s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.682s] -- Checking for module 'tinyxml2'
+[0.693s] --   Found tinyxml2, version 6.2.0
+[0.718s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[0.719s] -- Looking for ignition-common3 -- found version 3.15.1
+[0.719s] -- Searching for dependencies of ignition-common3
+[0.719s] -- Looking for dlfcn.h - found
+[0.719s] -- Looking for libdl - found
+[0.728s] -- Searching for <ignition-common3> component [graphics]
+[0.729s] -- Looking for ignition-common3-graphics -- found version 3.15.1
+[0.729s] -- Searching for dependencies of ignition-common3-graphics
+[0.729s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.731s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[0.731s] -- Searching for dependencies of ignition-fuel_tools4
+[0.757s] -- Checking for module 'jsoncpp'
+[0.773s] --   Found jsoncpp, version 1.7.4
+[0.799s] -- Checking for module 'libzip'
+[0.810s] --   Found libzip, version 1.5.1
+[0.835s] -- Looking for ignition-common3 -- found version 3.15.1
+[0.835s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.835s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[0.839s] -- Configuring done
+[0.880s] -- Generating done
+[0.882s] -- Build files have been written to: /home/grant/ros2_ws/build/wave_gazebo_plugins
+[0.887s] Invoked command in '/home/grant/ros2_ws/build/wave_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/wave_gazebo_plugins
+[0.890s] Invoking command in '/home/grant/ros2_ws/build/wave_gazebo_plugins': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/wave_gazebo_plugins -- -j8 -l8
+[0.921s] [35m[1mScanning dependencies of target Hydrodynamics[0m
+[1.371s] [ 21%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Physics.cc.o[0m
+[1.371s] [ 21%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Geometry.cc.o[0m
+[1.371s] [ 21%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Utilities.cc.o[0m
+[1.372s] [ 28%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Gazebo.cc.o[0m
+[1.372s] [ 35%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/PhysicalConstants.cc.o[0m
+[1.372s] [ 42%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Wavefield.cc.o[0m
+[1.374s] [ 50%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/WavefieldEntity.cc.o[0m
+[15.203s] [ 57%] [32m[1mLinking CXX shared library libHydrodynamics.so[0m
+[15.690s] [ 57%] Built target Hydrodynamics
+[15.699s] [35m[1mScanning dependencies of target WavefieldVisualPlugin[0m
+[15.699s] [35m[1mScanning dependencies of target WavefieldModelPlugin[0m
+[15.799s] [ 64%] [32mBuilding CXX object CMakeFiles/WavefieldModelPlugin.dir/src/WavefieldModelPlugin.cc.o[0m
+[15.800s] [ 71%] [32mBuilding CXX object CMakeFiles/WavefieldVisualPlugin.dir/src/WavefieldVisualPlugin.cc.o[0m
+[24.439s] [ 78%] [32m[1mLinking CXX shared library libWavefieldModelPlugin.so[0m
+[24.765s] [ 78%] Built target WavefieldModelPlugin
+[24.773s] [35m[1mScanning dependencies of target wavegauge_plugin[0m
+[24.873s] [ 85%] [32mBuilding CXX object CMakeFiles/wavegauge_plugin.dir/src/wavegauge_plugin.cc.o[0m
+[28.941s] [ 92%] [32m[1mLinking CXX shared library libWavefieldVisualPlugin.so[0m
+[29.345s] [ 92%] Built target WavefieldVisualPlugin
+[33.977s] [100%] [32m[1mLinking CXX shared library libwavegauge_plugin.so[0m
+[34.339s] [100%] Built target wavegauge_plugin
+[34.348s] Invoked command in '/home/grant/ros2_ws/build/wave_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/wave_gazebo_plugins -- -j8 -l8
+[34.394s] Invoking command in '/home/grant/ros2_ws/build/wave_gazebo_plugins': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/wave_gazebo_plugins
+[34.401s] -- Install configuration: ""
+[34.401s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libHydrodynamics.so
+[34.402s] -- Set runtime path of "/home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libHydrodynamics.so" to ""
+[34.403s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libWavefieldModelPlugin.so
+[34.404s] -- Set runtime path of "/home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libWavefieldModelPlugin.so" to ""
+[34.404s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libWavefieldVisualPlugin.so
+[34.405s] -- Set runtime path of "/home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libWavefieldVisualPlugin.so" to ""
+[34.405s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libwavegauge_plugin.so
+[34.407s] -- Set runtime path of "/home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libwavegauge_plugin.so" to ""
+[34.407s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include
+[34.407s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/WavefieldModelPlugin.hh
+[34.407s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Geometry.hh
+[34.407s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Physics.hh
+[34.408s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/wavegauge_plugin.hh
+[34.408s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/WavefieldVisualPlugin.hh
+[34.408s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Utilities.hh
+[34.408s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Gazebo.hh
+[34.408s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/PhysicalConstants.hh
+[34.408s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Wavefield.hh
+[34.408s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/WavefieldEntity.hh
+[34.408s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include
+[34.409s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins
+[34.409s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include
+[34.409s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_package_templates
+[34.409s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_environment_hooks
+[34.409s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_core
+[34.409s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_core/stamps
+[34.409s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_uninstall_target
+[34.409s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles
+[34.409s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/wave_gazebo_plugins_uninstall.dir
+[34.409s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3
+[34.409s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3/CompilerIdC
+[34.409s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3/CompilerIdC/tmp
+[34.410s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3/CompilerIdCXX
+[34.410s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3/CompilerIdCXX/tmp
+[34.411s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/uninstall.dir
+[34.411s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/CMakeTmp
+[34.411s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/WavefieldVisualPlugin.dir
+[34.411s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/WavefieldVisualPlugin.dir/src
+[34.411s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/wavegauge_plugin.dir
+[34.411s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/wavegauge_plugin.dir/src
+[34.411s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/Hydrodynamics.dir
+[34.411s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/Hydrodynamics.dir/src
+[34.411s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/WavefieldModelPlugin.dir
+[34.411s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/WavefieldModelPlugin.dir/src
+[34.412s] Invoked command in '/home/grant/ros2_ws/build/wave_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/wave_gazebo_plugins

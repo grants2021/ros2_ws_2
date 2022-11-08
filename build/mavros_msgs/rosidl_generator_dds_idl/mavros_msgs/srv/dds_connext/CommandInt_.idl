@@ -1,0 +1,60 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:srv/CommandInt.idl
+// generated code does not contain a copyright notice
+
+#ifndef __mavros_msgs__srv__command_int__idl__
+#define __mavros_msgs__srv__command_int__idl__
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct CommandInt_Request_ {
+boolean broadcast_;
+octet frame_;
+unsigned short command_;
+octet current_;
+octet autocontinue_;
+float param1_;
+float param2_;
+float param3_;
+float param4_;
+long x_;
+long y_;
+float z_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct CommandInt_Response_ {
+boolean success_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__srv__command_int__idl__

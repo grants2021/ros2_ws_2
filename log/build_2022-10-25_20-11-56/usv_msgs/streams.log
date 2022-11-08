@@ -1,0 +1,138 @@
+[0.096s] Invoking command in '/home/grant/ros2_ws/build/usv_msgs': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/usv_msgs -- -j8 -l8
+[0.166s] [  2%] Built target usv_msgs__cpp
+[0.167s] [  4%] Built target usv_msgs__dds_connext_idl
+[0.170s] [ 10%] Built target usv_msgs__rosidl_generator_c
+[0.232s] [ 16%] Built target usv_msgs__rosidl_typesupport_fastrtps_cpp
+[0.234s] [ 22%] Built target usv_msgs__rosidl_typesupport_c
+[0.246s] [ 28%] Built target usv_msgs__rosidl_typesupport_cpp
+[0.246s] [ 42%] Built target usv_msgs__rosidl_typesupport_connext_cpp
+[0.246s] [ 48%] Built target usv_msgs__rosidl_typesupport_introspection_cpp
+[0.257s] [ 55%] Built target usv_msgs__rosidl_typesupport_introspection_c
+[0.283s] [ 61%] Built target usv_msgs__rosidl_typesupport_fastrtps_c
+[0.292s] [ 77%] Built target usv_msgs__rosidl_typesupport_connext_c
+[0.309s] [ 77%] Built target usv_msgs
+[0.328s] [ 79%] Built target usv_msgs__py
+[0.354s] [ 83%] Built target usv_msgs__python
+[0.395s] [ 91%] Built target usv_msgs__rosidl_typesupport_connext_c__pyext
+[0.397s] [ 91%] Built target usv_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.397s] [ 95%] Built target usv_msgs__rosidl_typesupport_introspection_c__pyext
+[0.397s] [100%] Built target usv_msgs__rosidl_typesupport_c__pyext
+[0.570s] Invoked command in '/home/grant/ros2_ws/build/usv_msgs' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/usv_msgs -- -j8 -l8
+[0.699s] Invoking command in '/home/grant/ros2_ws/build/usv_msgs': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/usv_msgs
+[0.709s] -- Install configuration: ""
+[0.709s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/ament_index/resource_index/rosidl_interfaces/usv_msgs
+[0.710s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs
+[0.710s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg
+[0.710s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail
+[0.710s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__functions.c
+[0.710s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__functions.h
+[0.711s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__struct.h
+[0.711s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__type_support.h
+[0.711s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.711s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/range_bearing.h
+[0.711s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/environment/library_path.sh
+[0.711s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/environment/library_path.dsv
+[0.711s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/lib/libusv_msgs__rosidl_generator_c.so
+[0.711s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs
+[0.711s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg
+[0.712s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.712s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail
+[0.712s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__rosidl_typesupport_fastrtps_c.h
+[0.712s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_fastrtps_c.so
+[0.712s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs
+[0.712s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg
+[0.712s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail
+[0.712s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail/dds_fastrtps
+[0.712s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__rosidl_typesupport_fastrtps_cpp.hpp
+[0.712s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.712s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.713s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs
+[0.713s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg
+[0.713s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail
+[0.713s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__type_support.c
+[0.713s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__rosidl_typesupport_introspection_c.h
+[0.713s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.713s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_introspection_c.so
+[0.713s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs
+[0.714s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg
+[0.714s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/range_bearing__rosidl_typesupport_connext_c.h
+[0.714s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/dds_connext
+[0.714s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/rosidl_typesupport_connext_c__visibility_control.h
+[0.714s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_connext_c.so
+[0.714s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/msg/dds_connext
+[0.714s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/msg/dds_connext/RangeBearing_.idl
+[0.714s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs
+[0.714s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg
+[0.715s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/dds_connext
+[0.715s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/dds_connext/RangeBearing_.cxx
+[0.715s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/dds_connext/RangeBearing_Support.h
+[0.715s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/dds_connext/RangeBearing_Plugin.cxx
+[0.715s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/dds_connext/RangeBearing_Support.cxx
+[0.715s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/dds_connext/RangeBearing_.h
+[0.716s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/dds_connext/RangeBearing_Plugin.h
+[0.716s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/range_bearing__rosidl_typesupport_connext_cpp.hpp
+[0.716s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/rosidl_typesupport_connext_cpp__visibility_control.h
+[0.716s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_connext_cpp.so
+[0.716s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_c.so
+[0.716s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs
+[0.716s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg
+[0.716s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail
+[0.716s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__builder.hpp
+[0.716s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__struct.hpp
+[0.717s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__traits.hpp
+[0.717s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/range_bearing.hpp
+[0.717s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs
+[0.717s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg
+[0.717s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail
+[0.717s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__type_support.cpp
+[0.717s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/include/usv_msgs/msg/detail/range_bearing__rosidl_typesupport_introspection_cpp.hpp
+[0.717s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_introspection_cpp.so
+[0.717s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/lib/libusv_msgs__rosidl_typesupport_cpp.so
+[0.718s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/environment/pythonpath.sh
+[0.718s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/environment/pythonpath.dsv
+[0.718s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/__init__.py
+[0.769s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/msg
+[0.769s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/msg/_range_bearing_s.c
+[0.769s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/msg/__init__.py
+[0.769s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/msg/_range_bearing.py
+[0.770s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/usv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.770s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/usv_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.770s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/usv_msgs_s__rosidl_typesupport_connext_c.cpython-38-x86_64-linux-gnu.so
+[0.771s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages/usv_msgs/usv_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.771s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/lib/libusv_msgs__python.so
+[0.772s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/msg/RangeBearing.idl
+[0.772s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/msg/RangeBearing.msg
+[0.772s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/ament_index/resource_index/package_run_dependencies/usv_msgs
+[0.772s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/ament_index/resource_index/parent_prefix_path/usv_msgs
+[0.772s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/environment/ament_prefix_path.sh
+[0.772s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/environment/ament_prefix_path.dsv
+[0.773s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/environment/path.sh
+[0.773s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/environment/path.dsv
+[0.773s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/local_setup.bash
+[0.773s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/local_setup.sh
+[0.773s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/local_setup.zsh
+[0.773s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/local_setup.dsv
+[0.773s] -- Installing: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/package.dsv
+[0.773s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/ament_index/resource_index/packages/usv_msgs
+[0.773s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_generator_cExport.cmake
+[0.774s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.774s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.774s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.774s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_typesupport_cExport.cmake
+[0.774s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.774s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_generator_cppExport.cmake
+[0.774s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.775s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.775s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_typesupport_cppExport.cmake
+[0.775s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.775s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/rosidl_cmake-extras.cmake
+[0.775s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.775s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.775s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.775s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.775s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.775s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.775s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgsConfig.cmake
+[0.776s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake/usv_msgsConfig-version.cmake
+[0.776s] -- Up-to-date: /home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/package.xml
+[0.784s] Invoked command in '/home/grant/ros2_ws/build/usv_msgs' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/usv_msgs

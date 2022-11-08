@@ -1,0 +1,38 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/NavControllerOutput.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__nav_controller_output__idl__
+#define __mavros_msgs__msg__nav_controller_output__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct NavControllerOutput_ {
+std_msgs::msg::dds_::Header_ header_;
+float nav_roll_;
+float nav_pitch_;
+short nav_bearing_;
+short target_bearing_;
+unsigned short wp_dist_;
+float alt_error_;
+float aspd_error_;
+float xtrack_error_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__nav_controller_output__idl__

@@ -1,0 +1,3 @@
+/home/grant/ros2_ws/build/vrx_gazebo/rosidl_adapter/vrx_gazebo:msg/Task.idl
+/home/grant/ros2_ws/build/vrx_gazebo/rosidl_adapter/vrx_gazebo:msg/Contact.idl
+/home/grant/ros2_ws/build/vrx_gazebo/rosidl_adapter/vrx_gazebo:srv/ColorSequence.idl

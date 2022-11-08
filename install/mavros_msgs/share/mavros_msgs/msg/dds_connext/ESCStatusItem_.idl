@@ -1,0 +1,33 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/ESCStatusItem.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__esc_status_item__idl__
+#define __mavros_msgs__msg__esc_status_item__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct ESCStatusItem_ {
+std_msgs::msg::dds_::Header_ header_;
+long rpm_;
+float voltage_;
+float current_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__esc_status_item__idl__

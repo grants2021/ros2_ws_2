@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="8" failures="0" disabled="0" errors="0" timestamp="2022-10-23T22:36:45" time="0.01" name="AllTests">
+  <testsuite name="UDP" tests="1" failures="0" disabled="0" errors="0" time="0.003">
+    <testcase name="send_message" status="run" time="0.003" classname="libmavconn.UDP" />
+  </testsuite>
+  <testsuite name="TCP" tests="4" failures="0" disabled="0" errors="0" time="0.002">
+    <testcase name="bind_error" status="run" time="0.001" classname="libmavconn.TCP" />
+    <testcase name="connect_error" status="run" time="0" classname="libmavconn.TCP" />
+    <testcase name="send_message" status="run" time="0" classname="libmavconn.TCP" />
+    <testcase name="client_reconnect" status="run" time="0.001" classname="libmavconn.TCP" />
+  </testsuite>
+  <testsuite name="SERIAL" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="open_error" status="run" time="0" classname="libmavconn.SERIAL" />
+  </testsuite>
+  <testsuite name="URL" tests="2" failures="0" disabled="0" errors="0" time="0.004">
+    <testcase name="open_url_udp" status="run" time="0.001" classname="libmavconn.URL" />
+    <testcase name="open_url_tcp" status="run" time="0.003" classname="libmavconn.URL" />
+  </testsuite>
+</testsuites>

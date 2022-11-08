@@ -1,0 +1,59 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:srv/VehicleInfoGet.idl
+// generated code does not contain a copyright notice
+#include "mavros_msgs/msg/dds_connext/VehicleInfo_.idl"
+
+#ifndef __mavros_msgs__srv__vehicle_info_get__idl__
+#define __mavros_msgs__srv__vehicle_info_get__idl__
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+module VehicleInfoGet_Request_Constants {
+const octet GET_MY_SYSID_ = 0;
+const octet GET_MY_COMPID_ = 0;
+
+};
+
+struct VehicleInfoGet_Request_ {
+octet sysid_;
+octet compid_;
+boolean get_all_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct VehicleInfoGet_Response_ {
+boolean success_;
+sequence<mavros_msgs::msg::dds_::VehicleInfo_> vehicles_;
+
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__srv__vehicle_info_get__idl__

@@ -1,0 +1,49 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:srv/WaypointSetCurrent.idl
+// generated code does not contain a copyright notice
+
+#ifndef __mavros_msgs__srv__waypoint_set_current__idl__
+#define __mavros_msgs__srv__waypoint_set_current__idl__
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct WaypointSetCurrent_Request_ {
+unsigned short wp_seq_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct WaypointSetCurrent_Response_ {
+boolean success_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__srv__waypoint_set_current__idl__

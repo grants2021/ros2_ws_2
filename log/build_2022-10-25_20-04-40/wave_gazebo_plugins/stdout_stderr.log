@@ -1,0 +1,95 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_connext_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp;rosidl_typesupport_connext_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-pthread (found version "3.6.1") 
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Searching for dependencies of ignition-math6
+-- Looking for OGRE...
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-transport8 -- found version 8.3.0
+-- Searching for dependencies of ignition-transport8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-pthread (found suitable version "3.6.1", minimum required is "3") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.34.0
+-- Looking for ignition-msgs5 -- found version 5.11.0
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for ignition-msgs5 -- found version 5.11.0
+-- Looking for ignition-common3 -- found version 3.15.1
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.15.1
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-fuel_tools4 -- found version 4.6.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Checking for module 'libzip'
+--   Found libzip, version 1.5.1
+-- Looking for ignition-common3 -- found version 3.15.1
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-msgs5 -- found version 5.11.0
+-- Gazebo version: 11.12
+-- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/grant/ros2_ws/build/wave_gazebo_plugins
+[ 10%] Built target gtest
+[ 20%] Built target gtest_main
+[ 30%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Gazebo.cc.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Geometry.cc.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/PhysicalConstants.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/WavefieldEntity.cc.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Physics.cc.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Utilities.cc.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Wavefield.cc.o[0m
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield.cc:[m[K In constructor ‘[01m[Kasv::WaveParametersPrivate::WaveParametersPrivate()[m[K’:
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield.cc:116:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kasv::WaveParametersPrivate::wavenumber[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  116 |     public: double [01;35m[Kwavenumber[m[K;
+      |                    [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield.cc:104:20:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble asv::WaveParametersPrivate::tau[m[K’ [[01;35m[K-Wreorder[m[K]
+  104 |     public: double [01;35m[Ktau[m[K;
+      |                    [01;35m[K^~~[m[K
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield.cc:58:13:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   58 |     public: [01;35m[KWaveParametersPrivate[m[K():
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield.cc: In instantiation of ‘[01m[Kasv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::<lambda(auto:24, auto:25, auto:26, auto:27&, auto:28&, auto:29&)> [with auto:24 = Eigen::Matrix<double, 2, 1>; auto:25 = Eigen::Matrix<double, 2, 1>; auto:26 = double; auto:27 = asv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::WaveParams; auto:28 = Eigen::Matrix<double, 2, 1>; auto:29 = Eigen::Matrix<double, 2, 2>][m[K’:
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield.cc:621:20:[m[K   required from ‘[01m[Kasv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::<lambda(auto:30&, auto:31, auto:32, auto:33, auto:34&, auto:35, auto:36)> [with auto:30 = asv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::<lambda(auto:24, auto:25, auto:26, auto:27&, auto:28&, auto:29&)>; auto:31 = Eigen::Matrix<double, 2, 1>; auto:32 = Eigen::Matrix<double, 2, 1>; auto:33 = double; auto:34 = asv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::WaveParams; auto:35 = double; auto:36 = double][m[K’
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield.cc:646:67:[m[K   required from here
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield.cc:578:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  578 |       for (auto&& i = 0; [01;35m[Ki < n[m[K; ++i) // NOLINT
+      |                          [01;35m[K~~^~~[m[K
+make[2]: *** [CMakeFiles/Hydrodynamics.dir/build.make:128: CMakeFiles/Hydrodynamics.dir/src/Wavefield.cc.o] Interrupt
+make[2]: *** [CMakeFiles/Hydrodynamics.dir/build.make:115: CMakeFiles/Hydrodynamics.dir/src/Utilities.cc.o] Interrupt
+make[2]: *** [CMakeFiles/Hydrodynamics.dir/build.make:141: CMakeFiles/Hydrodynamics.dir/src/WavefieldEntity.cc.o] Interrupt
+make[2]: *** [CMakeFiles/Hydrodynamics.dir/build.make:63: CMakeFiles/Hydrodynamics.dir/src/Gazebo.cc.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/Hydrodynamics.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

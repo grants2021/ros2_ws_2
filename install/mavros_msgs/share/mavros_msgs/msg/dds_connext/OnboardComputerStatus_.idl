@@ -1,0 +1,64 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/OnboardComputerStatus.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__onboard_computer_status__idl__
+#define __mavros_msgs__msg__onboard_computer_status__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct OnboardComputerStatus_ {
+std_msgs::msg::dds_::Header_ header_;
+octet component_;
+unsigned long uptime_;
+octet type_;
+octet cpu_cores_[8];
+
+octet cpu_combined_[10];
+
+octet gpu_cores_[4];
+
+octet gpu_combined_[10];
+
+octet temperature_board_;
+octet temperature_core_[8];
+
+short fan_speed_[4];
+
+unsigned long ram_usage_;
+unsigned long ram_total_;
+unsigned long storage_type_[4];
+
+unsigned long storage_usage_[4];
+
+unsigned long storage_total_[4];
+
+unsigned long link_type_[6];
+
+unsigned long link_tx_rate_[6];
+
+unsigned long link_rx_rate_[6];
+
+unsigned long link_tx_max_[6];
+
+unsigned long link_rx_max_[6];
+
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__onboard_computer_status__idl__

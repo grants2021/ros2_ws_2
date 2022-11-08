@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="libmavconn.cpplint"
+  tests="13"
+  failures="0"
+  errors="0"
+  time="0.698"
+>
+  <testcase
+    name="/home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/console_bridge_compat.hpp"
+    classname="libmavconn.cpplint"/>
+  <testcase
+    name="/home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/interface.hpp"
+    classname="libmavconn.cpplint"/>
+  <testcase
+    name="/home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/mavlink_dialect.hpp"
+    classname="libmavconn.cpplint"/>
+  <testcase
+    name="/home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/msgbuffer.hpp"
+    classname="libmavconn.cpplint"/>
+  <testcase
+    name="/home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/serial.hpp"
+    classname="libmavconn.cpplint"/>
+  <testcase
+    name="/home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/tcp.hpp"
+    classname="libmavconn.cpplint"/>
+  <testcase
+    name="/home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/thread_utils.hpp"
+    classname="libmavconn.cpplint"/>
+  <testcase
+    name="/home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/udp.hpp"
+    classname="libmavconn.cpplint"/>
+  <testcase
+    name="/home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp"
+    classname="libmavconn.cpplint"/>
+  <testcase
+    name="/home/grant/ros2_ws/src/mavros/libmavconn/src/serial.cpp"
+    classname="libmavconn.cpplint"/>
+  <testcase
+    name="/home/grant/ros2_ws/src/mavros/libmavconn/src/tcp.cpp"
+    classname="libmavconn.cpplint"/>
+  <testcase
+    name="/home/grant/ros2_ws/src/mavros/libmavconn/src/udp.cpp"
+    classname="libmavconn.cpplint"/>
+  <testcase
+    name="/home/grant/ros2_ws/src/mavros/libmavconn/test/test_mavconn.cpp"
+    classname="libmavconn.cpplint"/>
+  <system-out>Checked files:
+* /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/console_bridge_compat.hpp
+* /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/interface.hpp
+* /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/mavlink_dialect.hpp
+* /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/msgbuffer.hpp
+* /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/serial.hpp
+* /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/tcp.hpp
+* /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/thread_utils.hpp
+* /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/udp.hpp
+* /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp
+* /home/grant/ros2_ws/src/mavros/libmavconn/src/serial.cpp
+* /home/grant/ros2_ws/src/mavros/libmavconn/src/tcp.cpp
+* /home/grant/ros2_ws/src/mavros/libmavconn/src/udp.cpp
+* /home/grant/ros2_ws/src/mavros/libmavconn/test/test_mavconn.cpp</system-out>
+</testsuite>

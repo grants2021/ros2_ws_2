@@ -1,0 +1,40 @@
+-- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/libmavconn':
+ - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/cpplint.xunit.xml
+
+Using '--root=/home/grant/ros2_ws/src/mavros/libmavconn/include' argument
+
+Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/console_bridge_compat.hpp
+
+Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/interface.hpp
+
+Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/mavlink_dialect.hpp
+
+Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/msgbuffer.hpp
+
+Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/serial.hpp
+
+Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/tcp.hpp
+
+Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/thread_utils.hpp
+
+Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/udp.hpp
+
+Using '--root=/home/grant/ros2_ws/src/mavros/libmavconn/src' argument
+
+Done processing /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/libmavconn/src/serial.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/libmavconn/src/tcp.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/libmavconn/src/udp.cpp
+
+Using '--root=/home/grant/ros2_ws/src/mavros/libmavconn/test' argument
+
+Done processing /home/grant/ros2_ws/src/mavros/libmavconn/test/test_mavconn.cpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/cpplint.xunit.xml'

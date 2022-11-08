@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++17     -shared -Wl,-soname,libfollow_plugin.so -o libfollow_plugin.so CMakeFiles/follow_plugin.dir/src/follow_plugin.cc.o   -L/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0  -Wl,-rpath,/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_ws/build/vrx_gazebo: libwaypoint_markers.so 

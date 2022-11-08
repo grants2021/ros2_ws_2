@@ -1,0 +1,90 @@
+[ 10%] Built target gtest_main
+[ 20%] Built target gtest
+[ 60%] Built target Hydrodynamics
+[ 70%] Built target WavefieldVisualPlugin
+[ 80%] Built target WavefieldModelPlugin
+[ 90%] Built target UNIT_Wavefield_TEST
+[100%] Built target wavegauge_plugin
+-- Install configuration: ""
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libHydrodynamics.so
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libWavefieldModelPlugin.so
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libWavefieldVisualPlugin.so
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libwavegauge_plugin.so
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/WavefieldModelPlugin.hh
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Geometry.hh
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Physics.hh
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/wavegauge_plugin.hh
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/WavefieldVisualPlugin.hh
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Utilities.hh
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Gazebo.hh
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/PhysicalConstants.hh
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Wavefield.hh
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/WavefieldEntity.hh
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_package_templates
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_environment_hooks
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_core
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_core/stamps
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_uninstall_target
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/connext_cmake_module
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/connext_cmake_module/check_abi
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/connext_cmake_module/check_abi/build
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/connext_cmake_module/check_abi/build/CMakeFiles
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/connext_cmake_module/check_abi/build/CMakeFiles/Progress
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/connext_cmake_module/check_abi/build/CMakeFiles/exe.dir
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_export_libraries
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/gtest
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/gtest/CMakeFiles
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/gtest/CMakeFiles/gtest_main.dir
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/gtest/CMakeFiles/gtest_main.dir/src
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/gtest/CMakeFiles/gtest.dir
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/gtest/CMakeFiles/gtest.dir/src
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_index
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_index/share
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_index/share/ament_index
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_index/share/ament_index/resource_index
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_index/share/ament_index/resource_index/packages
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/wave_gazebo_plugins_uninstall.dir
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/UNIT_Wavefield_TEST.dir
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/UNIT_Wavefield_TEST.dir/src
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3/CompilerIdC
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3/CompilerIdC/tmp
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3/CompilerIdCXX
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3/CompilerIdCXX/tmp
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/uninstall.dir
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/CMakeTmp
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/WavefieldVisualPlugin.dir
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/WavefieldVisualPlugin.dir/src
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/wavegauge_plugin.dir
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/wavegauge_plugin.dir/src
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/Hydrodynamics.dir
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/Hydrodynamics.dir/src
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/WavefieldModelPlugin.dir
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/WavefieldModelPlugin.dir/src
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_export_include_directories
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/library_path.sh
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/library_path.dsv
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/wave_gazebo_plugins
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/wave_gazebo_plugins
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/ament_prefix_path.sh
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/path.sh
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/path.dsv
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/local_setup.bash
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/local_setup.sh
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/local_setup.zsh
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/local_setup.dsv
+-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.dsv
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/ament_index/resource_index/packages/wave_gazebo_plugins
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/wave_gazebo_pluginsConfig.cmake
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/wave_gazebo_pluginsConfig-version.cmake
+-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.xml

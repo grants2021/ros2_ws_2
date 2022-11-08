@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="max_angle" default="1.57"/>
+  <!-- <arg name="thrust_config" default="H"/> -->
+  <arg name="thrust_config" default="H"/>
+  <arg name="namespace" default="drone"/>
+
+  <!-- Keyboard teleop -->
+  <node pkg="teleop_twist_keyboard" exec="teleop_twist_keyboard" name="teleop_twist_keyboard" output="screen" launch-prefix="xterm -e">
+  <param name="autorepeat_rate" value="10.0"/>
+  </node>
+  
+</launch>

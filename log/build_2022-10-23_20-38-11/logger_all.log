@@ -1,0 +1,472 @@
+[0.165s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.166s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f901066bd00>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f901066bd00>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f90106752b0>)
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.226s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/grant/ros2_ws'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'ros'
+[0.258s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavlink' with type 'ros.cmake' and name 'mavlink'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/libmavconn' with type 'ros.ament_cmake' and name 'libmavconn'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ros'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros' with type 'ros.ament_cmake' and name 'mavros'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros_extras' with type 'ros.ament_cmake' and name 'mavros_extras'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros_msgs' with type 'ros.ament_cmake' and name 'mavros_msgs'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) ignored
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.309s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/grant/catkin_ws/devel' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.317s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 311 installed packages in /home/grant/ros2_foxy/ros2-linux
+[0.321s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 171 installed packages in /opt/ros/foxy
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'cmake_args' from command line to 'None'
+[0.532s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'cmake_target' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'cmake_clean_cache' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'cmake_clean_first' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'cmake_force_configure' from command line to 'False'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'ament_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'catkin_cmake_args' from command line to 'None'
+[0.533s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.533s] DEBUG:colcon.colcon_core.verb:Building package 'mavlink' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws/build/mavlink', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws/install/mavlink', 'merge_install': False, 'path': '/home/grant/ros2_ws/src/mavlink', 'symlink_install': False, 'test_result_base': None}
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.534s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.534s] DEBUG:colcon.colcon_core.verb:Building package 'mavros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws/build/mavros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws/install/mavros_msgs', 'merge_install': False, 'path': '/home/grant/ros2_ws/src/mavros/mavros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_target' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_clean_cache' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_clean_first' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_force_configure' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'ament_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'catkin_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.536s] DEBUG:colcon.colcon_core.verb:Building package 'libmavconn' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws/build/libmavconn', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws/install/libmavconn', 'merge_install': False, 'path': '/home/grant/ros2_ws/src/mavros/libmavconn', 'symlink_install': False, 'test_result_base': None}
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_args' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_target' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_clean_first' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_force_configure' from command line to 'False'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'ament_cmake_args' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.537s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.537s] DEBUG:colcon.colcon_core.verb:Building package 'mavros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws/build/mavros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws/install/mavros', 'merge_install': False, 'path': '/home/grant/ros2_ws/src/mavros/mavros', 'symlink_install': False, 'test_result_base': None}
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_args' from command line to 'None'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_target' from command line to 'None'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_clean_cache' from command line to 'False'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_clean_first' from command line to 'False'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_force_configure' from command line to 'False'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'ament_cmake_args' from command line to 'None'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'catkin_cmake_args' from command line to 'None'
+[0.539s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.539s] DEBUG:colcon.colcon_core.verb:Building package 'mavros_extras' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws/build/mavros_extras', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws/install/mavros_extras', 'merge_install': False, 'path': '/home/grant/ros2_ws/src/mavros/mavros_extras', 'symlink_install': False, 'test_result_base': None}
+[0.540s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.544s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.545s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/grant/ros2_ws/src/mavlink' with build type 'cmake'
+[0.545s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/grant/ros2_ws/src/mavlink'
+[0.557s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.557s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.557s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.566s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/grant/vrx_ws/devel'
+[0.570s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/grant/ros2_ws/src/mavros/mavros_msgs' with build type 'ament_cmake'
+[0.570s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/grant/ros2_ws/src/mavros/mavros_msgs'
+[0.571s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.572s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.582s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/grant/vrx_ws/devel'
+[0.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/mavlink': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/mavlink -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/mavlink
+[0.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/mavros_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/mavros/mavros_msgs -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/mavros_msgs
+[1.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/mavlink' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/mavlink -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/mavlink
+[1.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/mavlink': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/mavlink -- -j8 -l8
+[4.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/mavlink' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/mavlink -- -j8 -l8
+[4.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/mavlink': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/mavlink
+[5.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavlink', 'pkg_config_path')
+[5.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/pkg_config_path.ps1'
+[5.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/pkg_config_path.dsv'
+[5.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/mavlink' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/mavlink
+[5.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/pkg_config_path.sh'
+[5.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavlink', 'pkg_config_path_multiarch')
+[5.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/pkg_config_path_multiarch.ps1'
+[5.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/pkg_config_path_multiarch.dsv'
+[5.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/pkg_config_path_multiarch.sh'
+[5.107s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavlink)
+[5.125s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavlink' for CMake module files
+[5.126s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavlink' for CMake config files
+[5.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavlink', 'cmake_prefix_path')
+[5.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/cmake_prefix_path.ps1'
+[5.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/cmake_prefix_path.dsv'
+[5.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/cmake_prefix_path.sh'
+[5.129s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavlink/lib'
+[5.129s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavlink/bin'
+[5.129s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavlink/lib/pkgconfig/mavlink.pc'
+[5.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavlink', 'pkg_config')
+[5.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/pkg_config.ps1'
+[5.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/pkg_config.dsv'
+[5.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/pkg_config.sh'
+[5.132s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavlink/lib/python3.8/site-packages'
+[5.133s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavlink/bin'
+[5.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavlink/share/mavlink/package.ps1'
+[5.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/grant/ros2_ws/install/mavlink/share/mavlink/package.dsv'
+[5.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavlink/share/mavlink/package.sh'
+[5.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavlink/share/mavlink/package.bash'
+[5.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavlink/share/mavlink/package.zsh'
+[5.142s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/grant/ros2_ws/install/mavlink/share/colcon-core/packages/mavlink)
+[5.143s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/grant/ros2_ws/src/mavros/libmavconn' with build type 'ament_cmake'
+[5.144s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/grant/ros2_ws/src/mavros/libmavconn'
+[5.146s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.146s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.158s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/grant/vrx_ws/devel'
+[5.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/libmavconn': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake /home/grant/ros2_ws/src/mavros/libmavconn -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/libmavconn
+[6.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake /home/grant/ros2_ws/src/mavros/libmavconn -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/libmavconn
+[6.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/libmavconn': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake --build /home/grant/ros2_ws/build/libmavconn -- -j8 -l8
+[10.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/mavros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/mavros/mavros_msgs -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/mavros_msgs
+[10.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/mavros_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/mavros_msgs -- -j8 -l8
+[17.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake --build /home/grant/ros2_ws/build/libmavconn -- -j8 -l8
+[17.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/libmavconn': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake --install /home/grant/ros2_ws/build/libmavconn
+[17.433s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libmavconn)
+[17.436s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/libmavconn' for CMake module files
+[17.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake --install /home/grant/ros2_ws/build/libmavconn
+[17.437s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/libmavconn' for CMake config files
+[17.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'cmake_prefix_path')
+[17.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.ps1'
+[17.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.dsv'
+[17.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.sh'
+[17.440s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/libmavconn/lib'
+[17.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'ld_library_path_lib')
+[17.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.ps1'
+[17.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.dsv'
+[17.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.sh'
+[17.443s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/libmavconn/bin'
+[17.444s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/libmavconn/lib/pkgconfig/libmavconn.pc'
+[17.444s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/libmavconn/lib/python3.8/site-packages'
+[17.444s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/libmavconn/bin'
+[17.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/package.ps1'
+[17.447s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/package.dsv'
+[17.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/package.sh'
+[17.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/package.bash'
+[17.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/package.zsh'
+[17.448s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/grant/ros2_ws/install/libmavconn/share/colcon-core/packages/libmavconn)
+[17.482s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libmavconn)
+[17.485s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/libmavconn' for CMake module files
+[17.485s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/libmavconn' for CMake config files
+[17.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'cmake_prefix_path')
+[17.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.ps1'
+[17.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.dsv'
+[17.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.sh'
+[17.489s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/libmavconn/lib'
+[17.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'ld_library_path_lib')
+[17.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.ps1'
+[17.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.dsv'
+[17.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.sh'
+[17.491s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/libmavconn/bin'
+[17.491s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/libmavconn/lib/pkgconfig/libmavconn.pc'
+[17.492s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/libmavconn/lib/python3.8/site-packages'
+[17.492s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/libmavconn/bin'
+[17.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/package.ps1'
+[17.495s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/package.dsv'
+[17.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/package.sh'
+[17.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/package.bash'
+[17.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/libmavconn/share/libmavconn/package.zsh'
+[17.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/grant/ros2_ws/install/libmavconn/share/colcon-core/packages/libmavconn)
+[216.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/mavros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/mavros_msgs -- -j8 -l8
+[218.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/mavros_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/mavros_msgs
+[219.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_msgs)
+[219.206s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_msgs' for CMake module files
+[219.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/mavros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/mavros_msgs
+[219.207s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_msgs' for CMake config files
+[219.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'cmake_prefix_path')
+[219.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.ps1'
+[219.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.dsv'
+[219.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.sh'
+[219.211s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_msgs/lib'
+[219.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'ld_library_path_lib')
+[219.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.ps1'
+[219.212s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.dsv'
+[219.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.sh'
+[219.213s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_msgs/bin'
+[219.213s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_msgs/lib/pkgconfig/mavros_msgs.pc'
+[219.213s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages'
+[219.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'pythonpath')
+[219.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/hook/pythonpath.ps1'
+[219.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/hook/pythonpath.dsv'
+[219.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/hook/pythonpath.sh'
+[219.216s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_msgs/bin'
+[219.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/package.ps1'
+[219.218s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/package.dsv'
+[219.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/package.sh'
+[219.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/package.bash'
+[219.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/package.zsh'
+[219.219s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/grant/ros2_ws/install/mavros_msgs/share/colcon-core/packages/mavros_msgs)
+[221.310s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_msgs)
+[221.312s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_msgs' for CMake module files
+[221.313s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_msgs' for CMake config files
+[221.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'cmake_prefix_path')
+[221.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.ps1'
+[221.317s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.dsv'
+[221.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.sh'
+[221.318s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_msgs/lib'
+[221.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'ld_library_path_lib')
+[221.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.ps1'
+[221.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.dsv'
+[221.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.sh'
+[221.321s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_msgs/bin'
+[221.321s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_msgs/lib/pkgconfig/mavros_msgs.pc'
+[221.321s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages'
+[221.321s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'pythonpath')
+[221.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/hook/pythonpath.ps1'
+[221.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/hook/pythonpath.dsv'
+[221.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/hook/pythonpath.sh'
+[221.325s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_msgs/bin'
+[221.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/package.ps1'
+[221.328s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/package.dsv'
+[221.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/package.sh'
+[221.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/package.bash'
+[221.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/package.zsh'
+[221.330s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/grant/ros2_ws/install/mavros_msgs/share/colcon-core/packages/mavros_msgs)
+[221.330s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/grant/ros2_ws/src/mavros/mavros' with build type 'ament_cmake'
+[221.330s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/grant/ros2_ws/src/mavros/mavros'
+[221.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[221.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[221.343s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/grant/vrx_ws/devel'
+[221.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/mavros': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/grant/ros2_ws/src/mavros/mavros -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/mavros
+[225.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/mavros' returned '0': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/grant/ros2_ws/src/mavros/mavros -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/mavros
+[225.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/mavros': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/grant/ros2_ws/build/mavros -- -j8 -l8
+[307.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/mavros' returned '0': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/grant/ros2_ws/build/mavros -- -j8 -l8
+[307.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/mavros': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/grant/ros2_ws/build/mavros
+[308.104s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros)
+[308.107s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros' for CMake module files
+[308.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/mavros' returned '0': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/grant/ros2_ws/build/mavros
+[308.108s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros' for CMake config files
+[308.108s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros', 'cmake_prefix_path')
+[308.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros/share/mavros/hook/cmake_prefix_path.ps1'
+[308.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavros/share/mavros/hook/cmake_prefix_path.dsv'
+[308.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros/share/mavros/hook/cmake_prefix_path.sh'
+[308.111s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros/lib'
+[308.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros', 'ld_library_path_lib')
+[308.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros/share/mavros/hook/ld_library_path_lib.ps1'
+[308.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavros/share/mavros/hook/ld_library_path_lib.dsv'
+[308.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros/share/mavros/hook/ld_library_path_lib.sh'
+[308.113s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros/bin'
+[308.114s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros/lib/pkgconfig/mavros.pc'
+[308.114s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages'
+[308.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros', 'pythonpath')
+[308.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros/share/mavros/hook/pythonpath.ps1'
+[308.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavros/share/mavros/hook/pythonpath.dsv'
+[308.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros/share/mavros/hook/pythonpath.sh'
+[308.116s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros/bin'
+[308.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros/share/mavros/package.ps1'
+[308.118s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/grant/ros2_ws/install/mavros/share/mavros/package.dsv'
+[308.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros/share/mavros/package.sh'
+[308.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros/share/mavros/package.bash'
+[308.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros/share/mavros/package.zsh'
+[308.120s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/grant/ros2_ws/install/mavros/share/colcon-core/packages/mavros)
+[308.200s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros)
+[308.202s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros' for CMake module files
+[308.203s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros' for CMake config files
+[308.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros', 'cmake_prefix_path')
+[308.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros/share/mavros/hook/cmake_prefix_path.ps1'
+[308.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavros/share/mavros/hook/cmake_prefix_path.dsv'
+[308.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros/share/mavros/hook/cmake_prefix_path.sh'
+[308.206s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros/lib'
+[308.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros', 'ld_library_path_lib')
+[308.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros/share/mavros/hook/ld_library_path_lib.ps1'
+[308.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavros/share/mavros/hook/ld_library_path_lib.dsv'
+[308.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros/share/mavros/hook/ld_library_path_lib.sh'
+[308.208s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros/bin'
+[308.208s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros/lib/pkgconfig/mavros.pc'
+[308.209s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages'
+[308.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros', 'pythonpath')
+[308.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros/share/mavros/hook/pythonpath.ps1'
+[308.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavros/share/mavros/hook/pythonpath.dsv'
+[308.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros/share/mavros/hook/pythonpath.sh'
+[308.211s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros/bin'
+[308.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros/share/mavros/package.ps1'
+[308.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/grant/ros2_ws/install/mavros/share/mavros/package.dsv'
+[308.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros/share/mavros/package.sh'
+[308.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros/share/mavros/package.bash'
+[308.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros/share/mavros/package.zsh'
+[308.216s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/grant/ros2_ws/install/mavros/share/colcon-core/packages/mavros)
+[308.216s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/grant/ros2_ws/src/mavros/mavros_extras' with build type 'ament_cmake'
+[308.216s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/grant/ros2_ws/src/mavros/mavros_extras'
+[308.218s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[308.218s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[308.228s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/grant/vrx_ws/devel'
+[308.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/mavros_extras': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/grant/ros2_ws/src/mavros/mavros_extras -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/mavros_extras
+[311.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/mavros_extras' returned '0': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/grant/ros2_ws/src/mavros/mavros_extras -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/mavros_extras
+[311.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/mavros_extras': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/grant/ros2_ws/build/mavros_extras -- -j8 -l8
+[375.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/mavros_extras' returned '0': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/grant/ros2_ws/build/mavros_extras -- -j8 -l8
+[375.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/mavros_extras': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/grant/ros2_ws/build/mavros_extras
+[375.811s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_extras)
+[375.814s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_extras' for CMake module files
+[375.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/mavros_extras' returned '0': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/grant/ros2_ws/build/mavros_extras
+[375.815s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_extras' for CMake config files
+[375.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_extras', 'cmake_prefix_path')
+[375.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.ps1'
+[375.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.dsv'
+[375.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.sh'
+[375.818s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_extras/lib'
+[375.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_extras', 'ld_library_path_lib')
+[375.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.ps1'
+[375.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.dsv'
+[375.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.sh'
+[375.820s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_extras/bin'
+[375.820s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_extras/lib/pkgconfig/mavros_extras.pc'
+[375.821s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_extras/lib/python3.8/site-packages'
+[375.821s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_extras/bin'
+[375.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/package.ps1'
+[375.823s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/package.dsv'
+[375.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/package.sh'
+[375.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/package.bash'
+[375.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/package.zsh'
+[375.824s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/grant/ros2_ws/install/mavros_extras/share/colcon-core/packages/mavros_extras)
+[375.890s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_extras)
+[375.893s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_extras' for CMake module files
+[375.893s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_extras' for CMake config files
+[375.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_extras', 'cmake_prefix_path')
+[375.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.ps1'
+[375.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.dsv'
+[375.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.sh'
+[375.897s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_extras/lib'
+[375.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_extras', 'ld_library_path_lib')
+[375.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.ps1'
+[375.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.dsv'
+[375.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.sh'
+[375.899s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_extras/bin'
+[375.899s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_extras/lib/pkgconfig/mavros_extras.pc'
+[375.900s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_extras/lib/python3.8/site-packages'
+[375.900s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavros_extras/bin'
+[375.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/package.ps1'
+[375.902s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/package.dsv'
+[375.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/package.sh'
+[375.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/package.bash'
+[375.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/package.zsh'
+[375.903s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/grant/ros2_ws/install/mavros_extras/share/colcon-core/packages/mavros_extras)
+[375.904s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[375.904s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[375.904s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[375.904s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[375.914s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[375.914s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[375.914s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[375.929s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[375.931s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/grant/ros2_ws/install/local_setup.ps1'
+[375.933s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/grant/ros2_ws/install/_local_setup_util_ps1.py'
+[375.935s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/grant/ros2_ws/install/setup.ps1'
+[375.945s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/grant/ros2_ws/install/local_setup.sh'
+[375.946s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/grant/ros2_ws/install/_local_setup_util_sh.py'
+[375.947s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/grant/ros2_ws/install/setup.sh'
+[375.949s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/grant/ros2_ws/install/local_setup.bash'
+[375.950s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/grant/ros2_ws/install/setup.bash'
+[375.952s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/grant/ros2_ws/install/local_setup.zsh'
+[375.953s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/grant/ros2_ws/install/setup.zsh'

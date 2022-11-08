@@ -1,0 +1,42 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/EstimatorStatus.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__estimator_status__idl__
+#define __mavros_msgs__msg__estimator_status__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct EstimatorStatus_ {
+std_msgs::msg::dds_::Header_ header_;
+boolean attitude_status_flag_;
+boolean velocity_horiz_status_flag_;
+boolean velocity_vert_status_flag_;
+boolean pos_horiz_rel_status_flag_;
+boolean pos_horiz_abs_status_flag_;
+boolean pos_vert_abs_status_flag_;
+boolean pos_vert_agl_status_flag_;
+boolean const_pos_mode_status_flag_;
+boolean pred_pos_horiz_rel_status_flag_;
+boolean pred_pos_horiz_abs_status_flag_;
+boolean gps_glitch_status_flag_;
+boolean accel_error_status_flag_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__estimator_status__idl__

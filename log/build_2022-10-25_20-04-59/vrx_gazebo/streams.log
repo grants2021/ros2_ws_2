@@ -1,0 +1,1467 @@
+[0.033s] Invoking command in '/home/grant/ros2_ws/build/vrx_gazebo': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages:/home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages /usr/bin/cmake /home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/vrx_gazebo
+[0.100s] -- The C compiler identification is GNU 9.4.0
+[0.161s] -- The CXX compiler identification is GNU 9.4.0
+[0.166s] -- Check for working C compiler: /usr/bin/cc
+[0.252s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.253s] -- Detecting C compiler ABI info
+[0.330s] -- Detecting C compiler ABI info - done
+[0.347s] -- Detecting C compile features
+[0.347s] -- Detecting C compile features - done
+[0.347s] -- Check for working CXX compiler: /usr/bin/c++
+[0.436s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.437s] -- Detecting CXX compiler ABI info
+[0.517s] -- Detecting CXX compiler ABI info - done
+[0.530s] -- Detecting CXX compile features
+[0.530s] -- Detecting CXX compile features - done
+[0.823s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.830s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.831s] -- Checking for module 'bullet>=2.82'
+[0.844s] --   Found bullet, version 2.88
+[0.947s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[0.991s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.034s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.062s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.095s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.111s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.118s] -- Searching for dependencies of ignition-math6
+[1.120s] -- Looking for OGRE...
+[1.121s] -- OGRE_PREFIX_WATCH changed.
+[1.125s] -- Checking for module 'OGRE'
+[1.136s] --   Found OGRE, version 1.9.0
+[1.165s] -- Found Ogre Ghadamon (1.9.0)
+[1.179s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.189s] -- Looking for OGRE_Paging...
+[1.200s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.200s] -- Looking for OGRE_Terrain...
+[1.210s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.210s] -- Looking for OGRE_Property...
+[1.220s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.221s] -- Looking for OGRE_RTShaderSystem...
+[1.231s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.231s] -- Looking for OGRE_Volume...
+[1.241s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.241s] -- Looking for OGRE_Overlay...
+[1.251s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.488s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.492s] -- Looking for ignition-transport8 -- found version 8.3.0
+[1.493s] -- Searching for dependencies of ignition-transport8
+[1.518s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.530s] -- Checking for module 'uuid'
+[1.544s] --   Found uuid, version 2.34.0
+[1.580s] -- Found UUID: TRUE  
+[1.584s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.584s] -- Searching for dependencies of ignition-msgs5
+[1.606s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.611s] -- Checking for module 'tinyxml2'
+[1.625s] --   Found tinyxml2, version 6.2.0
+[1.657s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.661s] -- Looking for ignition-common3 -- found version 3.15.1
+[1.661s] -- Searching for dependencies of ignition-common3
+[1.662s] -- Looking for dlfcn.h - found
+[1.663s] -- Looking for libdl - found
+[1.665s] -- Found DL: TRUE  
+[1.673s] -- Searching for <ignition-common3> component [graphics]
+[1.676s] -- Looking for ignition-common3-graphics -- found version 3.15.1
+[1.677s] -- Searching for dependencies of ignition-common3-graphics
+[1.677s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.681s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[1.682s] -- Searching for dependencies of ignition-fuel_tools4
+[1.747s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[1.757s] -- Checking for module 'jsoncpp'
+[1.770s] --   Found jsoncpp, version 1.7.4
+[1.800s] -- Found JSONCPP: TRUE  
+[1.806s] -- Checking for module 'libzip'
+[1.817s] --   Found libzip, version 1.5.1
+[1.846s] -- Found ZIP: TRUE  
+[1.846s] -- Looking for ignition-common3 -- found version 3.15.1
+[1.847s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.847s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.850s] -- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)
+[1.850s] -- Gazebo version: 11.12
+[1.852s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[1.878s] -- Found PythonInterp: /home/grant/miniconda3/bin/python3 (found suitable version "3.8.13", minimum required is "3") 
+[1.878s] -- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+[2.177s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_connext_c
+[2.184s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.256s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.283s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.358s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[3.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp;rosidl_typesupport_connext_cpp
+[3.388s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.391s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.393s] -- Found Threads: TRUE  
+[3.586s] -- Found geographic_msgs: 1.0.4 (/opt/ros/foxy/share/geographic_msgs/cmake)
+[3.770s] -- Found rclpy: 1.0.11 (/opt/ros/foxy/share/rclpy/cmake)
+[3.770s] -- Found wamv_gazebo: 1.3.0 (/home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/cmake)
+[3.771s] -- Found wave_gazebo: 1.3.0 (/home/grant/ros2_ws/install/wave_gazebo/share/wave_gazebo/cmake)
+[3.777s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.827s] -- Found PythonInterp: /home/grant/miniconda3/bin/python3 (found version "3.8.13") 
+[4.080s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[4.394s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_connext_c
+[4.479s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp;rosidl_typesupport_connext_cpp
+[4.516s] -- Found PythonInterp: /home/grant/miniconda3/bin/python3 (found suitable version "3.8.13", minimum required is "3.5") 
+[4.519s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.551s] -- Found PythonLibs: /home/grant/miniconda3/lib/libpython3.8.so (found suitable version "3.8.13", minimum required is "3.5") 
+[4.552s] -- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+[4.552s] -- Using PYTHON_INCLUDE_DIRS: /home/grant/miniconda3/include/python3.8
+[4.552s] -- Using PYTHON_LIBRARIES: /home/grant/miniconda3/lib/libpython3.8.so
+[4.579s] -- Found PythonExtra: .so  
+[5.060s] -- Using numpy include directory: /home/grant/miniconda3/lib/python3.8/site-packages/numpy/core/include
+[5.096s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[5.123s] CMake Warning (dev) at /home/grant/miniconda3/lib/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+[5.123s]   qt5_use_modules is not part of the official API, and might be removed in Qt
+[5.123s]   6.
+[5.123s] Call Stack (most recent call first):
+[5.123s]   /home/grant/miniconda3/lib/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)
+[5.123s]   CMakeLists.txt:226 (qt5_use_modules)
+[5.123s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.123s] 
+[5.127s] -- Found rmw_connext_cpp: 1.0.3 (/home/grant/ros2_foxy/ros2-linux/share/rmw_connext_cpp/cmake)
+[5.154s] -- Found rmw_cyclonedds_cpp: 0.7.8 (/home/grant/ros2_foxy/ros2-linux/share/rmw_cyclonedds_cpp/cmake)
+[5.192s] -- Found rmw_fastrtps_cpp: 1.3.1 (/opt/ros/foxy/share/rmw_fastrtps_cpp/cmake)
+[5.331s] -- Found rmw_fastrtps_dynamic_cpp: 1.3.0 (/home/grant/ros2_foxy/ros2-linux/share/rmw_fastrtps_dynamic_cpp/cmake)
+[5.411s] -- Configuring done
+[5.445s] CMake Warning at CMakeLists.txt:216 (add_library):
+[5.446s]   Cannot generate a safe runtime search path for target gui_task_widget
+[5.446s]   because files in some directories may conflict with libraries in implicit
+[5.446s]   directories:
+[5.446s] 
+[5.446s]     runtime library [libuuid.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.446s]       /home/grant/miniconda3/lib
+[5.446s]     runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.446s]       /home/grant/miniconda3/lib
+[5.446s]     runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.446s]       /home/grant/miniconda3/lib
+[5.446s] 
+[5.446s]   Some of these libraries may not be found correctly.
+[5.446s] 
+[5.446s] 
+[5.672s] CMake Warning at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:235 (add_library):
+[5.672s]   Cannot generate a safe runtime search path for target
+[5.672s]   vrx_gazebo__rosidl_typesupport_fastrtps_c__pyext because files in some
+[5.672s]   directories may conflict with libraries in implicit directories:
+[5.673s] 
+[5.673s]     runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.673s]       /home/grant/miniconda3/lib
+[5.673s]     runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[5.673s]       /home/grant/miniconda3/lib
+[5.673s] 
+[5.673s]   Some of these libraries may not be found correctly.
+[5.673s] Call Stack (most recent call first):
+[5.673s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[5.673s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[5.673s]   CMakeLists.txt:44 (rosidl_generate_interfaces)
+[5.673s] 
+[5.673s] 
+[6.150s] -- Generating done
+[6.157s] -- Build files have been written to: /home/grant/ros2_ws/build/vrx_gazebo
+[6.174s] Invoked command in '/home/grant/ros2_ws/build/vrx_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages:/home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages /usr/bin/cmake /home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/vrx_gazebo
+[6.177s] Invoking command in '/home/grant/ros2_ws/build/vrx_gazebo': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages:/home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages /usr/bin/cmake --build /home/grant/ros2_ws/build/vrx_gazebo -- -j8 -l8
+[6.214s] [35m[1mScanning dependencies of target dock_base_erb_generation[0m
+[6.215s] [35m[1mScanning dependencies of target vrx_gazebo__cpp[0m
+[6.215s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.215s] [35m[1mScanning dependencies of target vrx_gazebo__dds_connext_idl[0m
+[6.215s] [35m[1mScanning dependencies of target vrx_gazebo_generate_obstacle_course_buoys[0m
+[6.216s] [35m[1mScanning dependencies of target waypoint_markers[0m
+[6.216s] [  2%] [34m[1mRunning cpp protocol buffer compiler on dock_placard.proto[0m
+[6.217s] [  3%] [34m[1mRunning cpp protocol buffer compiler on light_buoy_colors.proto[0m
+[6.224s] [  5%] [34m[1mGenerating DDS interfaces[0m
+[6.225s] [  9%] Built target dock_base_erb_generation
+[6.225s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.234s] [35m[1mScanning dependencies of target ball_shooter_plugin[0m
+[6.241s] [35m[1mScanning dependencies of target dock_placard_msgs[0m
+[6.244s] [35m[1mScanning dependencies of target light_buoy_colors_msgs[0m
+[6.247s] [ 10%] Built target vrx_gazebo_generate_obstacle_course_buoys
+[6.252s] [ 11%] [32mBuilding CXX object msgs/CMakeFiles/dock_placard_msgs.dir/dock_placard.pb.cc.o[0m
+[6.254s] [35m[1mScanning dependencies of target dock_erb_generation[0m
+[6.258s] [ 12%] [32mBuilding CXX object msgs/CMakeFiles/light_buoy_colors_msgs.dir/light_buoy_colors.pb.cc.o[0m
+[6.263s] [ 16%] Built target dock_erb_generation
+[6.319s] [ 17%] [32mBuilding CXX object CMakeFiles/waypoint_markers.dir/src/waypoint_markers.cc.o[0m
+[6.369s] [ 17%] [32mBuilding CXX object CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.o[0m
+[6.828s] [ 17%] Built target vrx_gazebo__dds_connext_idl
+[6.970s] [ 17%] Built target vrx_gazebo__cpp
+[6.980s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.982s] [ 18%] [34m[1mGenerating C++ type support for RTI Connext (using '/opt/rti.com/rti_connext_dds-5.3.1/bin/rtiddsgen_server')[0m
+[6.984s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.237s] [35m[1mScanning dependencies of target vrx_gazebo__rosidl_generator_c[0m
+[7.244s] [ 20%] [32m[1mLinking CXX shared library libdock_placard_msgs.so[0m
+[7.257s] [ 21%] [32m[1mLinking CXX shared library liblight_buoy_colors_msgs.so[0m
+[7.274s] [ 22%] [32mBuilding C object CMakeFiles/vrx_gazebo__rosidl_generator_c.dir/rosidl_generator_c/vrx_gazebo/msg/detail/task__functions.c.o[0m
+[7.323s] [ 23%] [32mBuilding C object CMakeFiles/vrx_gazebo__rosidl_generator_c.dir/rosidl_generator_c/vrx_gazebo/msg/detail/contact__functions.c.o[0m
+[7.368s] [ 23%] [32mBuilding C object CMakeFiles/vrx_gazebo__rosidl_generator_c.dir/rosidl_generator_c/vrx_gazebo/srv/detail/color_sequence__functions.c.o[0m
+[7.422s] [ 24%] [32m[1mLinking C shared library libvrx_gazebo__rosidl_generator_c.so[0m
+[7.458s] [ 24%] Built target vrx_gazebo__rosidl_generator_c
+[7.471s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.501s] [ 25%] Built target light_buoy_colors_msgs
+[7.512s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.518s] [ 26%] Built target dock_placard_msgs
+[7.527s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.703s] [35m[1mScanning dependencies of target vrx_gazebo__rosidl_typesupport_cpp[0m
+[7.719s] [ 27%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vrx_gazebo/msg/task__type_support.cpp.o[0m
+[7.767s] [35m[1mScanning dependencies of target vrx_gazebo__rosidl_typesupport_introspection_cpp[0m
+[7.785s] [ 28%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vrx_gazebo/msg/detail/task__type_support.cpp.o[0m
+[8.014s] [ 29%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vrx_gazebo/msg/contact__type_support.cpp.o[0m
+[8.073s] [ 29%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vrx_gazebo/msg/detail/contact__type_support.cpp.o[0m
+[8.246s] [35m[1mScanning dependencies of target vrx_gazebo__rosidl_typesupport_c[0m
+[8.274s] [35m[1mScanning dependencies of target vrx_gazebo__rosidl_typesupport_fastrtps_cpp[0m
+[8.276s] [ 30%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_c.dir/rosidl_typesupport_c/vrx_gazebo/msg/task__type_support.cpp.o[0m
+[8.319s] [ 30%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vrx_gazebo/msg/detail/dds_fastrtps/task__type_support.cpp.o[0m
+[8.320s] [ 30%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_c.dir/rosidl_typesupport_c/vrx_gazebo/msg/contact__type_support.cpp.o[0m
+[8.346s] [35m[1mScanning dependencies of target vrx_gazebo__rosidl_typesupport_introspection_c[0m
+[8.348s] [ 31%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vrx_gazebo/srv/color_sequence__type_support.cpp.o[0m
+[8.370s] [ 32%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_c.dir/rosidl_typesupport_c/vrx_gazebo/srv/color_sequence__type_support.cpp.o[0m
+[8.382s] [ 33%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vrx_gazebo/srv/detail/color_sequence__type_support.cpp.o[0m
+[8.387s] [ 34%] [32mBuilding C object CMakeFiles/vrx_gazebo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vrx_gazebo/msg/detail/task__type_support.c.o[0m
+[8.412s] [ 35%] [32m[1mLinking CXX shared library libvrx_gazebo__rosidl_typesupport_c.so[0m
+[8.425s] [ 36%] [32mBuilding C object CMakeFiles/vrx_gazebo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vrx_gazebo/msg/detail/contact__type_support.c.o[0m
+[8.458s] [ 36%] Built target vrx_gazebo__rosidl_typesupport_c
+[8.469s] [35m[1mScanning dependencies of target placard_plugin[0m
+[8.504s] [ 37%] [32mBuilding C object CMakeFiles/vrx_gazebo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vrx_gazebo/srv/detail/color_sequence__type_support.c.o[0m
+[8.565s] [ 38%] [32m[1mLinking C shared library libvrx_gazebo__rosidl_typesupport_introspection_c.so[0m
+[8.658s] [ 38%] Built target vrx_gazebo__rosidl_typesupport_introspection_c
+[8.664s] [ 38%] [32m[1mLinking CXX shared library libvrx_gazebo__rosidl_typesupport_cpp.so[0m
+[8.673s] [ 38%] [32mBuilding CXX object CMakeFiles/placard_plugin.dir/src/placard_plugin.cc.o[0m
+[8.706s] [ 39%] [32m[1mLinking CXX shared library libvrx_gazebo__rosidl_typesupport_introspection_cpp.so[0m
+[8.726s] [35m[1mScanning dependencies of target light_buoy_plugin[0m
+[8.742s] [ 40%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vrx_gazebo/msg/detail/dds_fastrtps/contact__type_support.cpp.o[0m
+[8.743s] [ 40%] Built target vrx_gazebo__rosidl_typesupport_cpp
+[8.777s] [ 41%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vrx_gazebo/srv/detail/dds_fastrtps/color_sequence__type_support.cpp.o[0m
+[8.796s] [ 41%] Built target vrx_gazebo__rosidl_typesupport_introspection_cpp
+[8.883s] [ 42%] [32mBuilding CXX object CMakeFiles/light_buoy_plugin.dir/src/light_buoy_plugin.cc.o[0m
+[9.290s] [ 43%] [32m[1mLinking CXX shared library libvrx_gazebo__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.489s] [ 43%] Built target vrx_gazebo__rosidl_typesupport_fastrtps_cpp
+[9.538s] INFO com.rti.ndds.nddsgen.Main Running rtiddsgen version 2.5.2, please wait ...
+[9.539s] INFO com.rti.ndds.nddsgen.Main Done
+[9.558s] [ 44%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.118s] INFO com.rti.ndds.nddsgen.Main Running rtiddsgen version 2.5.2, please wait ...
+[10.126s] INFO com.rti.ndds.nddsgen.Main Done
+[10.473s] INFO com.rti.ndds.nddsgen.Main Running rtiddsgen version 2.5.2, please wait ...
+[10.473s] INFO com.rti.ndds.nddsgen.Main Done
+[10.621s] [35m[1mScanning dependencies of target vrx_gazebo__rosidl_typesupport_fastrtps_c[0m
+[10.662s] [ 45%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vrx_gazebo/msg/detail/task__type_support_c.cpp.o[0m
+[10.692s] [ 46%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vrx_gazebo/msg/detail/contact__type_support_c.cpp.o[0m
+[10.810s] [35m[1mScanning dependencies of target vrx_gazebo__rosidl_typesupport_connext_cpp[0m
+[10.810s] [ 46%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vrx_gazebo/srv/detail/color_sequence__type_support_c.cpp.o[0m
+[11.063s] [ 47%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/msg/dds_connext/task__type_support.cpp.o[0m
+[11.155s] [ 48%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/msg/dds_connext/contact__type_support.cpp.o[0m
+[11.228s] [ 49%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/srv/dds_connext/color_sequence__type_support.cpp.o[0m
+[11.294s] [ 50%] [32m[1mLinking CXX shared library libvrx_gazebo__rosidl_typesupport_fastrtps_c.so[0m
+[11.388s] [ 50%] Built target vrx_gazebo__rosidl_typesupport_fastrtps_c
+[11.396s] [ 50%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/msg/dds_connext/Task_.cxx.o[0m
+[11.574s] [ 51%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/msg/dds_connext/Task_Plugin.cxx.o[0m
+[11.696s] [ 52%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/msg/dds_connext/Task_Support.cxx.o[0m
+[11.975s] [ 53%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/msg/dds_connext/Contact_.cxx.o[0m
+[12.118s] [ 53%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/msg/dds_connext/Contact_Plugin.cxx.o[0m
+[12.178s] [ 54%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/msg/dds_connext/Contact_Support.cxx.o[0m
+[12.481s] [ 55%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/srv/dds_connext/ColorSequence_.cxx.o[0m
+[12.554s] [ 56%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/srv/dds_connext/ColorSequence_Plugin.cxx.o[0m
+[12.801s] [ 57%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/srv/dds_connext/ColorSequence_Support.cxx.o[0m
+[13.413s] [ 57%] [32m[1mLinking CXX shared library libvrx_gazebo__rosidl_typesupport_connext_cpp.so[0m
+[13.683s] [ 58%] Built target vrx_gazebo__rosidl_typesupport_connext_cpp
+[13.693s] [ 58%] [34m[1mGenerating C type support for RTI Connext[0m
+[14.393s] [35m[1mScanning dependencies of target vrx_gazebo__rosidl_typesupport_connext_c[0m
+[14.506s] [ 59%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_c/vrx_gazebo/msg/dds_connext/task__type_support_c.cpp.o[0m
+[14.506s] [ 59%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_c/vrx_gazebo/srv/dds_connext/color_sequence__type_support_c.cpp.o[0m
+[14.507s] [ 60%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_c/vrx_gazebo/msg/dds_connext/contact__type_support_c.cpp.o[0m
+[14.508s] [ 61%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/msg/dds_connext/Task_.cxx.o[0m
+[14.972s] [ 62%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/msg/dds_connext/Task_Plugin.cxx.o[0m
+[15.001s] [ 63%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/msg/dds_connext/Task_Support.cxx.o[0m
+[15.084s] [ 63%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/msg/dds_connext/Contact_.cxx.o[0m
+[15.330s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/ball_shooter_plugin.cc:205:44:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[15.331s]   205 | GZ_REGISTER_MODEL_PLUGIN(BallShooterPlugin)[01;35m[K;[m[K
+[15.331s]       |                                            [01;35m[K^[m[K
+[15.343s] [ 64%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/msg/dds_connext/Contact_Plugin.cxx.o[0m
+[15.471s] [ 65%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/msg/dds_connext/Contact_Support.cxx.o[0m
+[15.559s] [ 66%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/srv/dds_connext/ColorSequence_.cxx.o[0m
+[15.608s] [ 67%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/srv/dds_connext/ColorSequence_Plugin.cxx.o[0m
+[15.793s] [ 67%] [32mBuilding CXX object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/vrx_gazebo/srv/dds_connext/ColorSequence_Support.cxx.o[0m
+[16.369s] [ 68%] [32m[1mLinking CXX shared library libvrx_gazebo__rosidl_typesupport_connext_c.so[0m
+[16.670s] [ 70%] Built target vrx_gazebo__rosidl_typesupport_connext_c
+[16.678s] [35m[1mScanning dependencies of target vrx_gazebo[0m
+[16.688s] [ 70%] Built target vrx_gazebo
+[16.698s] [35m[1mScanning dependencies of target scoring_plugin[0m
+[16.698s] [35m[1mScanning dependencies of target gui_task_widget[0m
+[16.700s] [35m[1mScanning dependencies of target scan_dock_scoring_plugin[0m
+[16.702s] [35m[1mScanning dependencies of target vrx_gazebo__py[0m
+[16.713s] [ 71%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.901s] [ 72%] [32mBuilding CXX object CMakeFiles/scan_dock_scoring_plugin.dir/src/scan_dock_scoring_plugin.cc.o[0m
+[17.135s] [ 72%] [32mBuilding CXX object CMakeFiles/scoring_plugin.dir/src/scoring_plugin.cc.o[0m
+[17.142s] [ 73%] [32m[1mLinking CXX shared library libwaypoint_markers.so[0m
+[17.328s] [ 74%] [32mBuilding CXX object CMakeFiles/gui_task_widget.dir/src/gui_task_widget.cc.o[0m
+[17.460s] [ 74%] Built target waypoint_markers
+[17.496s] [35m[1mScanning dependencies of target follow_plugin[0m
+[17.610s] [ 75%] [32mBuilding CXX object CMakeFiles/follow_plugin.dir/src/follow_plugin.cc.o[0m
+[18.569s] [ 75%] Built target vrx_gazebo__py
+[18.578s] [35m[1mScanning dependencies of target vrx_gazebo__python[0m
+[18.602s] [ 76%] [32mBuilding C object CMakeFiles/vrx_gazebo__python.dir/rosidl_generator_py/vrx_gazebo/msg/_task_s.c.o[0m
+[18.694s] [ 77%] [32mBuilding C object CMakeFiles/vrx_gazebo__python.dir/rosidl_generator_py/vrx_gazebo/msg/_contact_s.c.o[0m
+[18.796s] [ 77%] [32mBuilding C object CMakeFiles/vrx_gazebo__python.dir/rosidl_generator_py/vrx_gazebo/srv/_color_sequence_s.c.o[0m
+[18.891s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/vrx_gazebo/libvrx_gazebo__python.so[0m
+[18.939s] [ 78%] Built target vrx_gazebo__python
+[18.952s] [35m[1mScanning dependencies of target vrx_gazebo__rosidl_typesupport_connext_c__pyext[0m
+[18.977s] [ 79%] [32mBuilding C object CMakeFiles/vrx_gazebo__rosidl_typesupport_connext_c__pyext.dir/rosidl_generator_py/vrx_gazebo/_vrx_gazebo_s.ep.rosidl_typesupport_connext_c.c.o[0m
+[19.082s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/vrx_gazebo/vrx_gazebo_s__rosidl_typesupport_connext_c.cpython-38-x86_64-linux-gnu.so[0m
+[19.316s] [ 80%] Built target vrx_gazebo__rosidl_typesupport_connext_c__pyext
+[19.349s] [35m[1mScanning dependencies of target vrx_gazebo__rosidl_typesupport_fastrtps_c__pyext[0m
+[19.399s] [ 81%] [32mBuilding C object CMakeFiles/vrx_gazebo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vrx_gazebo/_vrx_gazebo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[19.523s] [ 82%] [32m[1mLinking CXX shared library rosidl_generator_py/vrx_gazebo/vrx_gazebo_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[19.613s] [ 82%] Built target vrx_gazebo__rosidl_typesupport_fastrtps_c__pyext
+[19.630s] [35m[1mScanning dependencies of target vrx_gazebo__rosidl_typesupport_c__pyext[0m
+[19.676s] [ 83%] [32mBuilding C object CMakeFiles/vrx_gazebo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vrx_gazebo/_vrx_gazebo_s.ep.rosidl_typesupport_c.c.o[0m
+[19.796s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/vrx_gazebo/vrx_gazebo_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[19.857s] [ 84%] Built target vrx_gazebo__rosidl_typesupport_c__pyext
+[19.884s] [35m[1mScanning dependencies of target vrx_gazebo__rosidl_typesupport_introspection_c__pyext[0m
+[19.975s] [ 84%] [32mBuilding C object CMakeFiles/vrx_gazebo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vrx_gazebo/_vrx_gazebo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[20.130s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/vrx_gazebo/vrx_gazebo_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[20.197s] [ 85%] Built target vrx_gazebo__rosidl_typesupport_introspection_c__pyext
+[23.752s] [ 86%] [32m[1mLinking CXX shared library libball_shooter_plugin.so[0m
+[24.054s] [ 86%] Built target ball_shooter_plugin
+[25.376s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/follow_plugin.cc:189:39:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[25.377s]   189 | GZ_REGISTER_MODEL_PLUGIN(FollowPlugin)[01;35m[K;[m[K
+[25.377s]       |                                       [01;35m[K^[m[K
+[25.711s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/scoring_plugin.cc:[m[K In member function ‘[01m[Kvoid ScoringPlugin::OnCollisionMsg(ConstContactsPtr&)[m[K’:
+[25.711s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/scoring_plugin.cc:288:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[25.711s]   288 |   for (unsigned int i = 0; [01;35m[Ki < _contacts->contact_size()[m[K; ++i) {
+[25.711s]       |                            [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[25.730s] [ 87%] [32m[1mLinking CXX shared library libplacard_plugin.so[0m
+[25.867s] [ 87%] [32m[1mLinking CXX shared library liblight_buoy_plugin.so[0m
+[26.145s] In file included from [01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/scan_dock_scoring_plugin.cc:21[m[K:
+[26.145s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/include/vrx_gazebo/scan_dock_scoring_plugin.hh:[m[K In constructor ‘[01m[KDockChecker::DockChecker(const string&, const string&, const string&, double, bool, const string&, const string&, const string&, gazebo_ros::Node::SharedPtr)[m[K’:
+[26.145s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/include/vrx_gazebo/scan_dock_scoring_plugin.hh:161:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KDockChecker::dockAllowed[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[26.145s]   161 |   private: bool [01;35m[KdockAllowed[m[K;
+[26.145s]       |                 [01;35m[K^~~~~~~~~~~[m[K
+[26.145s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/include/vrx_gazebo/scan_dock_scoring_plugin.hh:154:24:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::string DockChecker::gzSymbolTopic[m[K’ [[01;35m[K-Wreorder[m[K]
+[26.145s]   154 |   private: std::string [01;35m[KgzSymbolTopic[m[K;
+[26.145s]       |                        [01;35m[K^~~~~~~~~~~~~[m[K
+[26.145s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/scan_dock_scoring_plugin.cc:123:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[26.145s]   123 | [01;35m[KDockChecker[m[K::DockChecker(const std::string &_name,
+[26.145s]       | [01;35m[K^~~~~~~~~~~[m[K
+[27.047s] [ 87%] Built target placard_plugin
+[27.554s] [ 87%] Built target light_buoy_plugin
+[29.058s] [ 87%] [32m[1mLinking CXX shared library libfollow_plugin.so[0m
+[29.304s] [ 87%] Built target follow_plugin
+[32.452s] [ 88%] [32m[1mLinking CXX shared library libscoring_plugin.so[0m
+[32.839s] [ 88%] Built target scoring_plugin
+[32.847s] [35m[1mScanning dependencies of target perception_scoring_plugin[0m
+[32.847s] [35m[1mScanning dependencies of target wayfinding_scoring_plugin[0m
+[32.847s] [35m[1mScanning dependencies of target navigation_scoring_plugin[0m
+[32.847s] [35m[1mScanning dependencies of target stationkeeping_scoring_plugin[0m
+[32.848s] [35m[1mScanning dependencies of target wildlife_scoring_plugin[0m
+[32.850s] [35m[1mScanning dependencies of target gymkhana_scoring_plugin[0m
+[32.961s] [ 89%] [32mBuilding CXX object CMakeFiles/gymkhana_scoring_plugin.dir/src/gymkhana_scoring_plugin.cc.o[0m
+[32.991s] [ 90%] [32mBuilding CXX object CMakeFiles/navigation_scoring_plugin.dir/src/navigation_scoring_plugin.cc.o[0m
+[32.992s] [ 91%] [32mBuilding CXX object CMakeFiles/wildlife_scoring_plugin.dir/src/wildlife_scoring_plugin.cc.o[0m
+[32.994s] [ 92%] [32mBuilding CXX object CMakeFiles/perception_scoring_plugin.dir/src/perception_scoring_plugin.cc.o[0m
+[33.007s] [ 93%] [32mBuilding CXX object CMakeFiles/stationkeeping_scoring_plugin.dir/src/stationkeeping_scoring_plugin.cc.o[0m
+[33.052s] [ 94%] [32mBuilding CXX object CMakeFiles/wayfinding_scoring_plugin.dir/src/wayfinding_scoring_plugin.cc.o[0m
+[33.889s] [ 95%] [32m[1mLinking CXX shared library libscan_dock_scoring_plugin.so[0m
+[34.914s] [ 95%] Built target scan_dock_scoring_plugin
+[38.531s] [ 96%] [32m[1mLinking CXX shared library libgui_task_widget.so[0m
+[41.896s] [ 96%] Built target gui_task_widget
+[42.353s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/wildlife_scoring_plugin.cc:[m[K In constructor ‘[01m[KWildlifeScoringPlugin::Buoy::Buoy(gazebo::physics::LinkPtr, WildlifeScoringPlugin::BuoyGoal, double)[m[K’:
+[42.353s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/wildlife_scoring_plugin.cc:104:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[42.353s]   104 |   for (int i = 0; [01;35m[Ki < this->kNumVirtualGates[m[K; ++i)
+[42.353s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[42.452s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/perception_scoring_plugin.cc:[m[K In member function ‘[01m[Kvoid PerceptionScoringPlugin::OnUpdate()[m[K’:
+[42.452s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/perception_scoring_plugin.cc:352:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<PerceptionObject>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[42.453s]   352 |   if ([01;35m[Kthis->objectsDespawned == this->objects.size()[m[K &&
+[42.453s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[47.744s] [ 97%] [32m[1mLinking CXX shared library libnavigation_scoring_plugin.so[0m
+[48.338s] [ 97%] Built target navigation_scoring_plugin
+[48.630s] [ 97%] [32m[1mLinking CXX shared library libgymkhana_scoring_plugin.so[0m
+[49.129s] [ 98%] [32m[1mLinking CXX shared library libwildlife_scoring_plugin.so[0m
+[49.731s] [ 98%] Built target gymkhana_scoring_plugin
+[49.817s] [ 99%] [32m[1mLinking CXX shared library libstationkeeping_scoring_plugin.so[0m
+[50.245s] [ 99%] Built target wildlife_scoring_plugin
+[50.272s] [ 99%] [32m[1mLinking CXX shared library libwayfinding_scoring_plugin.so[0m
+[50.665s] [ 99%] Built target stationkeeping_scoring_plugin
+[51.084s] [100%] [32m[1mLinking CXX shared library libperception_scoring_plugin.so[0m
+[51.170s] [100%] Built target wayfinding_scoring_plugin
+[51.774s] [100%] Built target perception_scoring_plugin
+[51.790s] Invoked command in '/home/grant/ros2_ws/build/vrx_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages:/home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages /usr/bin/cmake --build /home/grant/ros2_ws/build/vrx_gazebo -- -j8 -l8
+[51.944s] Invoking command in '/home/grant/ros2_ws/build/vrx_gazebo': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages:/home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages /usr/bin/cmake --install /home/grant/ros2_ws/build/vrx_gazebo
+[51.952s] -- Install configuration: ""
+[51.952s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/ament_index/resource_index/rosidl_interfaces/vrx_gazebo
+[51.952s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo
+[51.952s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg
+[51.952s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail
+[51.952s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/task__functions.h
+[51.953s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/task__struct.h
+[51.953s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/contact__functions.h
+[51.953s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/task__functions.c
+[51.953s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/contact__type_support.h
+[51.953s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/contact__functions.c
+[51.953s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/task__type_support.h
+[51.953s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/contact__struct.h
+[51.953s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/rosidl_generator_c__visibility_control.h
+[51.954s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/contact.h
+[51.954s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/task.h
+[51.954s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv
+[51.954s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail
+[51.954s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail/color_sequence__type_support.h
+[51.954s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail/color_sequence__functions.c
+[51.954s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail/color_sequence__struct.h
+[51.954s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail/color_sequence__functions.h
+[51.954s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/color_sequence.h
+[51.954s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/environment/library_path.sh
+[51.954s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/environment/library_path.dsv
+[51.955s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__rosidl_generator_c.so
+[51.955s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__rosidl_generator_c.so" to ""
+[51.956s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo
+[51.956s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg
+[51.956s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[51.956s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail
+[51.956s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/task__rosidl_typesupport_fastrtps_c.h
+[51.956s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/contact__rosidl_typesupport_fastrtps_c.h
+[51.956s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv
+[51.956s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail
+[51.956s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail/color_sequence__rosidl_typesupport_fastrtps_c.h
+[51.957s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__rosidl_typesupport_fastrtps_c.so
+[51.957s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__rosidl_typesupport_fastrtps_c.so" to ""
+[51.957s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo
+[51.957s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg
+[51.958s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail
+[51.958s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/contact__rosidl_typesupport_fastrtps_cpp.hpp
+[51.958s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/dds_fastrtps
+[51.958s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/task__rosidl_typesupport_fastrtps_cpp.hpp
+[51.958s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[51.958s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv
+[51.958s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail
+[51.958s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail/color_sequence__rosidl_typesupport_fastrtps_cpp.hpp
+[51.958s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail/dds_fastrtps
+[51.959s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__rosidl_typesupport_fastrtps_cpp.so
+[51.959s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__rosidl_typesupport_fastrtps_cpp.so" to ""
+[51.959s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo
+[51.959s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg
+[51.959s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail
+[51.960s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/contact__rosidl_typesupport_introspection_c.h
+[51.960s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/task__rosidl_typesupport_introspection_c.h
+[51.960s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/contact__type_support.c
+[51.960s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/task__type_support.c
+[51.960s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[51.960s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv
+[51.960s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail
+[51.960s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail/color_sequence__rosidl_typesupport_introspection_c.h
+[51.960s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail/color_sequence__type_support.c
+[51.961s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__rosidl_typesupport_introspection_c.so
+[51.961s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__rosidl_typesupport_introspection_c.so" to ""
+[51.962s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo
+[51.962s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg
+[51.962s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/task__rosidl_typesupport_connext_c.h
+[51.962s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/dds_connext
+[51.962s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/rosidl_typesupport_connext_c__visibility_control.h
+[51.962s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/contact__rosidl_typesupport_connext_c.h
+[51.962s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv
+[51.962s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/color_sequence__rosidl_typesupport_connext_c.h
+[51.962s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/dds_connext
+[51.963s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__rosidl_typesupport_connext_c.so
+[51.964s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__rosidl_typesupport_connext_c.so" to ""
+[51.964s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/msg/dds_connext
+[51.964s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/msg/dds_connext/Task_.idl
+[51.965s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/msg/dds_connext/Contact_.idl
+[51.965s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/srv/dds_connext
+[51.965s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/srv/dds_connext/ColorSequence_.idl
+[51.965s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo
+[51.965s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg
+[51.965s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/dds_connext
+[51.965s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/dds_connext/Contact_Support.h
+[51.965s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/dds_connext/Contact_Plugin.cxx
+[51.966s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/dds_connext/Contact_.h
+[51.966s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/dds_connext/Contact_Support.cxx
+[51.966s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/dds_connext/Task_Support.cxx
+[51.966s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/dds_connext/Task_.h
+[51.966s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/dds_connext/Task_Support.h
+[51.966s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/dds_connext/Contact_Plugin.h
+[51.966s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/dds_connext/Task_Plugin.cxx
+[51.966s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/dds_connext/Task_Plugin.h
+[51.966s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/dds_connext/Task_.cxx
+[51.966s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/dds_connext/Contact_.cxx
+[51.966s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/task__rosidl_typesupport_connext_cpp.hpp
+[51.967s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/rosidl_typesupport_connext_cpp__visibility_control.h
+[51.967s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/contact__rosidl_typesupport_connext_cpp.hpp
+[51.967s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv
+[51.967s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/dds_connext
+[51.967s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/dds_connext/ColorSequence_Support.h
+[51.967s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/dds_connext/ColorSequence_Support.cxx
+[51.967s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/dds_connext/ColorSequence_.cxx
+[51.967s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/dds_connext/ColorSequence_.h
+[51.967s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/dds_connext/ColorSequence_Plugin.cxx
+[51.967s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/dds_connext/ColorSequence_Plugin.h
+[51.967s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/color_sequence__rosidl_typesupport_connext_cpp.hpp
+[51.968s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__rosidl_typesupport_connext_cpp.so
+[51.969s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__rosidl_typesupport_connext_cpp.so" to ""
+[51.970s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__rosidl_typesupport_c.so
+[51.971s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__rosidl_typesupport_c.so" to ""
+[51.971s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo
+[51.971s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg
+[51.971s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail
+[51.971s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/contact__traits.hpp
+[51.971s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/task__traits.hpp
+[51.971s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/task__struct.hpp
+[51.971s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/task__builder.hpp
+[51.972s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/contact__builder.hpp
+[51.972s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/contact__struct.hpp
+[51.972s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/contact.hpp
+[51.972s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/task.hpp
+[51.972s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv
+[51.972s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail
+[51.972s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail/color_sequence__struct.hpp
+[51.972s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail/color_sequence__builder.hpp
+[51.972s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail/color_sequence__traits.hpp
+[51.972s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/color_sequence.hpp
+[51.973s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo
+[51.973s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg
+[51.973s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail
+[51.973s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/task__type_support.cpp
+[51.973s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/contact__type_support.cpp
+[51.973s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/task__rosidl_typesupport_introspection_cpp.hpp
+[51.973s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/msg/detail/contact__rosidl_typesupport_introspection_cpp.hpp
+[51.973s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv
+[51.973s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail
+[51.973s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail/color_sequence__rosidl_typesupport_introspection_cpp.hpp
+[51.974s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/srv/detail/color_sequence__type_support.cpp
+[51.974s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__rosidl_typesupport_introspection_cpp.so
+[51.974s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__rosidl_typesupport_introspection_cpp.so" to ""
+[51.974s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__rosidl_typesupport_cpp.so
+[51.975s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__rosidl_typesupport_cpp.so" to ""
+[51.975s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/environment/pythonpath.sh
+[51.975s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/environment/pythonpath.dsv
+[51.975s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/__init__.py
+[52.012s] Compiling '/home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/__init__.py'...
+[52.017s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/msg
+[52.017s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/msg/_task_s.c
+[52.018s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/msg/_contact_s.c
+[52.018s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/msg/_contact.py
+[52.018s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/msg/_task.py
+[52.018s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/msg/__init__.py
+[52.018s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/srv
+[52.018s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/srv/_color_sequence.py
+[52.018s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/srv/_color_sequence_s.c
+[52.018s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/srv/__init__.py
+[52.019s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/vrx_gazebo_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[52.020s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/vrx_gazebo_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[52.021s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/vrx_gazebo_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[52.021s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/vrx_gazebo_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[52.023s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/vrx_gazebo_s__rosidl_typesupport_connext_c.cpython-38-x86_64-linux-gnu.so
+[52.023s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/vrx_gazebo_s__rosidl_typesupport_connext_c.cpython-38-x86_64-linux-gnu.so" to ""
+[52.024s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/vrx_gazebo_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[52.025s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages/vrx_gazebo/vrx_gazebo_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[52.026s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__python.so
+[52.026s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libvrx_gazebo__python.so" to ""
+[52.026s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/msg/Task.idl
+[52.026s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/msg/Contact.idl
+[52.027s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/srv/ColorSequence.idl
+[52.027s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/msg/Task.msg
+[52.027s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/msg/Contact.msg
+[52.027s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/srv/ColorSequence.srv
+[52.027s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/srv/ColorSequence_Request.msg
+[52.027s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/srv/ColorSequence_Response.msg
+[52.029s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libwaypoint_markers.so
+[52.032s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/liblight_buoy_plugin.so
+[52.036s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/liblight_buoy_plugin.so" to ""
+[52.037s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libplacard_plugin.so
+[52.044s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libplacard_plugin.so" to ""
+[52.044s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libball_shooter_plugin.so
+[52.050s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libfollow_plugin.so
+[52.052s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libfollow_plugin.so" to ""
+[52.054s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libscoring_plugin.so
+[52.057s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libscoring_plugin.so" to ""
+[52.058s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libnavigation_scoring_plugin.so
+[52.060s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libnavigation_scoring_plugin.so" to ""
+[52.061s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libwildlife_scoring_plugin.so
+[52.063s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libwildlife_scoring_plugin.so" to ""
+[52.065s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libstationkeeping_scoring_plugin.so
+[52.067s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libstationkeeping_scoring_plugin.so" to ""
+[52.069s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libwayfinding_scoring_plugin.so
+[52.071s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libwayfinding_scoring_plugin.so" to ""
+[52.074s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libgymkhana_scoring_plugin.so
+[52.077s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libgymkhana_scoring_plugin.so" to ""
+[52.078s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libscan_dock_scoring_plugin.so
+[52.082s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libscan_dock_scoring_plugin.so" to ""
+[52.084s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libgui_task_widget.so
+[52.091s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libgui_task_widget.so" to ""
+[52.093s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libperception_scoring_plugin.so
+[52.096s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libperception_scoring_plugin.so" to ""
+[52.096s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/config
+[52.097s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/config/wave_motion_plot.perspective
+[52.097s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/config/front_stereo.perspective
+[52.097s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/config/wamv_config
+[52.097s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/config/wamv_config/example_sensor_config.yaml
+[52.097s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/config/wamv_config/thruster_compliance
+[52.097s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/config/wamv_config/thruster_compliance/bounding_boxes.yaml
+[52.098s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/config/wamv_config/thruster_compliance/numeric.yaml
+[52.098s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/config/wamv_config/sensor_compliance
+[52.098s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/config/wamv_config/sensor_compliance/bounding_boxes.yaml
+[52.098s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/config/wamv_config/sensor_compliance/numeric.yaml
+[52.098s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/config/wamv_config/example_thruster_config.yaml
+[52.099s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/config/custom_rosconsole.conf
+[52.099s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/config/diffdrive.yaml
+[52.099s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/config/pinger.yaml
+[52.099s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds
+[52.099s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/navigation_task.world.xacro
+[52.099s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/perception_task.world.xacro
+[52.100s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/stationkeeping_task.world.xacro
+[52.100s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2
+[52.100s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/dock2.world
+[52.100s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/wayfinding4.world
+[52.101s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/scan_and_dock5.world
+[52.101s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/perception1.world
+[52.101s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/stationkeeping5.world
+[52.101s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/perception5.world
+[52.102s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/perception0.world
+[52.102s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/stationkeeping3.world
+[52.102s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/nav_challenge5.world
+[52.102s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/stationkeeping4.world
+[52.102s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/wayfinding3.world
+[52.103s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/dock3.world
+[52.103s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/scan_and_dock4.world
+[52.103s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/scan_and_dock2.world
+[52.103s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/nav_challenge1.world
+[52.103s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/dock0.world
+[52.103s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/nav_challenge4.world
+[52.104s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/wayfinding2.world
+[52.104s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/nav_challenge3.world
+[52.104s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/dock5.world
+[52.104s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/perception3.world
+[52.104s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/perception2.world
+[52.104s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/wayfinding5.world
+[52.105s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/stationkeeping1.world
+[52.105s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/dock1.world
+[52.105s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/scan_and_dock3.world
+[52.106s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/stationkeeping0.world
+[52.106s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/scan_and_dock0.world
+[52.106s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/nav_challenge2.world
+[52.106s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/wayfinding0.world
+[52.106s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/dock4.world
+[52.106s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/nav_challenge0.world
+[52.107s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/scan_and_dock1.world
+[52.107s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/wayfinding1.world
+[52.107s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/perception4.world
+[52.107s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_phase2/stationkeeping2.world
+[52.107s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/scan_dock_deliver.world.xacro
+[52.107s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros
+[52.108s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/stationkeeping.xacro
+[52.108s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/dock.xacro
+[52.108s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/nav_challenge.xacro
+[52.108s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/include_all_xacros.xacro
+[52.108s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/perception.xacro
+[52.108s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/wayfinding.xacro
+[52.108s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/scene.xacro
+[52.108s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/usv_wind_plugin.xacro
+[52.109s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/sandisland_minus_scene.xacro
+[52.109s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/scan_and_dock.xacro
+[52.109s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/xacros/insert_model.xacro
+[52.109s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/wayfinding_task.world.xacro
+[52.109s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/wildlife_task.world.xacro
+[52.109s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/example_course_2019.world.xacro
+[52.109s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/wind_test.world.xacro
+[52.109s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/ocean.world.xacro
+[52.109s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls
+[52.109s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/scan_and_dock_shallow.yaml
+[52.110s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/station_keeping_shallow.yaml
+[52.110s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/wayfinding_shallow.yaml
+[52.110s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/dock_deep.yaml
+[52.110s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/station_keeping_deep.yaml
+[52.110s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/perception_shallow.yaml
+[52.110s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/dock_shallow.yaml
+[52.110s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/nav_challenge_shallow.yaml
+[52.110s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/perception_deep.yaml
+[52.110s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/scan_and_dock_deep.yaml
+[52.111s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/wayfinding_deep.yaml
+[52.111s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/yamls/nav_challenge_deep.yaml
+[52.111s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/dock.world.xacro
+[52.111s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/example_course.world.xacro
+[52.111s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/scan_and_dock.world.xacro
+[52.111s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/sydneyregatta.world.xacro
+[52.111s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice
+[52.111s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/dock2.world
+[52.111s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/perception1.world
+[52.111s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/perception0.world
+[52.111s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/scan_and_dock2.world
+[52.111s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/nav_challenge1.world
+[52.112s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/dock0.world
+[52.112s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/wayfinding2.world
+[52.112s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/perception2.world
+[52.112s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/stationkeeping1.world
+[52.112s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/dock1.world
+[52.112s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/stationkeeping0.world
+[52.112s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/scan_and_dock0.world
+[52.112s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/nav_challenge2.world
+[52.112s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/wayfinding0.world
+[52.112s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/nav_challenge0.world
+[52.112s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/scan_and_dock1.world
+[52.113s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/nav_challenge0b.world
+[52.113s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/wayfinding1.world
+[52.113s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/2019_practice/stationkeeping2.world
+[52.113s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/no_gravity.world
+[52.113s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/gymkhana.world.xacro
+[52.113s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/sydneyregatta.xacro
+[52.113s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/sandisland.xacro
+[52.113s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/worlds/sandisland.world.xacro
+[52.113s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models
+[52.113s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_black
+[52.113s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_black/model.sdf
+[52.113s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_black/model.config
+[52.113s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark950400
+[52.114s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark950400/model.sdf
+[52.114s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark950400/mesh
+[52.114s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark950400/mesh/surmark950400.dae
+[52.114s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark950400/materials
+[52.114s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark950400/materials/scripts
+[52.114s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark950400/materials/scripts/surmark950400.material
+[52.114s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark950400/model.config
+[52.114s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/3d_lidar
+[52.114s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/3d_lidar/model.sdf
+[52.114s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/3d_lidar/mesh
+[52.114s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/3d_lidar/mesh/3d_lidar.dae
+[52.114s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/3d_lidar/mesh/3d_lidar.png
+[52.114s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/3d_lidar/model.config
+[52.115s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/blue_projectile
+[52.115s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/blue_projectile/model.sdf
+[52.115s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/blue_projectile/materials
+[52.115s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/blue_projectile/materials/scripts
+[52.115s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/blue_projectile/materials/scripts/blue_projectile.material
+[52.115s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/blue_projectile/model.config
+[52.115s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_dynamic
+[52.115s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_dynamic/model.sdf
+[52.115s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_dynamic/model.config
+[52.115s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_dynamic/model.sdf.erb
+[52.115s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/red_totem
+[52.115s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/red_totem/model.sdf
+[52.116s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/red_totem/model.config
+[52.116s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_base_dynamic
+[52.116s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_base_dynamic/model.sdf
+[52.116s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_base_dynamic/model.config
+[52.116s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_base_dynamic/model.sdf.erb
+[52.116s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_task
+[52.116s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_task/model.sdf
+[52.116s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_task/model.config
+[52.117s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/tent
+[52.117s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/tent/model.sdf
+[52.117s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/tent/mesh
+[52.117s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/tent/mesh/tent.png
+[52.117s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/tent/mesh/tent.dae
+[52.117s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/tent/model.config
+[52.117s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_green
+[52.117s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_green/model.sdf
+[52.117s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_green/materials
+[52.117s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_green/materials/scripts
+[52.117s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_green/materials/scripts/mb_marker_buoy.material
+[52.117s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_green/model.config
+[52.117s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_green/meshes
+[52.117s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_green/meshes/mb_marker_buoy.dae
+[52.118s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/placard_2022
+[52.118s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/placard_2022/model.sdf
+[52.118s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/placard_2022/materials
+[52.118s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/placard_2022/materials/textures
+[52.118s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/placard_2022/materials/textures/Placard.png
+[52.118s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/placard_2022/model.config
+[52.118s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/placard_2022/meshes
+[52.118s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/placard_2022/meshes/placard_2022.dae
+[52.118s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/post
+[52.118s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/post/model.sdf
+[52.118s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/post/materials
+[52.118s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/post/materials/textures
+[52.118s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/post/materials/textures/post.png
+[52.118s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/post/model.config
+[52.118s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/post/meshes
+[52.119s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/post/meshes/post.dae
+[52.119s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/polyform_a5
+[52.119s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/polyform_a5/model.sdf
+[52.119s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/polyform_a5/model.config
+[52.119s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_dynamic
+[52.119s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_dynamic/model.sdf
+[52.119s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_dynamic/model.config
+[52.119s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_dynamic/model.sdf.erb
+[52.119s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course1
+[52.119s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course1/model.sdf
+[52.119s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course1/model.config
+[52.119s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/symbol_circle
+[52.119s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/symbol_circle/model.sdf
+[52.119s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/symbol_circle/model.config
+[52.120s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/short_navigation_course0
+[52.120s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/short_navigation_course0/model.sdf
+[52.120s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/short_navigation_course0/model.config
+[52.120s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ground_station
+[52.120s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ground_station/model.sdf
+[52.120s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ground_station/model.config
+[52.120s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post
+[52.120s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post/model.sdf
+[52.120s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post/mesh
+[52.120s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post/mesh/sensor_post.png
+[52.120s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post/mesh/sensor_post_arm.dae
+[52.120s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post/mesh/sensor_post.dae
+[52.120s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sensor_post/model.config
+[52.120s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/platypus_buoy
+[52.121s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/platypus_buoy/model.sdf
+[52.121s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/platypus_buoy/materials
+[52.121s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/platypus_buoy/materials/scripts
+[52.121s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/platypus_buoy/materials/scripts/mb_marker_buoy.material
+[52.121s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/platypus_buoy/materials/textures
+[52.121s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/platypus_buoy/materials/textures/Platypus_Roughness.png
+[52.121s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/platypus_buoy/materials/textures/Platypus_BaseColor.png
+[52.121s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/platypus_buoy/materials/textures/MarkerBuoy_Roughness.png
+[52.121s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/platypus_buoy/materials/textures/MarkerBuoy_Base_Color.png
+[52.121s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/platypus_buoy/materials/textures/Platypus_Normal.png
+[52.121s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/platypus_buoy/model.config
+[52.121s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/platypus_buoy/meshes
+[52.121s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/platypus_buoy/meshes/platypus.dae
+[52.121s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/platypus_buoy/meshes/mb_marker_buoy.dae
+[52.122s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/foldable_table
+[52.122s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/foldable_table/model.sdf
+[52.122s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/foldable_table/mesh
+[52.122s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/foldable_table/mesh/foldable_table.dae
+[52.122s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/foldable_table/mesh/foldable_table.png
+[52.122s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/foldable_table/model.config
+[52.122s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_navigation_challenge
+[52.122s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_navigation_challenge/model.sdf
+[52.122s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_navigation_challenge/model.config
+[52.122s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course
+[52.122s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course/model.sdf
+[52.122s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course/model.config
+[52.123s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016
+[52.123s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016/model.sdf
+[52.123s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016/model.config
+[52.123s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016/model.sdf.erb
+[52.123s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_base
+[52.123s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_base/model.sdf
+[52.123s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_base/model.config
+[52.123s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2016_base/model.sdf.erb
+[52.123s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles_buoys
+[52.123s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles_buoys/model.sdf
+[52.123s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles_buoys/model.config
+[52.123s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2018_entrance_gate
+[52.123s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2018_entrance_gate/model.sdf
+[52.124s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2018_entrance_gate/model.config
+[52.124s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sydney_regatta
+[52.124s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sydney_regatta/model.sdf
+[52.124s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sydney_regatta/materials
+[52.124s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sydney_regatta/materials/scripts
+[52.124s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sydney_regatta/materials/scripts/caster_vp.glsl
+[52.124s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sydney_regatta/materials/scripts/caster_fp.glsl
+[52.124s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sydney_regatta/materials/scripts/sydney_tree.material
+[52.124s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sydney_regatta/materials/textures
+[52.124s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sydney_regatta/materials/textures/Dock.png
+[52.124s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sydney_regatta/materials/textures/Wall_05.png
+[52.124s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sydney_regatta/materials/textures/RoofCorrugated.png
+[52.125s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sydney_regatta/materials/textures/Terrain.png
+[52.125s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sydney_regatta/materials/textures/MetalGalvanized.png
+[52.125s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sydney_regatta/materials/textures/TreeDiffuse.png
+[52.125s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sydney_regatta/materials/textures/Windows_Dark.png
+[52.125s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sydney_regatta/materials/textures/DockDark.png
+[52.125s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sydney_regatta/model.config
+[52.125s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sydney_regatta/meshes
+[52.125s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sydney_regatta/meshes/sydney_regatta.dae
+[52.125s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course2
+[52.125s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course2/model.sdf
+[52.125s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course2/model.config
+[52.125s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/green_totem
+[52.125s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/green_totem/model.sdf
+[52.126s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/green_totem/model.config
+[52.126s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2022_base_dynamic
+[52.126s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2022_base_dynamic/model.sdf
+[52.126s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2022_base_dynamic/model.config
+[52.126s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2022_base_dynamic/model.sdf.erb
+[52.126s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course4
+[52.126s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course4/model.sdf
+[52.126s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course4/model.config
+[52.126s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_round_buoy_black
+[52.127s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_round_buoy_black/model.sdf
+[52.127s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_round_buoy_black/model.config
+[52.127s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/blue_totem
+[52.127s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/blue_totem/model.sdf
+[52.127s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/blue_totem/model.config
+[52.127s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_base_dynamic
+[52.127s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_base_dynamic/model.sdf
+[52.127s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_base_dynamic/model.config
+[52.127s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_base_dynamic/model.sdf.erb
+[52.127s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2016_qualifying_pinger_transit
+[52.127s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2016_qualifying_pinger_transit/model.sdf
+[52.128s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2016_qualifying_pinger_transit/model.config
+[52.128s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_red
+[52.128s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_red/model.sdf
+[52.128s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_red/materials
+[52.128s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_red/materials/scripts
+[52.128s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_red/materials/scripts/mb_marker_buoy.material
+[52.128s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_red/materials/textures
+[52.128s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_red/materials/textures/MarkerBuoy_Roughness.png
+[52.128s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_red/materials/textures/MarkerBuoy_Base_Color.png
+[52.129s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_red/model.config
+[52.129s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_red/meshes
+[52.129s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_red/meshes/mb_marker_buoy.dae
+[52.129s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sandisland
+[52.129s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sandisland/model.sdf
+[52.129s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sandisland/materials
+[52.129s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sandisland/materials/textures
+[52.129s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sandisland/materials/textures/sandisland.png
+[52.129s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sandisland/model.config
+[52.129s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sandisland/heightmap.png
+[52.129s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sandisland/meshes
+[52.129s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/sandisland/meshes/sandisland.dae
+[52.130s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles
+[52.130s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles/model.sdf
+[52.130s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2018_qualifying_avoid_obstacles/model.config
+[52.130s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/turtle_buoy
+[52.130s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/turtle_buoy/model.sdf
+[52.130s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/turtle_buoy/materials
+[52.133s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/turtle_buoy/materials/scripts
+[52.133s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/turtle_buoy/materials/scripts/mb_marker_buoy.material
+[52.134s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/turtle_buoy/materials/textures
+[52.134s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/turtle_buoy/materials/textures/Turtle_Roughness.png
+[52.134s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/turtle_buoy/materials/textures/MarkerBuoy_Roughness.png
+[52.134s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/turtle_buoy/materials/textures/MarkerBuoy_Base_Color.png
+[52.134s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/turtle_buoy/materials/textures/Turtle_Normal.png
+[52.134s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/turtle_buoy/materials/textures/Turtle_BaseColor.png
+[52.134s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/turtle_buoy/model.config
+[52.134s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/turtle_buoy/meshes
+[52.134s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/turtle_buoy/meshes/mb_marker_buoy.dae
+[52.134s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/turtle_buoy/meshes/turtle.dae
+[52.134s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/antenna
+[52.134s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/antenna/model.sdf
+[52.135s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/antenna/model.config
+[52.135s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/antenna/meshes
+[52.135s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/antenna/meshes/antenna.png
+[52.135s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/antenna/meshes/antenna.dae
+[52.135s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/black_totem
+[52.135s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/black_totem/model.sdf
+[52.135s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/black_totem/model.config
+[52.135s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/cpu_cases
+[52.135s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/cpu_cases/model.sdf
+[52.135s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/cpu_cases/mesh
+[52.135s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/cpu_cases/mesh/cpu_cases.png
+[52.135s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/cpu_cases/mesh/cpu_cases.dae
+[52.135s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/cpu_cases/model.config
+[52.136s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean
+[52.136s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/model.sdf
+[52.136s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials
+[52.136s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/programs
+[52.136s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/programs/GLSL
+[52.136s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/programs/GLSL/Waves.vert
+[52.136s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/programs/GLSL/Waves.frag
+[52.136s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/scripts
+[52.136s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/scripts/ocean.material
+[52.136s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/textures
+[52.136s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/textures/clouds.jpg
+[52.136s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/textures/clouds_fr.jpg
+[52.137s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/textures/clouds_dn.jpg
+[52.137s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/textures/clouds_up.jpg
+[52.137s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/textures/clouds_rt.jpg
+[52.137s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/textures/normals.dds
+[52.137s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/textures/clouds_bk.jpg
+[52.137s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/materials/textures/clouds_lf.jpg
+[52.137s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/model.config
+[52.137s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/meshes
+[52.137s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/meshes/mesh.blend
+[52.137s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/meshes/mesh.dae
+[52.137s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ocean/meshes/mesh_below.dae
+[52.138s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ball_shooter
+[52.138s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ball_shooter/model.sdf
+[52.138s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ball_shooter/materials
+[52.138s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ball_shooter/materials/textures
+[52.138s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ball_shooter/materials/textures/Launcher_Normal.png
+[52.138s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ball_shooter/materials/textures/Glass_Roughness.png
+[52.138s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ball_shooter/materials/textures/Launcher_BaseColor.png
+[52.138s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ball_shooter/materials/textures/Launcher_Metallic.png
+[52.138s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ball_shooter/materials/textures/Launcher_Roughness.png
+[52.138s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ball_shooter/materials/textures/Opacity.png
+[52.138s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ball_shooter/materials/textures/Glass_BaseColor.png
+[52.138s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ball_shooter/model.config
+[52.139s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ball_shooter/meshes
+[52.139s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ball_shooter/meshes/Launcher_BaseColor.png
+[52.139s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ball_shooter/meshes/ball_shooter.dae
+[52.139s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/ball_shooter/meshes/Glass_BaseColor.png
+[52.139s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mono_camera
+[52.139s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mono_camera/model.sdf
+[52.139s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mono_camera/mesh
+[52.139s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mono_camera/mesh/mono_camera.dae
+[52.139s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mono_camera/mesh/mono_camera.png
+[52.139s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mono_camera/model.config
+[52.139s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark950410
+[52.140s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark950410/model.sdf
+[52.140s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark950410/mesh
+[52.140s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark950410/mesh/surmark950410.dae
+[52.140s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark950410/materials
+[52.140s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark950410/materials/scripts
+[52.140s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark950410/materials/scripts/surmark950410.material
+[52.140s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark950410/model.config
+[52.140s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4
+[52.140s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4/model.sdf
+[52.140s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4/mesh
+[52.140s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4/mesh/dock_block_4x4.dae
+[52.140s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4/model.config
+[52.140s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/foldable_chair
+[52.141s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/foldable_chair/model.sdf
+[52.141s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/foldable_chair/mesh
+[52.141s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/foldable_chair/mesh/foldable_chair.dae
+[52.141s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/foldable_chair/mesh/foldable_chair.png
+[52.141s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/foldable_chair/model.config
+[52.141s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block
+[52.141s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block/model.sdf
+[52.141s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block/mesh
+[52.141s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block/mesh/dock_block.dae
+[52.141s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block/model.config
+[52.141s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2016_finals_pinger_transit
+[52.141s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2016_finals_pinger_transit/model.sdf
+[52.142s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_2016_finals_pinger_transit/model.config
+[52.142s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_white
+[52.142s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_white/model.sdf
+[52.142s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_marker_buoy_white/model.config
+[52.142s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/yellow_totem
+[52.142s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/yellow_totem/model.sdf
+[52.142s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/yellow_totem/model.config
+[52.142s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_light_buoy
+[52.142s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_light_buoy/model.sdf
+[52.143s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_light_buoy/mesh
+[52.143s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_light_buoy/mesh/robotx_light_buoy.dae
+[52.143s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/robotx_light_buoy/model.config
+[52.143s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course5
+[52.143s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course5/model.sdf
+[52.143s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course5/model.config
+[52.143s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course3
+[52.143s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course3/model.sdf
+[52.143s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course3/model.config
+[52.143s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/polyform_a3
+[52.143s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/polyform_a3/model.sdf
+[52.143s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/polyform_a3/model.config
+[52.143s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_3x3
+[52.144s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_3x3/model.sdf
+[52.144s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_3x3/mesh
+[52.144s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_3x3/mesh/dock_block_3x3.dae
+[52.144s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_3x3/model.config
+[52.144s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2022
+[52.144s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2022/model.sdf
+[52.144s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2022/model.config
+[52.144s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2022/model.sdf.erb
+[52.144s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/crocodile_buoy
+[52.144s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/crocodile_buoy/model.sdf
+[52.144s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/crocodile_buoy/materials
+[52.145s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/crocodile_buoy/materials/scripts
+[52.145s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/crocodile_buoy/materials/scripts/mb_marker_buoy.material
+[52.145s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/crocodile_buoy/materials/textures
+[52.145s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/crocodile_buoy/materials/textures/Crocodile_Roughness.png
+[52.145s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/crocodile_buoy/materials/textures/Crocodile_Normal.png
+[52.145s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/crocodile_buoy/materials/textures/MarkerBuoy_Roughness.png
+[52.145s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/crocodile_buoy/materials/textures/MarkerBuoy_Base_Color.png
+[52.145s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/crocodile_buoy/materials/textures/Crocodile_BaseColor.png
+[52.145s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/crocodile_buoy/model.config
+[52.145s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/crocodile_buoy/meshes
+[52.145s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/crocodile_buoy/meshes/crocodile.dae
+[52.146s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/crocodile_buoy/meshes/mb_marker_buoy.dae
+[52.146s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/symbol_rectangle
+[52.146s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/symbol_rectangle/model.sdf
+[52.146s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/symbol_rectangle/model.config
+[52.146s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2022_dynamic
+[52.146s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2022_dynamic/model.sdf
+[52.146s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2022_dynamic/model.config
+[52.146s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2022_dynamic/model.sdf.erb
+[52.146s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/Aruco129
+[52.146s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/Aruco129/model.sdf
+[52.146s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/Aruco129/mesh
+[52.146s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/Aruco129/mesh/Aruco129.dae
+[52.146s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/Aruco129/mesh/aruco_129_full.png
+[52.147s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/Aruco129/model.config
+[52.147s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018
+[52.147s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018/model.sdf
+[52.147s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018/model.config
+[52.147s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018/model.sdf.erb
+[52.147s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4_dynamic
+[52.147s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4_dynamic/model.sdf
+[52.147s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4_dynamic/mesh
+[52.147s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4_dynamic/mesh/dock_block_4x4.dae
+[52.147s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_4x4_dynamic/model.config
+[52.147s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_2x2
+[52.148s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_2x2/model.sdf
+[52.148s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_2x2/mesh
+[52.148s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_2x2/mesh/dock_block_2x2.dae
+[52.148s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_block_2x2/model.config
+[52.148s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_base
+[52.148s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_base/model.sdf
+[52.148s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_base/model.config
+[52.148s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2018_base/model.sdf.erb
+[52.148s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/bowl
+[52.148s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/bowl/model.sdf
+[52.148s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/bowl/model.config
+[52.148s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/bowl/meshes
+[52.148s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/bowl/meshes/bowl.dae
+[52.149s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/polyform_a7
+[52.149s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/polyform_a7/model.sdf
+[52.149s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/polyform_a7/model.config
+[52.149s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/symbol_cross
+[52.149s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/symbol_cross/model.sdf
+[52.149s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/symbol_cross/model.config
+[52.149s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course0
+[52.149s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course0/model.sdf
+[52.149s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/navigation_course0/model.config
+[52.149s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations
+[52.149s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__blue_triangle
+[52.150s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__blue_triangle/model.sdf
+[52.150s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__blue_triangle/model.config
+[52.150s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__blue_triangle
+[52.150s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__blue_triangle/model.sdf
+[52.150s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__blue_triangle/model.config
+[52.150s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__blue_cross
+[52.150s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__blue_cross/model.sdf
+[52.150s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__blue_cross/model.config
+[52.150s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__red_circle
+[52.150s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__red_circle/model.sdf
+[52.150s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__red_circle/model.config
+[52.151s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__blue_cross
+[52.151s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__blue_cross/model.sdf
+[52.151s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__blue_cross/model.config
+[52.151s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__red_triangle
+[52.151s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__red_triangle/model.sdf
+[52.151s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__red_triangle/model.config
+[52.151s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__blue_triangle
+[52.151s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__blue_triangle/model.sdf
+[52.151s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__blue_triangle/model.config
+[52.151s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__green_cross
+[52.151s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__green_cross/model.sdf
+[52.151s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__green_cross/model.config
+[52.152s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__green_triangle
+[52.152s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__green_triangle/model.sdf
+[52.152s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__green_triangle/model.config
+[52.152s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__blue_cross
+[52.152s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__blue_cross/model.sdf
+[52.152s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__blue_cross/model.config
+[52.152s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__green_cross
+[52.152s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__green_cross/model.sdf
+[52.152s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__green_cross/model.config
+[52.152s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__green_circle
+[52.152s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__green_circle/model.sdf
+[52.152s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__green_circle/model.config
+[52.153s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__green_circle
+[52.153s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__green_circle/model.sdf
+[52.153s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__green_circle/model.config
+[52.153s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__green_cross
+[52.153s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__green_cross/model.sdf
+[52.153s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__green_cross/model.config
+[52.153s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__red_triangle
+[52.153s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__red_triangle/model.sdf
+[52.153s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__red_triangle/model.config
+[52.153s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__blue_circle
+[52.153s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__blue_circle/model.sdf
+[52.153s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__blue_circle/model.config
+[52.154s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__red_triangle
+[52.154s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__red_triangle/model.sdf
+[52.154s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__red_triangle/model.config
+[52.154s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__red_circle
+[52.154s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__red_circle/model.sdf
+[52.154s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__red_circle/model.config
+[52.154s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__blue_circle
+[52.154s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__blue_circle/model.sdf
+[52.154s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__blue_circle/model.config
+[52.154s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__blue_cross
+[52.154s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__blue_cross/model.sdf
+[52.154s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__blue_cross/model.config
+[52.155s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__green_triangle
+[52.155s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__green_triangle/model.sdf
+[52.155s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__green_triangle/model.config
+[52.155s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__green_cross
+[52.155s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__green_cross/model.sdf
+[52.155s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__green_cross/model.config
+[52.155s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__blue_circle
+[52.155s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__blue_circle/model.sdf
+[52.155s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__blue_circle/model.config
+[52.155s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__blue_circle
+[52.155s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__blue_circle/model.sdf
+[52.155s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__blue_circle/model.config
+[52.155s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__red_circle
+[52.156s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__red_circle/model.sdf
+[52.156s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__red_circle/model.config
+[52.156s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__blue_cross
+[52.156s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__blue_cross/model.sdf
+[52.156s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__blue_cross/model.config
+[52.156s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__red_cross
+[52.156s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__red_cross/model.sdf
+[52.156s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__red_cross/model.config
+[52.156s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__red_cross
+[52.156s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__red_cross/model.sdf
+[52.157s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__red_cross/model.config
+[52.157s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__red_circle
+[52.157s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__red_circle/model.sdf
+[52.157s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__red_circle/model.config
+[52.157s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__green_circle
+[52.157s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__green_circle/model.sdf
+[52.157s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__green_circle/model.config
+[52.157s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__red_triangle
+[52.157s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__red_triangle/model.sdf
+[52.157s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__red_triangle/model.config
+[52.157s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__blue_triangle
+[52.157s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__blue_triangle/model.sdf
+[52.158s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__blue_triangle/model.config
+[52.158s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__blue_cross
+[52.158s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__blue_cross/model.sdf
+[52.158s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__blue_cross/model.config
+[52.158s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__blue_triangle
+[52.158s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__blue_triangle/model.sdf
+[52.158s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__blue_triangle/model.config
+[52.158s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__blue_triangle
+[52.158s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__blue_triangle/model.sdf
+[52.158s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__blue_triangle/model.config
+[52.158s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__green_cross
+[52.158s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__green_cross/model.sdf
+[52.159s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__green_cross/model.config
+[52.159s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__red_triangle
+[52.159s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__red_triangle/model.sdf
+[52.159s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__red_triangle/model.config
+[52.159s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__green_triangle
+[52.159s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__green_triangle/model.sdf
+[52.159s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__green_triangle/model.config
+[52.159s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__green_triangle
+[52.159s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__green_triangle/model.sdf
+[52.159s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__green_triangle/model.config
+[52.159s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__red_cross
+[52.159s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__red_cross/model.sdf
+[52.160s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__red_cross/model.config
+[52.160s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__red_cross
+[52.160s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__red_cross/model.sdf
+[52.160s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__red_cross/model.config
+[52.160s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__red_triangle
+[52.160s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__red_triangle/model.sdf
+[52.160s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__red_triangle/model.config
+[52.160s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__red_cross
+[52.160s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__red_cross/model.sdf
+[52.160s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__red_cross/model.config
+[52.160s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__green_cross
+[52.160s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__green_cross/model.sdf
+[52.160s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__green_cross/model.config
+[52.161s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__red_circle
+[52.161s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__red_circle/model.sdf
+[52.161s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__red_circle/model.config
+[52.161s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__blue_circle
+[52.161s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__blue_circle/model.sdf
+[52.161s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__blue_circle/model.config
+[52.161s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__green_triangle
+[52.161s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__green_triangle/model.sdf
+[52.161s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__green_triangle/model.config
+[52.161s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__red_cross
+[52.161s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__red_cross/model.sdf
+[52.161s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__red_cross/model.config
+[52.162s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__blue_circle
+[52.162s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__blue_circle/model.sdf
+[52.162s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__blue_circle/model.config
+[52.162s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__green_triangle
+[52.162s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__green_triangle/model.sdf
+[52.162s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__green_triangle/model.config
+[52.162s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__green_cross
+[52.162s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__green_cross/model.sdf
+[52.162s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__green_cross/model.config
+[52.162s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__green_circle
+[52.162s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__green_circle/model.sdf
+[52.162s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__green_circle/model.config
+[52.163s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__green_circle
+[52.163s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__green_circle/model.sdf
+[52.163s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__green_circle/model.config
+[52.163s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__green_cross
+[52.163s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__green_cross/model.sdf
+[52.163s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__green_cross/model.config
+[52.163s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__blue_triangle
+[52.163s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__blue_triangle/model.sdf
+[52.163s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__blue_triangle/model.config
+[52.164s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__green_circle
+[52.164s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__green_circle/model.sdf
+[52.164s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_circle__green_circle/model.config
+[52.164s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__red_triangle
+[52.164s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__red_triangle/model.sdf
+[52.164s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__red_triangle/model.config
+[52.164s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__red_triangle
+[52.164s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__red_triangle/model.sdf
+[52.164s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__red_triangle/model.config
+[52.164s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__blue_circle
+[52.164s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__blue_circle/model.sdf
+[52.165s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__blue_circle/model.config
+[52.165s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__red_circle
+[52.165s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__red_circle/model.sdf
+[52.165s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__red_circle/model.config
+[52.165s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__red_circle
+[52.165s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__red_circle/model.sdf
+[52.165s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__red_circle/model.config
+[52.165s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__red_circle
+[52.165s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__red_circle/model.sdf
+[52.165s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__red_circle/model.config
+[52.165s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/.empty
+[52.165s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__red_circle
+[52.166s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__red_circle/model.sdf
+[52.166s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__red_circle/model.config
+[52.166s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__blue_triangle
+[52.166s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__blue_triangle/model.sdf
+[52.166s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_triangle__blue_triangle/model.config
+[52.166s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__green_triangle
+[52.166s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__green_triangle/model.sdf
+[52.166s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_cross__green_triangle/model.config
+[52.166s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__blue_cross
+[52.166s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__blue_cross/model.sdf
+[52.166s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__blue_cross/model.config
+[52.166s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__red_cross
+[52.167s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__red_cross/model.sdf
+[52.167s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__red_cross/model.config
+[52.167s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__blue_triangle
+[52.167s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__blue_triangle/model.sdf
+[52.167s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__blue_triangle/model.config
+[52.167s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__green_triangle
+[52.167s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__green_triangle/model.sdf
+[52.167s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__green_triangle/model.config
+[52.167s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__red_cross
+[52.167s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__red_cross/model.sdf
+[52.167s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__red_cross/model.config
+[52.168s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__blue_circle
+[52.168s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__blue_circle/model.sdf
+[52.168s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__blue_circle/model.config
+[52.168s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__green_circle
+[52.168s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__green_circle/model.sdf
+[52.168s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_circle__green_circle/model.config
+[52.168s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__blue_circle
+[52.168s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__blue_circle/model.sdf
+[52.168s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__blue_circle/model.config
+[52.168s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__red_triangle
+[52.169s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__red_triangle/model.sdf
+[52.169s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_triangle__red_triangle/model.config
+[52.169s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__green_circle
+[52.169s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__green_circle/model.sdf
+[52.169s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_blue_triangle__green_circle/model.config
+[52.169s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__green_triangle
+[52.169s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__green_triangle/model.sdf
+[52.169s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__green_triangle/model.config
+[52.169s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__blue_cross
+[52.169s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__blue_cross/model.sdf
+[52.169s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__blue_cross/model.config
+[52.169s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__blue_cross
+[52.170s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__blue_cross/model.sdf
+[52.170s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_cross__blue_cross/model.config
+[52.170s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__green_cross
+[52.170s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__green_cross/model.sdf
+[52.170s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__green_cross/model.config
+[52.170s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__green_circle
+[52.170s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__green_circle/model.sdf
+[52.170s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_red_cross__green_circle/model.config
+[52.170s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__red_cross
+[52.170s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__red_cross/model.sdf
+[52.170s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_permutations/vrx_dock_green_circle__red_cross/model.config
+[52.170s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark46104
+[52.171s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark46104/model.sdf
+[52.171s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark46104/mesh
+[52.171s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark46104/mesh/surmark46104.dae
+[52.171s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/surmark46104/model.config
+[52.171s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/battery
+[52.171s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/battery/model.sdf
+[52.171s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/battery/mesh
+[52.171s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/battery/mesh/battery.dae
+[52.171s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/battery/mesh/battery.png
+[52.171s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/battery/model.config
+[52.171s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/wavegauge
+[52.171s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/wavegauge/model.sdf
+[52.172s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/wavegauge/model.config
+[52.172s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/symbol_triangle
+[52.172s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/symbol_triangle/model.sdf
+[52.172s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/symbol_triangle/mesh
+[52.172s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/symbol_triangle/mesh/triangle.dae
+[52.172s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/symbol_triangle/model.config
+[52.172s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_round_buoy_orange
+[52.172s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_round_buoy_orange/model.sdf
+[52.172s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_round_buoy_orange/materials
+[52.172s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_round_buoy_orange/materials/scripts
+[52.172s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_round_buoy_orange/materials/scripts/mb_round_buoy.material
+[52.173s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_round_buoy_orange/materials/textures
+[52.173s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_round_buoy_orange/materials/textures/RoundBarrierBuoy_Base_Color.png
+[52.173s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_round_buoy_orange/materials/textures/RoundBarrierBuoy_Roughness.png
+[52.173s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_round_buoy_orange/model.config
+[52.173s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_round_buoy_orange/meshes
+[52.173s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/mb_round_buoy_orange/meshes/mb_round_buoy.dae
+[52.173s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/placard
+[52.173s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/placard/model.sdf
+[52.173s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/placard/model.config
+[52.173s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2022_base
+[52.174s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2022_base/model.sdf
+[52.174s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2022_base/model.config
+[52.174s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/dock_2022_base/model.sdf.erb
+[52.174s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/obstacle_course
+[52.174s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/obstacle_course/model.sdf
+[52.174s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/obstacle_course/model.config
+[52.174s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/Aruco72
+[52.174s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/Aruco72/model.sdf
+[52.174s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/Aruco72/mesh
+[52.174s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/Aruco72/mesh/Aruco72.dae
+[52.174s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/Aruco72/mesh/aruco_72_full.png
+[52.174s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/models/Aruco72/model.config
+[52.175s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch
+[52.175s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/sandisland.launch
+[52.175s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/vrx.launch
+[52.175s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/usv_keydrive.launch
+[52.175s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/generate_worlds.launch
+[52.175s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/dock.launch
+[52.175s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/perception_task.launch
+[52.175s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/demo_thrusterconfigs.launch
+[52.175s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/wildlife.launch
+[52.175s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/sydneyregatta.launch
+[52.175s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/quat2rpy.launch
+[52.175s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/pinger.launch
+[52.175s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/scan_and_dock.launch
+[52.176s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/vrx_2019.launch
+[52.176s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/wayfinding.launch
+[52.176s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/navigation_task.launch
+[52.176s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/playback.launch
+[52.176s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/gymkhana.launch
+[52.176s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/usv_joydrive.launch
+[52.176s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/scan_dock_deliver.launch
+[52.176s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/station_keeping.launch
+[52.176s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/launch/generate_wamv.launch
+[52.176s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo
+[52.176s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/vrx_gazebo
+[52.177s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/vrx_gazebo/scoring_plugin.hh
+[52.177s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/vrx_gazebo/scan_dock_scoring_plugin.hh
+[52.177s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/vrx_gazebo/waypoint_markers.hh
+[52.177s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/vrx_gazebo/follow_plugin.hh
+[52.177s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/vrx_gazebo/ball_shooter_plugin.hh
+[52.177s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/vrx_gazebo/wildlife_scoring_plugin.hh
+[52.177s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/vrx_gazebo/perception_scoring_plugin.hh
+[52.177s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/vrx_gazebo/placard_plugin.hh
+[52.177s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/vrx_gazebo/gymkhana_scoring_plugin.hh
+[52.177s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/vrx_gazebo/stationkeeping_scoring_plugin.hh
+[52.177s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/vrx_gazebo/light_buoy_plugin.hh
+[52.177s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/vrx_gazebo/wayfinding_scoring_plugin.hh
+[52.178s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/include/vrx_gazebo/vrx_gazebo/navigation_scoring_plugin.hh
+[52.178s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/lib/vrx_gazebo/spawn_wamv.bash
+[52.178s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/lib/vrx_gazebo/pinger_visualization.py
+[52.178s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/lib/vrx_gazebo/set_pinger_position.py
+[52.178s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/lib/vrx_gazebo/twist2thrust.py
+[52.178s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/lib/vrx_gazebo/key2thrust_angle.py
+[52.178s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/lib/vrx_gazebo/generate_worlds.py
+[52.178s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/lib/vrx_gazebo/generate_wamv.py
+[52.178s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/ament_index/resource_index/package_run_dependencies/vrx_gazebo
+[52.178s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/ament_index/resource_index/parent_prefix_path/vrx_gazebo
+[52.178s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/environment/ament_prefix_path.sh
+[52.178s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/environment/ament_prefix_path.dsv
+[52.179s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/environment/path.sh
+[52.179s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/environment/path.dsv
+[52.179s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/local_setup.bash
+[52.179s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/local_setup.sh
+[52.179s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/local_setup.zsh
+[52.179s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/local_setup.dsv
+[52.179s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/package.dsv
+[52.179s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/ament_index/resource_index/packages/vrx_gazebo
+[52.179s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazebo__rosidl_generator_cExport.cmake
+[52.179s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazebo__rosidl_generator_cExport-noconfig.cmake
+[52.179s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazebo__rosidl_typesupport_introspection_cExport.cmake
+[52.179s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazebo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[52.180s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazebo__rosidl_typesupport_cExport.cmake
+[52.180s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazebo__rosidl_typesupport_cExport-noconfig.cmake
+[52.180s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazebo__rosidl_generator_cppExport.cmake
+[52.180s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazebo__rosidl_typesupport_introspection_cppExport.cmake
+[52.180s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazebo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[52.180s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazebo__rosidl_typesupport_cppExport.cmake
+[52.180s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazebo__rosidl_typesupport_cppExport-noconfig.cmake
+[52.180s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[52.180s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/rosidl_cmake-extras.cmake
+[52.180s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/ament_cmake_export_libraries-extras.cmake
+[52.180s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/ament_cmake_export_targets-extras.cmake
+[52.180s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[52.181s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[52.181s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[52.181s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazeboConfig.cmake
+[52.181s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/cmake/vrx_gazeboConfig-version.cmake
+[52.181s] -- Up-to-date: /home/grant/ros2_ws/install/vrx_gazebo/share/vrx_gazebo/package.xml
+[52.181s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/libdock_placard_msgs.so
+[52.181s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/libdock_placard_msgs.so" to ""
+[52.181s] -- Installing: /home/grant/ros2_ws/install/vrx_gazebo/lib/liblight_buoy_colors_msgs.so
+[52.181s] -- Set runtime path of "/home/grant/ros2_ws/install/vrx_gazebo/lib/liblight_buoy_colors_msgs.so" to ""
+[52.181s] Invoked command in '/home/grant/ros2_ws/build/vrx_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages:/home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages /usr/bin/cmake --install /home/grant/ros2_ws/build/vrx_gazebo

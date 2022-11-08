@@ -1,0 +1,101 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/State.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__state__idl__
+#define __mavros_msgs__msg__state__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module State_Constants {
+const string<6> MODE_APM_PLANE_MANUAL_ = "MANUAL";
+const string<6> MODE_APM_PLANE_CIRCLE_ = "CIRCLE";
+const string<9> MODE_APM_PLANE_STABILIZE_ = "STABILIZE";
+const string<8> MODE_APM_PLANE_TRAINING_ = "TRAINING";
+const string<4> MODE_APM_PLANE_ACRO_ = "ACRO";
+const string<4> MODE_APM_PLANE_FBWA_ = "FBWA";
+const string<4> MODE_APM_PLANE_FBWB_ = "FBWB";
+const string<6> MODE_APM_PLANE_CRUISE_ = "CRUISE";
+const string<8> MODE_APM_PLANE_AUTOTUNE_ = "AUTOTUNE";
+const string<4> MODE_APM_PLANE_AUTO_ = "AUTO";
+const string<3> MODE_APM_PLANE_RTL_ = "RTL";
+const string<6> MODE_APM_PLANE_LOITER_ = "LOITER";
+const string<4> MODE_APM_PLANE_LAND_ = "LAND";
+const string<6> MODE_APM_PLANE_GUIDED_ = "GUIDED";
+const string<12> MODE_APM_PLANE_INITIALISING_ = "INITIALISING";
+const string<10> MODE_APM_PLANE_QSTABILIZE_ = "QSTABILIZE";
+const string<6> MODE_APM_PLANE_QHOVER_ = "QHOVER";
+const string<7> MODE_APM_PLANE_QLOITER_ = "QLOITER";
+const string<5> MODE_APM_PLANE_QLAND_ = "QLAND";
+const string<4> MODE_APM_PLANE_QRTL_ = "QRTL";
+const string<9> MODE_APM_COPTER_STABILIZE_ = "STABILIZE";
+const string<4> MODE_APM_COPTER_ACRO_ = "ACRO";
+const string<8> MODE_APM_COPTER_ALT_HOLD_ = "ALT_HOLD";
+const string<4> MODE_APM_COPTER_AUTO_ = "AUTO";
+const string<6> MODE_APM_COPTER_GUIDED_ = "GUIDED";
+const string<6> MODE_APM_COPTER_LOITER_ = "LOITER";
+const string<3> MODE_APM_COPTER_RTL_ = "RTL";
+const string<6> MODE_APM_COPTER_CIRCLE_ = "CIRCLE";
+const string<8> MODE_APM_COPTER_POSITION_ = "POSITION";
+const string<4> MODE_APM_COPTER_LAND_ = "LAND";
+const string<9> MODE_APM_COPTER_OF_LOITER_ = "OF_LOITER";
+const string<5> MODE_APM_COPTER_DRIFT_ = "DRIFT";
+const string<5> MODE_APM_COPTER_SPORT_ = "SPORT";
+const string<4> MODE_APM_COPTER_FLIP_ = "FLIP";
+const string<8> MODE_APM_COPTER_AUTOTUNE_ = "AUTOTUNE";
+const string<7> MODE_APM_COPTER_POSHOLD_ = "POSHOLD";
+const string<5> MODE_APM_COPTER_BRAKE_ = "BRAKE";
+const string<5> MODE_APM_COPTER_THROW_ = "THROW";
+const string<10> MODE_APM_COPTER_AVOID_ADSB_ = "AVOID_ADSB";
+const string<12> MODE_APM_COPTER_GUIDED_NOGPS_ = "GUIDED_NOGPS";
+const string<6> MODE_APM_ROVER_MANUAL_ = "MANUAL";
+const string<8> MODE_APM_ROVER_LEARNING_ = "LEARNING";
+const string<8> MODE_APM_ROVER_STEERING_ = "STEERING";
+const string<4> MODE_APM_ROVER_HOLD_ = "HOLD";
+const string<4> MODE_APM_ROVER_AUTO_ = "AUTO";
+const string<3> MODE_APM_ROVER_RTL_ = "RTL";
+const string<6> MODE_APM_ROVER_GUIDED_ = "GUIDED";
+const string<12> MODE_APM_ROVER_INITIALISING_ = "INITIALISING";
+const string<6> MODE_PX4_MANUAL_ = "MANUAL";
+const string<4> MODE_PX4_ACRO_ = "ACRO";
+const string<6> MODE_PX4_ALTITUDE_ = "ALTCTL";
+const string<6> MODE_PX4_POSITION_ = "POSCTL";
+const string<8> MODE_PX4_OFFBOARD_ = "OFFBOARD";
+const string<10> MODE_PX4_STABILIZED_ = "STABILIZED";
+const string<9> MODE_PX4_RATTITUDE_ = "RATTITUDE";
+const string<12> MODE_PX4_MISSION_ = "AUTO.MISSION";
+const string<11> MODE_PX4_LOITER_ = "AUTO.LOITER";
+const string<8> MODE_PX4_RTL_ = "AUTO.RTL";
+const string<9> MODE_PX4_LAND_ = "AUTO.LAND";
+const string<9> MODE_PX4_RTGS_ = "AUTO.RTGS";
+const string<10> MODE_PX4_READY_ = "AUTO.READY";
+const string<12> MODE_PX4_TAKEOFF_ = "AUTO.TAKEOFF";
+
+};
+
+struct State_ {
+std_msgs::msg::dds_::Header_ header_;
+boolean connected_;
+boolean armed_;
+boolean guided_;
+boolean manual_input_;
+string mode_;
+octet system_status_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__state__idl__

@@ -1,0 +1,42 @@
+[0.028s] Invoking command in '/home/grant/ros2_ws/build/mavros_extras': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/grant/ros2_ws/build/mavros_extras -- -j8 -l8
+[0.075s] [  5%] Built target servo_state_publisher
+[0.079s] [ 10%] Built target mavros_extras
+[0.311s] [100%] Built target mavros_extras_plugins
+[0.320s] Invoked command in '/home/grant/ros2_ws/build/mavros_extras' returned '0': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/grant/ros2_ws/build/mavros_extras -- -j8 -l8
+[0.391s] Invoking command in '/home/grant/ros2_ws/build/mavros_extras': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/grant/ros2_ws/build/mavros_extras
+[0.396s] -- Install configuration: ""
+[0.396s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/mavros_plugins.xml
+[0.396s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/lib/mavros_extras/servo_state_publisher
+[0.396s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/lib/libmavros_extras.so
+[0.397s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/lib/libmavros_extras_plugins.so
+[0.397s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/include
+[0.397s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/include/mavros_extras
+[0.397s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/include/mavros_extras/servo_state_publisher.hpp
+[0.397s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/launch
+[0.397s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/launch/px4flow.launch
+[0.398s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/launch/px4flow_config.yaml
+[0.398s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/launch/px4flow_pluginlists.yaml
+[0.398s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/launch/servo_state_publisher.yaml
+[0.398s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/environment/library_path.sh
+[0.398s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/environment/library_path.dsv
+[0.398s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/ament_index/resource_index/package_run_dependencies/mavros_extras
+[0.398s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/ament_index/resource_index/parent_prefix_path/mavros_extras
+[0.398s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/environment/ament_prefix_path.sh
+[0.398s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/environment/ament_prefix_path.dsv
+[0.398s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/environment/path.sh
+[0.399s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/environment/path.dsv
+[0.399s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/local_setup.bash
+[0.399s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/local_setup.sh
+[0.399s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/local_setup.zsh
+[0.399s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/local_setup.dsv
+[0.399s] -- Installing: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/package.dsv
+[0.399s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/ament_index/resource_index/packages/mavros_extras
+[0.399s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/ament_index/resource_index/mavros__pluginlib__plugin/mavros_extras
+[0.399s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/ament_index/resource_index/rclcpp_components/mavros_extras
+[0.399s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.399s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/cmake/ament_cmake_export_libraries-extras.cmake
+[0.399s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.400s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig.cmake
+[0.400s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake
+[0.400s] -- Up-to-date: /home/grant/ros2_ws/install/mavros_extras/share/mavros_extras/package.xml
+[0.401s] Invoked command in '/home/grant/ros2_ws/build/mavros_extras' returned '0': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/grant/ros2_ws/build/mavros_extras

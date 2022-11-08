@@ -1,0 +1,53 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:srv/WaypointPush.idl
+// generated code does not contain a copyright notice
+#include "mavros_msgs/msg/dds_connext/Waypoint_.idl"
+
+#ifndef __mavros_msgs__srv__waypoint_push__idl__
+#define __mavros_msgs__srv__waypoint_push__idl__
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct WaypointPush_Request_ {
+unsigned short start_index_;
+sequence<mavros_msgs::msg::dds_::Waypoint_> waypoints_;
+
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct WaypointPush_Response_ {
+boolean success_;
+unsigned long wp_transfered_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__srv__waypoint_push__idl__

@@ -1,0 +1,37 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/ESCInfo.idl
+// generated code does not contain a copyright notice
+#include "mavros_msgs/msg/dds_connext/ESCInfoItem_.idl"
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__esc_info__idl__
+#define __mavros_msgs__msg__esc_info__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct ESCInfo_ {
+std_msgs::msg::dds_::Header_ header_;
+unsigned short counter_;
+octet count_;
+octet connection_type_;
+octet info_;
+sequence<mavros_msgs::msg::dds_::ESCInfoItem_> esc_info_;
+
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__esc_info__idl__

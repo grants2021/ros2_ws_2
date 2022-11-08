@@ -1,0 +1,247 @@
+UpdateCTestConfiguration  from :/home/grant/ros2_ws/build/mavros_extras/CTestConfiguration.ini
+Parse Config file:/home/grant/ros2_ws/build/mavros_extras/CTestConfiguration.ini
+   Site: grant-2f
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+Create new tag: 20221024-0050 - Experimental
+UpdateCTestConfiguration  from :/home/grant/ros2_ws/build/mavros_extras/CTestConfiguration.ini
+Parse Config file:/home/grant/ros2_ws/build/mavros_extras/CTestConfiguration.ini
+Test project /home/grant/ros2_ws/build/mavros_extras
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: cppcheck
+
+1: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/cppcheck.xunit.xml" "--package-name" "mavros_extras" "--output-file" "/home/grant/ros2_ws/build/mavros_extras/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/cppcheck.xunit.xml" "--include_dirs" "/home/grant/ros2_ws/src/mavros/mavros_extras/include"
+1: Test timeout computed to be: 300
+1: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_extras':
+1:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/cppcheck.xunit.xml --include_dirs /home/grant/ros2_ws/src/mavros/mavros_extras/include
+1: No problems found
+1: -- run_test.py: return code 0
+1: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/cppcheck.xunit.xml'
+1/5 Test #1: cppcheck .........................   Passed    0.33 sec
+test 2
+    Start 2: cpplint
+
+2: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/cpplint.xunit.xml" "--package-name" "mavros_extras" "--output-file" "/home/grant/ros2_ws/build/mavros_extras/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/cpplint.xunit.xml"
+2: Test timeout computed to be: 120
+2: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_extras':
+2:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/cpplint.xunit.xml
+2: /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/guided_target.cpp:21:  Found C system header after C++ system header. Should be: guided_target.h, c system, c++ system, other.  [build/include_order] [4]
+2: /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/mount_control.cpp:54:  Add #include <string> for string  [build/include_what_you_use] [4]
+2: Category 'build/include_order' errors found: 1
+2: Category 'build/include_what_you_use' errors found: 1
+2: Total errors found: 2
+2: Using '--root=/home/grant/ros2_ws/src/mavros/mavros_extras/include' argument
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/include/mavros_extras/servo_state_publisher.hpp
+2: 
+2: Using '--root=/home/grant/ros2_ws/src/mavros/mavros_extras/src' argument
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/lib/servo_state_publisher.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/3dr_radio.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/adsb.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/cam_imu_sync.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/camera.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/cellular_status.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/companion_process_status.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/debug_value.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/distance_sensor.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/esc_status.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/esc_telemetry.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/fake_gps.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/gps_input.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/gps_rtk.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/gps_status.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/guided_target.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/hil.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/landing_target.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/log_transfer.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/mag_calibration_status.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/mocap_pose_estimate.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/mount_control.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/obstacle_distance.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/odom.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/onboard_computer_status.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/play_tune.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/px4flow.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/rangefinder.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/terrain.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/trajectory.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/tunnel.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/vfr_hud.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/vibration.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/vision_pose_estimate.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/vision_speed_estimate.cpp
+2: 
+2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/wheel_odometry.cpp
+2: 
+2: -- run_test.py: return code 1
+2: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/cpplint.xunit.xml'
+2/5 Test #2: cpplint ..........................***Failed    2.12 sec
+test 3
+    Start 3: lint_cmake
+
+3: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/lint_cmake.xunit.xml" "--package-name" "mavros_extras" "--output-file" "/home/grant/ros2_ws/build/mavros_extras/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/lint_cmake.xunit.xml"
+3: Test timeout computed to be: 60
+3: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_extras':
+3:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/lint_cmake.xunit.xml
+3: 
+3: No problems found
+3: -- run_test.py: return code 0
+3: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/lint_cmake.xunit.xml'
+3/5 Test #3: lint_cmake .......................   Passed    0.29 sec
+test 4
+    Start 4: uncrustify
+
+4: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/uncrustify.xunit.xml" "--package-name" "mavros_extras" "--output-file" "/home/grant/ros2_ws/build/mavros_extras/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/uncrustify.xunit.xml"
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_extras':
+4:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/uncrustify.xunit.xml
+4: No code style divergence in file 'include/mavros_extras/servo_state_publisher.hpp'
+4: 
+4: No code style divergence in file 'src/lib/servo_state_publisher.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/3dr_radio.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/adsb.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/cam_imu_sync.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/camera.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/cellular_status.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/companion_process_status.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/debug_value.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/distance_sensor.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/esc_status.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/esc_telemetry.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/fake_gps.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/gps_input.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/gps_rtk.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/gps_status.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/guided_target.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/hil.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/landing_target.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/log_transfer.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/mag_calibration_status.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/mocap_pose_estimate.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/mount_control.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/obstacle_distance.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/odom.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/onboard_computer_status.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/play_tune.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/px4flow.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/rangefinder.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/terrain.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/trajectory.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/tunnel.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/vfr_hud.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/vibration.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/vision_pose_estimate.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/vision_speed_estimate.cpp'
+4: 
+4: No code style divergence in file 'src/plugins/wheel_odometry.cpp'
+4: 
+4: No problems found
+4: -- run_test.py: return code 0
+4: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/uncrustify.xunit.xml'
+4/5 Test #4: uncrustify .......................   Passed    0.40 sec
+test 5
+    Start 5: xmllint
+
+5: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/xmllint.xunit.xml" "--package-name" "mavros_extras" "--output-file" "/home/grant/ros2_ws/build/mavros_extras/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/xmllint.xunit.xml"
+5: Test timeout computed to be: 60
+5: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_extras':
+5:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/xmllint.xunit.xml
+5: File 'mavros_plugins.xml' is valid
+5: 
+5: File 'package.xml' is valid
+5: 
+5: No problems found
+5: -- run_test.py: return code 0
+5: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/xmllint.xunit.xml'
+5/5 Test #5: xmllint ..........................   Passed    0.28 sec
+
+80% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 5
+
+Label Time Summary:
+cppcheck      =   0.33 sec*proc (1 test)
+cpplint       =   2.12 sec*proc (1 test)
+lint_cmake    =   0.29 sec*proc (1 test)
+linter        =   3.42 sec*proc (5 tests)
+uncrustify    =   0.40 sec*proc (1 test)
+xmllint       =   0.28 sec*proc (1 test)
+
+Total Test time (real) =   3.42 sec
+
+The following tests FAILED:
+	[0;31m  2 - cpplint (Failed)[0;0m

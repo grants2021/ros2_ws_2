@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:32 (target_include_directories):
+  Cannot specify include directories for target "my_target" which is not
+  built by this project.
+
+

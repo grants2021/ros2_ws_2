@@ -1,0 +1,4 @@
+CMake Error at CMakeLists.txt:62 (xacro_add_files):
+  Unknown CMake command "xacro_add_files".
+
+

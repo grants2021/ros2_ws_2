@@ -1,0 +1,126 @@
+-- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros':
+ - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/grant/ros2_ws/build/mavros/test_results/mavros/cpplint.xunit.xml
+
+Using '--root=/home/grant/ros2_ws/src/mavros/mavros/include' argument
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/frame_tf.hpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/mavros_plugin_register_macro.hpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/mavros_router.hpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/mavros_uas.hpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/mission_protocol_base.hpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/plugin.hpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/plugin_filter.hpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/px4_custom_mode.hpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/setpoint_mixin.hpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/uas_executor.hpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/utils.hpp
+
+Using '--root=/home/grant/ros2_ws/src/mavros/mavros/src' argument
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/mavros_node.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/enum_sensor_orientation.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/enum_to_string.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/ftf_frame_conversions.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/ftf_quaternion_utils.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/mavros_router.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/mavros_uas.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/plugin.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/uas_ap.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/uas_data.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/uas_executor.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/uas_stringify.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/uas_tf.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/uas_timesync.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/actuator_control.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/altitude.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/command.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/dummy.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/ftp.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/geofence.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/global_position.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/home_position.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/imu.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/local_position.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/manual_control.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/mission_protocol_base.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/nav_controller_output.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/param.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/rallypoint.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/rc_io.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/setpoint_accel.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/setpoint_attitude.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/setpoint_position.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/setpoint_raw.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/setpoint_trajectory.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/setpoint_velocity.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/sys_status.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/sys_time.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/waypoint.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/wind_estimation.cpp
+
+Using '--root=/home/grant/ros2_ws/src/mavros/mavros/test' argument
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/test/test_frame_conversions.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/test/test_quaternion_utils.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/test/test_router.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/test/test_sensor_orientation.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros/test/test_uas.cpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/cpplint.xunit.xml'

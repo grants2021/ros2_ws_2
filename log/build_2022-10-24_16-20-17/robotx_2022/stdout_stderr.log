@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target ArduCopterIRLockPlugin[0m
+[ 50%] Built target ArduPilotPlugin
+[ 75%] [32mBuilding CXX object CMakeFiles/ArduCopterIRLockPlugin.dir/src/ArduCopterIRLockPlugin.cc.o[0m
+[100%] [32m[1mLinking CXX shared library libArduCopterIRLockPlugin.so[0m
+[100%] Built target ArduCopterIRLockPlugin
+-- Install configuration: ""
+-- Installing: /usr/lib/x86_64-linux-gnu/gazebo-11/plugins/libArduCopterIRLockPlugin.so
+CMake Error at cmake_install.cmake:55 (file):
+  file INSTALL cannot copy file
+  "/home/grant/ros2_ws/build/robotx_2022/libArduCopterIRLockPlugin.so" to
+  "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins/libArduCopterIRLockPlugin.so":
+  Permission denied.
+
+

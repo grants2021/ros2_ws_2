@@ -1,0 +1,18 @@
+[1.148s] Invoking command in '/home/grant/ros2_ws/src/ros2_robotx': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/grant/ros2_ws/install/ros2_robotx/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_robotx build --build-base /home/grant/ros2_ws/build/ros2_robotx/build install --prefix /home/grant/ros2_ws/install/ros2_robotx --record /home/grant/ros2_ws/build/ros2_robotx/install.log --single-version-externally-managed
+[1.248s] Traceback (most recent call last):
+[1.248s]   File "setup.py", line 1, in <module>
+[1.248s]     from setuptools import setup
+[1.248s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 17, in <module>
+[1.250s]     import setuptools.version
+[1.251s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[1.251s]     import pkg_resources
+[1.251s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 84, in <module>
+[1.251s]     __import__('pkg_resources.extern.packaging.requirements')
+[1.251s]   File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+[1.251s]   File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+[1.251s]   File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+[1.251s]   File "<frozen importlib._bootstrap_external>", line 844, in exec_module
+[1.251s]   File "<frozen importlib._bootstrap_external>", line 939, in get_code
+[1.252s]   File "<frozen importlib._bootstrap_external>", line 1037, in get_data
+[1.252s] KeyboardInterrupt
+[1.269s] Invoked command in '/home/grant/ros2_ws/src/ros2_robotx' returned '-2': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/grant/ros2_ws/install/ros2_robotx/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_robotx build --build-base /home/grant/ros2_ws/build/ros2_robotx/build install --prefix /home/grant/ros2_ws/install/ros2_robotx --record /home/grant/ros2_ws/build/ros2_robotx/install.log --single-version-externally-managed

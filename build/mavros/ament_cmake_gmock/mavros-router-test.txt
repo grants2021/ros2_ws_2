@@ -1,0 +1,87 @@
+-- run_test.py: invoking following command in '/home/grant/ros2_ws/build/mavros':
+ - /home/grant/ros2_ws/build/mavros/mavros-router-test --gtest_output=xml:/home/grant/ros2_ws/build/mavros/test_results/mavros/mavros-router-test.gtest.xml
+
+[==========] Running 8 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 8 tests from TestRouter
+[ RUN      ] TestRouter.set_parameter
+[INFO] [1666579008.549491253] [test_mavros_router]: Built-in SIMD instructions: SSE, SSE2
+[INFO] [1666579008.549568563] [test_mavros_router]: Built-in MAVLink package version: 2022.8.8
+[INFO] [1666579008.549582183] [test_mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta
+[INFO] [1666579008.549589223] [test_mavros_router]: MAVROS Router started
+[INFO] [1666579008.549682883] [test_mavros_router]: Requested to add endpoint: type: 0, url: tcp-l://:57601
+[INFO] [1666579008.549850794] [test_mavros_router]: Endpoint link[1000] created
+[INFO] [1666579008.551683039] [test_mavros_router]: link[1000] opened successfully
+[INFO] [1666579008.551734169] [test_mavros_router]: Requested to add endpoint: type: 0, url: udp://:45001@
+[INFO] [1666579008.551789309] [test_mavros_router]: Endpoint link[1001] created
+[INFO] [1666579008.552106400] [test_mavros_router]: link[1001] opened successfully
+[INFO] [1666579008.552177150] [test_mavros_router]: Requested to add endpoint: type: 1, url: tcp-l://:57602
+[INFO] [1666579008.552232240] [test_mavros_router]: Endpoint link[1002] created
+[INFO] [1666579008.552377601] [test_mavros_router]: link[1002] opened successfully
+[INFO] [1666579008.552405191] [test_mavros_router]: Requested to add endpoint: type: 1, url: udp://:45002@
+[INFO] [1666579008.552443401] [test_mavros_router]: Endpoint link[1003] created
+[INFO] [1666579008.552573871] [test_mavros_router]: link[1003] opened successfully
+[INFO] [1666579008.552634191] [test_mavros_router]: Requested to add endpoint: type: 2, url: /uas1
+[INFO] [1666579008.552710941] [test_mavros_router]: Endpoint link[1004] created
+[INFO] [1666579008.553689854] [test_mavros_router]: link[1004] opened successfully
+[INFO] [1666579008.553716974] [test_mavros_router]: Requested to add endpoint: type: 2, url: /uas2
+[INFO] [1666579008.553769374] [test_mavros_router]: Endpoint link[1005] created
+[INFO] [1666579008.554144935] [test_mavros_router]: link[1005] opened successfully
+[       OK ] TestRouter.set_parameter (15 ms)
+[ RUN      ] TestRouter.route_fcu_broadcast
+[INFO] [1666579008.559441240] [test_mavros_router]: Built-in SIMD instructions: SSE, SSE2
+[INFO] [1666579008.559470380] [test_mavros_router]: Built-in MAVLink package version: 2022.8.8
+[INFO] [1666579008.559478900] [test_mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta
+[INFO] [1666579008.559485480] [test_mavros_router]: MAVROS Router started
+[       OK ] TestRouter.route_fcu_broadcast (5 ms)
+[ RUN      ] TestRouter.route_uas_broadcast
+[INFO] [1666579008.565494706] [test_mavros_router]: Built-in SIMD instructions: SSE, SSE2
+[INFO] [1666579008.565523616] [test_mavros_router]: Built-in MAVLink package version: 2022.8.8
+[INFO] [1666579008.565532006] [test_mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta
+[INFO] [1666579008.565539816] [test_mavros_router]: MAVROS Router started
+[       OK ] TestRouter.route_uas_broadcast (6 ms)
+[ RUN      ] TestRouter.route_gcs_broadcast
+[INFO] [1666579008.635218734] [test_mavros_router]: Built-in SIMD instructions: SSE, SSE2
+[INFO] [1666579008.635281124] [test_mavros_router]: Built-in MAVLink package version: 2022.8.8
+[INFO] [1666579008.635289524] [test_mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta
+[INFO] [1666579008.635309114] [test_mavros_router]: MAVROS Router started
+[       OK ] TestRouter.route_gcs_broadcast (70 ms)
+[ RUN      ] TestRouter.route_targeted_one_system
+[INFO] [1666579008.642919676] [test_mavros_router]: Built-in SIMD instructions: SSE, SSE2
+[INFO] [1666579008.642950796] [test_mavros_router]: Built-in MAVLink package version: 2022.8.8
+[INFO] [1666579008.642959356] [test_mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta
+[INFO] [1666579008.642966006] [test_mavros_router]: MAVROS Router started
+[       OK ] TestRouter.route_targeted_one_system (8 ms)
+[ RUN      ] TestRouter.route_targeted_two_system
+[INFO] [1666579008.651338898] [test_mavros_router]: Built-in SIMD instructions: SSE, SSE2
+[INFO] [1666579008.651396358] [test_mavros_router]: Built-in MAVLink package version: 2022.8.8
+[INFO] [1666579008.651405568] [test_mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta
+[INFO] [1666579008.651412658] [test_mavros_router]: MAVROS Router started
+[       OK ] TestRouter.route_targeted_two_system (8 ms)
+[ RUN      ] TestRouter.route_targeted_system_component
+[INFO] [1666579008.660119702] [test_mavros_router]: Built-in SIMD instructions: SSE, SSE2
+[INFO] [1666579008.660151172] [test_mavros_router]: Built-in MAVLink package version: 2022.8.8
+[INFO] [1666579008.660161692] [test_mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta
+[INFO] [1666579008.660168272] [test_mavros_router]: MAVROS Router started
+[       OK ] TestRouter.route_targeted_system_component (9 ms)
+[ RUN      ] TestRouter.endpoint_recv_message
+[INFO] [1666579008.668785855] [test_mavros_router]: Built-in SIMD instructions: SSE, SSE2
+[INFO] [1666579008.668817105] [test_mavros_router]: Built-in MAVLink package version: 2022.8.8
+[INFO] [1666579008.668840355] [test_mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta
+[INFO] [1666579008.668849195] [test_mavros_router]: MAVROS Router started
+[INFO] [1666579008.668895626] [test_mavros_router]: Requested to add endpoint: type: 2, url: /uas1
+[INFO] [1666579008.668955126] [test_mavros_router]: Endpoint link[1000] created
+[INFO] [1666579008.669645928] [test_mavros_router]: link[1000] opened successfully
+[INFO] [1666579008.669734808] [test_mavros_router]: link[1000] detected remote address 1.191
+[WARN] [1666579008.669764798] [test_mavros_router]: Message dropped: msgid: 0, source: 1.191, target: 0.0
+[       OK ] TestRouter.endpoint_recv_message (9 ms)
+[----------] 8 tests from TestRouter (130 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test case ran. (131 ms total)
+[  PASSED  ] 8 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/mavros-router-test.gtest.xml'
+-- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/mavros-router-test.gtest.xml'

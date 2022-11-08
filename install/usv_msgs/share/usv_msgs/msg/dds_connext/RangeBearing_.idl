@@ -1,0 +1,33 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from usv_msgs:msg/RangeBearing.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __usv_msgs__msg__range_bearing__idl__
+#define __usv_msgs__msg__range_bearing__idl__
+
+
+module usv_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct RangeBearing_ {
+std_msgs::msg::dds_::Header_ header_;
+float range_;
+float bearing_;
+float elevation_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module usv_msgs
+
+
+#endif  // __usv_msgs__msg__range_bearing__idl__

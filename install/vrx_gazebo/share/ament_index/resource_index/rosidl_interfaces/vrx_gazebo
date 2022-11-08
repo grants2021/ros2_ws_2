@@ -1,0 +1,8 @@
+msg/Contact.idl
+msg/Contact.msg
+msg/Task.idl
+msg/Task.msg
+srv/ColorSequence.idl
+srv/ColorSequence.srv
+srv/ColorSequence_Request.msg
+srv/ColorSequence_Response.msg

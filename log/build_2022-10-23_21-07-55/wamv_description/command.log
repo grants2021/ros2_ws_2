@@ -1,0 +1,1 @@
+Invoking command in '/home/grant/ros2_ws/build/wamv_description': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/adept-vrx/wamv_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/wamv_description

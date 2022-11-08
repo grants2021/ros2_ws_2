@@ -1,0 +1,72 @@
+[0.030s] Invoking command in '/home/grant/ros2_ws/build/wave_gazebo_plugins': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/wave_gazebo_plugins
+[0.047s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.076s] -- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+[0.374s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.404s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.406s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.410s] -- Searching for dependencies of ignition-math6
+[0.412s] -- Looking for OGRE...
+[0.416s] -- Found Ogre Ghadamon (1.9.0)
+[0.417s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.426s] -- Looking for OGRE_Paging...
+[0.427s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.427s] -- Looking for OGRE_Terrain...
+[0.427s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.427s] -- Looking for OGRE_Property...
+[0.427s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.427s] -- Looking for OGRE_RTShaderSystem...
+[0.427s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.427s] -- Looking for OGRE_Volume...
+[0.428s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.428s] -- Looking for OGRE_Overlay...
+[0.428s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.607s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.607s] -- Looking for ignition-transport8 -- found version 8.3.0
+[0.607s] -- Searching for dependencies of ignition-transport8
+[0.622s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[0.628s] -- Checking for module 'uuid'
+[0.639s] --   Found uuid, version 2.34.0
+[0.664s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[0.665s] -- Searching for dependencies of ignition-msgs5
+[0.680s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.684s] -- Checking for module 'tinyxml2'
+[0.694s] --   Found tinyxml2, version 6.2.0
+[0.720s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[0.720s] -- Looking for ignition-common3 -- found version 3.15.1
+[0.720s] -- Searching for dependencies of ignition-common3
+[0.721s] -- Looking for dlfcn.h - found
+[0.721s] -- Looking for libdl - found
+[0.730s] -- Searching for <ignition-common3> component [graphics]
+[0.730s] -- Looking for ignition-common3-graphics -- found version 3.15.1
+[0.730s] -- Searching for dependencies of ignition-common3-graphics
+[0.731s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.732s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[0.732s] -- Searching for dependencies of ignition-fuel_tools4
+[0.759s] -- Checking for module 'jsoncpp'
+[0.772s] --   Found jsoncpp, version 1.7.4
+[0.800s] -- Checking for module 'libzip'
+[0.811s] --   Found libzip, version 1.5.1
+[0.836s] -- Looking for ignition-common3 -- found version 3.15.1
+[0.836s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.836s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[0.838s] CMake Error at CMakeLists.txt:32 (target_include_directories):
+[0.838s]   Cannot specify include directories for target "my_target" which is not
+[0.838s]   built by this project.
+[0.838s] 
+[0.838s] 
+[0.839s] CMake Error at CMakeLists.txt:175 (install):
+[0.839s]   install DIRECTORY given no DESTINATION!
+[0.839s] 
+[0.839s] 
+[0.839s] CMake Error at CMakeLists.txt:181 (install):
+[0.840s]   install DIRECTORY given no DESTINATION!
+[0.840s] 
+[0.840s] 
+[0.840s] CMake Error at CMakeLists.txt:186 (install):
+[0.840s]   install DIRECTORY given no DESTINATION!
+[0.840s] 
+[0.840s] 
+[0.840s] -- Configuring incomplete, errors occurred!
+[0.840s] See also "/home/grant/ros2_ws/build/wave_gazebo_plugins/CMakeFiles/CMakeOutput.log".
+[0.840s] See also "/home/grant/ros2_ws/build/wave_gazebo_plugins/CMakeFiles/CMakeError.log".
+[0.848s] Invoked command in '/home/grant/ros2_ws/build/wave_gazebo_plugins' returned '1': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/wave_gazebo_plugins

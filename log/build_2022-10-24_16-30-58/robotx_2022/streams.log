@@ -1,0 +1,298 @@
+[0.041s] Invoking command in '/home/grant/ros2_ws/build/robotx_2022': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/grant/ros2_ws/src/VRX_Foxy/robotX_2022 -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/robotx_2022
+[0.104s] -- The C compiler identification is GNU 9.4.0
+[0.160s] -- The CXX compiler identification is GNU 9.4.0
+[0.165s] -- Check for working C compiler: /usr/bin/cc
+[0.231s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.231s] -- Detecting C compiler ABI info
+[0.297s] -- Detecting C compiler ABI info - done
+[0.310s] -- Detecting C compile features
+[0.310s] -- Detecting C compile features - done
+[0.313s] -- Check for working CXX compiler: /usr/bin/c++
+[0.387s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.388s] -- Detecting CXX compiler ABI info
+[0.462s] -- Detecting CXX compiler ABI info - done
+[0.475s] -- Detecting CXX compile features
+[0.475s] -- Detecting CXX compile features - done
+[0.477s] -- Performing Test COMPILER_SUPPORTS_CXX14
+[0.553s] -- Performing Test COMPILER_SUPPORTS_CXX14 - Success
+[0.554s] -- Performing Test COMPILER_SUPPORTS_CXX0X
+[0.627s] -- Performing Test COMPILER_SUPPORTS_CXX0X - Success
+[0.629s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.657s] -- Found PythonInterp: /home/grant/miniconda3/bin/python3 (found suitable version "3.8.13", minimum required is "3") 
+[0.657s] -- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+[1.220s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.227s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.228s] -- Checking for module 'bullet>=2.82'
+[1.241s] --   Found bullet, version 2.88
+[1.353s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.400s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.443s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.470s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.499s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.515s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.522s] -- Searching for dependencies of ignition-math6
+[1.524s] -- Looking for OGRE...
+[1.524s] -- OGRE_PREFIX_WATCH changed.
+[1.528s] -- Checking for module 'OGRE'
+[1.540s] --   Found OGRE, version 1.9.0
+[1.569s] -- Found Ogre Ghadamon (1.9.0)
+[1.579s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.590s] -- Looking for OGRE_Paging...
+[1.598s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.598s] -- Looking for OGRE_Terrain...
+[1.607s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.607s] -- Looking for OGRE_Property...
+[1.616s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.616s] -- Looking for OGRE_RTShaderSystem...
+[1.624s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.625s] -- Looking for OGRE_Volume...
+[1.633s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.633s] -- Looking for OGRE_Overlay...
+[1.642s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.841s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.845s] -- Looking for ignition-transport8 -- found version 8.3.0
+[1.845s] -- Searching for dependencies of ignition-transport8
+[1.860s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.868s] -- Checking for module 'uuid'
+[1.880s] --   Found uuid, version 2.34.0
+[1.909s] -- Found UUID: TRUE  
+[1.912s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.912s] -- Searching for dependencies of ignition-msgs5
+[1.928s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.932s] -- Checking for module 'tinyxml2'
+[1.944s] --   Found tinyxml2, version 6.2.0
+[1.974s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.977s] -- Looking for ignition-common3 -- found version 3.15.1
+[1.978s] -- Searching for dependencies of ignition-common3
+[1.978s] -- Looking for dlfcn.h - found
+[1.979s] -- Looking for libdl - found
+[1.981s] -- Found DL: TRUE  
+[1.988s] -- Searching for <ignition-common3> component [graphics]
+[1.991s] -- Looking for ignition-common3-graphics -- found version 3.15.1
+[1.992s] -- Searching for dependencies of ignition-common3-graphics
+[1.992s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.996s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[1.997s] -- Searching for dependencies of ignition-fuel_tools4
+[2.054s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[2.063s] -- Checking for module 'jsoncpp'
+[2.077s] --   Found jsoncpp, version 1.7.4
+[2.105s] -- Found JSONCPP: TRUE  
+[2.111s] -- Checking for module 'libzip'
+[2.123s] --   Found libzip, version 1.5.1
+[2.151s] -- Found ZIP: TRUE  
+[2.151s] -- Looking for ignition-common3 -- found version 3.15.1
+[2.151s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.152s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[2.240s] -- Configuring done
+[2.264s] -- Generating done
+[2.266s] -- Build files have been written to: /home/grant/ros2_ws/build/robotx_2022
+[2.276s] Invoked command in '/home/grant/ros2_ws/build/robotx_2022' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/grant/ros2_ws/src/VRX_Foxy/robotX_2022 -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/robotx_2022
+[2.279s] Invoking command in '/home/grant/ros2_ws/build/robotx_2022': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/grant/ros2_ws/build/robotx_2022 -- -j8 -l8
+[2.310s] [35m[1mScanning dependencies of target ArduPilotPlugin[0m
+[2.311s] [35m[1mScanning dependencies of target ArduCopterIRLockPlugin[0m
+[2.406s] [ 25%] [32mBuilding CXX object CMakeFiles/ArduCopterIRLockPlugin.dir/src/ArduCopterIRLockPlugin.cc.o[0m
+[2.416s] [ 50%] [32mBuilding CXX object CMakeFiles/ArduPilotPlugin.dir/src/ArduPilotPlugin.cc.o[0m
+[9.257s] /home/grant/ros2_ws/src/VRX_Foxy/robotX_2022/src/ArduPilotPlugin.cc: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = Control; _Args = {const Control&}; _Tp = Control][m[K’:
+[9.257s] [01m[K/usr/include/c++/9/bits/alloc_traits.h:483:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = Control; _Args = {const Control&}; _Tp = Control; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<Control>][m[K’
+[9.258s] [01m[K/usr/include/c++/9/bits/stl_vector.h:1189:30:[m[K   required from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = Control; _Alloc = std::allocator<Control>; std::vector<_Tp, _Alloc>::value_type = Control][m[K’
+[9.258s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/robotX_2022/src/ArduPilotPlugin.cc:625:46:[m[K   required from here
+[9.258s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/robotX_2022/src/ArduPilotPlugin.cc:109:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr gazebo::common::PID::PID(const gazebo::common::PID&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[9.258s]   109 | class [01;35m[KControl[m[K
+[9.258s]       |       [01;35m[K^~~~~~~[m[K
+[9.258s] In file included from [01m[K/usr/include/gazebo-11/gazebo/physics/JointController.hh:25[m[K,
+[9.258s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:23[m[K,
+[9.258s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/WirelessTransmitter.hh:22[m[K,
+[9.258s]                  from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:27[m[K,
+[9.258s]                  from [01m[K/home/grant/ros2_ws/src/VRX_Foxy/robotX_2022/src/ArduPilotPlugin.cc:46[m[K:
+[9.258s] [01m[K/usr/include/gazebo-11/gazebo/common/PID.hh:157:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgazebo::common::PID[m[K’ has user-provided ‘[01m[Kgazebo::common::PID& gazebo::common::PID::operator=(const gazebo::common::PID&)[m[K’
+[9.258s]   157 |       public: PID &[01;36m[Koperator[m[K=(const PID &_p)
+[9.258s]       |                    [01;36m[K^~~~~~~~[m[K
+[9.259s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[9.259s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[9.259s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[9.259s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[9.259s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[9.259s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[9.259s]                  from [01m[K/usr/include/c++/9/functional:54[m[K,
+[9.259s]                  from [01m[K/home/grant/ros2_ws/src/VRX_Foxy/robotX_2022/src/ArduPilotPlugin.cc:17[m[K:
+[9.259s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[KControl::Control(const Control&)[m[K’ first required here
+[9.259s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[9.259s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.383s] [ 75%] [32m[1mLinking CXX shared library libArduPilotPlugin.so[0m
+[12.724s] [ 75%] Built target ArduPilotPlugin
+[15.141s] [100%] [32m[1mLinking CXX shared library libArduCopterIRLockPlugin.so[0m
+[15.490s] [100%] Built target ArduCopterIRLockPlugin
+[15.499s] Invoked command in '/home/grant/ros2_ws/build/robotx_2022' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/grant/ros2_ws/build/robotx_2022 -- -j8 -l8
+[15.529s] Invoking command in '/home/grant/ros2_ws/build/robotx_2022': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/grant/ros2_ws/build/robotx_2022
+[15.536s] -- Install configuration: ""
+[15.537s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config
+[15.537s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wave_motion_plot.perspective
+[15.537s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/front_stereo.perspective
+[15.537s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wamv_config
+[15.537s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wamv_config/component_compliance
+[15.537s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wamv_config/component_compliance/bounding_boxes.yaml
+[15.537s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wamv_config/component_compliance/numeric.yaml
+[15.537s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wamv_config/thruster_compliance
+[15.538s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wamv_config/thruster_compliance/bounding_boxes.yaml
+[15.538s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wamv_config/thruster_compliance/numeric.yaml
+[15.538s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wamv_config/example_component_config.yaml
+[15.538s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wamv_config/example_thruster_config.yaml
+[15.538s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/custom_rosconsole.conf
+[15.538s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/diffdrive.yaml
+[15.538s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/pinger.yaml
+[15.538s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds
+[15.539s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds/empty_regatta_wplatform.world
+[15.539s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds/flat_ocean_wplatform.world
+[15.539s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds/flat_ocean_imports.world
+[15.539s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds/flat_ocean.world
+[15.539s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds/flat_ocean_replenish_marker_platformed.world
+[15.539s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds/grass_2_arucos.world
+[15.539s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds/empty_regatta.world
+[15.539s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds/flat_ocean_import.world
+[15.539s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds/grass_replenish_marker.world
+[15.539s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models
+[15.539s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera
+[15.539s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera/model-1_2.sdf
+[15.539s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera/model-1_3.sdf
+[15.540s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera/model.sdf
+[15.540s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera/model.config
+[15.540s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera/model-1_4.sdf
+[15.540s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera/model-1_5.sdf
+[15.540s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/iris_with_standoffs
+[15.540s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/iris_with_standoffs/model.sdf
+[15.540s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/iris_with_standoffs/model.config
+[15.540s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/iris_with_standoffs/meshes
+[15.540s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/iris_with_standoffs/meshes/iris.dae
+[15.555s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/iris_with_standoffs/meshes/iris_prop_ccw.dae
+[15.555s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/iris_with_standoffs/meshes/iris_prop_cw.dae
+[15.555s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/landing_pad
+[15.555s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/landing_pad/materials
+[15.556s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/landing_pad/materials/textures
+[15.556s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/landing_pad/materials/textures/RobotX_Landing_Pad.png
+[15.556s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/landing_pad/model.config
+[15.556s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/landing_pad/meshes
+[15.556s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/landing_pad/meshes/Landing_Pad_Mesh.blend
+[15.557s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/landing_pad/meshes/RobotX_Landing_Pad.png
+[15.557s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/landing_pad/meshes/Landing_Pad_Mesh.dae
+[15.557s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta
+[15.557s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/model.sdf
+[15.557s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials
+[15.557s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/scripts
+[15.557s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/scripts/caster_vp.glsl
+[15.557s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/scripts/caster_fp.glsl
+[15.557s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/scripts/sydney_tree.material
+[15.558s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/textures
+[15.558s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/textures/Dock.png
+[15.574s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/textures/Wall_05.png
+[15.574s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/textures/RoofCorrugated.png
+[15.588s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/textures/Terrain.png
+[15.613s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/textures/MetalGalvanized.png
+[15.626s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/textures/TreeDiffuse.png
+[15.627s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/textures/Windows_Dark.png
+[15.627s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/textures/DockDark.png
+[15.643s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/model.config
+[15.643s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/meshes
+[15.643s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/meshes/sydney_regatta_collision.dae
+[15.644s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/meshes/sydney_regatta_shore.dae
+[15.645s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/meshes/sydney_regatta.dae
+[15.658s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/QR_wamv
+[15.658s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/QR_wamv/model.sdf
+[15.658s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/QR_wamv/model_og.sdf
+[15.658s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/QR_wamv/model.config
+[15.658s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves
+[15.659s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/model.xacro
+[15.659s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/model.sdf
+[15.659s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/model.xacro.erb
+[15.659s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials
+[15.659s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/programs
+[15.659s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/programs/GerstnerWaves.vert
+[15.659s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/programs/GerstnerWaves.frag
+[15.659s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/scripts
+[15.659s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/scripts/waves.material
+[15.659s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/textures
+[15.660s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/textures/wave_normals.dds
+[15.660s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/textures/clouds.jpg
+[15.660s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/textures/clouds_fr.jpg
+[15.660s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/textures/clouds_dn.jpg
+[15.660s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/textures/clouds_up.jpg
+[15.660s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/textures/clouds_rt.jpg
+[15.660s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/textures/clouds_bk.jpg
+[15.660s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/textures/clouds_lf.jpg
+[15.660s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/model.config
+[15.660s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/meshes
+[15.660s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/meshes/mesh.blend
+[15.660s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/meshes/mesh.dae
+[15.661s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/meshes/mesh_below.dae
+[15.661s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera_g
+[15.661s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera_g/model-1_2.sdf
+[15.661s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera_g/model-1_3.sdf
+[15.661s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera_g/model.sdf
+[15.661s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera_g/model.config
+[15.661s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera_g/model-1_4.sdf
+[15.662s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera_g/model-1_5.sdf
+[15.662s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/robotx_iris_with_ardupilot
+[15.662s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/robotx_iris_with_ardupilot/model.sdf
+[15.662s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/robotx_iris_with_ardupilot/model.config
+[15.662s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/WAM-V-Base
+[15.662s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/WAM-V-Base/mesh
+[15.662s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/WAM-V-Base/mesh/WamV.png
+[15.663s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/WAM-V-Base/mesh/WAM-V-Base.dae
+[15.663s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/WAM-V-Base/model.config
+[15.663s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/engine
+[15.664s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/engine/mesh
+[15.664s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/engine/mesh/engine.dae
+[15.664s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/engine/model.config
+[15.664s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/propeller
+[15.664s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/propeller/mesh
+[15.664s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/propeller/mesh/propeller.dae
+[15.664s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/propeller/model.config
+[15.664s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/gimbal_small_2d
+[15.664s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/gimbal_small_2d/model.sdf
+[15.664s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/gimbal_small_2d/model.config
+[15.664s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/gimbal_small_2d/meshes
+[15.665s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/gimbal_small_2d/meshes/base_main.dae
+[15.668s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/gimbal_small_2d/meshes/tilt.dae
+[15.670s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/gimbal_small_2d/meshes/base_arm.dae
+[15.673s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sun
+[15.673s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sun/model-1_2.sdf
+[15.673s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sun/model-1_3.sdf
+[15.673s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sun/model.sdf
+[15.673s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sun/model.config
+[15.673s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sun/model-1_4.sdf
+[15.674s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch
+[15.674s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/emptyworld_platformed_drone_wamv_qr.launch
+[15.674s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/wamv_basic_commands.launch
+[15.674s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/grass_replenish_platform.launch
+[15.674s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/only_platform_empty.launch
+[15.674s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/visualworld_platformed_drone_wamv_qr.launch
+[15.674s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/only_wamv_qr_empty.launch
+[15.674s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/platformed_drone_wamv_qr_empty.launch
+[15.675s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/iris_double_world.launch
+[15.675s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/delayed_wamv_basic_commands.launch
+[15.675s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/empty_world_wamv.launch
+[15.675s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/wamv_qr_empty.launch
+[15.675s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/include/robotx_2022
+[15.675s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/include/robotx_2022/GimbalSmall2dPlugin.hh
+[15.675s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/include/robotx_2022/ArduCopterIRLockPlugin.hh
+[15.675s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/include/robotx_2022/SelectionBuffer.hh
+[15.676s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/include/robotx_2022/ArduPilotPlugin.hh
+[15.676s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/lib/robotx_2022/boat_twist.py
+[15.676s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/lib/robotx_2022/wamv_dk_functions.py
+[15.676s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/lib/robotx_2022/spare_node.py
+[15.676s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/ament_index/resource_index/package_run_dependencies/robotx_2022
+[15.676s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/ament_index/resource_index/parent_prefix_path/robotx_2022
+[15.676s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/environment/ament_prefix_path.sh
+[15.676s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/environment/ament_prefix_path.dsv
+[15.676s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/environment/path.sh
+[15.676s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/environment/path.dsv
+[15.677s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/local_setup.bash
+[15.677s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/local_setup.sh
+[15.677s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/local_setup.zsh
+[15.677s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/local_setup.dsv
+[15.677s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/package.dsv
+[15.677s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/ament_index/resource_index/packages/robotx_2022
+[15.677s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.677s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/cmake/robotx_2022Config.cmake
+[15.677s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/cmake/robotx_2022Config-version.cmake
+[15.677s] -- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/package.xml
+[15.679s] Invoked command in '/home/grant/ros2_ws/build/robotx_2022' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/grant/ros2_ws/build/robotx_2022

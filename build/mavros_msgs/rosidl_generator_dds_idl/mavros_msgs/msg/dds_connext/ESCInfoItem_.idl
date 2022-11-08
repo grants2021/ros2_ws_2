@@ -1,0 +1,33 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/ESCInfoItem.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__esc_info_item__idl__
+#define __mavros_msgs__msg__esc_info_item__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct ESCInfoItem_ {
+std_msgs::msg::dds_::Header_ header_;
+unsigned short failure_flags_;
+unsigned long error_count_;
+long temperature_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__esc_info_item__idl__

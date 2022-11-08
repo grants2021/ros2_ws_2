@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="0" disabled="0" errors="0" timestamp="2022-10-23T22:36:48" time="0.035" name="AllTests">
+  <testsuite name="TestUAS" tests="2" failures="0" disabled="0" errors="0" time="0.035">
+    <testcase name="is_plugin_allowed" status="run" time="0.027" classname="mavros.TestUAS" />
+    <testcase name="add_plugin__route_message__filter" status="run" time="0.008" classname="mavros.TestUAS" />
+  </testsuite>
+</testsuites>

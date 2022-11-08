@@ -1,0 +1,49 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:srv/LogRequestEnd.idl
+// generated code does not contain a copyright notice
+
+#ifndef __mavros_msgs__srv__log_request_end__idl__
+#define __mavros_msgs__srv__log_request_end__idl__
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct LogRequestEnd_Request_ {
+octet structure_needs_at_least_one_member_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct LogRequestEnd_Response_ {
+boolean success_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__srv__log_request_end__idl__

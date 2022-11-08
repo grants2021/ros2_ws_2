@@ -1,0 +1,631 @@
+[0.166s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.166s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5e64a21190>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5e64a21190>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5e64a216d0>)
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.191s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/grant/ros2_ws'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/robotX_2022) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/robotX_2022) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/robotX_2022) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/robotX_2022) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/robotX_2022) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/robotX_2022) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/robotX_2022) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/robotX_2022) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/robotX_2022) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VRX_Foxy/robotX_2022' with type 'ros.ament_cmake' and name 'robotx_2022'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_gazebo_plugins) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_gazebo_plugins) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_gazebo_plugins) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_gazebo_plugins) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_gazebo_plugins) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_gazebo_plugins) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_gazebo_plugins) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_gazebo_plugins) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VRX_Foxy/usv_gazebo_plugins' with type 'ros.ament_cmake' and name 'usv_gazebo_plugins'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_msgs) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_msgs) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_msgs) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_msgs) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_msgs) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_msgs) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_msgs) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_msgs) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VRX_Foxy/usv_msgs' with type 'ros.ament_cmake' and name 'usv_msgs'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/vrx_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/vrx_gazebo) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/vrx_gazebo) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/vrx_gazebo) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/vrx_gazebo) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/vrx_gazebo) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/vrx_gazebo) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/vrx_gazebo) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/vrx_gazebo) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VRX_Foxy/vrx_gazebo' with type 'ros.ament_cmake' and name 'vrx_gazebo'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_description) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_description) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_description) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_description) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_description) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_description) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_description) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_description) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_description) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VRX_Foxy/wamv_description' with type 'ros.ament_cmake' and name 'wamv_description'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_gazebo) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_gazebo) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_gazebo) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_gazebo) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_gazebo) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_gazebo) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_gazebo) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_gazebo) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VRX_Foxy/wamv_gazebo' with type 'ros.ament_cmake' and name 'wamv_gazebo'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VRX_Foxy/wave_gazebo' with type 'ros.ament_cmake' and name 'wave_gazebo'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo_plugins) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo_plugins) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo_plugins) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo_plugins) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo_plugins) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo_plugins) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo_plugins) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo_plugins) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VRX_Foxy/wave_gazebo_plugins' with type 'ros.ament_cmake' and name 'wave_gazebo_plugins'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavlink' with type 'ros.cmake' and name 'mavlink'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ros'
+[0.238s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/libmavconn' with type 'ros.ament_cmake' and name 'libmavconn'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros' with type 'ros.ament_cmake' and name 'mavros'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ros'
+[0.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros_extras' with type 'ros.ament_cmake' and name 'mavros_extras'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ignore'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ignore_ament_install'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['colcon_pkg']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'colcon_pkg'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['colcon_meta']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'colcon_meta'
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['ros']
+[0.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ros'
+[0.249s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros_msgs' with type 'ros.ament_cmake' and name 'mavros_msgs'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) ignored
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.273s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.276s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/grant/ros2_ws/install
+[0.283s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 311 installed packages in /home/grant/ros2_foxy/ros2-linux
+[0.287s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/foxy
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'cmake_target' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'cmake_clean_cache' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'cmake_clean_first' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'cmake_force_configure' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'ament_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'catkin_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.394s] DEBUG:colcon.colcon_core.verb:Building package 'mavlink' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws/build/mavlink', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws/install/mavlink', 'merge_install': False, 'path': '/home/grant/ros2_ws/src/mavlink', 'symlink_install': False, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'mavros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws/build/mavros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws/install/mavros_msgs', 'merge_install': False, 'path': '/home/grant/ros2_ws/src/mavros/mavros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'usv_msgs' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'usv_msgs' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'usv_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'usv_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'usv_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'usv_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'usv_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'usv_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'usv_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.397s] DEBUG:colcon.colcon_core.verb:Building package 'usv_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws/build/usv_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws/install/usv_msgs', 'merge_install': False, 'path': '/home/grant/ros2_ws/src/VRX_Foxy/usv_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'wamv_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.399s] DEBUG:colcon.colcon_core.verb:Building package 'wamv_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws/build/wamv_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws/install/wamv_description', 'merge_install': False, 'path': '/home/grant/ros2_ws/src/VRX_Foxy/wamv_description', 'symlink_install': False, 'test_result_base': None}
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.400s] DEBUG:colcon.colcon_core.verb:Building package 'wave_gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws/build/wave_gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws/install/wave_gazebo_plugins', 'merge_install': False, 'path': '/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_target' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_clean_cache' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_clean_first' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_force_configure' from command line to 'False'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'ament_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'catkin_cmake_args' from command line to 'None'
+[0.401s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.401s] DEBUG:colcon.colcon_core.verb:Building package 'libmavconn' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws/build/libmavconn', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws/install/libmavconn', 'merge_install': False, 'path': '/home/grant/ros2_ws/src/mavros/libmavconn', 'symlink_install': False, 'test_result_base': None}
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.403s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.403s] DEBUG:colcon.colcon_core.verb:Building package 'usv_gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws/build/usv_gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws/install/usv_gazebo_plugins', 'merge_install': False, 'path': '/home/grant/ros2_ws/src/VRX_Foxy/usv_gazebo_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'wave_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.404s] DEBUG:colcon.colcon_core.verb:Building package 'wave_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws/build/wave_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws/install/wave_gazebo', 'merge_install': False, 'path': '/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_target' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_clean_first' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_force_configure' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'ament_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.406s] DEBUG:colcon.colcon_core.verb:Building package 'mavros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws/build/mavros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws/install/mavros', 'merge_install': False, 'path': '/home/grant/ros2_ws/src/mavros/mavros', 'symlink_install': False, 'test_result_base': None}
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'wamv_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'wamv_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'wamv_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'wamv_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'wamv_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'wamv_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'wamv_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'wamv_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'wamv_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.407s] DEBUG:colcon.colcon_core.verb:Building package 'wamv_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws/build/wamv_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws/install/wamv_gazebo', 'merge_install': False, 'path': '/home/grant/ros2_ws/src/VRX_Foxy/wamv_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_force_configure' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'mavros_extras' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws/build/mavros_extras', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws/install/mavros_extras', 'merge_install': False, 'path': '/home/grant/ros2_ws/src/mavros/mavros_extras', 'symlink_install': False, 'test_result_base': None}
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'vrx_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'vrx_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'vrx_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'vrx_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'vrx_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'vrx_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'vrx_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'vrx_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'vrx_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.410s] DEBUG:colcon.colcon_core.verb:Building package 'vrx_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws/build/vrx_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws/install/vrx_gazebo', 'merge_install': False, 'path': '/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robotx_2022' build argument 'cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robotx_2022' build argument 'cmake_target' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robotx_2022' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robotx_2022' build argument 'cmake_clean_cache' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robotx_2022' build argument 'cmake_clean_first' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robotx_2022' build argument 'cmake_force_configure' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robotx_2022' build argument 'ament_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robotx_2022' build argument 'catkin_cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'robotx_2022' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.411s] DEBUG:colcon.colcon_core.verb:Building package 'robotx_2022' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws/build/robotx_2022', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws/install/robotx_2022', 'merge_install': False, 'path': '/home/grant/ros2_ws/src/VRX_Foxy/robotX_2022', 'symlink_install': False, 'test_result_base': None}
+[0.412s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.420s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.420s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins' with build type 'ament_cmake'
+[0.420s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins'
+[0.425s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.426s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.437s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/grant/vrx_ws/devel'
+[0.440s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/grant/ros2_ws/src/VRX_Foxy/usv_msgs' with build type 'ament_cmake'
+[0.440s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/grant/ros2_ws/src/VRX_Foxy/usv_msgs'
+[0.442s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.442s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.455s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/grant/vrx_ws/devel'
+[0.458s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/grant/ros2_ws/src/mavlink' with build type 'cmake'
+[0.458s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/grant/ros2_ws/src/mavlink'
+[0.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.480s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/grant/vrx_ws/devel'
+[0.482s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/grant/ros2_ws/src/VRX_Foxy/wamv_description' with build type 'ament_cmake'
+[0.482s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/grant/ros2_ws/src/VRX_Foxy/wamv_description'
+[0.484s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.484s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.498s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/grant/vrx_ws/devel'
+[0.501s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/grant/ros2_ws/src/mavros/mavros_msgs' with build type 'ament_cmake'
+[0.502s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/grant/ros2_ws/src/mavros/mavros_msgs'
+[0.503s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.503s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.517s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/grant/vrx_ws/devel'
+[0.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/wave_gazebo_plugins': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/wave_gazebo_plugins -- -j8 -l8
+[0.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/usv_msgs': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/usv_msgs -- -j8 -l8
+[0.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/mavlink': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/mavlink -- -j8 -l8
+[0.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/wamv_description': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/wamv_description -- -j8 -l8
+[0.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/mavros_msgs': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/mavros_msgs -- -j8 -l8
+[0.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/wamv_description' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/wamv_description -- -j8 -l8
+[0.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/wamv_description': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/wamv_description
+[0.698s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wamv_description)
+[0.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/wamv_description' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/wamv_description
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wamv_description' for CMake module files
+[0.706s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wamv_description' for CMake config files
+[0.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('wamv_description', 'cmake_prefix_path')
+[0.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/wamv_description/share/wamv_description/hook/cmake_prefix_path.ps1'
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/wamv_description/share/wamv_description/hook/cmake_prefix_path.dsv'
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/wamv_description/share/wamv_description/hook/cmake_prefix_path.sh'
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wamv_description/bin'
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wamv_description/lib/pkgconfig/wamv_description.pc'
+[0.711s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wamv_description/lib/python3.8/site-packages'
+[0.711s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wamv_description/bin'
+[0.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wamv_description/share/wamv_description/package.ps1'
+[0.714s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/grant/ros2_ws/install/wamv_description/share/wamv_description/package.dsv'
+[0.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wamv_description/share/wamv_description/package.sh'
+[0.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wamv_description/share/wamv_description/package.bash'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wamv_description/share/wamv_description/package.zsh'
+[0.718s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/grant/ros2_ws/install/wamv_description/share/colcon-core/packages/wamv_description)
+[0.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wamv_description)
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wamv_description' for CMake module files
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wamv_description' for CMake config files
+[0.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('wamv_description', 'cmake_prefix_path')
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/wamv_description/share/wamv_description/hook/cmake_prefix_path.ps1'
+[0.748s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/wamv_description/share/wamv_description/hook/cmake_prefix_path.dsv'
+[0.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/wamv_description/share/wamv_description/hook/cmake_prefix_path.sh'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wamv_description/bin'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wamv_description/lib/pkgconfig/wamv_description.pc'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wamv_description/lib/python3.8/site-packages'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wamv_description/bin'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wamv_description/share/wamv_description/package.ps1'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/grant/ros2_ws/install/wamv_description/share/wamv_description/package.dsv'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wamv_description/share/wamv_description/package.sh'
+[0.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wamv_description/share/wamv_description/package.bash'
+[0.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wamv_description/share/wamv_description/package.zsh'
+[0.762s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/grant/ros2_ws/install/wamv_description/share/colcon-core/packages/wamv_description)
+[0.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/wave_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/wave_gazebo_plugins -- -j8 -l8
+[0.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/mavlink' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/mavlink -- -j8 -l8
+[0.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/wave_gazebo_plugins': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/wave_gazebo_plugins
+[0.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/mavlink': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/mavlink
+[0.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wave_gazebo_plugins)
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo_plugins' for CMake module files
+[0.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/wave_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/wave_gazebo_plugins
+[0.874s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo_plugins' for CMake config files
+[0.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('wave_gazebo_plugins', 'cmake_prefix_path')
+[0.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/cmake_prefix_path.ps1'
+[0.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/cmake_prefix_path.dsv'
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/cmake_prefix_path.sh'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo_plugins/lib'
+[0.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('wave_gazebo_plugins', 'ld_library_path_lib')
+[0.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/ld_library_path_lib.ps1'
+[0.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/ld_library_path_lib.dsv'
+[0.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/ld_library_path_lib.sh'
+[0.963s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo_plugins/bin'
+[0.963s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo_plugins/lib/pkgconfig/wave_gazebo_plugins.pc'
+[0.963s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo_plugins/lib/python3.8/site-packages'
+[0.963s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo_plugins/bin'
+[0.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.ps1'
+[0.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.dsv'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.sh'
+[0.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.bash'
+[0.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.zsh'
+[0.993s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/grant/ros2_ws/install/wave_gazebo_plugins/share/colcon-core/packages/wave_gazebo_plugins)
+[1.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/usv_msgs' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/usv_msgs -- -j8 -l8
+[1.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/mavlink' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/mavlink
+[1.042s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wave_gazebo_plugins)
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo_plugins' for CMake module files
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo_plugins' for CMake config files
+[1.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('wave_gazebo_plugins', 'cmake_prefix_path')
+[1.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/cmake_prefix_path.ps1'
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/cmake_prefix_path.dsv'
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/cmake_prefix_path.sh'
+[1.048s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo_plugins/lib'
+[1.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('wave_gazebo_plugins', 'ld_library_path_lib')
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/ld_library_path_lib.ps1'
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/ld_library_path_lib.dsv'
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/hook/ld_library_path_lib.sh'
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo_plugins/bin'
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo_plugins/lib/pkgconfig/wave_gazebo_plugins.pc'
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo_plugins/lib/python3.8/site-packages'
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo_plugins/bin'
+[1.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.ps1'
+[1.054s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.dsv'
+[1.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.sh'
+[1.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.bash'
+[1.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.zsh'
+[1.056s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/grant/ros2_ws/install/wave_gazebo_plugins/share/colcon-core/packages/wave_gazebo_plugins)
+[1.058s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo' with build type 'ament_cmake'
+[1.058s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo'
+[1.059s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.060s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.074s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/grant/vrx_ws/devel'
+[1.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavlink', 'pkg_config_path')
+[1.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/pkg_config_path.ps1'
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/pkg_config_path.dsv'
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/pkg_config_path.sh'
+[1.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavlink', 'pkg_config_path_multiarch')
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/pkg_config_path_multiarch.ps1'
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/pkg_config_path_multiarch.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/pkg_config_path_multiarch.sh'
+[1.088s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavlink)
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavlink' for CMake module files
+[1.093s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavlink' for CMake config files
+[1.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavlink', 'cmake_prefix_path')
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/cmake_prefix_path.ps1'
+[1.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/cmake_prefix_path.dsv'
+[1.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/cmake_prefix_path.sh'
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavlink/lib'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavlink/bin'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavlink/lib/pkgconfig/mavlink.pc'
+[1.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavlink', 'pkg_config')
+[1.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/pkg_config.ps1'
+[1.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/pkg_config.dsv'
+[1.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/mavlink/share/mavlink/hook/pkg_config.sh'
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavlink/lib/python3.8/site-packages'
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/mavlink/bin'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavlink/share/mavlink/package.ps1'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/grant/ros2_ws/install/mavlink/share/mavlink/package.dsv'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavlink/share/mavlink/package.sh'
+[1.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavlink/share/mavlink/package.bash'
+[1.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/mavlink/share/mavlink/package.zsh'
+[1.111s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/grant/ros2_ws/install/mavlink/share/colcon-core/packages/mavlink)
+[1.112s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/grant/ros2_ws/src/mavros/libmavconn' with build type 'ament_cmake'
+[1.112s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/grant/ros2_ws/src/mavros/libmavconn'
+[1.115s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.115s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.131s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/grant/vrx_ws/devel'
+[1.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/usv_msgs': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/usv_msgs
+[1.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/wave_gazebo': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/grant/ros2_ws/build/wave_gazebo -- -j8 -l8
+[1.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/libmavconn': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavlink:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/libmavconn -- -j8 -l8
+[1.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usv_msgs)
+[1.226s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/usv_msgs' for CMake module files
+[1.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/usv_msgs' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/usv_msgs
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/usv_msgs' for CMake config files
+[1.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_msgs', 'cmake_prefix_path')
+[1.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/hook/cmake_prefix_path.ps1'
+[1.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/hook/cmake_prefix_path.dsv'
+[1.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/hook/cmake_prefix_path.sh'
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/usv_msgs/lib'
+[1.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_msgs', 'ld_library_path_lib')
+[1.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/hook/ld_library_path_lib.ps1'
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/hook/ld_library_path_lib.dsv'
+[1.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/hook/ld_library_path_lib.sh'
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/usv_msgs/bin'
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/usv_msgs/lib/pkgconfig/usv_msgs.pc'
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages'
+[1.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_msgs', 'pythonpath')
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/hook/pythonpath.ps1'
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/hook/pythonpath.dsv'
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/hook/pythonpath.sh'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/usv_msgs/bin'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/package.ps1'
+[1.247s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/package.dsv'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/package.sh'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/package.bash'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/package.zsh'
+[1.249s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/grant/ros2_ws/install/usv_msgs/share/colcon-core/packages/usv_msgs)
+[1.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/wave_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/grant/ros2_ws/build/wave_gazebo -- -j8 -l8
+[1.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/wave_gazebo': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/grant/ros2_ws/build/wave_gazebo
+[1.293s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wave_gazebo)
+[1.296s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo' for CMake module files
+[1.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/wave_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/grant/ros2_ws/build/wave_gazebo
+[1.297s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo' for CMake config files
+[1.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('wave_gazebo', 'cmake_prefix_path')
+[1.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/wave_gazebo/share/wave_gazebo/hook/cmake_prefix_path.ps1'
+[1.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/wave_gazebo/share/wave_gazebo/hook/cmake_prefix_path.dsv'
+[1.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/wave_gazebo/share/wave_gazebo/hook/cmake_prefix_path.sh'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo/bin'
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo/lib/pkgconfig/wave_gazebo.pc'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo/lib/python3.8/site-packages'
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/wave_gazebo/bin'
+[1.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wave_gazebo/share/wave_gazebo/package.ps1'
+[1.303s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/grant/ros2_ws/install/wave_gazebo/share/wave_gazebo/package.dsv'
+[1.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wave_gazebo/share/wave_gazebo/package.sh'
+[1.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wave_gazebo/share/wave_gazebo/package.bash'
+[1.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/wave_gazebo/share/wave_gazebo/package.zsh'
+[1.305s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/grant/ros2_ws/install/wave_gazebo/share/colcon-core/packages/wave_gazebo)
+[1.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavlink:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/libmavconn -- -j8 -l8
+[1.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usv_msgs)
+[1.318s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/usv_msgs' for CMake module files
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/usv_msgs' for CMake config files
+[1.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_msgs', 'cmake_prefix_path')
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/hook/cmake_prefix_path.ps1'
+[1.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/hook/cmake_prefix_path.dsv'
+[1.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/hook/cmake_prefix_path.sh'
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/usv_msgs/lib'
+[1.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_msgs', 'ld_library_path_lib')
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/hook/ld_library_path_lib.ps1'
+[1.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/hook/ld_library_path_lib.dsv'
+[1.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/hook/ld_library_path_lib.sh'
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/usv_msgs/bin'
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/usv_msgs/lib/pkgconfig/usv_msgs.pc'
+[1.326s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages'
+[1.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_msgs', 'pythonpath')
+[1.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/hook/pythonpath.ps1'
+[1.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/hook/pythonpath.dsv'
+[1.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/hook/pythonpath.sh'
+[1.330s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws/install/usv_msgs/bin'
+[1.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/package.ps1'
+[1.332s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/package.dsv'
+[1.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/package.sh'
+[1.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[1.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[1.349s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[1.349s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.350s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.350s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.361s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.361s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.361s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.390s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.392s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/grant/ros2_ws/install/local_setup.ps1'
+[1.393s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/grant/ros2_ws/install/_local_setup_util_ps1.py'
+[1.395s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/grant/ros2_ws/install/setup.ps1'
+[1.397s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/grant/ros2_ws/install/local_setup.sh'
+[1.398s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/grant/ros2_ws/install/_local_setup_util_sh.py'
+[1.398s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/grant/ros2_ws/install/setup.sh'
+[1.400s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/grant/ros2_ws/install/local_setup.bash'
+[1.401s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/grant/ros2_ws/install/setup.bash'
+[1.403s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/grant/ros2_ws/install/local_setup.zsh'
+[1.403s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/grant/ros2_ws/install/setup.zsh'

@@ -1,0 +1,58 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:srv/EndpointAdd.idl
+// generated code does not contain a copyright notice
+
+#ifndef __mavros_msgs__srv__endpoint_add__idl__
+#define __mavros_msgs__srv__endpoint_add__idl__
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+module EndpointAdd_Request_Constants {
+const octet TYPE_FCU_ = 0;
+const octet TYPE_GCS_ = 1;
+const octet TYPE_UAS_ = 2;
+
+};
+
+struct EndpointAdd_Request_ {
+string url_;
+octet type_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct EndpointAdd_Response_ {
+boolean successful_;
+string reason_;
+unsigned long id_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__srv__endpoint_add__idl__

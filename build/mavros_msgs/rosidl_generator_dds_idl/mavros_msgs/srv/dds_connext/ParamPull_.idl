@@ -1,0 +1,50 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:srv/ParamPull.idl
+// generated code does not contain a copyright notice
+
+#ifndef __mavros_msgs__srv__param_pull__idl__
+#define __mavros_msgs__srv__param_pull__idl__
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct ParamPull_Request_ {
+boolean force_pull_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct ParamPull_Response_ {
+boolean success_;
+unsigned long param_received_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__srv__param_pull__idl__

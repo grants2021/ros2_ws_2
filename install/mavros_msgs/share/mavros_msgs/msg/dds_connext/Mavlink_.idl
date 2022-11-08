@@ -1,0 +1,52 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/Mavlink.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__mavlink__idl__
+#define __mavros_msgs__msg__mavlink__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module Mavlink_Constants {
+const octet FRAMING_OK_ = 1;
+const octet FRAMING_BAD_CRC_ = 2;
+const octet FRAMING_BAD_SIGNATURE_ = 3;
+const octet MAVLINK_V10_ = 254;
+const octet MAVLINK_V20_ = 253;
+
+};
+
+struct Mavlink_ {
+std_msgs::msg::dds_::Header_ header_;
+octet framing_status_;
+octet magic_;
+octet len_;
+octet incompat_flags_;
+octet compat_flags_;
+octet seq_;
+octet sysid_;
+octet compid_;
+unsigned long msgid_;
+unsigned short checksum_;
+sequence<unsigned long long, 33> payload64_;
+
+sequence<octet, 13> signature_;
+
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__mavlink__idl__

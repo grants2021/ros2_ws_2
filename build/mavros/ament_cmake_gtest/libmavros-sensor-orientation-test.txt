@@ -1,0 +1,50 @@
+-- run_test.py: invoking following command in '/home/grant/ros2_ws/build/mavros':
+ - /home/grant/ros2_ws/build/mavros/libmavros-sensor-orientation-test --gtest_output=xml:/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-sensor-orientation-test.gtest.xml
+
+[==========] Running 16 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 16 tests from UTILS
+[ RUN      ] UTILS.sensor_orientation_matching__none
+[       OK ] UTILS.sensor_orientation_matching__none (0 ms)
+[ RUN      ] UTILS.sensor_orientation_matching__roll_180
+[       OK ] UTILS.sensor_orientation_matching__roll_180 (0 ms)
+[ RUN      ] UTILS.sensor_orientation_matching__roll_180_yaw_90
+[       OK ] UTILS.sensor_orientation_matching__roll_180_yaw_90 (0 ms)
+[ RUN      ] UTILS.sensor_orientation_matching__custom
+[       OK ] UTILS.sensor_orientation_matching__custom (0 ms)
+[ RUN      ] UTILS.to_string__none
+[       OK ] UTILS.to_string__none (0 ms)
+[ RUN      ] UTILS.to_string__roll_180
+[       OK ] UTILS.to_string__roll_180 (0 ms)
+[ RUN      ] UTILS.to_string__roll_180_yaw_90
+[       OK ] UTILS.to_string__roll_180_yaw_90 (0 ms)
+[ RUN      ] UTILS.to_string__custom
+[       OK ] UTILS.to_string__custom (0 ms)
+[ RUN      ] UTILS.sensor_orientation_from_str__none
+[       OK ] UTILS.sensor_orientation_from_str__none (0 ms)
+[ RUN      ] UTILS.sensor_orientation_from_str__unknown
+[ERROR] [1666579007.928585522] [uas.enum]: SENSOR: wrong orientation str: completely wrong identifier
+[       OK ] UTILS.sensor_orientation_from_str__unknown (0 ms)
+[ RUN      ] UTILS.sensor_orientation_from_str__number
+[       OK ] UTILS.sensor_orientation_from_str__number (0 ms)
+[ RUN      ] UTILS.sensor_orientation_from_str__wrong_number
+[ERROR] [1666579007.928633992] [uas.enum]: SENSOR: orientation index out of bound: 123
+[       OK ] UTILS.sensor_orientation_from_str__wrong_number (0 ms)
+[ RUN      ] UTILS.sensor_orientation_from_str__roll_180
+[       OK ] UTILS.sensor_orientation_from_str__roll_180 (0 ms)
+[ RUN      ] UTILS.sensor_orientation_from_str__roll_180_yaw_90
+[       OK ] UTILS.sensor_orientation_from_str__roll_180_yaw_90 (0 ms)
+[ RUN      ] UTILS.sensor_orientation_from_str__last_element_roll_90_yaw_270
+[       OK ] UTILS.sensor_orientation_from_str__last_element_roll_90_yaw_270 (0 ms)
+[ RUN      ] UTILS.sensor_orientation_from_str__custom
+[       OK ] UTILS.sensor_orientation_from_str__custom (0 ms)
+[----------] 16 tests from UTILS (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 16 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 16 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-sensor-orientation-test.gtest.xml'
+-- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-sensor-orientation-test.gtest.xml'

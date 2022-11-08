@@ -1,0 +1,74 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:srv/SetMavFrame.idl
+// generated code does not contain a copyright notice
+
+#ifndef __mavros_msgs__srv__set_mav_frame__idl__
+#define __mavros_msgs__srv__set_mav_frame__idl__
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+module SetMavFrame_Request_Constants {
+const octet FRAME_GLOBAL_ = 0;
+const octet FRAME_LOCAL_NED_ = 1;
+const octet FRAME_MISSION_ = 2;
+const octet FRAME_GLOBAL_RELATIVE_ALT_ = 3;
+const octet FRAME_LOCAL_ENU_ = 4;
+const octet FRAME_GLOBAL_INT_ = 5;
+const octet FRAME_GLOBAL_RELATIVE_ALT_INT_ = 6;
+const octet FRAME_LOCAL_OFFSET_NED_ = 7;
+const octet FRAME_BODY_NED_ = 8;
+const octet FRAME_BODY_OFFSET_NED_ = 9;
+const octet FRAME_GLOBAL_TERRAIN_ALT_ = 10;
+const octet FRAME_GLOBAL_TERRAIN_ALT_INT_ = 11;
+const octet FRAME_BODY_FRD_ = 12;
+const octet FRAME_RESERVED_13_ = 13;
+const octet FRAME_RESERVED_14_ = 14;
+const octet FRAME_RESERVED_15_ = 15;
+const octet FRAME_RESERVED_16_ = 16;
+const octet FRAME_RESERVED_17_ = 17;
+const octet FRAME_RESERVED_18_ = 18;
+const octet FRAME_RESERVED_19_ = 19;
+const octet FRAME_LOCAL_FRD_ = 20;
+const octet FRAME_LOCAL_FLU_ = 21;
+
+};
+
+struct SetMavFrame_Request_ {
+octet mav_frame_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct SetMavFrame_Response_ {
+boolean success_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__srv__set_mav_frame__idl__

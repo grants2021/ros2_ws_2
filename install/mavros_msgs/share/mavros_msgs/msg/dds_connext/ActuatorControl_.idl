@@ -1,0 +1,40 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/ActuatorControl.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__actuator_control__idl__
+#define __mavros_msgs__msg__actuator_control__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module ActuatorControl_Constants {
+const octet PX4_MIX_FLIGHT_CONTROL_ = 0;
+const octet PX4_MIX_FLIGHT_CONTROL_VTOL_ALT_ = 1;
+const octet PX4_MIX_PAYLOAD_ = 2;
+const octet PX4_MIX_MANUAL_PASSTHROUGH_ = 3;
+
+};
+
+struct ActuatorControl_ {
+std_msgs::msg::dds_::Header_ header_;
+octet group_mix_;
+float controls_[8];
+
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__actuator_control__idl__

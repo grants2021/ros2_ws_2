@@ -1,0 +1,45 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/DebugValue.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__debug_value__idl__
+#define __mavros_msgs__msg__debug_value__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module DebugValue_Constants {
+const octet TYPE_DEBUG_ = 0;
+const octet TYPE_DEBUG_VECT_ = 1;
+const octet TYPE_DEBUG_ARRAY_ = 2;
+const octet TYPE_NAMED_VALUE_FLOAT_ = 3;
+const octet TYPE_NAMED_VALUE_INT_ = 4;
+
+};
+
+struct DebugValue_ {
+std_msgs::msg::dds_::Header_ header_;
+long index_;
+string name_;
+float value_float_;
+long value_int_;
+sequence<float> data_;
+
+octet type_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__debug_value__idl__

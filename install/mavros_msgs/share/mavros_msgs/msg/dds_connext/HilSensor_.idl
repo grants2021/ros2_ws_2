@@ -1,0 +1,39 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/HilSensor.idl
+// generated code does not contain a copyright notice
+#include "geometry_msgs/msg/dds_connext/Vector3_.idl"
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__hil_sensor__idl__
+#define __mavros_msgs__msg__hil_sensor__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct HilSensor_ {
+std_msgs::msg::dds_::Header_ header_;
+geometry_msgs::msg::dds_::Vector3_ acc_;
+geometry_msgs::msg::dds_::Vector3_ gyro_;
+geometry_msgs::msg::dds_::Vector3_ mag_;
+float abs_pressure_;
+float diff_pressure_;
+float pressure_alt_;
+float temperature_;
+unsigned long fields_updated_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__hil_sensor__idl__

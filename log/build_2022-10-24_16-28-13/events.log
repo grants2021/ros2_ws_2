@@ -1,0 +1,303 @@
+[0.000000] (-) TimerEvent: {}
+[0.000118] (-) JobUnselected: {'identifier': 'libmavconn'}
+[0.000150] (-) JobUnselected: {'identifier': 'mavlink'}
+[0.000175] (-) JobUnselected: {'identifier': 'mavros'}
+[0.000197] (-) JobUnselected: {'identifier': 'mavros_extras'}
+[0.000220] (-) JobUnselected: {'identifier': 'mavros_msgs'}
+[0.000242] (-) JobUnselected: {'identifier': 'usv_gazebo_plugins'}
+[0.000274] (-) JobUnselected: {'identifier': 'usv_msgs'}
+[0.000306] (-) JobUnselected: {'identifier': 'vrx_gazebo'}
+[0.000329] (-) JobUnselected: {'identifier': 'wamv_description'}
+[0.000350] (-) JobUnselected: {'identifier': 'wamv_gazebo'}
+[0.000372] (-) JobUnselected: {'identifier': 'wave_gazebo'}
+[0.000393] (-) JobUnselected: {'identifier': 'wave_gazebo_plugins'}
+[0.000416] (robotx_2022) JobQueued: {'identifier': 'robotx_2022', 'dependencies': OrderedDict([('usv_msgs', '/home/grant/ros2_ws/install/usv_msgs'), ('wamv_description', '/home/grant/ros2_ws/install/wamv_description'), ('wave_gazebo_plugins', '/home/grant/ros2_ws/install/wave_gazebo_plugins'), ('usv_gazebo_plugins', '/home/grant/ros2_ws/install/usv_gazebo_plugins'), ('wave_gazebo', '/home/grant/ros2_ws/install/wave_gazebo'), ('wamv_gazebo', '/home/grant/ros2_ws/install/wamv_gazebo'), ('vrx_gazebo', '/home/grant/ros2_ws/install/vrx_gazebo')])}
+[0.000448] (robotx_2022) JobStarted: {'identifier': 'robotx_2022'}
+[0.029356] (robotx_2022) JobProgress: {'identifier': 'robotx_2022', 'progress': 'cmake'}
+[0.030036] (robotx_2022) Command: {'cmd': ['/usr/bin/cmake', '/home/grant/ros2_ws/src/VRX_Foxy/robotX_2022', '-DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/robotx_2022'], 'cwd': '/home/grant/ros2_ws/build/robotx_2022', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'grant'), ('SSH_AGENT_PID', '1368'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/grant'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/grant/vrx_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_IP', '192.168.0.5'), ('MANAGERPID', '1041'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/grant/ros2_ws/install:/home/grant/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'grant'), ('JOURNAL_STREAM', '8:37906'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:/home/grant/vrx_ws/devel/lib/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'grant'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/grant/vrx_ws/src/adept-vrx/robotX_2022/models:/home/grant/vrx_ws/src/adept-vrx/wamv_description/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/grant/miniconda3/bin:/home/grant/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/grant/.local/bin:/home/grant/ardupilot/Tools/autotest:/home/grant/ros2_foxy/ros2-linux/bin'), ('SESSION_MANAGER', 'local/grant-2f:@/tmp/.ICE-unix/1454,unix/grant-2f:/tmp/.ICE-unix/1454'), ('INVOCATION_ID', 'd6fa7f9a22634c4e8c2de972c5c75c9c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ea465f44_b9d2_498d_ba63_e44ee9f324e0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/opt/ros/foxy:/home/grant/ros2_foxy/ros2-linux'), ('CONDA_PYTHON_EXE', '/home/grant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.0.5:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('_DOMAIN_ID', '0'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/grant/ros2_ws/build/robotx_2022'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/grant/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages:/home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages'), ('ROS_HOSTNAME', '192.168.0.5'), ('CONDA_PREFIX', '/home/grant/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux')]), 'shell': False}
+[0.088453] (robotx_2022) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099193] (-) TimerEvent: {}
+[0.138845] (robotx_2022) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.144011] (robotx_2022) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.203071] (-) TimerEvent: {}
+[0.207675] (robotx_2022) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.208558] (robotx_2022) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.269090] (robotx_2022) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.281935] (robotx_2022) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.282388] (robotx_2022) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.284923] (robotx_2022) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.303595] (-) TimerEvent: {}
+[0.349935] (robotx_2022) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.350907] (robotx_2022) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.404708] (-) TimerEvent: {}
+[0.415612] (robotx_2022) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.428839] (robotx_2022) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.429384] (robotx_2022) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.430841] (robotx_2022) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORTS_CXX14\n'}
+[0.499018] (robotx_2022) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORTS_CXX14 - Success\n'}
+[0.499721] (robotx_2022) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORTS_CXX0X\n'}
+[0.504736] (-) TimerEvent: {}
+[0.564336] (robotx_2022) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORTS_CXX0X - Success\n'}
+[0.565966] (robotx_2022) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.591408] (robotx_2022) StdoutLine: {'line': b'-- Found PythonInterp: /home/grant/miniconda3/bin/python3 (found suitable version "3.8.13", minimum required is "3") \n'}
+[0.591582] (robotx_2022) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3\n'}
+[0.605336] (-) TimerEvent: {}
+[0.705991] (-) TimerEvent: {}
+[0.807051] (-) TimerEvent: {}
+[0.907627] (-) TimerEvent: {}
+[1.008211] (-) TimerEvent: {}
+[1.106975] (robotx_2022) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[1.110763] (-) TimerEvent: {}
+[1.113351] (robotx_2022) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[1.114578] (robotx_2022) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.126138] (robotx_2022) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[1.216953] (robotx_2022) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[1.217157] (-) TimerEvent: {}
+[1.261277] (robotx_2022) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[1.303553] (robotx_2022) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[1.317443] (-) TimerEvent: {}
+[1.329804] (robotx_2022) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.358109] (robotx_2022) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.374258] (robotx_2022) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[1.381441] (robotx_2022) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.383077] (robotx_2022) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.383896] (robotx_2022) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.387916] (robotx_2022) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.399958] (robotx_2022) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.417976] (-) TimerEvent: {}
+[1.427731] (robotx_2022) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.438307] (robotx_2022) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.448560] (robotx_2022) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.457929] (robotx_2022) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.458164] (robotx_2022) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.466801] (robotx_2022) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.466970] (robotx_2022) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.475600] (robotx_2022) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.475772] (robotx_2022) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.484261] (robotx_2022) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.484458] (robotx_2022) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.492989] (robotx_2022) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.493137] (robotx_2022) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.501652] (robotx_2022) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.524204] (-) TimerEvent: {}
+[1.642871] (-) TimerEvent: {}
+[1.697182] (robotx_2022) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[1.700633] (robotx_2022) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[1.701110] (robotx_2022) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.716361] (robotx_2022) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[1.724425] (robotx_2022) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.736240] (robotx_2022) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[1.743323] (-) TimerEvent: {}
+[1.763212] (robotx_2022) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.766649] (robotx_2022) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[1.767140] (robotx_2022) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.783799] (robotx_2022) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[1.787878] (robotx_2022) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.799917] (robotx_2022) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[1.830149] (robotx_2022) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[1.833526] (robotx_2022) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.15.1\n'}
+[1.833977] (robotx_2022) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.834393] (robotx_2022) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.835508] (robotx_2022) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.836901] (robotx_2022) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.844597] (robotx_2022) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.844691] (-) TimerEvent: {}
+[1.847884] (robotx_2022) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.15.1\n'}
+[1.848353] (robotx_2022) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.848670] (robotx_2022) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[1.852762] (robotx_2022) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[1.853178] (robotx_2022) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.912235] (robotx_2022) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[1.920718] (robotx_2022) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.932369] (robotx_2022) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[1.945482] (-) TimerEvent: {}
+[1.959709] (robotx_2022) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.965218] (robotx_2022) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.977737] (robotx_2022) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[2.007093] (robotx_2022) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.007484] (robotx_2022) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.15.1\n'}
+[2.007865] (robotx_2022) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[2.008240] (robotx_2022) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[2.047136] (-) TimerEvent: {}
+[2.098537] (robotx_2022) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.121071] (robotx_2022) StdoutLine: {'line': b'-- Generating done\n'}
+[2.123152] (robotx_2022) StdoutLine: {'line': b'-- Build files have been written to: /home/grant/ros2_ws/build/robotx_2022\n'}
+[2.130115] (robotx_2022) CommandEnded: {'returncode': 0}
+[2.130955] (robotx_2022) JobProgress: {'identifier': 'robotx_2022', 'progress': 'build'}
+[2.132914] (robotx_2022) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/grant/ros2_ws/build/robotx_2022', '--', '-j8', '-l8'], 'cwd': '/home/grant/ros2_ws/build/robotx_2022', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'grant'), ('SSH_AGENT_PID', '1368'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/grant'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/grant/vrx_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_IP', '192.168.0.5'), ('MANAGERPID', '1041'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/grant/ros2_ws/install:/home/grant/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'grant'), ('JOURNAL_STREAM', '8:37906'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:/home/grant/vrx_ws/devel/lib/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'grant'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/grant/vrx_ws/src/adept-vrx/robotX_2022/models:/home/grant/vrx_ws/src/adept-vrx/wamv_description/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/grant/miniconda3/bin:/home/grant/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/grant/.local/bin:/home/grant/ardupilot/Tools/autotest:/home/grant/ros2_foxy/ros2-linux/bin'), ('SESSION_MANAGER', 'local/grant-2f:@/tmp/.ICE-unix/1454,unix/grant-2f:/tmp/.ICE-unix/1454'), ('INVOCATION_ID', 'd6fa7f9a22634c4e8c2de972c5c75c9c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ea465f44_b9d2_498d_ba63_e44ee9f324e0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/opt/ros/foxy:/home/grant/ros2_foxy/ros2-linux'), ('CONDA_PYTHON_EXE', '/home/grant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.0.5:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('_DOMAIN_ID', '0'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/grant/ros2_ws/build/robotx_2022'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/grant/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages:/home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages'), ('ROS_HOSTNAME', '192.168.0.5'), ('CONDA_PREFIX', '/home/grant/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux')]), 'shell': False}
+[2.148167] (-) TimerEvent: {}
+[2.165406] (robotx_2022) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ArduCopterIRLockPlugin\x1b[0m\n'}
+[2.165579] (robotx_2022) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ArduPilotPlugin\x1b[0m\n'}
+[2.250880] (-) TimerEvent: {}
+[2.262582] (robotx_2022) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ArduCopterIRLockPlugin.dir/src/ArduCopterIRLockPlugin.cc.o\x1b[0m\n'}
+[2.270822] (robotx_2022) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ArduPilotPlugin.dir/src/ArduPilotPlugin.cc.o\x1b[0m\n'}
+[2.351894] (-) TimerEvent: {}
+[2.452974] (-) TimerEvent: {}
+[2.557083] (-) TimerEvent: {}
+[2.658669] (-) TimerEvent: {}
+[2.761738] (-) TimerEvent: {}
+[2.864823] (-) TimerEvent: {}
+[2.966905] (-) TimerEvent: {}
+[3.070499] (-) TimerEvent: {}
+[3.174813] (-) TimerEvent: {}
+[3.275684] (-) TimerEvent: {}
+[3.378262] (-) TimerEvent: {}
+[3.479850] (-) TimerEvent: {}
+[3.581962] (-) TimerEvent: {}
+[3.682526] (-) TimerEvent: {}
+[3.785165] (-) TimerEvent: {}
+[3.885703] (-) TimerEvent: {}
+[3.986852] (-) TimerEvent: {}
+[4.088386] (-) TimerEvent: {}
+[4.192000] (-) TimerEvent: {}
+[4.292561] (-) TimerEvent: {}
+[4.393636] (-) TimerEvent: {}
+[4.494724] (-) TimerEvent: {}
+[4.595825] (-) TimerEvent: {}
+[4.696432] (-) TimerEvent: {}
+[4.798024] (-) TimerEvent: {}
+[4.898587] (-) TimerEvent: {}
+[4.999209] (-) TimerEvent: {}
+[5.102346] (-) TimerEvent: {}
+[5.202846] (-) TimerEvent: {}
+[5.303930] (-) TimerEvent: {}
+[5.405504] (-) TimerEvent: {}
+[5.506608] (-) TimerEvent: {}
+[5.608201] (-) TimerEvent: {}
+[5.710295] (-) TimerEvent: {}
+[5.811900] (-) TimerEvent: {}
+[5.912478] (-) TimerEvent: {}
+[6.014051] (-) TimerEvent: {}
+[6.118619] (-) TimerEvent: {}
+[6.219744] (-) TimerEvent: {}
+[6.320308] (-) TimerEvent: {}
+[6.421889] (-) TimerEvent: {}
+[6.524020] (-) TimerEvent: {}
+[6.630809] (-) TimerEvent: {}
+[6.731165] (-) TimerEvent: {}
+[6.831737] (-) TimerEvent: {}
+[6.932323] (-) TimerEvent: {}
+[7.032908] (-) TimerEvent: {}
+[7.134001] (-) TimerEvent: {}
+[7.234370] (-) TimerEvent: {}
+[7.334828] (-) TimerEvent: {}
+[7.437762] (-) TimerEvent: {}
+[7.540351] (-) TimerEvent: {}
+[7.640928] (-) TimerEvent: {}
+[7.741523] (-) TimerEvent: {}
+[7.841801] (-) TimerEvent: {}
+[7.942696] (-) TimerEvent: {}
+[8.045783] (-) TimerEvent: {}
+[8.149409] (-) TimerEvent: {}
+[8.249853] (-) TimerEvent: {}
+[8.350204] (-) TimerEvent: {}
+[8.451156] (-) TimerEvent: {}
+[8.551727] (-) TimerEvent: {}
+[8.652125] (-) TimerEvent: {}
+[8.752398] (-) TimerEvent: {}
+[8.854487] (-) TimerEvent: {}
+[8.955562] (-) TimerEvent: {}
+[9.057382] (-) TimerEvent: {}
+[9.158288] (-) TimerEvent: {}
+[9.201537] (robotx_2022) StderrLine: {'line': b'/home/grant/ros2_ws/src/VRX_Foxy/robotX_2022/src/ArduPilotPlugin.cc: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = Control; _Args = {const Control&}; _Tp = Control]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.201793] (robotx_2022) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/alloc_traits.h:483:4:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = Control; _Args = {const Control&}; _Tp = Control; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<Control>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.201876] (robotx_2022) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:1189:30:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = Control; _Alloc = std::allocator<Control>; std::vector<_Tp, _Alloc>::value_type = Control]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.201944] (robotx_2022) StderrLine: {'line': b'\x1b[01m\x1b[K/home/grant/ros2_ws/src/VRX_Foxy/robotX_2022/src/ArduPilotPlugin.cc:625:46:\x1b[m\x1b[K   required from here\n'}
+[9.202010] (robotx_2022) StderrLine: {'line': b'\x1b[01m\x1b[K/home/grant/ros2_ws/src/VRX_Foxy/robotX_2022/src/ArduPilotPlugin.cc:109:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicitly-declared \xe2\x80\x98\x1b[01m\x1b[Kconstexpr gazebo::common::PID::PID(const gazebo::common::PID&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-copy\x1b[m\x1b[K]\n'}
+[9.202074] (robotx_2022) StderrLine: {'line': b'  109 | class \x1b[01;35m\x1b[KControl\x1b[m\x1b[K\n'}
+[9.202135] (robotx_2022) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.202207] (robotx_2022) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/JointController.hh:25\x1b[m\x1b[K,\n'}
+[9.202306] (robotx_2022) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/physics/physics.hh:23\x1b[m\x1b[K,\n'}
+[9.202369] (robotx_2022) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/sensors/WirelessTransmitter.hh:22\x1b[m\x1b[K,\n'}
+[9.202551] (robotx_2022) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:27\x1b[m\x1b[K,\n'}
+[9.202621] (robotx_2022) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/grant/ros2_ws/src/VRX_Foxy/robotX_2022/src/ArduPilotPlugin.cc:46\x1b[m\x1b[K:\n'}
+[9.202683] (robotx_2022) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gazebo-11/gazebo/common/PID.hh:157:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kbecause \xe2\x80\x98\x1b[01m\x1b[Kgazebo::common::PID\x1b[m\x1b[K\xe2\x80\x99 has user-provided \xe2\x80\x98\x1b[01m\x1b[Kgazebo::common::PID& gazebo::common::PID::operator=(const gazebo::common::PID&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.202789] (robotx_2022) StderrLine: {'line': b'  157 |       public: PID &\x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const PID &_p)\n'}
+[9.202854] (robotx_2022) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.202915] (robotx_2022) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[9.202993] (robotx_2022) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[9.203055] (robotx_2022) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:41\x1b[m\x1b[K,\n'}
+[9.203115] (robotx_2022) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[9.203176] (robotx_2022) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[9.203260] (robotx_2022) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[9.203325] (robotx_2022) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:54\x1b[m\x1b[K,\n'}
+[9.203385] (robotx_2022) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/grant/ros2_ws/src/VRX_Foxy/robotX_2022/src/ArduPilotPlugin.cc:17\x1b[m\x1b[K:\n'}
+[9.203459] (robotx_2022) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksynthesized method \xe2\x80\x98\x1b[01m\x1b[KControl::Control(const Control&)\x1b[m\x1b[K\xe2\x80\x99 first required here\n'}
+[9.203530] (robotx_2022) StderrLine: {'line': b'  146 |  { \x1b[01;36m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[9.203593] (robotx_2022) StderrLine: {'line': b'      |    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.258365] (-) TimerEvent: {}
+[9.364138] (-) TimerEvent: {}
+[9.466129] (-) TimerEvent: {}
+[9.566587] (-) TimerEvent: {}
+[9.667688] (-) TimerEvent: {}
+[9.770570] (-) TimerEvent: {}
+[9.871365] (-) TimerEvent: {}
+[9.973044] (-) TimerEvent: {}
+[10.076621] (-) TimerEvent: {}
+[10.177123] (-) TimerEvent: {}
+[10.280789] (-) TimerEvent: {}
+[10.381325] (-) TimerEvent: {}
+[10.481963] (-) TimerEvent: {}
+[10.582475] (-) TimerEvent: {}
+[10.685213] (-) TimerEvent: {}
+[10.785714] (-) TimerEvent: {}
+[10.886229] (-) TimerEvent: {}
+[10.987905] (-) TimerEvent: {}
+[11.088405] (-) TimerEvent: {}
+[11.188995] (-) TimerEvent: {}
+[11.290081] (-) TimerEvent: {}
+[11.390338] (-) TimerEvent: {}
+[11.495778] (-) TimerEvent: {}
+[11.598854] (-) TimerEvent: {}
+[11.700437] (-) TimerEvent: {}
+[11.801524] (-) TimerEvent: {}
+[11.902116] (-) TimerEvent: {}
+[12.012318] (-) TimerEvent: {}
+[12.112870] (-) TimerEvent: {}
+[12.213377] (-) TimerEvent: {}
+[12.263908] (robotx_2022) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libArduPilotPlugin.so\x1b[0m\n'}
+[12.313462] (-) TimerEvent: {}
+[12.414043] (-) TimerEvent: {}
+[12.514634] (-) TimerEvent: {}
+[12.605051] (robotx_2022) StdoutLine: {'line': b'[ 75%] Built target ArduPilotPlugin\n'}
+[12.615695] (-) TimerEvent: {}
+[12.715895] (-) TimerEvent: {}
+[12.816409] (-) TimerEvent: {}
+[12.919008] (-) TimerEvent: {}
+[13.022794] (-) TimerEvent: {}
+[13.123689] (-) TimerEvent: {}
+[13.228278] (-) TimerEvent: {}
+[13.329334] (-) TimerEvent: {}
+[13.430928] (-) TimerEvent: {}
+[13.533739] (-) TimerEvent: {}
+[13.636132] (-) TimerEvent: {}
+[13.737886] (-) TimerEvent: {}
+[13.861333] (-) TimerEvent: {}
+[13.963406] (-) TimerEvent: {}
+[14.064468] (-) TimerEvent: {}
+[14.166116] (-) TimerEvent: {}
+[14.269668] (-) TimerEvent: {}
+[14.372239] (-) TimerEvent: {}
+[14.478330] (-) TimerEvent: {}
+[14.582930] (-) TimerEvent: {}
+[14.695601] (-) TimerEvent: {}
+[14.796608] (-) TimerEvent: {}
+[14.897196] (-) TimerEvent: {}
+[14.897602] (robotx_2022) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libArduCopterIRLockPlugin.so\x1b[0m\n'}
+[14.998278] (-) TimerEvent: {}
+[15.098864] (-) TimerEvent: {}
+[15.200965] (-) TimerEvent: {}
+[15.256555] (robotx_2022) StdoutLine: {'line': b'[100%] Built target ArduCopterIRLockPlugin\n'}
+[15.264919] (robotx_2022) CommandEnded: {'returncode': 0}
+[15.287475] (robotx_2022) JobProgress: {'identifier': 'robotx_2022', 'progress': 'install'}
+[15.294558] (robotx_2022) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/grant/ros2_ws/build/robotx_2022'], 'cwd': '/home/grant/ros2_ws/build/robotx_2022', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'grant'), ('SSH_AGENT_PID', '1368'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/grant'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/grant/vrx_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_IP', '192.168.0.5'), ('MANAGERPID', '1041'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/grant/ros2_ws/install:/home/grant/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'grant'), ('JOURNAL_STREAM', '8:37906'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:/home/grant/vrx_ws/devel/lib/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'grant'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/grant/vrx_ws/src/adept-vrx/robotX_2022/models:/home/grant/vrx_ws/src/adept-vrx/wamv_description/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/grant/miniconda3/bin:/home/grant/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/grant/.local/bin:/home/grant/ardupilot/Tools/autotest:/home/grant/ros2_foxy/ros2-linux/bin'), ('SESSION_MANAGER', 'local/grant-2f:@/tmp/.ICE-unix/1454,unix/grant-2f:/tmp/.ICE-unix/1454'), ('INVOCATION_ID', 'd6fa7f9a22634c4e8c2de972c5c75c9c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ea465f44_b9d2_498d_ba63_e44ee9f324e0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/opt/ros/foxy:/home/grant/ros2_foxy/ros2-linux'), ('CONDA_PYTHON_EXE', '/home/grant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.0.5:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('_DOMAIN_ID', '0'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/grant/ros2_ws/build/robotx_2022'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/grant/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages:/home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages'), ('ROS_HOSTNAME', '192.168.0.5'), ('CONDA_PREFIX', '/home/grant/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux')]), 'shell': False}
+[15.300999] (-) TimerEvent: {}
+[15.301302] (robotx_2022) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.301551] (robotx_2022) StderrLine: {'line': b'CMake Error at cmake_install.cmake:49 (file):\n'}
+[15.301644] (robotx_2022) StderrLine: {'line': b'  file INSTALL cannot make directory "/worlds": Permission denied.\n'}
+[15.301712] (robotx_2022) StderrLine: {'line': b'\n'}
+[15.301787] (robotx_2022) StderrLine: {'line': b'\n'}
+[15.301865] (robotx_2022) StdoutLine: {'line': b'-- Installing: /worlds\n'}
+[15.302531] (robotx_2022) CommandEnded: {'returncode': 1}
+[15.337672] (robotx_2022) JobEnded: {'identifier': 'robotx_2022', 'rc': 1}
+[15.348929] (-) EventReactorShutdown: {}

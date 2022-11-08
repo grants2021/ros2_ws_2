@@ -1,0 +1,48 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/Trajectory.idl
+// generated code does not contain a copyright notice
+#include "mavros_msgs/msg/dds_connext/PositionTarget_.idl"
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__trajectory__idl__
+#define __mavros_msgs__msg__trajectory__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module Trajectory_Constants {
+const octet MAV_TRAJECTORY_REPRESENTATION_WAYPOINTS_ = 0;
+const octet MAV_TRAJECTORY_REPRESENTATION_BEZIER_ = 1;
+
+};
+
+struct Trajectory_ {
+std_msgs::msg::dds_::Header_ header_;
+octet type_;
+mavros_msgs::msg::dds_::PositionTarget_ point_1_;
+mavros_msgs::msg::dds_::PositionTarget_ point_2_;
+mavros_msgs::msg::dds_::PositionTarget_ point_3_;
+mavros_msgs::msg::dds_::PositionTarget_ point_4_;
+mavros_msgs::msg::dds_::PositionTarget_ point_5_;
+octet point_valid_[5];
+
+unsigned short command_[5];
+
+float time_horizon_[5];
+
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__trajectory__idl__

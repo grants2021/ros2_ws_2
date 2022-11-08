@@ -1,0 +1,53 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:srv/FileList.idl
+// generated code does not contain a copyright notice
+#include "mavros_msgs/msg/dds_connext/FileEntry_.idl"
+
+#ifndef __mavros_msgs__srv__file_list__idl__
+#define __mavros_msgs__srv__file_list__idl__
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct FileList_Request_ {
+string dir_path_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct FileList_Response_ {
+sequence<mavros_msgs::msg::dds_::FileEntry_> list_;
+
+boolean success_;
+long r_errno_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__srv__file_list__idl__

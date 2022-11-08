@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="9" failures="0" disabled="0" errors="0" timestamp="2022-10-23T22:36:47" time="0" name="AllTests">
+  <testsuite name="FRAME_TF" tests="9" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="transform_static_frame__aircraft_to_baselink_123" status="run" time="0" classname="mavros.FRAME_TF" />
+    <testcase name="transform_static_frame__baselink_to_aircraft_123" status="run" time="0" classname="mavros.FRAME_TF" />
+    <testcase name="transform_static_frame__enu_to_ned_123" status="run" time="0" classname="mavros.FRAME_TF" />
+    <testcase name="transform_static_frame__ned_to_enu_123" status="run" time="0" classname="mavros.FRAME_TF" />
+    <testcase name="transform_static_frame__ecef_to_enu_123_00" status="run" time="0" classname="mavros.FRAME_TF" />
+    <testcase name="transform_static_frame__enu_to_ecef_123_00" status="run" time="0" classname="mavros.FRAME_TF" />
+    <testcase name="transform_static_frame__ecef_to_enu_123_4030" status="run" time="0" classname="mavros.FRAME_TF" />
+    <testcase name="transform_static_frame__enu_to_ecef_123_4030" status="run" time="0" classname="mavros.FRAME_TF" />
+    <testcase name="quaternion_transforms__ned_to_ned_123" status="run" time="0" classname="mavros.FRAME_TF" />
+  </testsuite>
+</testsuites>

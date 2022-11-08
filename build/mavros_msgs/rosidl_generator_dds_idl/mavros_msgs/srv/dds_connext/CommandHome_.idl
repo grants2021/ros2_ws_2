@@ -1,0 +1,54 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:srv/CommandHome.idl
+// generated code does not contain a copyright notice
+
+#ifndef __mavros_msgs__srv__command_home__idl__
+#define __mavros_msgs__srv__command_home__idl__
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct CommandHome_Request_ {
+boolean current_gps_;
+float yaw_;
+float latitude_;
+float longitude_;
+float altitude_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct CommandHome_Response_ {
+boolean success_;
+octet result_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__srv__command_home__idl__

@@ -1,0 +1,40 @@
+-- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros':
+ - /opt/ros/foxy/bin/ament_flake8 --xunit-file /home/grant/ros2_ws/build/mavros/test_results/mavros/flake8.xunit.xml
+
+
+27 files checked
+No problems found
+
+Checked files:
+
+* ./setup.py
+* ./mavros/ftp.py
+* ./mavros/command.py
+* ./mavros/global_position.py
+* ./mavros/param.py
+* ./mavros/setpoint.py
+* ./mavros/mission.py
+* ./mavros/system.py
+* ./mavros/mavlink.py
+* ./mavros/__init__.py
+* ./mavros/local_position.py
+* ./mavros/utils.py
+* ./mavros/nuttx_crc32.py
+* ./mavros/base.py
+* ./mavros/cmd/checkid.py
+* ./mavros/cmd/ftp.py
+* ./mavros/cmd/param.py
+* ./mavros/cmd/mission.py
+* ./mavros/cmd/system.py
+* ./mavros/cmd/__main__.py
+* ./mavros/cmd/cmd.py
+* ./mavros/cmd/__init__.py
+* ./mavros/cmd/safety.py
+* ./mavros/cmd/utils.py
+* ./test/mavros_py/test_mission.py
+* ./test/mavros_py/test_param.py
+* ./test/mavros_py/__init__.py
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/flake8.xunit.xml'

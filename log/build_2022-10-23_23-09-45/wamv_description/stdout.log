@@ -1,0 +1,42 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+-- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/grant/ros2_ws/build/wamv_description
+-- Install configuration: ""
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/WAM-V-Base
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/WAM-V-Base/mesh
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/WAM-V-Base/mesh/WamV.png
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/WAM-V-Base/mesh/WAM-V-Base.dae
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/WAM-V-Base/model.config
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/engine
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/engine/mesh
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/engine/mesh/engine.dae
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/engine/model.config
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/propeller
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/propeller/mesh
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/propeller/mesh/propeller.dae
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/propeller/model.config
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/urdf
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/urdf/battery.xacro
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/urdf/thrusters
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/urdf/thrusters/engine.xacro
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/urdf/cpu_cases.xacro
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/urdf/wamv_base.urdf.xacro
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/ament_index/resource_index/package_run_dependencies/wamv_description
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/ament_index/resource_index/parent_prefix_path/wamv_description
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/environment/ament_prefix_path.sh
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/environment/ament_prefix_path.dsv
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/environment/path.sh
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/environment/path.dsv
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/local_setup.bash
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/local_setup.sh
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/local_setup.zsh
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/local_setup.dsv
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/package.dsv
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/ament_index/resource_index/packages/wamv_description
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/cmake/wamv_descriptionConfig.cmake
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/cmake/wamv_descriptionConfig-version.cmake
+-- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/package.xml

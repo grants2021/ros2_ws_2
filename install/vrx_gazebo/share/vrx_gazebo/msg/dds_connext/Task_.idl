@@ -1,0 +1,39 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from vrx_gazebo:msg/Task.idl
+// generated code does not contain a copyright notice
+#include "builtin_interfaces/msg/dds_connext/Duration_.idl"
+#include "builtin_interfaces/msg/dds_connext/Time_.idl"
+
+#ifndef __vrx_gazebo__msg__task__idl__
+#define __vrx_gazebo__msg__task__idl__
+
+
+module vrx_gazebo {
+
+module msg {
+
+module dds_ {
+
+
+struct Task_ {
+string name_;
+string state_;
+builtin_interfaces::msg::dds_::Time_ ready_time_;
+builtin_interfaces::msg::dds_::Time_ running_time_;
+builtin_interfaces::msg::dds_::Duration_ elapsed_time_;
+builtin_interfaces::msg::dds_::Duration_ remaining_time_;
+boolean timed_out_;
+unsigned long num_collisions_;
+double score_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module vrx_gazebo
+
+
+#endif  // __vrx_gazebo__msg__task__idl__

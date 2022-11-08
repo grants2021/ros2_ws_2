@@ -1,0 +1,30 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/ParamValue.idl
+// generated code does not contain a copyright notice
+
+#ifndef __mavros_msgs__msg__param_value__idl__
+#define __mavros_msgs__msg__param_value__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct ParamValue_ {
+long long integer_;
+double real_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__param_value__idl__

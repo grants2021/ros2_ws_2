@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="8" failures="0" disabled="0" errors="0" timestamp="2022-10-23T22:36:48" time="0.131" name="AllTests">
+  <testsuite name="TestRouter" tests="8" failures="0" disabled="0" errors="0" time="0.13">
+    <testcase name="set_parameter" status="run" time="0.015" classname="mavros.TestRouter" />
+    <testcase name="route_fcu_broadcast" status="run" time="0.005" classname="mavros.TestRouter" />
+    <testcase name="route_uas_broadcast" status="run" time="0.006" classname="mavros.TestRouter" />
+    <testcase name="route_gcs_broadcast" status="run" time="0.07" classname="mavros.TestRouter" />
+    <testcase name="route_targeted_one_system" status="run" time="0.008" classname="mavros.TestRouter" />
+    <testcase name="route_targeted_two_system" status="run" time="0.008" classname="mavros.TestRouter" />
+    <testcase name="route_targeted_system_component" status="run" time="0.009" classname="mavros.TestRouter" />
+    <testcase name="endpoint_recv_message" status="run" time="0.009" classname="mavros.TestRouter" />
+  </testsuite>
+</testsuites>

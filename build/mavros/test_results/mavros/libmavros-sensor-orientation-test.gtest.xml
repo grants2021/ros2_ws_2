@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="16" failures="0" disabled="0" errors="0" timestamp="2022-10-23T22:36:47" time="0" name="AllTests">
+  <testsuite name="UTILS" tests="16" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="sensor_orientation_matching__none" status="run" time="0" classname="mavros.UTILS" />
+    <testcase name="sensor_orientation_matching__roll_180" status="run" time="0" classname="mavros.UTILS" />
+    <testcase name="sensor_orientation_matching__roll_180_yaw_90" status="run" time="0" classname="mavros.UTILS" />
+    <testcase name="sensor_orientation_matching__custom" status="run" time="0" classname="mavros.UTILS" />
+    <testcase name="to_string__none" status="run" time="0" classname="mavros.UTILS" />
+    <testcase name="to_string__roll_180" status="run" time="0" classname="mavros.UTILS" />
+    <testcase name="to_string__roll_180_yaw_90" status="run" time="0" classname="mavros.UTILS" />
+    <testcase name="to_string__custom" status="run" time="0" classname="mavros.UTILS" />
+    <testcase name="sensor_orientation_from_str__none" status="run" time="0" classname="mavros.UTILS" />
+    <testcase name="sensor_orientation_from_str__unknown" status="run" time="0" classname="mavros.UTILS" />
+    <testcase name="sensor_orientation_from_str__number" status="run" time="0" classname="mavros.UTILS" />
+    <testcase name="sensor_orientation_from_str__wrong_number" status="run" time="0" classname="mavros.UTILS" />
+    <testcase name="sensor_orientation_from_str__roll_180" status="run" time="0" classname="mavros.UTILS" />
+    <testcase name="sensor_orientation_from_str__roll_180_yaw_90" status="run" time="0" classname="mavros.UTILS" />
+    <testcase name="sensor_orientation_from_str__last_element_roll_90_yaw_270" status="run" time="0" classname="mavros.UTILS" />
+    <testcase name="sensor_orientation_from_str__custom" status="run" time="0" classname="mavros.UTILS" />
+  </testsuite>
+</testsuites>

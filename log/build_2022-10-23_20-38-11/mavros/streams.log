@@ -1,0 +1,296 @@
+[0.023s] Invoking command in '/home/grant/ros2_ws/build/mavros': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/grant/ros2_ws/src/mavros/mavros -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/mavros
+[0.086s] -- The C compiler identification is GNU 9.4.0
+[0.152s] -- The CXX compiler identification is GNU 9.4.0
+[0.157s] -- Check for working C compiler: /usr/bin/cc
+[0.221s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.222s] -- Detecting C compiler ABI info
+[0.278s] -- Detecting C compiler ABI info - done
+[0.291s] -- Detecting C compile features
+[0.291s] -- Detecting C compile features - done
+[0.294s] -- Check for working CXX compiler: /usr/bin/c++
+[0.356s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.357s] -- Detecting CXX compiler ABI info
+[0.424s] -- Detecting CXX compiler ABI info - done
+[0.437s] -- Detecting CXX compile features
+[0.438s] -- Detecting CXX compile features - done
+[0.439s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.464s] -- Found PythonInterp: /home/grant/miniconda3/bin/python3 (found suitable version "3.8.13", minimum required is "3") 
+[0.464s] -- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+[0.747s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.801s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_connext_c
+[0.806s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.870s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.896s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.963s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[1.962s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp;rosidl_typesupport_connext_cpp
+[2.030s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.034s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.034s] -- Looking for pthread.h
+[2.097s] -- Looking for pthread.h - found
+[2.097s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.158s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.158s] -- Looking for pthread_create in pthreads
+[2.221s] -- Looking for pthread_create in pthreads - not found
+[2.221s] -- Looking for pthread_create in pthread
+[2.286s] -- Looking for pthread_create in pthread - found
+[2.287s] -- Found Threads: TRUE  
+[2.493s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[2.591s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[2.612s] -- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)
+[2.616s] -- Found libmavconn: 2.3.0 (/home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake)
+[2.620s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.627s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.629s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu  
+[2.630s] -- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)
+[2.633s] -- Found eigen_stl_containers: 1.0.0 (/opt/ros/foxy/share/eigen_stl_containers/cmake)
+[2.636s] -- Found tf2_eigen: 0.13.13 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[3.017s] -- Found diagnostic_msgs: 2.0.5 (/opt/ros/foxy/share/diagnostic_msgs/cmake)
+[3.061s] -- Found diagnostic_updater: 2.0.8 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[3.082s] -- Found geographic_msgs: 1.0.4 (/opt/ros/foxy/share/geographic_msgs/cmake)
+[3.186s] -- Found mavros_msgs: 2.3.0 (/home/grant/ros2_ws/install/mavros_msgs/share/mavros_msgs/cmake)
+[3.608s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[3.695s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[3.712s] -- Found trajectory_msgs: 2.0.5 (/opt/ros/foxy/share/trajectory_msgs/cmake)
+[3.802s] -- Geoid model datasets found in: /usr/share/GeographicLib/geoid
+[3.802s] -- Gravity Field model datasets found in: /usr/share/GeographicLib/gravity
+[3.802s] -- Magnetic Field model datasets found in: /usr/share/GeographicLib/magnetic
+[4.187s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[4.188s] -- Found ament_cmake_gmock: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[4.189s] -- Found ament_cmake_pytest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_pytest/cmake)
+[4.191s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.309s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.313s] -- Check if compiler accepts -pthread
+[4.372s] -- Check if compiler accepts -pthread - yes
+[4.381s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[4.411s] CMake Warning at /opt/ros/foxy/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:77 (message):
+[4.411s]   The Python module 'pytest' was not found, pytests can not be run (e.g.  on
+[4.411s]   Ubuntu/Debian install the package 'python3-pytest')
+[4.411s] Call Stack (most recent call first):
+[4.411s]   CMakeLists.txt:262 (ament_add_pytest_test)
+[4.411s] 
+[4.411s] 
+[4.419s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.420s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/grant/ros2_ws/src/mavros/mavros/include>
+[4.420s] -- Configured cppcheck exclude dirs and/or files: ./test/*.cpp
+[4.423s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.423s] -- Configured cpplint exclude dirs and/or files: 
+[4.424s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.425s] -- Added test 'lint_cmake' to check CMake code style
+[4.425s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.428s] -- Added test 'uncrustify' to check C / C++ code style
+[4.428s] -- Configured uncrustify additional arguments: 
+[4.429s] -- Added test 'xmllint' to check XML markup files
+[4.434s] -- Configuring done
+[4.591s] -- Generating done
+[4.594s] -- Build files have been written to: /home/grant/ros2_ws/build/mavros
+[4.607s] Invoked command in '/home/grant/ros2_ws/build/mavros' returned '0': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/grant/ros2_ws/src/mavros/mavros -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/mavros
+[4.610s] Invoking command in '/home/grant/ros2_ws/build/mavros': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/grant/ros2_ws/build/mavros -- -j8 -l8
+[4.642s] [35m[1mScanning dependencies of target gtest[0m
+[4.642s] [35m[1mScanning dependencies of target gtest_main[0m
+[4.642s] [35m[1mScanning dependencies of target mavros[0m
+[4.642s] [35m[1mScanning dependencies of target gmock[0m
+[4.642s] [35m[1mScanning dependencies of target gmock_main[0m
+[4.654s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.657s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.674s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[4.674s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[4.674s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[5.162s] [ 11%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/enum_sensor_orientation.cpp.o[0m
+[5.162s] [ 11%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/ftf_frame_conversions.cpp.o[0m
+[5.164s] [ 12%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/enum_to_string.cpp.o[0m
+[5.720s] [ 14%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.818s] [ 14%] Built target gtest_main
+[5.852s] [ 16%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/ftf_quaternion_utils.cpp.o[0m
+[6.109s] [ 17%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[6.174s] [ 17%] Built target gmock_main
+[6.215s] [ 19%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/mavros_router.cpp.o[0m
+[7.075s] [ 20%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/mavros_uas.cpp.o[0m
+[8.277s] [ 22%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/plugin.cpp.o[0m
+[9.007s] [ 24%] [32m[1mLinking CXX static library libgmock.a[0m
+[9.038s] [ 25%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.097s] [ 25%] Built target gmock
+[9.132s] [ 27%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_ap.cpp.o[0m
+[9.146s] [ 27%] Built target gtest
+[9.175s] [ 29%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_data.cpp.o[0m
+[11.142s] [ 30%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_executor.cpp.o[0m
+[11.189s] [ 32%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_stringify.cpp.o[0m
+[12.608s] [ 33%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_tf.cpp.o[0m
+[16.432s] [ 35%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_timesync.cpp.o[0m
+[23.158s] [ 37%] [32m[1mLinking CXX shared library libmavros.so[0m
+[24.128s] [ 37%] Built target mavros
+[24.137s] [35m[1mScanning dependencies of target mavros_node[0m
+[24.137s] [35m[1mScanning dependencies of target mavros-router-test[0m
+[24.137s] [35m[1mScanning dependencies of target libmavros-sensor-orientation-test[0m
+[24.137s] [35m[1mScanning dependencies of target mavros_plugins[0m
+[24.137s] [35m[1mScanning dependencies of target mavros-uas-test[0m
+[24.138s] [35m[1mScanning dependencies of target libmavros-frame-conversions-test[0m
+[24.144s] [35m[1mScanning dependencies of target libmavros-quaternion-utils-test[0m
+[24.223s] [ 38%] [32mBuilding CXX object CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.o[0m
+[24.235s] [ 40%] [32mBuilding CXX object CMakeFiles/libmavros-quaternion-utils-test.dir/test/test_quaternion_utils.cpp.o[0m
+[24.259s] [ 41%] [32mBuilding CXX object CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o[0m
+[24.259s] [ 43%] [32mBuilding CXX object CMakeFiles/mavros-router-test.dir/test/test_router.cpp.o[0m
+[24.259s] [ 45%] [32mBuilding CXX object CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.o[0m
+[24.264s] [ 46%] [32mBuilding CXX object CMakeFiles/mavros-uas-test.dir/test/test_uas.cpp.o[0m
+[24.659s] [ 48%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o[0m
+[24.660s] [ 50%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o[0m
+[28.666s] [ 51%] [32m[1mLinking CXX executable libmavros-frame-conversions-test[0m
+[29.236s] [ 53%] [32m[1mLinking CXX executable libmavros-quaternion-utils-test[0m
+[30.222s] [ 53%] Built target libmavros-frame-conversions-test
+[30.233s] [ 54%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o[0m
+[30.630s] [ 54%] Built target libmavros-quaternion-utils-test
+[30.648s] [ 56%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o[0m
+[31.134s] [ 58%] [32m[1mLinking CXX executable libmavros-sensor-orientation-test[0m
+[32.223s] [ 58%] Built target libmavros-sensor-orientation-test
+[32.240s] [ 59%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o[0m
+[34.657s] [ 61%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o[0m
+[35.257s] [ 62%] [32m[1mLinking CXX executable mavros_node[0m
+[36.176s] [ 62%] Built target mavros_node
+[36.205s] [ 64%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o[0m
+[37.309s] [ 66%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o[0m
+[37.579s] [ 67%] [32m[1mLinking CXX executable mavros-router-test[0m
+[38.611s] [ 67%] Built target mavros-router-test
+[38.625s] [ 69%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o[0m
+[39.607s] [ 70%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o[0m
+[40.245s] [ 72%] [32m[1mLinking CXX executable mavros-uas-test[0m
+[41.652s] [ 72%] Built target mavros-uas-test
+[41.661s] [ 74%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o[0m
+[42.566s] [ 75%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o[0m
+[45.796s] [ 77%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o[0m
+[45.984s] [ 79%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o[0m
+[52.155s] [ 80%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o[0m
+[53.326s] [ 82%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o[0m
+[53.450s] [ 83%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o[0m
+[54.382s] [ 85%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o[0m
+[55.253s] [ 87%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o[0m
+[56.088s] [ 88%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o[0m
+[57.140s] [ 90%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o[0m
+[61.412s] [ 91%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o[0m
+[63.524s] [ 93%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o[0m
+[66.360s] [ 95%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o[0m
+[66.597s] [ 96%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o[0m
+[68.826s] [01m[K/home/grant/ros2_ws/src/mavros/mavros/src/plugins/sys_status.cpp:[m[K In member function ‘[01m[Kvoid mavros::std_plugins::SystemStatusPlugin::process_autopilot_version_normal(mavlink::common::msg::AUTOPILOT_VERSION&, uint8_t, uint8_t)[m[K’:
+[68.826s] [01m[K/home/grant/ros2_ws/src/mavros/mavros/src/plugins/sys_status.cpp:759:36:[m[K [01;35m[Kwarning: [m[Klambda templates are only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+[68.826s]   759 |     auto log_info = [&lg, &prefix] [01;35m[K<[m[K typename ... Args > (const std::string & fmt, Args ... args) {
+[68.826s]       |                                    [01;35m[K^[m[K
+[68.828s] [01m[K/home/grant/ros2_ws/src/mavros/mavros/src/plugins/sys_status.cpp:[m[K In member function ‘[01m[Kvoid mavros::std_plugins::SystemStatusPlugin::process_autopilot_version_apm_quirk(mavlink::common::msg::AUTOPILOT_VERSION&, uint8_t, uint8_t)[m[K’:
+[68.828s] [01m[K/home/grant/ros2_ws/src/mavros/mavros/src/plugins/sys_status.cpp:787:36:[m[K [01;35m[Kwarning: [m[Klambda templates are only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+[68.828s]   787 |     auto log_info = [&lg, &prefix] [01;35m[K<[m[K typename ... Args > (const std::string & fmt, Args ... args) {
+[68.828s]       |                                    [01;35m[K^[m[K
+[68.877s] [01m[K/home/grant/ros2_ws/src/mavros/mavros/src/plugins/sys_status.cpp:[m[K In member function ‘[01m[Kvoid mavros::std_plugins::SystemStatusPlugin::handle_battery_status(const mavlink_message_t*, mavlink::common::msg::BATTERY_STATUS&, mavros::plugin::filter::SystemAndOk)[m[K’:
+[68.877s] [01m[K/home/grant/ros2_ws/src/mavros/mavros/src/plugins/sys_status.cpp:1111:32:[m[K [01;35m[Kwarning: [m[Kcomparison is always true due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+[68.877s]  1111 |     if (!disable_diag && [01;35m[Kbs.id >= 0[m[K && bs.id < MAX_NR_BATTERY_STATUS) {
+[68.877s]       |                          [01;35m[K~~~~~~^~~~[m[K
+[70.900s] [ 98%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o[0m
+[79.149s] [100%] [32m[1mLinking CXX shared library libmavros_plugins.so[0m
+[86.553s] [100%] Built target mavros_plugins
+[86.562s] Invoked command in '/home/grant/ros2_ws/build/mavros' returned '0': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/grant/ros2_ws/build/mavros -- -j8 -l8
+[86.641s] Invoking command in '/home/grant/ros2_ws/build/mavros': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/grant/ros2_ws/build/mavros
+[86.647s] -- Install configuration: ""
+[86.647s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/mavros_plugins.xml
+[86.647s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/environment/pythonpath.sh
+[86.647s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/environment/pythonpath.dsv
+[86.647s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros
+[86.648s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/ftp.py
+[86.648s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/command.py
+[86.648s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/global_position.py
+[86.648s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/param.py
+[86.648s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/setpoint.py
+[86.648s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/mission.py
+[86.648s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/system.py
+[86.648s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/mavlink.py
+[86.649s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd
+[86.649s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/checkid.py
+[86.649s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/ftp.py
+[86.649s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/param.py
+[86.649s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/mission.py
+[86.649s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/system.py
+[86.649s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/__main__.py
+[86.649s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/cmd.py
+[86.649s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/__init__.py
+[86.649s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/safety.py
+[86.650s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/utils.py
+[86.650s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/__init__.py
+[86.650s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/local_position.py
+[86.650s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/utils.py
+[86.650s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/nuttx_crc32.py
+[86.650s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/base.py
+[86.699s] Listing '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros'...
+[86.699s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/__init__.py'...
+[86.699s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/base.py'...
+[86.699s] Listing '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd'...
+[86.699s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/__init__.py'...
+[86.699s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/__main__.py'...
+[86.699s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/checkid.py'...
+[86.699s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/cmd.py'...
+[86.699s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/ftp.py'...
+[86.699s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/mission.py'...
+[86.699s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/param.py'...
+[86.699s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/safety.py'...
+[86.700s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/system.py'...
+[86.700s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/cmd/utils.py'...
+[86.700s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/command.py'...
+[86.700s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/ftp.py'...
+[86.700s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/global_position.py'...
+[86.700s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/local_position.py'...
+[86.700s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/mavlink.py'...
+[86.700s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/mission.py'...
+[86.700s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/nuttx_crc32.py'...
+[86.700s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/param.py'...
+[86.700s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/setpoint.py'...
+[86.700s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/system.py'...
+[86.700s] Compiling '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages/mavros/utils.py'...
+[86.703s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/mavros/mav
+[86.703s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/libmavros.so
+[86.712s] -- Set runtime path of "/home/grant/ros2_ws/install/mavros/lib/libmavros.so" to ""
+[86.712s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/mavros/mavros_node
+[86.714s] -- Set runtime path of "/home/grant/ros2_ws/install/mavros/lib/mavros/mavros_node" to ""
+[86.714s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/libmavros_plugins.so
+[86.764s] -- Set runtime path of "/home/grant/ros2_ws/install/mavros/lib/libmavros_plugins.so" to ""
+[86.765s] -- Installing: /home/grant/ros2_ws/install/mavros/lib/mavros/install_geographiclib_datasets.sh
+[86.765s] -- Installing: /home/grant/ros2_ws/install/mavros/include
+[86.765s] -- Installing: /home/grant/ros2_ws/install/mavros/include/mavros
+[86.765s] -- Installing: /home/grant/ros2_ws/install/mavros/include/mavros/mission_protocol_base.hpp
+[86.765s] -- Installing: /home/grant/ros2_ws/install/mavros/include/mavros/uas_executor.hpp
+[86.765s] -- Installing: /home/grant/ros2_ws/install/mavros/include/mavros/mavros_plugin_register_macro.hpp
+[86.765s] -- Installing: /home/grant/ros2_ws/install/mavros/include/mavros/mavros_router.hpp
+[86.765s] -- Installing: /home/grant/ros2_ws/install/mavros/include/mavros/plugin.hpp
+[86.766s] -- Installing: /home/grant/ros2_ws/install/mavros/include/mavros/setpoint_mixin.hpp
+[86.766s] -- Installing: /home/grant/ros2_ws/install/mavros/include/mavros/frame_tf.hpp
+[86.766s] -- Installing: /home/grant/ros2_ws/install/mavros/include/mavros/px4_custom_mode.hpp
+[86.766s] -- Installing: /home/grant/ros2_ws/install/mavros/include/mavros/plugin_filter.hpp
+[86.766s] -- Installing: /home/grant/ros2_ws/install/mavros/include/mavros/utils.hpp
+[86.766s] -- Installing: /home/grant/ros2_ws/install/mavros/include/mavros/mavros_uas.hpp
+[86.766s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/launch
+[86.766s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/launch/event_launcher.yaml
+[86.767s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/launch/apm2.launch
+[86.767s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/launch/apm.launch
+[86.767s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/launch/px4_config.yaml
+[86.767s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/launch/apm_pluginlists.yaml
+[86.767s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/launch/apm_config.yaml
+[86.767s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/launch/mavlink_bridge.launch
+[86.767s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/launch/node.launch
+[86.767s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/launch/px4_pluginlists.yaml
+[86.768s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/launch/px4.launch
+[86.768s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/environment/library_path.sh
+[86.768s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/environment/library_path.dsv
+[86.768s] -- Installing: /home/grant/ros2_ws/install/mavros/share/ament_index/resource_index/package_run_dependencies/mavros
+[86.768s] -- Installing: /home/grant/ros2_ws/install/mavros/share/ament_index/resource_index/parent_prefix_path/mavros
+[86.768s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/environment/ament_prefix_path.sh
+[86.768s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/environment/ament_prefix_path.dsv
+[86.768s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/environment/path.sh
+[86.768s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/environment/path.dsv
+[86.768s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/local_setup.bash
+[86.769s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/local_setup.sh
+[86.769s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/local_setup.zsh
+[86.769s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/local_setup.dsv
+[86.769s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/package.dsv
+[86.769s] -- Installing: /home/grant/ros2_ws/install/mavros/share/ament_index/resource_index/packages/mavros
+[86.769s] -- Installing: /home/grant/ros2_ws/install/mavros/share/ament_index/resource_index/mavros__pluginlib__plugin/mavros
+[86.769s] -- Installing: /home/grant/ros2_ws/install/mavros/share/ament_index/resource_index/rclcpp_components/mavros
+[86.769s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/cmake/ament_cmake_export_include_directories-extras.cmake
+[86.769s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/cmake/ament_cmake_export_libraries-extras.cmake
+[86.769s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/cmake/ament_cmake_export_dependencies-extras.cmake
+[86.770s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/cmake/mavrosConfig.cmake
+[86.770s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/cmake/mavrosConfig-version.cmake
+[86.770s] -- Installing: /home/grant/ros2_ws/install/mavros/share/mavros/package.xml
+[86.774s] Invoked command in '/home/grant/ros2_ws/build/mavros' returned '0': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/grant/ros2_ws/build/mavros

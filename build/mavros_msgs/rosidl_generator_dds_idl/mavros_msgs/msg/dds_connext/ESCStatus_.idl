@@ -1,0 +1,33 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/ESCStatus.idl
+// generated code does not contain a copyright notice
+#include "mavros_msgs/msg/dds_connext/ESCStatusItem_.idl"
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__esc_status__idl__
+#define __mavros_msgs__msg__esc_status__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct ESCStatus_ {
+std_msgs::msg::dds_::Header_ header_;
+sequence<mavros_msgs::msg::dds_::ESCStatusItem_> esc_status_;
+
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__esc_status__idl__

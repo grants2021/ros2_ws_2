@@ -1,0 +1,174 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/CommandCode.idl
+// generated code does not contain a copyright notice
+
+#ifndef __mavros_msgs__msg__command_code__idl__
+#define __mavros_msgs__msg__command_code__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module CommandCode_Constants {
+const unsigned short AIRFRAME_CONFIGURATION_ = 2520;
+const unsigned short ARM_AUTHORIZATION_REQUEST_ = 3001;
+const unsigned short COMPONENT_ARM_DISARM_ = 400;
+const unsigned short CONDITION_DELAY_ = 112;
+const unsigned short CONDITION_CHANGE_ALT_ = 113;
+const unsigned short CONDITION_DISTANCE_ = 114;
+const unsigned short CONDITION_YAW_ = 115;
+const unsigned short CONDITION_LAST_ = 159;
+const unsigned short CONTROL_HIGH_LATENCY_ = 2600;
+const unsigned short DO_FOLLOW_ = 32;
+const unsigned short DO_FOLLOW_REPOSITION_ = 33;
+const unsigned short DO_SET_MODE_ = 176;
+const unsigned short DO_JUMP_ = 177;
+const unsigned short DO_CHANGE_SPEED_ = 178;
+const unsigned short DO_SET_HOME_ = 179;
+const unsigned short DO_SET_PARAMETER_ = 180;
+const unsigned short DO_SET_RELAY_ = 181;
+const unsigned short DO_REPEAT_RELAY_ = 182;
+const unsigned short DO_SET_SERVO_ = 183;
+const unsigned short DO_REPEAT_SERVO_ = 184;
+const unsigned short DO_FLIGHTTERMINATION_ = 185;
+const unsigned short DO_CHANGE_ALTITUDE_ = 186;
+const unsigned short DO_LAND_START_ = 189;
+const unsigned short DO_RALLY_LAND_ = 190;
+const unsigned short DO_GO_AROUND_ = 191;
+const unsigned short DO_REPOSITION_ = 192;
+const unsigned short DO_PAUSE_CONTINUE_ = 193;
+const unsigned short DO_SET_REVERSE_ = 194;
+const unsigned short DO_SET_ROI_LOCATION_ = 195;
+const unsigned short DO_SET_ROI_WPNEXT_OFFSET_ = 196;
+const unsigned short DO_SET_ROI_NONE_ = 197;
+const unsigned short DO_SET_ROI_SYSID_ = 198;
+const unsigned short DO_CONTROL_VIDEO_ = 200;
+const unsigned short DO_SET_ROI_ = 201;
+const unsigned short DO_DIGICAM_CONFIGURE_ = 202;
+const unsigned short DO_DIGICAM_CONTROL_ = 203;
+const unsigned short DO_MOUNT_CONFIGURE_ = 204;
+const unsigned short DO_MOUNT_CONTROL_ = 205;
+const unsigned short DO_SET_CAM_TRIGG_DIST_ = 206;
+const unsigned short DO_FENCE_ENABLE_ = 207;
+const unsigned short DO_PARACHUTE_ = 208;
+const unsigned short DO_MOTOR_TEST_ = 209;
+const unsigned short DO_INVERTED_FLIGHT_ = 210;
+const unsigned short DO_GRIPPER_ = 211;
+const unsigned short DO_AUTOTUNE_ENABLE_ = 212;
+const unsigned short DO_SET_CAM_TRIGG_INTERVAL_ = 214;
+const unsigned short DO_MOUNT_CONTROL_QUAT_ = 220;
+const unsigned short DO_GUIDED_MASTER_ = 221;
+const unsigned short DO_GUIDED_LIMITS_ = 222;
+const unsigned short DO_ENGINE_CONTROL_ = 223;
+const unsigned short DO_SET_MISSION_CURRENT_ = 224;
+const unsigned short DO_LAST_ = 240;
+const unsigned short DO_JUMP_TAG_ = 601;
+const unsigned short DO_TRIGGER_CONTROL_ = 2003;
+const unsigned short DO_VTOL_TRANSITION_ = 3000;
+const unsigned short DO_ADSB_OUT_IDENT_ = 10001;
+const unsigned short DO_WINCH_ = 42600;
+const unsigned short FIXED_MAG_CAL_YAW_ = 42006;
+const unsigned short GET_HOME_POSITION_ = 410;
+const unsigned short GET_MESSAGE_INTERVAL_ = 510;
+const unsigned short IMAGE_START_CAPTURE_ = 2000;
+const unsigned short IMAGE_STOP_CAPTURE_ = 2001;
+const unsigned short JUMP_TAG_ = 600;
+const unsigned short LOGGING_START_ = 2510;
+const unsigned short LOGGING_STOP_ = 2511;
+const unsigned short MISSION_START_ = 300;
+const unsigned short NAV_WAYPOINT_ = 16;
+const unsigned short NAV_LOITER_UNLIM_ = 17;
+const unsigned short NAV_LOITER_TURNS_ = 18;
+const unsigned short NAV_LOITER_TIME_ = 19;
+const unsigned short NAV_RETURN_TO_LAUNCH_ = 20;
+const unsigned short NAV_LAND_ = 21;
+const unsigned short NAV_TAKEOFF_ = 22;
+const unsigned short NAV_LAND_LOCAL_ = 23;
+const unsigned short NAV_TAKEOFF_LOCAL_ = 24;
+const unsigned short NAV_FOLLOW_ = 25;
+const unsigned short NAV_CONTINUE_AND_CHANGE_ALT_ = 30;
+const unsigned short NAV_LOITER_TO_ALT_ = 31;
+const unsigned short NAV_ROI_ = 80;
+const unsigned short NAV_PATHPLANNING_ = 81;
+const unsigned short NAV_SPLINE_WAYPOINT_ = 82;
+const unsigned short NAV_VTOL_TAKEOFF_ = 84;
+const unsigned short NAV_VTOL_LAND_ = 85;
+const unsigned short NAV_GUIDED_ENABLE_ = 92;
+const unsigned short NAV_DELAY_ = 93;
+const unsigned short NAV_PAYLOAD_PLACE_ = 94;
+const unsigned short NAV_LAST_ = 95;
+const unsigned short NAV_SET_YAW_SPEED_ = 213;
+const unsigned short NAV_FENCE_RETURN_POINT_ = 5000;
+const unsigned short NAV_FENCE_POLYGON_VERTEX_INCLUSION_ = 5001;
+const unsigned short NAV_FENCE_POLYGON_VERTEX_EXCLUSION_ = 5002;
+const unsigned short NAV_FENCE_CIRCLE_INCLUSION_ = 5003;
+const unsigned short NAV_FENCE_CIRCLE_EXCLUSION_ = 5004;
+const unsigned short NAV_RALLY_POINT_ = 5100;
+const unsigned short OBLIQUE_SURVEY_ = 260;
+const unsigned short OVERRIDE_GOTO_ = 252;
+const unsigned short PANORAMA_CREATE_ = 2800;
+const unsigned short PAYLOAD_PREPARE_DEPLOY_ = 30001;
+const unsigned short PAYLOAD_CONTROL_DEPLOY_ = 30002;
+const unsigned short PREFLIGHT_CALIBRATION_ = 241;
+const unsigned short PREFLIGHT_SET_SENSOR_OFFSETS_ = 242;
+const unsigned short PREFLIGHT_UAVCAN_ = 243;
+const unsigned short PREFLIGHT_STORAGE_ = 245;
+const unsigned short PREFLIGHT_REBOOT_SHUTDOWN_ = 246;
+const unsigned short REQUEST_MESSAGE_ = 512;
+const unsigned short REQUEST_PROTOCOL_VERSION_ = 519;
+const unsigned short REQUEST_AUTOPILOT_CAPABILITIES_ = 520;
+const unsigned short REQUEST_CAMERA_INFORMATION_ = 521;
+const unsigned short REQUEST_CAMERA_SETTINGS_ = 522;
+const unsigned short REQUEST_STORAGE_INFORMATION_ = 525;
+const unsigned short REQUEST_CAMERA_CAPTURE_STATUS_ = 527;
+const unsigned short REQUEST_FLIGHT_INFORMATION_ = 528;
+const unsigned short REQUEST_VIDEO_STREAM_INFORMATION_ = 2504;
+const unsigned short REQUEST_VIDEO_STREAM_STATUS_ = 2505;
+const unsigned short RESET_CAMERA_SETTINGS_ = 529;
+const unsigned short RUN_PREARM_CHECKS_ = 401;
+const unsigned short SET_MESSAGE_INTERVAL_ = 511;
+const unsigned short SET_CAMERA_MODE_ = 530;
+const unsigned short SET_GUIDED_SUBMODE_STANDARD_ = 4000;
+const unsigned short SET_GUIDED_SUBMODE_CIRCLE_ = 4001;
+const unsigned short SPATIAL_USER_1_ = 31005;
+const unsigned short SPATIAL_USER_2_ = 31006;
+const unsigned short SPATIAL_USER_3_ = 31007;
+const unsigned short SPATIAL_USER_4_ = 31008;
+const unsigned short SPATIAL_USER_5_ = 31009;
+const unsigned short START_RX_PAIR_ = 500;
+const unsigned short STORAGE_FORMAT_ = 526;
+const unsigned short UAVCAN_GET_NODE_INFO_ = 5200;
+const unsigned short USER_1_ = 31010;
+const unsigned short USER_2_ = 31011;
+const unsigned short USER_3_ = 31012;
+const unsigned short USER_4_ = 31013;
+const unsigned short USER_5_ = 31014;
+const unsigned short VIDEO_START_CAPTURE_ = 2500;
+const unsigned short VIDEO_STOP_CAPTURE_ = 2501;
+const unsigned short VIDEO_START_STREAMING_ = 2502;
+const unsigned short VIDEO_STOP_STREAMING_ = 2503;
+const unsigned short WAYPOINT_USER_1_ = 31000;
+const unsigned short WAYPOINT_USER_2_ = 31001;
+const unsigned short WAYPOINT_USER_3_ = 31002;
+const unsigned short WAYPOINT_USER_4_ = 31003;
+const unsigned short WAYPOINT_USER_5_ = 31004;
+
+};
+
+struct CommandCode_ {
+octet structure_needs_at_least_one_member_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__command_code__idl__

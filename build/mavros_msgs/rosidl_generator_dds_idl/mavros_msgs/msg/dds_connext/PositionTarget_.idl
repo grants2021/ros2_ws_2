@@ -1,0 +1,58 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/PositionTarget.idl
+// generated code does not contain a copyright notice
+#include "geometry_msgs/msg/dds_connext/Point_.idl"
+#include "geometry_msgs/msg/dds_connext/Vector3_.idl"
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__position_target__idl__
+#define __mavros_msgs__msg__position_target__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module PositionTarget_Constants {
+const octet FRAME_LOCAL_NED_ = 1;
+const octet FRAME_LOCAL_OFFSET_NED_ = 7;
+const octet FRAME_BODY_NED_ = 8;
+const octet FRAME_BODY_OFFSET_NED_ = 9;
+const unsigned short IGNORE_PX_ = 1;
+const unsigned short IGNORE_PY_ = 2;
+const unsigned short IGNORE_PZ_ = 4;
+const unsigned short IGNORE_VX_ = 8;
+const unsigned short IGNORE_VY_ = 16;
+const unsigned short IGNORE_VZ_ = 32;
+const unsigned short IGNORE_AFX_ = 64;
+const unsigned short IGNORE_AFY_ = 128;
+const unsigned short IGNORE_AFZ_ = 256;
+const unsigned short FORCE_ = 512;
+const unsigned short IGNORE_YAW_ = 1024;
+const unsigned short IGNORE_YAW_RATE_ = 2048;
+
+};
+
+struct PositionTarget_ {
+std_msgs::msg::dds_::Header_ header_;
+octet coordinate_frame_;
+unsigned short type_mask_;
+geometry_msgs::msg::dds_::Point_ position_;
+geometry_msgs::msg::dds_::Vector3_ velocity_;
+geometry_msgs::msg::dds_::Vector3_ acceleration_or_force_;
+float yaw_;
+float yaw_rate_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__position_target__idl__

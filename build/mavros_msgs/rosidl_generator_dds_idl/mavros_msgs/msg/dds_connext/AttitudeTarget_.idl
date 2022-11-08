@@ -1,0 +1,44 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/AttitudeTarget.idl
+// generated code does not contain a copyright notice
+#include "geometry_msgs/msg/dds_connext/Quaternion_.idl"
+#include "geometry_msgs/msg/dds_connext/Vector3_.idl"
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__attitude_target__idl__
+#define __mavros_msgs__msg__attitude_target__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module AttitudeTarget_Constants {
+const octet IGNORE_ROLL_RATE_ = 1;
+const octet IGNORE_PITCH_RATE_ = 2;
+const octet IGNORE_YAW_RATE_ = 4;
+const octet IGNORE_THRUST_ = 64;
+const octet IGNORE_ATTITUDE_ = 128;
+
+};
+
+struct AttitudeTarget_ {
+std_msgs::msg::dds_::Header_ header_;
+octet type_mask_;
+geometry_msgs::msg::dds_::Quaternion_ orientation_;
+geometry_msgs::msg::dds_::Vector3_ body_rate_;
+float thrust_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__attitude_target__idl__

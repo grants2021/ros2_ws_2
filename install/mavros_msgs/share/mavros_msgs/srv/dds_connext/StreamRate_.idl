@@ -1,0 +1,63 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:srv/StreamRate.idl
+// generated code does not contain a copyright notice
+
+#ifndef __mavros_msgs__srv__stream_rate__idl__
+#define __mavros_msgs__srv__stream_rate__idl__
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+module StreamRate_Request_Constants {
+const octet STREAM_ALL_ = 0;
+const octet STREAM_RAW_SENSORS_ = 1;
+const octet STREAM_EXTENDED_STATUS_ = 2;
+const octet STREAM_RC_CHANNELS_ = 3;
+const octet STREAM_RAW_CONTROLLER_ = 4;
+const octet STREAM_POSITION_ = 6;
+const octet STREAM_EXTRA1_ = 10;
+const octet STREAM_EXTRA2_ = 11;
+const octet STREAM_EXTRA3_ = 12;
+
+};
+
+struct StreamRate_Request_ {
+octet stream_id_;
+unsigned short message_rate_;
+boolean on_off_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct StreamRate_Response_ {
+octet structure_needs_at_least_one_member_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__srv__stream_rate__idl__

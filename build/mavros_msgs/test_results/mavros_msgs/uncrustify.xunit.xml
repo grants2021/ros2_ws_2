@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="mavros_msgs.uncrustify"
+  tests="1"
+  failures="0"
+  errors="0"
+  time="0.007"
+>
+  <testcase
+    name="include/mavros_msgs/mavlink_convert.hpp"
+    classname="mavros_msgs.uncrustify"/>
+  <system-out>Checked files:
+* include/mavros_msgs/mavlink_convert.hpp</system-out>
+</testsuite>

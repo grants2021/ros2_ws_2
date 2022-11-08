@@ -1,0 +1,37 @@
+CMake Deprecation Warning at CMakeLists.txt:25 (cmake_policy):
+  The OLD behavior for policy CMP0054 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+CMake Warning (dev) at /home/grant/ros2_foxy/ros2-linux/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+  Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+  --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  IN_LIST will be interpreted as an operator when the policy is set to NEW.
+  Since the policy is not set the OLD behavior will be used.
+Call Stack (most recent call first):
+  /home/grant/ros2_foxy/ros2-linux/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake:51 (list_append_unique)
+  /home/grant/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:5 (ament_index_get_resources)
+  /home/grant/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+  CMakeLists.txt:31 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error at /home/grant/ros2_foxy/ros2-linux/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+  if given arguments:
+
+    "NOT" "element" "IN_LIST" "paths_to_search"
+
+  Unknown arguments specified
+Call Stack (most recent call first):
+  /home/grant/ros2_foxy/ros2-linux/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake:51 (list_append_unique)
+  /home/grant/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:5 (ament_index_get_resources)
+  /home/grant/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+  CMakeLists.txt:31 (find_package)
+
+

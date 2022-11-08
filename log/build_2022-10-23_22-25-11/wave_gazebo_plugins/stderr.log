@@ -1,0 +1,9 @@
+CMake Error at CMakeLists.txt:30 (target_include_directories):
+  Cannot specify include directories for target "my_target" which is not
+  built by this project.
+
+
+CMake Error at CMakeLists.txt:35 (ament_target_dependencides):
+  Unknown CMake command "ament_target_dependencides".
+
+

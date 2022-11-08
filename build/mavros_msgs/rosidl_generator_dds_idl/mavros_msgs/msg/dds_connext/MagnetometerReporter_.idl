@@ -1,0 +1,32 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/MagnetometerReporter.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__magnetometer_reporter__idl__
+#define __mavros_msgs__msg__magnetometer_reporter__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct MagnetometerReporter_ {
+std_msgs::msg::dds_::Header_ header_;
+octet report_;
+float confidence_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__magnetometer_reporter__idl__

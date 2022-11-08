@@ -1,0 +1,69 @@
+CMake Warning (dev) at /home/grant/miniconda3/lib/cmake/Qt5Core/Qt5CoreMacros.cmake:44 (message):
+  qt5_use_modules is not part of the official API, and might be removed in Qt
+  6.
+Call Stack (most recent call first):
+  /home/grant/miniconda3/lib/cmake/Qt5Core/Qt5CoreMacros.cmake:431 (_qt5_warn_deprecated)
+  CMakeLists.txt:226 (qt5_use_modules)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning at CMakeLists.txt:216 (add_library):
+  Cannot generate a safe runtime search path for target gui_task_widget
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libuuid.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/grant/miniconda3/lib
+    runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/grant/miniconda3/lib
+    runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/grant/miniconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:235 (add_library):
+  Cannot generate a safe runtime search path for target
+  vrx_gazebo__rosidl_typesupport_fastrtps_c__pyext because files in some
+  directories may conflict with libraries in implicit directories:
+
+    runtime library [libssl.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/grant/miniconda3/lib
+    runtime library [libcrypto.so.1.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/grant/miniconda3/lib
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:44 (rosidl_generate_interfaces)
+
+
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/ball_shooter_plugin.cc:205:44:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  205 | GZ_REGISTER_MODEL_PLUGIN(BallShooterPlugin)[01;35m[K;[m[K
+      |                                            [01;35m[K^[m[K
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/follow_plugin.cc:189:39:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  189 | GZ_REGISTER_MODEL_PLUGIN(FollowPlugin)[01;35m[K;[m[K
+      |                                       [01;35m[K^[m[K
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/scoring_plugin.cc:[m[K In member function ‘[01m[Kvoid ScoringPlugin::OnCollisionMsg(ConstContactsPtr&)[m[K’:
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/scoring_plugin.cc:288:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  288 |   for (unsigned int i = 0; [01;35m[Ki < _contacts->contact_size()[m[K; ++i) {
+      |                            [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/scan_dock_scoring_plugin.cc:21[m[K:
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/include/vrx_gazebo/scan_dock_scoring_plugin.hh:[m[K In constructor ‘[01m[KDockChecker::DockChecker(const string&, const string&, const string&, double, bool, const string&, const string&, const string&, gazebo_ros::Node::SharedPtr)[m[K’:
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/include/vrx_gazebo/scan_dock_scoring_plugin.hh:161:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KDockChecker::dockAllowed[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  161 |   private: bool [01;35m[KdockAllowed[m[K;
+      |                 [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/include/vrx_gazebo/scan_dock_scoring_plugin.hh:154:24:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::string DockChecker::gzSymbolTopic[m[K’ [[01;35m[K-Wreorder[m[K]
+  154 |   private: std::string [01;35m[KgzSymbolTopic[m[K;
+      |                        [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/scan_dock_scoring_plugin.cc:123:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+  123 | [01;35m[KDockChecker[m[K::DockChecker(const std::string &_name,
+      | [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/wildlife_scoring_plugin.cc:[m[K In constructor ‘[01m[KWildlifeScoringPlugin::Buoy::Buoy(gazebo::physics::LinkPtr, WildlifeScoringPlugin::BuoyGoal, double)[m[K’:
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/wildlife_scoring_plugin.cc:104:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  104 |   for (int i = 0; [01;35m[Ki < this->kNumVirtualGates[m[K; ++i)
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/perception_scoring_plugin.cc:[m[K In member function ‘[01m[Kvoid PerceptionScoringPlugin::OnUpdate()[m[K’:
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo/src/perception_scoring_plugin.cc:352:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<PerceptionObject>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  352 |   if ([01;35m[Kthis->objectsDespawned == this->objects.size()[m[K &&
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,483 @@
+[0.000000] (-) TimerEvent: {}
+[0.001178] (-) JobUnselected: {'identifier': 'adept_gazebo_plugins'}
+[0.001220] (-) JobUnselected: {'identifier': 'libmavconn'}
+[0.001246] (-) JobUnselected: {'identifier': 'mavlink'}
+[0.001270] (-) JobUnselected: {'identifier': 'mavros'}
+[0.001292] (-) JobUnselected: {'identifier': 'mavros_extras'}
+[0.001315] (-) JobUnselected: {'identifier': 'mavros_msgs'}
+[0.001337] (-) JobUnselected: {'identifier': 'robotx_2022'}
+[0.001359] (-) JobUnselected: {'identifier': 'usv_gazebo_plugins'}
+[0.001381] (-) JobUnselected: {'identifier': 'vrx_gazebo'}
+[0.001403] (-) JobUnselected: {'identifier': 'wamv_description'}
+[0.001425] (-) JobUnselected: {'identifier': 'wamv_gazebo'}
+[0.001446] (-) JobUnselected: {'identifier': 'wave_gazebo'}
+[0.001470] (wave_gazebo_plugins) JobQueued: {'identifier': 'wave_gazebo_plugins', 'dependencies': OrderedDict()}
+[0.001496] (wave_gazebo_plugins) JobStarted: {'identifier': 'wave_gazebo_plugins'}
+[0.022694] (wave_gazebo_plugins) JobProgress: {'identifier': 'wave_gazebo_plugins', 'progress': 'cmake'}
+[0.024230] (wave_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '/home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins', '-DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/wave_gazebo_plugins'], 'cwd': '/home/grant/ros2_ws/build/wave_gazebo_plugins', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'grant'), ('SSH_AGENT_PID', '1368'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/grant'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/grant/vrx_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_IP', '192.168.0.5'), ('MANAGERPID', '1041'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/grant/ros2_ws/install:/home/grant/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'grant'), ('JOURNAL_STREAM', '8:37906'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:/home/grant/vrx_ws/devel/lib/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'grant'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/grant/vrx_ws/src/adept-vrx/robotX_2022/models:/home/grant/vrx_ws/src/adept-vrx/wamv_description/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/grant/miniconda3/bin:/home/grant/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/grant/.local/bin:/home/grant/ardupilot/Tools/autotest:/home/grant/ros2_foxy/ros2-linux/bin'), ('SESSION_MANAGER', 'local/grant-2f:@/tmp/.ICE-unix/1454,unix/grant-2f:/tmp/.ICE-unix/1454'), ('INVOCATION_ID', 'd6fa7f9a22634c4e8c2de972c5c75c9c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ea465f44_b9d2_498d_ba63_e44ee9f324e0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/opt/ros/foxy:/home/grant/ros2_foxy/ros2-linux'), ('CONDA_PYTHON_EXE', '/home/grant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.0.5:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('_DOMAIN_ID', '0'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/grant/ros2_ws/build/wave_gazebo_plugins'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/grant/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages'), ('ROS_HOSTNAME', '192.168.0.5'), ('CONDA_PREFIX', '/home/grant/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux')]), 'shell': False}
+[0.047063] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.077588] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3\n'}
+[0.101364] (-) TimerEvent: {}
+[0.201820] (-) TimerEvent: {}
+[0.302420] (-) TimerEvent: {}
+[0.371907] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.402464] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[0.402657] (-) TimerEvent: {}
+[0.403866] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[0.408402] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.409969] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.414638] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.414935] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.425147] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.425387] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.425549] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.425681] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.425753] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.425829] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.425966] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.426101] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.426182] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.426306] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.426377] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.426457] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.503132] (-) TimerEvent: {}
+[0.606173] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[0.606373] (-) TimerEvent: {}
+[0.606547] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[0.606946] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.621973] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[0.627494] (wave_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.638744] (wave_gazebo_plugins) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[0.664044] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[0.664413] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.679523] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[0.683364] (wave_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.694216] (wave_gazebo_plugins) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[0.707210] (-) TimerEvent: {}
+[0.719588] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[0.719983] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.15.1\n'}
+[0.720438] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[0.720591] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.720677] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.729754] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[0.730119] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.15.1\n'}
+[0.730572] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[0.730891] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[0.732048] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[0.732459] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[0.758778] (wave_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[0.774202] (wave_gazebo_plugins) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[0.800548] (wave_gazebo_plugins) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[0.807799] (-) TimerEvent: {}
+[0.811356] (wave_gazebo_plugins) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[0.836154] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.15.1\n'}
+[0.836519] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.13.0\n'}
+[0.836868] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[0.840763] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.881338] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Generating done\n'}
+[0.883271] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Build files have been written to: /home/grant/ros2_ws/build/wave_gazebo_plugins\n'}
+[0.888268] (wave_gazebo_plugins) CommandEnded: {'returncode': 0}
+[0.889076] (wave_gazebo_plugins) JobProgress: {'identifier': 'wave_gazebo_plugins', 'progress': 'build'}
+[0.891318] (wave_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/grant/ros2_ws/build/wave_gazebo_plugins', '--', '-j8', '-l8'], 'cwd': '/home/grant/ros2_ws/build/wave_gazebo_plugins', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'grant'), ('SSH_AGENT_PID', '1368'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/grant'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/grant/vrx_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_IP', '192.168.0.5'), ('MANAGERPID', '1041'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/grant/ros2_ws/install:/home/grant/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'grant'), ('JOURNAL_STREAM', '8:37906'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:/home/grant/vrx_ws/devel/lib/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'grant'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/grant/vrx_ws/src/adept-vrx/robotX_2022/models:/home/grant/vrx_ws/src/adept-vrx/wamv_description/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/grant/miniconda3/bin:/home/grant/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/grant/.local/bin:/home/grant/ardupilot/Tools/autotest:/home/grant/ros2_foxy/ros2-linux/bin'), ('SESSION_MANAGER', 'local/grant-2f:@/tmp/.ICE-unix/1454,unix/grant-2f:/tmp/.ICE-unix/1454'), ('INVOCATION_ID', 'd6fa7f9a22634c4e8c2de972c5c75c9c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ea465f44_b9d2_498d_ba63_e44ee9f324e0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/opt/ros/foxy:/home/grant/ros2_foxy/ros2-linux'), ('CONDA_PYTHON_EXE', '/home/grant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.0.5:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('_DOMAIN_ID', '0'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/grant/ros2_ws/build/wave_gazebo_plugins'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/grant/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages'), ('ROS_HOSTNAME', '192.168.0.5'), ('CONDA_PREFIX', '/home/grant/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux')]), 'shell': False}
+[0.908395] (-) TimerEvent: {}
+[0.922249] (wave_gazebo_plugins) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target Hydrodynamics\x1b[0m\n'}
+[1.013078] (-) TimerEvent: {}
+[1.114134] (-) TimerEvent: {}
+[1.216696] (-) TimerEvent: {}
+[1.321391] (-) TimerEvent: {}
+[1.372556] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Physics.cc.o\x1b[0m\n'}
+[1.372802] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Geometry.cc.o\x1b[0m\n'}
+[1.372892] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Utilities.cc.o\x1b[0m\n'}
+[1.372961] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Gazebo.cc.o\x1b[0m\n'}
+[1.373075] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/PhysicalConstants.cc.o\x1b[0m\n'}
+[1.373666] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Wavefield.cc.o\x1b[0m\n'}
+[1.375390] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/WavefieldEntity.cc.o\x1b[0m\n'}
+[1.421485] (-) TimerEvent: {}
+[1.521970] (-) TimerEvent: {}
+[1.623072] (-) TimerEvent: {}
+[1.724644] (-) TimerEvent: {}
+[1.828245] (-) TimerEvent: {}
+[1.931852] (-) TimerEvent: {}
+[2.034458] (-) TimerEvent: {}
+[2.135000] (-) TimerEvent: {}
+[2.235624] (-) TimerEvent: {}
+[2.340814] (-) TimerEvent: {}
+[2.441508] (-) TimerEvent: {}
+[2.545512] (-) TimerEvent: {}
+[2.646438] (-) TimerEvent: {}
+[2.747010] (-) TimerEvent: {}
+[2.849259] (-) TimerEvent: {}
+[2.950723] (-) TimerEvent: {}
+[3.054570] (-) TimerEvent: {}
+[3.155394] (-) TimerEvent: {}
+[3.263509] (-) TimerEvent: {}
+[3.365584] (-) TimerEvent: {}
+[3.466131] (-) TimerEvent: {}
+[3.566775] (-) TimerEvent: {}
+[3.667317] (-) TimerEvent: {}
+[3.767579] (-) TimerEvent: {}
+[3.868005] (-) TimerEvent: {}
+[3.969766] (-) TimerEvent: {}
+[4.070666] (-) TimerEvent: {}
+[4.171242] (-) TimerEvent: {}
+[4.271831] (-) TimerEvent: {}
+[4.372923] (-) TimerEvent: {}
+[4.473512] (-) TimerEvent: {}
+[4.576601] (-) TimerEvent: {}
+[4.677333] (-) TimerEvent: {}
+[4.778270] (-) TimerEvent: {}
+[4.879507] (-) TimerEvent: {}
+[4.980718] (-) TimerEvent: {}
+[5.081543] (-) TimerEvent: {}
+[5.184184] (-) TimerEvent: {}
+[5.287716] (-) TimerEvent: {}
+[5.388104] (-) TimerEvent: {}
+[5.488923] (-) TimerEvent: {}
+[5.589971] (-) TimerEvent: {}
+[5.692649] (-) TimerEvent: {}
+[5.793178] (-) TimerEvent: {}
+[5.893725] (-) TimerEvent: {}
+[5.994883] (-) TimerEvent: {}
+[6.097963] (-) TimerEvent: {}
+[6.199557] (-) TimerEvent: {}
+[6.300096] (-) TimerEvent: {}
+[6.401430] (-) TimerEvent: {}
+[6.503751] (-) TimerEvent: {}
+[6.604381] (-) TimerEvent: {}
+[6.704932] (-) TimerEvent: {}
+[6.805575] (-) TimerEvent: {}
+[6.906103] (-) TimerEvent: {}
+[7.007205] (-) TimerEvent: {}
+[7.109298] (-) TimerEvent: {}
+[7.209923] (-) TimerEvent: {}
+[7.310470] (-) TimerEvent: {}
+[7.411055] (-) TimerEvent: {}
+[7.512139] (-) TimerEvent: {}
+[7.613086] (-) TimerEvent: {}
+[7.713462] (-) TimerEvent: {}
+[7.813884] (-) TimerEvent: {}
+[7.914467] (-) TimerEvent: {}
+[8.015052] (-) TimerEvent: {}
+[8.117196] (-) TimerEvent: {}
+[8.219737] (-) TimerEvent: {}
+[8.321316] (-) TimerEvent: {}
+[8.422936] (-) TimerEvent: {}
+[8.523514] (-) TimerEvent: {}
+[8.624102] (-) TimerEvent: {}
+[8.724695] (-) TimerEvent: {}
+[8.825255] (-) TimerEvent: {}
+[8.926348] (-) TimerEvent: {}
+[9.026932] (-) TimerEvent: {}
+[9.127509] (-) TimerEvent: {}
+[9.227971] (-) TimerEvent: {}
+[9.329687] (-) TimerEvent: {}
+[9.430276] (-) TimerEvent: {}
+[9.530871] (-) TimerEvent: {}
+[9.631458] (-) TimerEvent: {}
+[9.732048] (-) TimerEvent: {}
+[9.834139] (-) TimerEvent: {}
+[9.934717] (-) TimerEvent: {}
+[10.035306] (-) TimerEvent: {}
+[10.135901] (-) TimerEvent: {}
+[10.236971] (-) TimerEvent: {}
+[10.338052] (-) TimerEvent: {}
+[10.439174] (-) TimerEvent: {}
+[10.541235] (-) TimerEvent: {}
+[10.641829] (-) TimerEvent: {}
+[10.742929] (-) TimerEvent: {}
+[10.843182] (-) TimerEvent: {}
+[10.943591] (-) TimerEvent: {}
+[11.046240] (-) TimerEvent: {}
+[11.146903] (-) TimerEvent: {}
+[11.248875] (-) TimerEvent: {}
+[11.349441] (-) TimerEvent: {}
+[11.455159] (-) TimerEvent: {}
+[11.556159] (-) TimerEvent: {}
+[11.656703] (-) TimerEvent: {}
+[11.757393] (-) TimerEvent: {}
+[11.859470] (-) TimerEvent: {}
+[11.966068] (-) TimerEvent: {}
+[12.068064] (-) TimerEvent: {}
+[12.169662] (-) TimerEvent: {}
+[12.280356] (-) TimerEvent: {}
+[12.388401] (-) TimerEvent: {}
+[12.490408] (-) TimerEvent: {}
+[12.592526] (-) TimerEvent: {}
+[12.693590] (-) TimerEvent: {}
+[12.794670] (-) TimerEvent: {}
+[12.898781] (-) TimerEvent: {}
+[12.999343] (-) TimerEvent: {}
+[13.108995] (-) TimerEvent: {}
+[13.213063] (-) TimerEvent: {}
+[13.320647] (-) TimerEvent: {}
+[13.423717] (-) TimerEvent: {}
+[13.527303] (-) TimerEvent: {}
+[13.631396] (-) TimerEvent: {}
+[13.733479] (-) TimerEvent: {}
+[13.850102] (-) TimerEvent: {}
+[13.955194] (-) TimerEvent: {}
+[14.056265] (-) TimerEvent: {}
+[14.165424] (-) TimerEvent: {}
+[14.273949] (-) TimerEvent: {}
+[14.377032] (-) TimerEvent: {}
+[14.478635] (-) TimerEvent: {}
+[14.587225] (-) TimerEvent: {}
+[14.687483] (-) TimerEvent: {}
+[14.792900] (-) TimerEvent: {}
+[14.908529] (-) TimerEvent: {}
+[15.023669] (-) TimerEvent: {}
+[15.124683] (-) TimerEvent: {}
+[15.204694] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libHydrodynamics.so\x1b[0m\n'}
+[15.225383] (-) TimerEvent: {}
+[15.325860] (-) TimerEvent: {}
+[15.426440] (-) TimerEvent: {}
+[15.530044] (-) TimerEvent: {}
+[15.637631] (-) TimerEvent: {}
+[15.691562] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 57%] Built target Hydrodynamics\n'}
+[15.700219] (wave_gazebo_plugins) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target WavefieldVisualPlugin\x1b[0m\n'}
+[15.700376] (wave_gazebo_plugins) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target WavefieldModelPlugin\x1b[0m\n'}
+[15.737714] (-) TimerEvent: {}
+[15.800843] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/WavefieldModelPlugin.dir/src/WavefieldModelPlugin.cc.o\x1b[0m\n'}
+[15.801699] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/WavefieldVisualPlugin.dir/src/WavefieldVisualPlugin.cc.o\x1b[0m\n'}
+[15.918152] (-) TimerEvent: {}
+[16.018466] (-) TimerEvent: {}
+[16.122543] (-) TimerEvent: {}
+[16.225663] (-) TimerEvent: {}
+[16.328223] (-) TimerEvent: {}
+[16.429305] (-) TimerEvent: {}
+[16.530896] (-) TimerEvent: {}
+[16.631486] (-) TimerEvent: {}
+[16.732567] (-) TimerEvent: {}
+[16.833333] (-) TimerEvent: {}
+[16.934788] (-) TimerEvent: {}
+[17.037843] (-) TimerEvent: {}
+[17.138411] (-) TimerEvent: {}
+[17.247377] (-) TimerEvent: {}
+[17.348601] (-) TimerEvent: {}
+[17.449181] (-) TimerEvent: {}
+[17.551326] (-) TimerEvent: {}
+[17.656983] (-) TimerEvent: {}
+[17.757496] (-) TimerEvent: {}
+[17.863040] (-) TimerEvent: {}
+[17.967129] (-) TimerEvent: {}
+[18.068263] (-) TimerEvent: {}
+[18.170330] (-) TimerEvent: {}
+[18.272894] (-) TimerEvent: {}
+[18.375991] (-) TimerEvent: {}
+[18.479072] (-) TimerEvent: {}
+[18.579663] (-) TimerEvent: {}
+[18.679973] (-) TimerEvent: {}
+[18.780328] (-) TimerEvent: {}
+[18.881425] (-) TimerEvent: {}
+[18.984564] (-) TimerEvent: {}
+[19.086594] (-) TimerEvent: {}
+[19.190722] (-) TimerEvent: {}
+[19.292779] (-) TimerEvent: {}
+[19.393386] (-) TimerEvent: {}
+[19.494011] (-) TimerEvent: {}
+[19.596042] (-) TimerEvent: {}
+[19.697626] (-) TimerEvent: {}
+[19.798256] (-) TimerEvent: {}
+[19.899805] (-) TimerEvent: {}
+[20.000388] (-) TimerEvent: {}
+[20.101476] (-) TimerEvent: {}
+[20.203087] (-) TimerEvent: {}
+[20.303651] (-) TimerEvent: {}
+[20.404728] (-) TimerEvent: {}
+[20.505851] (-) TimerEvent: {}
+[20.606920] (-) TimerEvent: {}
+[20.707594] (-) TimerEvent: {}
+[20.808074] (-) TimerEvent: {}
+[20.908665] (-) TimerEvent: {}
+[21.009373] (-) TimerEvent: {}
+[21.111870] (-) TimerEvent: {}
+[21.212961] (-) TimerEvent: {}
+[21.313547] (-) TimerEvent: {}
+[21.418626] (-) TimerEvent: {}
+[21.520697] (-) TimerEvent: {}
+[21.624305] (-) TimerEvent: {}
+[21.727377] (-) TimerEvent: {}
+[21.833004] (-) TimerEvent: {}
+[21.933563] (-) TimerEvent: {}
+[22.034635] (-) TimerEvent: {}
+[22.135218] (-) TimerEvent: {}
+[22.235805] (-) TimerEvent: {}
+[22.336389] (-) TimerEvent: {}
+[22.436974] (-) TimerEvent: {}
+[22.537753] (-) TimerEvent: {}
+[22.639153] (-) TimerEvent: {}
+[22.740279] (-) TimerEvent: {}
+[22.840830] (-) TimerEvent: {}
+[22.942422] (-) TimerEvent: {}
+[23.043072] (-) TimerEvent: {}
+[23.145102] (-) TimerEvent: {}
+[23.245417] (-) TimerEvent: {}
+[23.350297] (-) TimerEvent: {}
+[23.451349] (-) TimerEvent: {}
+[23.551607] (-) TimerEvent: {}
+[23.652037] (-) TimerEvent: {}
+[23.753677] (-) TimerEvent: {}
+[23.854199] (-) TimerEvent: {}
+[23.956797] (-) TimerEvent: {}
+[24.057393] (-) TimerEvent: {}
+[24.163503] (-) TimerEvent: {}
+[24.267111] (-) TimerEvent: {}
+[24.373162] (-) TimerEvent: {}
+[24.440766] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libWavefieldModelPlugin.so\x1b[0m\n'}
+[24.473244] (-) TimerEvent: {}
+[24.573823] (-) TimerEvent: {}
+[24.674411] (-) TimerEvent: {}
+[24.766541] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 78%] Built target WavefieldModelPlugin\n'}
+[24.774506] (wave_gazebo_plugins) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target wavegauge_plugin\x1b[0m\n'}
+[24.774656] (-) TimerEvent: {}
+[24.874180] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/wavegauge_plugin.dir/src/wavegauge_plugin.cc.o\x1b[0m\n'}
+[24.875040] (-) TimerEvent: {}
+[24.975666] (-) TimerEvent: {}
+[25.077439] (-) TimerEvent: {}
+[25.177844] (-) TimerEvent: {}
+[25.280051] (-) TimerEvent: {}
+[25.381019] (-) TimerEvent: {}
+[25.481606] (-) TimerEvent: {}
+[25.582248] (-) TimerEvent: {}
+[25.682784] (-) TimerEvent: {}
+[25.783865] (-) TimerEvent: {}
+[25.884962] (-) TimerEvent: {}
+[25.985519] (-) TimerEvent: {}
+[26.086152] (-) TimerEvent: {}
+[26.187228] (-) TimerEvent: {}
+[26.287565] (-) TimerEvent: {}
+[26.388900] (-) TimerEvent: {}
+[26.489831] (-) TimerEvent: {}
+[26.590581] (-) TimerEvent: {}
+[26.692163] (-) TimerEvent: {}
+[26.792747] (-) TimerEvent: {}
+[26.895917] (-) TimerEvent: {}
+[26.997422] (-) TimerEvent: {}
+[27.099025] (-) TimerEvent: {}
+[27.199586] (-) TimerEvent: {}
+[27.300678] (-) TimerEvent: {}
+[27.401782] (-) TimerEvent: {}
+[27.506369] (-) TimerEvent: {}
+[27.609571] (-) TimerEvent: {}
+[27.711064] (-) TimerEvent: {}
+[27.812112] (-) TimerEvent: {}
+[27.913221] (-) TimerEvent: {}
+[28.016377] (-) TimerEvent: {}
+[28.119417] (-) TimerEvent: {}
+[28.219982] (-) TimerEvent: {}
+[28.320591] (-) TimerEvent: {}
+[28.422215] (-) TimerEvent: {}
+[28.533946] (-) TimerEvent: {}
+[28.635407] (-) TimerEvent: {}
+[28.736440] (-) TimerEvent: {}
+[28.838003] (-) TimerEvent: {}
+[28.938621] (-) TimerEvent: {}
+[28.942417] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX shared library libWavefieldVisualPlugin.so\x1b[0m\n'}
+[29.038761] (-) TimerEvent: {}
+[29.139263] (-) TimerEvent: {}
+[29.247902] (-) TimerEvent: {}
+[29.346036] (wave_gazebo_plugins) StdoutLine: {'line': b'[ 92%] Built target WavefieldVisualPlugin\n'}
+[29.349396] (-) TimerEvent: {}
+[29.455474] (-) TimerEvent: {}
+[29.560623] (-) TimerEvent: {}
+[29.665713] (-) TimerEvent: {}
+[29.767815] (-) TimerEvent: {}
+[29.872406] (-) TimerEvent: {}
+[29.974982] (-) TimerEvent: {}
+[30.077857] (-) TimerEvent: {}
+[30.181196] (-) TimerEvent: {}
+[30.283282] (-) TimerEvent: {}
+[30.387339] (-) TimerEvent: {}
+[30.494434] (-) TimerEvent: {}
+[30.598547] (-) TimerEvent: {}
+[30.699104] (-) TimerEvent: {}
+[30.800204] (-) TimerEvent: {}
+[30.901417] (-) TimerEvent: {}
+[31.002869] (-) TimerEvent: {}
+[31.104969] (-) TimerEvent: {}
+[31.205561] (-) TimerEvent: {}
+[31.307138] (-) TimerEvent: {}
+[31.407722] (-) TimerEvent: {}
+[31.510816] (-) TimerEvent: {}
+[31.611438] (-) TimerEvent: {}
+[31.712099] (-) TimerEvent: {}
+[31.814246] (-) TimerEvent: {}
+[31.915207] (-) TimerEvent: {}
+[32.016310] (-) TimerEvent: {}
+[32.117378] (-) TimerEvent: {}
+[32.218436] (-) TimerEvent: {}
+[32.319026] (-) TimerEvent: {}
+[32.420117] (-) TimerEvent: {}
+[32.520680] (-) TimerEvent: {}
+[32.621799] (-) TimerEvent: {}
+[32.722365] (-) TimerEvent: {}
+[32.828658] (-) TimerEvent: {}
+[32.929554] (-) TimerEvent: {}
+[33.032634] (-) TimerEvent: {}
+[33.133216] (-) TimerEvent: {}
+[33.235297] (-) TimerEvent: {}
+[33.337387] (-) TimerEvent: {}
+[33.437986] (-) TimerEvent: {}
+[33.538552] (-) TimerEvent: {}
+[33.641636] (-) TimerEvent: {}
+[33.742298] (-) TimerEvent: {}
+[33.842563] (-) TimerEvent: {}
+[33.943128] (-) TimerEvent: {}
+[33.978654] (wave_gazebo_plugins) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libwavegauge_plugin.so\x1b[0m\n'}
+[34.044490] (-) TimerEvent: {}
+[34.149593] (-) TimerEvent: {}
+[34.250269] (-) TimerEvent: {}
+[34.340691] (wave_gazebo_plugins) StdoutLine: {'line': b'[100%] Built target wavegauge_plugin\n'}
+[34.349403] (wave_gazebo_plugins) CommandEnded: {'returncode': 0}
+[34.351266] (-) TimerEvent: {}
+[34.384459] (wave_gazebo_plugins) JobProgress: {'identifier': 'wave_gazebo_plugins', 'progress': 'install'}
+[34.394889] (wave_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/grant/ros2_ws/build/wave_gazebo_plugins'], 'cwd': '/home/grant/ros2_ws/build/wave_gazebo_plugins', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'grant'), ('SSH_AGENT_PID', '1368'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/grant'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/grant/vrx_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_IP', '192.168.0.5'), ('MANAGERPID', '1041'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/grant/ros2_ws/install:/home/grant/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'grant'), ('JOURNAL_STREAM', '8:37906'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:/home/grant/vrx_ws/devel/lib/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'grant'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/grant/vrx_ws/src/adept-vrx/robotX_2022/models:/home/grant/vrx_ws/src/adept-vrx/wamv_description/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/home/grant/miniconda3/bin:/home/grant/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/grant/.local/bin:/home/grant/ardupilot/Tools/autotest:/home/grant/ros2_foxy/ros2-linux/bin'), ('SESSION_MANAGER', 'local/grant-2f:@/tmp/.ICE-unix/1454,unix/grant-2f:/tmp/.ICE-unix/1454'), ('INVOCATION_ID', 'd6fa7f9a22634c4e8c2de972c5c75c9c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ea465f44_b9d2_498d_ba63_e44ee9f324e0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/opt/ros/foxy:/home/grant/ros2_foxy/ros2-linux'), ('CONDA_PYTHON_EXE', '/home/grant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.0.5:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('_DOMAIN_ID', '0'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/grant/ros2_ws/build/wave_gazebo_plugins'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/grant/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages'), ('ROS_HOSTNAME', '192.168.0.5'), ('CONDA_PREFIX', '/home/grant/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux')]), 'shell': False}
+[34.402027] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.402222] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libHydrodynamics.so\n'}
+[34.403877] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libHydrodynamics.so" to ""\n'}
+[34.404026] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libWavefieldModelPlugin.so\n'}
+[34.405154] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libWavefieldModelPlugin.so" to ""\n'}
+[34.405391] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libWavefieldVisualPlugin.so\n'}
+[34.406695] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libWavefieldVisualPlugin.so" to ""\n'}
+[34.406842] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libwavegauge_plugin.so\n'}
+[34.408149] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Set runtime path of "/home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libwavegauge_plugin.so" to ""\n'}
+[34.408311] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include\n'}
+[34.408652] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/WavefieldModelPlugin.hh\n'}
+[34.408791] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Geometry.hh\n'}
+[34.408882] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Physics.hh\n'}
+[34.408961] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/wavegauge_plugin.hh\n'}
+[34.409134] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/WavefieldVisualPlugin.hh\n'}
+[34.409241] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Utilities.hh\n'}
+[34.409472] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Gazebo.hh\n'}
+[34.409567] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/PhysicalConstants.hh\n'}
+[34.409650] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Wavefield.hh\n'}
+[34.409841] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/WavefieldEntity.hh\n'}
+[34.409932] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include\n'}
+[34.410009] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins\n'}
+[34.410087] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include\n'}
+[34.410164] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_package_templates\n'}
+[34.410286] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_environment_hooks\n'}
+[34.410371] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_core\n'}
+[34.410447] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_core/stamps\n'}
+[34.410524] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_uninstall_target\n'}
+[34.410600] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles\n'}
+[34.410677] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/wave_gazebo_plugins_uninstall.dir\n'}
+[34.410785] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3\n'}
+[34.410868] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3/CompilerIdC\n'}
+[34.410945] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3/CompilerIdC/tmp\n'}
+[34.411022] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3/CompilerIdCXX\n'}
+[34.411106] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3/CompilerIdCXX/tmp\n'}
+[34.411939] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/uninstall.dir\n'}
+[34.412054] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/CMakeTmp\n'}
+[34.412139] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/WavefieldVisualPlugin.dir\n'}
+[34.412247] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/WavefieldVisualPlugin.dir/src\n'}
+[34.412341] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/wavegauge_plugin.dir\n'}
+[34.412421] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/wavegauge_plugin.dir/src\n'}
+[34.412500] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/Hydrodynamics.dir\n'}
+[34.412582] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/Hydrodynamics.dir/src\n'}
+[34.412663] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/WavefieldModelPlugin.dir\n'}
+[34.412766] (wave_gazebo_plugins) StdoutLine: {'line': b'-- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/WavefieldModelPlugin.dir/src\n'}
+[34.413650] (wave_gazebo_plugins) CommandEnded: {'returncode': 0}
+[34.451361] (-) TimerEvent: {}
+[34.493310] (wave_gazebo_plugins) JobEnded: {'identifier': 'wave_gazebo_plugins', 'rc': 0}
+[34.494614] (-) EventReactorShutdown: {}

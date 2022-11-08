@@ -1,0 +1,48 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/Tunnel.idl
+// generated code does not contain a copyright notice
+
+#ifndef __mavros_msgs__msg__tunnel__idl__
+#define __mavros_msgs__msg__tunnel__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module Tunnel_Constants {
+const unsigned short PAYLOAD_TYPE_UNKNOWN_ = 0;
+const unsigned short PAYLOAD_TYPE_STORM32_RESERVED0_ = 200;
+const unsigned short PAYLOAD_TYPE_STORM32_RESERVED1_ = 201;
+const unsigned short PAYLOAD_TYPE_STORM32_RESERVED2_ = 202;
+const unsigned short PAYLOAD_TYPE_STORM32_RESERVED3_ = 203;
+const unsigned short PAYLOAD_TYPE_STORM32_RESERVED4_ = 204;
+const unsigned short PAYLOAD_TYPE_STORM32_RESERVED5_ = 205;
+const unsigned short PAYLOAD_TYPE_STORM32_RESERVED6_ = 206;
+const unsigned short PAYLOAD_TYPE_STORM32_RESERVED7_ = 207;
+const unsigned short PAYLOAD_TYPE_STORM32_RESERVED8_ = 208;
+const unsigned short PAYLOAD_TYPE_STORM32_RESERVED9_ = 209;
+
+};
+
+struct Tunnel_ {
+octet target_system_;
+octet target_component_;
+unsigned short payload_type_;
+octet payload_length_;
+octet payload_[128];
+
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__tunnel__idl__

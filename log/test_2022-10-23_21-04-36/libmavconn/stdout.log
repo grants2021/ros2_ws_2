@@ -1,0 +1,209 @@
+UpdateCTestConfiguration  from :/home/grant/ros2_ws/build/libmavconn/CTestConfiguration.ini
+Parse Config file:/home/grant/ros2_ws/build/libmavconn/CTestConfiguration.ini
+   Site: grant-2f
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+Create new tag: 20221024-0104 - Experimental
+UpdateCTestConfiguration  from :/home/grant/ros2_ws/build/libmavconn/CTestConfiguration.ini
+Parse Config file:/home/grant/ros2_ws/build/libmavconn/CTestConfiguration.ini
+Test project /home/grant/ros2_ws/build/libmavconn
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: test_mavconn
+
+1: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/test_mavconn.gtest.xml" "--package-name" "libmavconn" "--output-file" "/home/grant/ros2_ws/build/libmavconn/ament_cmake_gtest/test_mavconn.txt" "--command" "/home/grant/ros2_ws/build/libmavconn/test_mavconn" "--gtest_output=xml:/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/test_mavconn.gtest.xml"
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/home/grant/ros2_ws/build/libmavconn':
+1:  - /home/grant/ros2_ws/build/libmavconn/test_mavconn --gtest_output=xml:/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/test_mavconn.gtest.xml
+1: [==========] Running 8 tests from 4 test cases.
+1: [----------] Global test environment set-up.
+1: [----------] 1 test from UDP
+1: [ RUN      ] UDP.send_message
+1: [       OK ] UDP.send_message (2 ms)
+1: [----------] 1 test from UDP (2 ms total)
+1: 
+1: [----------] 4 tests from TCP
+1: [ RUN      ] TCP.bind_error
+1: [       OK ] TCP.bind_error (1 ms)
+1: [ RUN      ] TCP.connect_error
+1: [       OK ] TCP.connect_error (0 ms)
+1: [ RUN      ] TCP.send_message
+1: [       OK ] TCP.send_message (0 ms)
+1: [ RUN      ] TCP.client_reconnect
+1: [       OK ] TCP.client_reconnectError:   mavconn: tcp12: receive: End of file
+1:          at line 283 in /home/grant/ros2_ws/src/mavros/libmavconn/src/tcp.cpp
+1:  (1 ms)
+1: [----------] 4 tests from TCP (2 ms total)
+1: 
+1: [----------] 1 test from SERIAL
+1: [ RUN      ] SERIAL.open_error
+1: Error:   mavconn: tcp14: receive: End of file
+1:          at line 283 in /home/grant/ros2_ws/src/mavros/libmavconn/src/tcp.cpp
+1: Error:   mavconn: tcp16: receive: End of file
+1:          at line 283 in /home/grant/ros2_ws/src/mavros/libmavconn/src/tcp.cpp
+1: [       OK ] SERIAL.open_error (0 ms)
+1: [----------] 1 test from SERIAL (0 ms total)
+1: 
+1: [----------] 2 tests from URL
+1: [ RUN      ] URL.open_url_udp
+1: Warning: mavconn: You did not provide message handling callback to open_url(), It is unsafe to set it later.
+1:          at line 446 in /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp
+1: Warning: mavconn: You did not provide message handling callback to open_url(), It is unsafe to set it later.
+1:          at line 446 in /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp
+1: Warning: mavconn: You did not provide message handling callback to open_url(), It is unsafe to set it later.
+1:          at line 446 in /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp
+1: Error:   mavconn: UDP URL should contain @!
+1:          at line 303 in /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp
+1: [       OK ] URL.open_url_udp (1 ms)
+1: [ RUN      ] URL.open_url_tcp
+1: Warning: mavconn: You did not provide message handling callback to open_url(), It is unsafe to set it later.
+1:          at line 446 in /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp
+1: Warning: mavconn: You did not provide message handling callback to open_url(), It is unsafe to set it later.
+1:          at line 446 in /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp
+1: Error:   mavconn: tcp24: receive: End of file
+1:          at line 283 in /home/grant/ros2_ws/src/mavros/libmavconn/src/tcp.cpp
+1: [       OK ] URL.open_url_tcp (0 ms)
+1: [----------] 2 tests from URL (1 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 8 tests from 4 test cases ran. (5 ms total)
+1: [  PASSED  ] 8 tests.
+1: -- run_test.py: return code 0
+1: -- run_test.py: inject classname prefix into gtest result file '/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/test_mavconn.gtest.xml'
+1: -- run_test.py: verify result file '/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/test_mavconn.gtest.xml'
+1/6 Test #1: test_mavconn .....................   Passed    0.10 sec
+test 2
+    Start 2: cppcheck
+
+2: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/cppcheck.xunit.xml" "--package-name" "libmavconn" "--output-file" "/home/grant/ros2_ws/build/libmavconn/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/cppcheck.xunit.xml" "--include_dirs" "/home/grant/ros2_ws/src/mavros/libmavconn/include"
+2: Test timeout computed to be: 300
+2: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/libmavconn':
+2:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/cppcheck.xunit.xml --include_dirs /home/grant/ros2_ws/src/mavros/libmavconn/include
+2: No problems found
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/cppcheck.xunit.xml'
+2/6 Test #2: cppcheck .........................   Passed    0.37 sec
+test 3
+    Start 3: cpplint
+
+3: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/cpplint.xunit.xml" "--package-name" "libmavconn" "--output-file" "/home/grant/ros2_ws/build/libmavconn/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/cpplint.xunit.xml"
+3: Test timeout computed to be: 120
+3: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/libmavconn':
+3:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/cpplint.xunit.xml
+3: Using '--root=/home/grant/ros2_ws/src/mavros/libmavconn/include' argument
+3: 
+3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/console_bridge_compat.hpp
+3: 
+3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/interface.hpp
+3: 
+3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/mavlink_dialect.hpp
+3: 
+3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/msgbuffer.hpp
+3: 
+3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/serial.hpp
+3: 
+3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/tcp.hpp
+3: 
+3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/thread_utils.hpp
+3: 
+3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/udp.hpp
+3: 
+3: Using '--root=/home/grant/ros2_ws/src/mavros/libmavconn/src' argument
+3: 
+3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp
+3: 
+3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/src/serial.cpp
+3: 
+3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/src/tcp.cpp
+3: 
+3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/src/udp.cpp
+3: 
+3: Using '--root=/home/grant/ros2_ws/src/mavros/libmavconn/test' argument
+3: 
+3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/test/test_mavconn.cpp
+3: 
+3: No problems found
+3: -- run_test.py: return code 0
+3: -- run_test.py: verify result file '/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/cpplint.xunit.xml'
+3/6 Test #3: cpplint ..........................   Passed    0.98 sec
+test 4
+    Start 4: lint_cmake
+
+4: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/lint_cmake.xunit.xml" "--package-name" "libmavconn" "--output-file" "/home/grant/ros2_ws/build/libmavconn/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/lint_cmake.xunit.xml"
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/libmavconn':
+4:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/lint_cmake.xunit.xml
+4: 
+4: No problems found
+4: -- run_test.py: return code 0
+4: -- run_test.py: verify result file '/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/lint_cmake.xunit.xml'
+4/6 Test #4: lint_cmake .......................   Passed    0.28 sec
+test 5
+    Start 5: uncrustify
+
+5: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/uncrustify.xunit.xml" "--package-name" "libmavconn" "--output-file" "/home/grant/ros2_ws/build/libmavconn/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/uncrustify.xunit.xml"
+5: Test timeout computed to be: 60
+5: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/libmavconn':
+5:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/uncrustify.xunit.xml
+5: No code style divergence in file 'include/mavconn/console_bridge_compat.hpp'
+5: 
+5: No code style divergence in file 'include/mavconn/interface.hpp'
+5: 
+5: No code style divergence in file 'include/mavconn/mavlink_dialect.hpp'
+5: 
+5: No code style divergence in file 'include/mavconn/msgbuffer.hpp'
+5: 
+5: No code style divergence in file 'include/mavconn/serial.hpp'
+5: 
+5: No code style divergence in file 'include/mavconn/tcp.hpp'
+5: 
+5: No code style divergence in file 'include/mavconn/thread_utils.hpp'
+5: 
+5: No code style divergence in file 'include/mavconn/udp.hpp'
+5: 
+5: No code style divergence in file 'src/interface.cpp'
+5: 
+5: No code style divergence in file 'src/serial.cpp'
+5: 
+5: No code style divergence in file 'src/tcp.cpp'
+5: 
+5: No code style divergence in file 'src/udp.cpp'
+5: 
+5: No code style divergence in file 'test/test_mavconn.cpp'
+5: 
+5: No problems found
+5: -- run_test.py: return code 0
+5: -- run_test.py: verify result file '/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/uncrustify.xunit.xml'
+5/6 Test #5: uncrustify .......................   Passed    0.33 sec
+test 6
+    Start 6: xmllint
+
+6: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/xmllint.xunit.xml" "--package-name" "libmavconn" "--output-file" "/home/grant/ros2_ws/build/libmavconn/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/xmllint.xunit.xml"
+6: Test timeout computed to be: 60
+6: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/libmavconn':
+6:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/xmllint.xunit.xml
+6: File 'package.xml' is valid
+6: 
+6: No problems found
+6: -- run_test.py: return code 0
+6: -- run_test.py: verify result file '/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/xmllint.xunit.xml'
+6/6 Test #6: xmllint ..........................   Passed    0.52 sec
+
+[0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+
+Label Time Summary:
+cppcheck      =   0.37 sec*proc (1 test)
+cpplint       =   0.98 sec*proc (1 test)
+gtest         =   0.10 sec*proc (1 test)
+lint_cmake    =   0.28 sec*proc (1 test)
+linter        =   2.48 sec*proc (5 tests)
+uncrustify    =   0.33 sec*proc (1 test)
+xmllint       =   0.52 sec*proc (1 test)
+
+Total Test time (real) =   2.58 sec

@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:32 (target_include_directories):
+  Cannot specify include directories for target "my_target" which is not
+  built by this project.
+
+
+CMake Error at CMakeLists.txt:174 (install):
+  install DIRECTORY given no DESTINATION!
+
+
+CMake Error at CMakeLists.txt:180 (install):
+  install DIRECTORY given no DESTINATION!
+
+
+CMake Error at CMakeLists.txt:185 (install):
+  install DIRECTORY given no DESTINATION!
+
+

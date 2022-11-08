@@ -1,0 +1,24 @@
+-- run_test.py: invoking following command in '/home/grant/ros2_ws/build/mavros':
+ - /home/grant/ros2_ws/build/mavros/mavros-uas-test --gtest_output=xml:/home/grant/ros2_ws/build/mavros/test_results/mavros/mavros-uas-test.gtest.xml
+
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from TestUAS
+[ RUN      ] TestUAS.is_plugin_allowed
+[       OK ] TestUAS.is_plugin_allowed (27 ms)
+[ RUN      ] TestUAS.add_plugin__route_message__filter
+[INFO] [1666579008.795570999] [test_mavros_uas]: Plugin test1 created
+[INFO] [1666579008.795866510] [test_mavros_uas]: Plugin test1 initialized
+[INFO] [1666579008.795899500] [test_mavros_uas]: Plugin test2 created
+[INFO] [1666579008.795954910] [test_mavros_uas]: Plugin test2 initialized
+[       OK ] TestUAS.add_plugin__route_message__filter (8 ms)
+[----------] 2 tests from TestUAS (35 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (35 ms total)
+[  PASSED  ] 2 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/mavros-uas-test.gtest.xml'
+-- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/mavros-uas-test.gtest.xml'

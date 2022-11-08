@@ -1,0 +1,94 @@
+[0.109s] Invoking command in '/home/grant/ros2_ws/build/wave_gazebo_plugins': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/wave_gazebo_plugins -- -j8 -l8
+[0.213s] [ 10%] Built target gtest_main
+[0.218s] [ 20%] Built target gtest
+[0.236s] [ 60%] Built target Hydrodynamics
+[0.294s] [ 70%] Built target WavefieldVisualPlugin
+[0.295s] [ 80%] Built target WavefieldModelPlugin
+[0.299s] [ 90%] Built target UNIT_Wavefield_TEST
+[0.329s] [100%] Built target wavegauge_plugin
+[0.342s] Invoked command in '/home/grant/ros2_ws/build/wave_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/wave_gazebo_plugins -- -j8 -l8
+[0.415s] Invoking command in '/home/grant/ros2_ws/build/wave_gazebo_plugins': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/wave_gazebo_plugins
+[0.427s] -- Install configuration: ""
+[0.427s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libHydrodynamics.so
+[0.431s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libWavefieldModelPlugin.so
+[0.431s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libWavefieldVisualPlugin.so
+[0.433s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/lib/libwavegauge_plugin.so
+[0.433s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include
+[0.433s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/WavefieldModelPlugin.hh
+[0.433s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Geometry.hh
+[0.433s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Physics.hh
+[0.434s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/wavegauge_plugin.hh
+[0.434s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/WavefieldVisualPlugin.hh
+[0.434s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Utilities.hh
+[0.434s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Gazebo.hh
+[0.434s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/PhysicalConstants.hh
+[0.434s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/Wavefield.hh
+[0.435s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/WavefieldEntity.hh
+[0.435s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include
+[0.435s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/wave_gazebo_plugins
+[0.436s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include
+[0.436s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_package_templates
+[0.436s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_environment_hooks
+[0.436s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_core
+[0.436s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_core/stamps
+[0.436s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_uninstall_target
+[0.436s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/connext_cmake_module
+[0.436s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/connext_cmake_module/check_abi
+[0.436s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/connext_cmake_module/check_abi/build
+[0.437s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/connext_cmake_module/check_abi/build/CMakeFiles
+[0.437s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/connext_cmake_module/check_abi/build/CMakeFiles/Progress
+[0.437s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/connext_cmake_module/check_abi/build/CMakeFiles/exe.dir
+[0.437s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_export_libraries
+[0.437s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/gtest
+[0.437s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/gtest/CMakeFiles
+[0.437s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/gtest/CMakeFiles/gtest_main.dir
+[0.437s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/gtest/CMakeFiles/gtest_main.dir/src
+[0.437s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/gtest/CMakeFiles/gtest.dir
+[0.437s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/gtest/CMakeFiles/gtest.dir/src
+[0.438s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_index
+[0.438s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_index/share
+[0.438s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_index/share/ament_index
+[0.438s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_index/share/ament_index/resource_index
+[0.438s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_index/share/ament_index/resource_index/packages
+[0.438s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies
+[0.439s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path
+[0.439s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles
+[0.439s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/wave_gazebo_plugins_uninstall.dir
+[0.440s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/UNIT_Wavefield_TEST.dir
+[0.440s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/UNIT_Wavefield_TEST.dir/src
+[0.440s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3
+[0.440s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3/CompilerIdC
+[0.440s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3/CompilerIdC/tmp
+[0.440s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3/CompilerIdCXX
+[0.440s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/3.16.3/CompilerIdCXX/tmp
+[0.440s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/uninstall.dir
+[0.440s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/CMakeTmp
+[0.441s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/WavefieldVisualPlugin.dir
+[0.441s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/WavefieldVisualPlugin.dir/src
+[0.441s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/wavegauge_plugin.dir
+[0.441s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/wavegauge_plugin.dir/src
+[0.441s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/Hydrodynamics.dir
+[0.441s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/Hydrodynamics.dir/src
+[0.441s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/WavefieldModelPlugin.dir
+[0.441s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/CMakeFiles/WavefieldModelPlugin.dir/src
+[0.441s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/include/ament_cmake_export_include_directories
+[0.441s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/library_path.sh
+[0.441s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/library_path.dsv
+[0.441s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/wave_gazebo_plugins
+[0.442s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/wave_gazebo_plugins
+[0.442s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/ament_prefix_path.sh
+[0.442s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/ament_prefix_path.dsv
+[0.442s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/path.sh
+[0.442s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/environment/path.dsv
+[0.446s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/local_setup.bash
+[0.446s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/local_setup.sh
+[0.447s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/local_setup.zsh
+[0.447s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/local_setup.dsv
+[0.447s] -- Installing: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.dsv
+[0.447s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/ament_index/resource_index/packages/wave_gazebo_plugins
+[0.447s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.447s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[0.447s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/wave_gazebo_pluginsConfig.cmake
+[0.447s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake/wave_gazebo_pluginsConfig-version.cmake
+[0.447s] -- Up-to-date: /home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/package.xml
+[0.448s] Invoked command in '/home/grant/ros2_ws/build/wave_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/wave_gazebo_plugins

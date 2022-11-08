@@ -1,0 +1,23 @@
+CMake Deprecation Warning at CMakeLists.txt:15 (cmake_policy):
+  The OLD behavior for policy CMP0057 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+CMake Error at /home/grant/ros2_foxy/ros2-linux/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+  if given arguments:
+
+    "NOT" "element" "IN_LIST" "paths_to_search"
+
+  Unknown arguments specified
+Call Stack (most recent call first):
+  /home/grant/ros2_foxy/ros2-linux/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake:51 (list_append_unique)
+  /home/grant/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:5 (ament_index_get_resources)
+  /home/grant/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+  CMakeLists.txt:21 (find_package)
+
+

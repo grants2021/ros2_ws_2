@@ -1,0 +1,1363 @@
+[0.000000] (-) TimerEvent: {}
+[0.000498] (mavlink) JobQueued: {'identifier': 'mavlink', 'dependencies': OrderedDict([('mavlink', '/home/grant/ros2_ws/install/mavlink')])}
+[0.000540] (mavros_msgs) JobQueued: {'identifier': 'mavros_msgs', 'dependencies': OrderedDict([('mavros_msgs', '/home/grant/ros2_ws/install/mavros_msgs')])}
+[0.000568] (libmavconn) JobQueued: {'identifier': 'libmavconn', 'dependencies': OrderedDict([('mavlink', '/home/grant/ros2_ws/install/mavlink'), ('libmavconn', '/home/grant/ros2_ws/install/libmavconn')])}
+[0.000612] (mavros) JobQueued: {'identifier': 'mavros', 'dependencies': OrderedDict([('mavlink', '/home/grant/ros2_ws/install/mavlink'), ('mavros_msgs', '/home/grant/ros2_ws/install/mavros_msgs'), ('libmavconn', '/home/grant/ros2_ws/install/libmavconn'), ('mavros', '/home/grant/ros2_ws/install/mavros')])}
+[0.000647] (mavros_extras) JobQueued: {'identifier': 'mavros_extras', 'dependencies': OrderedDict([('mavlink', '/home/grant/ros2_ws/install/mavlink'), ('mavros_msgs', '/home/grant/ros2_ws/install/mavros_msgs'), ('libmavconn', '/home/grant/ros2_ws/install/libmavconn'), ('mavros', '/home/grant/ros2_ws/install/mavros'), ('mavros_extras', '/home/grant/ros2_ws/install/mavros_extras')])}
+[0.000676] (mavlink) JobStarted: {'identifier': 'mavlink'}
+[0.022416] (mavros_msgs) JobStarted: {'identifier': 'mavros_msgs'}
+[0.050346] (mavlink) JobEnded: {'identifier': 'mavlink', 'rc': 0}
+[0.050989] (libmavconn) JobStarted: {'identifier': 'libmavconn'}
+[0.068074] (mavros_msgs) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/grant/ros2_ws/build/mavros_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'grant'), ('SSH_AGENT_PID', '1368'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/grant'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/grant/vrx_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_IP', '192.168.0.5'), ('MANAGERPID', '1041'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/grant/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'grant'), ('JOURNAL_STREAM', '8:37906'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/grant/vrx_ws/devel/lib/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'grant'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/grant/vrx_ws/src/adept-vrx/robotX_2022/models:/home/grant/vrx_ws/src/adept-vrx/wamv_description/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/grant/miniconda3/bin:/home/grant/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/grant/.local/bin:/home/grant/ardupilot/Tools/autotest:/home/grant/ros2_foxy/ros2-linux/bin'), ('SESSION_MANAGER', 'local/grant-2f:@/tmp/.ICE-unix/1454,unix/grant-2f:/tmp/.ICE-unix/1454'), ('INVOCATION_ID', 'd6fa7f9a22634c4e8c2de972c5c75c9c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ea465f44_b9d2_498d_ba63_e44ee9f324e0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/grant/ros2_ws/install/mavros_msgs:/opt/ros/foxy:/home/grant/ros2_foxy/ros2-linux'), ('CONDA_PYTHON_EXE', '/home/grant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.0.5:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('_DOMAIN_ID', '0'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/grant/ros2_ws/build/mavros_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/grant/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages'), ('ROS_HOSTNAME', '192.168.0.5'), ('CONDA_PREFIX', '/home/grant/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/grant/ros2_ws/install/mavros_msgs:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux')]), 'shell': False}
+[0.081073] (mavros_msgs) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/grant/ros2_ws/build/mavros_msgs/CTestConfiguration.ini\n'}
+[0.081363] (mavros_msgs) StdoutLine: {'line': b'Parse Config file:/home/grant/ros2_ws/build/mavros_msgs/CTestConfiguration.ini\n'}
+[0.081463] (mavros_msgs) StdoutLine: {'line': b'   Site: grant-2f\n'}
+[0.081544] (mavros_msgs) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.081736] (mavros_msgs) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.081817] (mavros_msgs) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[0.081883] (mavros_msgs) StdoutLine: {'line': b'Create new tag: 20221024-0050 - Experimental\n'}
+[0.081946] (mavros_msgs) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/grant/ros2_ws/build/mavros_msgs/CTestConfiguration.ini\n'}
+[0.082008] (mavros_msgs) StdoutLine: {'line': b'Parse Config file:/home/grant/ros2_ws/build/mavros_msgs/CTestConfiguration.ini\n'}
+[0.082070] (mavros_msgs) StdoutLine: {'line': b'Test project /home/grant/ros2_ws/build/mavros_msgs\n'}
+[0.082223] (mavros_msgs) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.082389] (mavros_msgs) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.082579] (mavros_msgs) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.082650] (mavros_msgs) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.082747] (mavros_msgs) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.082812] (mavros_msgs) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.082874] (mavros_msgs) StdoutLine: {'line': b'test 1\n'}
+[0.082935] (mavros_msgs) StdoutLine: {'line': b'    Start 1: cppcheck\n'}
+[0.082996] (mavros_msgs) StdoutLine: {'line': b'\n'}
+[0.083058] (mavros_msgs) StdoutLine: {'line': b'1: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/cppcheck.xunit.xml" "--package-name" "mavros_msgs" "--output-file" "/home/grant/ros2_ws/build/mavros_msgs/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/cppcheck.xunit.xml"\n'}
+[0.083133] (mavros_msgs) StdoutLine: {'line': b'1: Test timeout computed to be: 300\n'}
+[0.090965] (libmavconn) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/grant/ros2_ws/build/libmavconn', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'grant'), ('SSH_AGENT_PID', '1368'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/grant'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/grant/vrx_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_IP', '192.168.0.5'), ('MANAGERPID', '1041'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/grant/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'grant'), ('JOURNAL_STREAM', '8:37906'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:/home/grant/vrx_ws/devel/lib/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'grant'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/grant/vrx_ws/src/adept-vrx/robotX_2022/models:/home/grant/vrx_ws/src/adept-vrx/wamv_description/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/grant/miniconda3/bin:/home/grant/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/grant/.local/bin:/home/grant/ardupilot/Tools/autotest:/home/grant/ros2_foxy/ros2-linux/bin'), ('SESSION_MANAGER', 'local/grant-2f:@/tmp/.ICE-unix/1454,unix/grant-2f:/tmp/.ICE-unix/1454'), ('INVOCATION_ID', 'd6fa7f9a22634c4e8c2de972c5c75c9c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ea465f44_b9d2_498d_ba63_e44ee9f324e0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/grant/ros2_ws/install/libmavconn:/opt/ros/foxy:/home/grant/ros2_foxy/ros2-linux'), ('CONDA_PYTHON_EXE', '/home/grant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.0.5:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('_DOMAIN_ID', '0'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/grant/ros2_ws/build/libmavconn'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/grant/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages'), ('ROS_HOSTNAME', '192.168.0.5'), ('CONDA_PREFIX', '/home/grant/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux')]), 'shell': False}
+[0.101243] (-) TimerEvent: {}
+[0.109588] (libmavconn) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/grant/ros2_ws/build/libmavconn/CTestConfiguration.ini\n'}
+[0.110124] (libmavconn) StdoutLine: {'line': b'Parse Config file:/home/grant/ros2_ws/build/libmavconn/CTestConfiguration.ini\n'}
+[0.110302] (libmavconn) StdoutLine: {'line': b'   Site: grant-2f\n'}
+[0.110388] (libmavconn) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.110455] (libmavconn) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.110518] (libmavconn) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[0.110582] (libmavconn) StdoutLine: {'line': b'Create new tag: 20221024-0050 - Experimental\n'}
+[0.110760] (libmavconn) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/grant/ros2_ws/build/libmavconn/CTestConfiguration.ini\n'}
+[0.110895] (libmavconn) StdoutLine: {'line': b'Parse Config file:/home/grant/ros2_ws/build/libmavconn/CTestConfiguration.ini\n'}
+[0.111068] (libmavconn) StdoutLine: {'line': b'Test project /home/grant/ros2_ws/build/libmavconn\n'}
+[0.111147] (libmavconn) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.111247] (libmavconn) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.111317] (libmavconn) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.111381] (libmavconn) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.111444] (libmavconn) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.111507] (libmavconn) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.111569] (libmavconn) StdoutLine: {'line': b'test 1\n'}
+[0.111631] (libmavconn) StdoutLine: {'line': b'    Start 1: test_mavconn\n'}
+[0.111731] (libmavconn) StdoutLine: {'line': b'\n'}
+[0.111810] (libmavconn) StdoutLine: {'line': b'1: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/test_mavconn.gtest.xml" "--package-name" "libmavconn" "--output-file" "/home/grant/ros2_ws/build/libmavconn/ament_cmake_gtest/test_mavconn.txt" "--command" "/home/grant/ros2_ws/build/libmavconn/test_mavconn" "--gtest_output=xml:/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/test_mavconn.gtest.xml"\n'}
+[0.111880] (libmavconn) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.164179] (mavros_msgs) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_msgs':\n"}
+[0.164421] (mavros_msgs) StdoutLine: {'line': b'1:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/cppcheck.xunit.xml\n'}
+[0.177733] (libmavconn) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/grant/ros2_ws/build/libmavconn':\n"}
+[0.177881] (libmavconn) StdoutLine: {'line': b'1:  - /home/grant/ros2_ws/build/libmavconn/test_mavconn --gtest_output=xml:/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/test_mavconn.gtest.xml\n'}
+[0.180022] (libmavconn) StdoutLine: {'line': b'1: [==========] Running 8 tests from 4 test cases.\n'}
+[0.180129] (libmavconn) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.180197] (libmavconn) StdoutLine: {'line': b'1: [----------] 1 test from UDP\n'}
+[0.180301] (libmavconn) StdoutLine: {'line': b'1: [ RUN      ] UDP.send_message\n'}
+[0.182230] (libmavconn) StdoutLine: {'line': b'1: [       OK ] UDP.send_message (2 ms)\n'}
+[0.182345] (libmavconn) StdoutLine: {'line': b'1: [----------] 1 test from UDP (2 ms total)\n'}
+[0.182418] (libmavconn) StdoutLine: {'line': b'1: \n'}
+[0.182483] (libmavconn) StdoutLine: {'line': b'1: [----------] 4 tests from TCP\n'}
+[0.182547] (libmavconn) StdoutLine: {'line': b'1: [ RUN      ] TCP.bind_error\n'}
+[0.182677] (libmavconn) StdoutLine: {'line': b'1: [       OK ] TCP.bind_error (1 ms)\n'}
+[0.182822] (libmavconn) StdoutLine: {'line': b'1: [ RUN      ] TCP.connect_error\n'}
+[0.182901] (libmavconn) StdoutLine: {'line': b'1: [       OK ] TCP.connect_error (0 ms)\n'}
+[0.182965] (libmavconn) StdoutLine: {'line': b'1: [ RUN      ] TCP.send_message\n'}
+[0.183221] (libmavconn) StdoutLine: {'line': b'1: [       OK ] TCP.send_message (0 ms)\n'}
+[0.183337] (libmavconn) StdoutLine: {'line': b'1: [ RUN      ] TCP.client_reconnect\n'}
+[0.183734] (libmavconn) StdoutLine: {'line': b'1: Error:   [       OK ] TCP.client_reconnect (1 ms)\n'}
+[0.183844] (libmavconn) StdoutLine: {'line': b'1: mavconn: tcp12: receive: End of file\n'}
+[0.183964] (libmavconn) StdoutLine: {'line': b'1: [----------]          at line 4 tests from TCP (2 ms total)\n'}
+[0.184044] (libmavconn) StdoutLine: {'line': b'1: \n'}
+[0.184128] (libmavconn) StdoutLine: {'line': b'1: 283 in /home/grant/ros2_ws/src/mavros/libmavconn/src/tcp.cpp\n'}
+[0.184303] (libmavconn) StdoutLine: {'line': b'1: [----------] 1 test from SERIAL\n'}
+[0.184451] (libmavconn) StdoutLine: {'line': b'1: [ RUN      ] SERIAL.open_error\n'}
+[0.184527] (libmavconn) StdoutLine: {'line': b'1: Error:   mavconn: tcp14: receive: End of file\n'}
+[0.184707] (libmavconn) StdoutLine: {'line': b'1:          at line 283 in /home/grant/ros2_ws/src/mavros/libmavconn/src/tcp.cpp\n'}
+[0.184809] (libmavconn) StdoutLine: {'line': b'1: [       OK ] SERIAL.open_error (0 ms)\n'}
+[0.184879] (libmavconn) StdoutLine: {'line': b'1: [----------] 1 test from SERIAL (0 ms total)\n'}
+[0.184943] (libmavconn) StdoutLine: {'line': b'1: \n'}
+[0.185006] (libmavconn) StdoutLine: {'line': b'1: [----------] 2 tests from URL\n'}
+[0.185069] (libmavconn) StdoutLine: {'line': b'1: [ RUN      ] URL.open_url_udp\n'}
+[0.185137] (libmavconn) StdoutLine: {'line': b'1: Error:   mavconn: tcp16: receive: End of file\n'}
+[0.185277] (libmavconn) StdoutLine: {'line': b'1:          at line 283 in /home/grant/ros2_ws/src/mavros/libmavconn/src/tcp.cpp\n'}
+[0.185355] (libmavconn) StdoutLine: {'line': b'1: Warning: mavconn: You did not provide message handling callback to open_url(), It is unsafe to set it later.\n'}
+[0.185420] (libmavconn) StdoutLine: {'line': b'1:          at line 446 in /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp\n'}
+[0.185503] (libmavconn) StdoutLine: {'line': b'1: Warning: mavconn: You did not provide message handling callback to open_url(), It is unsafe to set it later.\n'}
+[0.185584] (libmavconn) StdoutLine: {'line': b'1:          at line 446 in /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp\n'}
+[0.185663] (libmavconn) StdoutLine: {'line': b'1: Warning: mavconn: You did not provide message handling callback to open_url(), It is unsafe to set it later.\n'}
+[0.185800] (libmavconn) StdoutLine: {'line': b'1:          at line 446 in /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp\n'}
+[0.185922] (libmavconn) StdoutLine: {'line': b'1: Error:   mavconn: UDP URL should contain @!\n'}
+[0.185991] (libmavconn) StdoutLine: {'line': b'1:          at line 303 in /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp\n'}
+[0.186055] (libmavconn) StdoutLine: {'line': b'1: [       OK ] URL.open_url_udp (0 ms)\n'}
+[0.186117] (libmavconn) StdoutLine: {'line': b'1: [ RUN      ] URL.open_url_tcp\n'}
+[0.186179] (libmavconn) StdoutLine: {'line': b'1: Warning: mavconn: You did not provide message handling callback to open_url(), It is unsafe to set it later.\n'}
+[0.186242] (libmavconn) StdoutLine: {'line': b'1:          at line 446 in /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp\n'}
+[0.186367] (libmavconn) StdoutLine: {'line': b'1: Warning: mavconn: You did not provide message handling callback to open_url(), It is unsafe to set it later.\n'}
+[0.186434] (libmavconn) StdoutLine: {'line': b'1:          at line 446 in /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp\n'}
+[0.186496] (libmavconn) StdoutLine: {'line': b'1: Error:   mavconn: tcp24: receive: End of file\n'}
+[0.186558] (libmavconn) StdoutLine: {'line': b'1:          at line 283 in /home/grant/ros2_ws/src/mavros/libmavconn/src/tcp.cpp\n'}
+[0.186629] (libmavconn) StdoutLine: {'line': b'1: [       OK ] URL.open_url_tcp (1 ms)\n'}
+[0.186692] (libmavconn) StdoutLine: {'line': b'1: [----------] 2 tests from URL (1 ms total)\n'}
+[0.186768] (libmavconn) StdoutLine: {'line': b'1: \n'}
+[0.186846] (libmavconn) StdoutLine: {'line': b'1: [----------] Global test environment tear-down\n'}
+[0.186909] (libmavconn) StdoutLine: {'line': b'1: [==========] 8 tests from 4 test cases ran. (5 ms total)\n'}
+[0.186971] (libmavconn) StdoutLine: {'line': b'1: [  PASSED  ] 8 tests.\n'}
+[0.187033] (libmavconn) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.187095] (libmavconn) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/test_mavconn.gtest.xml'\n"}
+[0.187158] (libmavconn) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/test_mavconn.gtest.xml'\n"}
+[0.195343] (libmavconn) StdoutLine: {'line': b'1/6 Test #1: test_mavconn .....................   Passed    0.08 sec\n'}
+[0.195538] (libmavconn) StdoutLine: {'line': b'test 2\n'}
+[0.195627] (libmavconn) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[0.195696] (libmavconn) StdoutLine: {'line': b'\n'}
+[0.195775] (libmavconn) StdoutLine: {'line': b'2: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/cppcheck.xunit.xml" "--package-name" "libmavconn" "--output-file" "/home/grant/ros2_ws/build/libmavconn/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/cppcheck.xunit.xml" "--include_dirs" "/home/grant/ros2_ws/src/mavros/libmavconn/include"\n'}
+[0.195861] (libmavconn) StdoutLine: {'line': b'2: Test timeout computed to be: 300\n'}
+[0.201296] (-) TimerEvent: {}
+[0.255223] (libmavconn) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/libmavconn':\n"}
+[0.255439] (libmavconn) StdoutLine: {'line': b'2:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/cppcheck.xunit.xml --include_dirs /home/grant/ros2_ws/src/mavros/libmavconn/include\n'}
+[0.301399] (-) TimerEvent: {}
+[0.369556] (mavros_msgs) StdoutLine: {'line': b'1: No problems found\n'}
+[0.385454] (mavros_msgs) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.385695] (mavros_msgs) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/cppcheck.xunit.xml'\n"}
+[0.396692] (mavros_msgs) StdoutLine: {'line': b'1/5 Test #1: cppcheck .........................   Passed    0.31 sec\n'}
+[0.396889] (mavros_msgs) StdoutLine: {'line': b'test 2\n'}
+[0.396995] (mavros_msgs) StdoutLine: {'line': b'    Start 2: cpplint\n'}
+[0.397066] (mavros_msgs) StdoutLine: {'line': b'\n'}
+[0.397130] (mavros_msgs) StdoutLine: {'line': b'2: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/cpplint.xunit.xml" "--package-name" "mavros_msgs" "--output-file" "/home/grant/ros2_ws/build/mavros_msgs/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/cpplint.xunit.xml"\n'}
+[0.397207] (mavros_msgs) StdoutLine: {'line': b'2: Test timeout computed to be: 120\n'}
+[0.401480] (-) TimerEvent: {}
+[0.458444] (mavros_msgs) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_msgs':\n"}
+[0.458667] (mavros_msgs) StdoutLine: {'line': b'2:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/cpplint.xunit.xml\n'}
+[0.501673] (-) TimerEvent: {}
+[0.530361] (libmavconn) StdoutLine: {'line': b'2: No problems found\n'}
+[0.550181] (libmavconn) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.550407] (libmavconn) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/cppcheck.xunit.xml'\n"}
+[0.560949] (libmavconn) StdoutLine: {'line': b'2/6 Test #2: cppcheck .........................   Passed    0.37 sec\n'}
+[0.561183] (libmavconn) StdoutLine: {'line': b'test 3\n'}
+[0.561274] (libmavconn) StdoutLine: {'line': b'    Start 3: cpplint\n'}
+[0.561343] (libmavconn) StdoutLine: {'line': b'\n'}
+[0.561407] (libmavconn) StdoutLine: {'line': b'3: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/cpplint.xunit.xml" "--package-name" "libmavconn" "--output-file" "/home/grant/ros2_ws/build/libmavconn/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/cpplint.xunit.xml"\n'}
+[0.561476] (libmavconn) StdoutLine: {'line': b'3: Test timeout computed to be: 120\n'}
+[0.603160] (-) TimerEvent: {}
+[0.619467] (libmavconn) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/libmavconn':\n"}
+[0.619612] (libmavconn) StdoutLine: {'line': b'3:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/cpplint.xunit.xml\n'}
+[0.703557] (-) TimerEvent: {}
+[0.713131] (mavros_msgs) StdoutLine: {'line': b"2: Using '--root=/home/grant/ros2_ws/src/mavros/mavros_msgs/include' argument\n"}
+[0.713328] (mavros_msgs) StdoutLine: {'line': b'2: \n'}
+[0.713401] (mavros_msgs) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.hpp\n'}
+[0.713467] (mavros_msgs) StdoutLine: {'line': b'2: \n'}
+[0.713530] (mavros_msgs) StdoutLine: {'line': b'2: No problems found\n'}
+[0.726687] (mavros_msgs) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.726908] (mavros_msgs) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/cpplint.xunit.xml'\n"}
+[0.738175] (mavros_msgs) StdoutLine: {'line': b'2/5 Test #2: cpplint ..........................   Passed    0.34 sec\n'}
+[0.738487] (mavros_msgs) StdoutLine: {'line': b'test 3\n'}
+[0.738574] (mavros_msgs) StdoutLine: {'line': b'    Start 3: lint_cmake\n'}
+[0.738641] (mavros_msgs) StdoutLine: {'line': b'\n'}
+[0.738704] (mavros_msgs) StdoutLine: {'line': b'3: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/lint_cmake.xunit.xml" "--package-name" "mavros_msgs" "--output-file" "/home/grant/ros2_ws/build/mavros_msgs/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/lint_cmake.xunit.xml"\n'}
+[0.738807] (mavros_msgs) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.798447] (mavros_msgs) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_msgs':\n"}
+[0.798618] (mavros_msgs) StdoutLine: {'line': b'3:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/lint_cmake.xunit.xml\n'}
+[0.803822] (-) TimerEvent: {}
+[0.905446] (-) TimerEvent: {}
+[0.988702] (mavros_msgs) StdoutLine: {'line': b'3: \n'}
+[0.988886] (mavros_msgs) StdoutLine: {'line': b'3: No problems found\n'}
+[1.000838] (mavros_msgs) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[1.001056] (mavros_msgs) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/lint_cmake.xunit.xml'\n"}
+[1.007504] (-) TimerEvent: {}
+[1.011007] (mavros_msgs) StdoutLine: {'line': b'3/5 Test #3: lint_cmake .......................   Passed    0.27 sec\n'}
+[1.011189] (mavros_msgs) StdoutLine: {'line': b'test 4\n'}
+[1.011271] (mavros_msgs) StdoutLine: {'line': b'    Start 4: uncrustify\n'}
+[1.011339] (mavros_msgs) StdoutLine: {'line': b'\n'}
+[1.011403] (mavros_msgs) StdoutLine: {'line': b'4: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/uncrustify.xunit.xml" "--package-name" "mavros_msgs" "--output-file" "/home/grant/ros2_ws/build/mavros_msgs/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/uncrustify.xunit.xml"\n'}
+[1.011506] (mavros_msgs) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[1.071661] (mavros_msgs) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_msgs':\n"}
+[1.071852] (mavros_msgs) StdoutLine: {'line': b'4:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/uncrustify.xunit.xml\n'}
+[1.108099] (-) TimerEvent: {}
+[1.208703] (-) TimerEvent: {}
+[1.268202] (mavros_msgs) StdoutLine: {'line': b"4: No code style divergence in file 'include/mavros_msgs/mavlink_convert.hpp'\n"}
+[1.268387] (mavros_msgs) StdoutLine: {'line': b'4: \n'}
+[1.268460] (mavros_msgs) StdoutLine: {'line': b'4: No problems found\n'}
+[1.283061] (mavros_msgs) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[1.283290] (mavros_msgs) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/uncrustify.xunit.xml'\n"}
+[1.293060] (mavros_msgs) StdoutLine: {'line': b'4/5 Test #4: uncrustify .......................   Passed    0.28 sec\n'}
+[1.293278] (mavros_msgs) StdoutLine: {'line': b'test 5\n'}
+[1.293367] (mavros_msgs) StdoutLine: {'line': b'    Start 5: xmllint\n'}
+[1.293437] (mavros_msgs) StdoutLine: {'line': b'\n'}
+[1.293502] (mavros_msgs) StdoutLine: {'line': b'5: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/xmllint.xunit.xml" "--package-name" "mavros_msgs" "--output-file" "/home/grant/ros2_ws/build/mavros_msgs/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/xmllint.xunit.xml"\n'}
+[1.293571] (mavros_msgs) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[1.308802] (-) TimerEvent: {}
+[1.360019] (mavros_msgs) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_msgs':\n"}
+[1.360220] (mavros_msgs) StdoutLine: {'line': b'5:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/xmllint.xunit.xml\n'}
+[1.408876] (-) TimerEvent: {}
+[1.511460] (-) TimerEvent: {}
+[1.518383] (libmavconn) StdoutLine: {'line': b"3: Using '--root=/home/grant/ros2_ws/src/mavros/libmavconn/include' argument\n"}
+[1.518556] (libmavconn) StdoutLine: {'line': b'3: \n'}
+[1.518627] (libmavconn) StdoutLine: {'line': b'3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/console_bridge_compat.hpp\n'}
+[1.518693] (libmavconn) StdoutLine: {'line': b'3: \n'}
+[1.518755] (libmavconn) StdoutLine: {'line': b'3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/interface.hpp\n'}
+[1.518822] (libmavconn) StdoutLine: {'line': b'3: \n'}
+[1.518884] (libmavconn) StdoutLine: {'line': b'3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/mavlink_dialect.hpp\n'}
+[1.518973] (libmavconn) StdoutLine: {'line': b'3: \n'}
+[1.519039] (libmavconn) StdoutLine: {'line': b'3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/msgbuffer.hpp\n'}
+[1.519101] (libmavconn) StdoutLine: {'line': b'3: \n'}
+[1.519162] (libmavconn) StdoutLine: {'line': b'3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/serial.hpp\n'}
+[1.519224] (libmavconn) StdoutLine: {'line': b'3: \n'}
+[1.519284] (libmavconn) StdoutLine: {'line': b'3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/tcp.hpp\n'}
+[1.519346] (libmavconn) StdoutLine: {'line': b'3: \n'}
+[1.519423] (libmavconn) StdoutLine: {'line': b'3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/thread_utils.hpp\n'}
+[1.519499] (libmavconn) StdoutLine: {'line': b'3: \n'}
+[1.519561] (libmavconn) StdoutLine: {'line': b'3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/include/mavconn/udp.hpp\n'}
+[1.519622] (libmavconn) StdoutLine: {'line': b'3: \n'}
+[1.519683] (libmavconn) StdoutLine: {'line': b"3: Using '--root=/home/grant/ros2_ws/src/mavros/libmavconn/src' argument\n"}
+[1.519745] (libmavconn) StdoutLine: {'line': b'3: \n'}
+[1.519805] (libmavconn) StdoutLine: {'line': b'3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp\n'}
+[1.519867] (libmavconn) StdoutLine: {'line': b'3: \n'}
+[1.519953] (libmavconn) StdoutLine: {'line': b'3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/src/serial.cpp\n'}
+[1.520019] (libmavconn) StdoutLine: {'line': b'3: \n'}
+[1.520080] (libmavconn) StdoutLine: {'line': b'3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/src/tcp.cpp\n'}
+[1.520141] (libmavconn) StdoutLine: {'line': b'3: \n'}
+[1.520202] (libmavconn) StdoutLine: {'line': b'3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/src/udp.cpp\n'}
+[1.520262] (libmavconn) StdoutLine: {'line': b'3: \n'}
+[1.520323] (libmavconn) StdoutLine: {'line': b"3: Using '--root=/home/grant/ros2_ws/src/mavros/libmavconn/test' argument\n"}
+[1.520384] (libmavconn) StdoutLine: {'line': b'3: \n'}
+[1.520476] (libmavconn) StdoutLine: {'line': b'3: Done processing /home/grant/ros2_ws/src/mavros/libmavconn/test/test_mavconn.cpp\n'}
+[1.520543] (libmavconn) StdoutLine: {'line': b'3: \n'}
+[1.520604] (libmavconn) StdoutLine: {'line': b'3: No problems found\n'}
+[1.532406] (libmavconn) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[1.532533] (libmavconn) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/cpplint.xunit.xml'\n"}
+[1.542814] (libmavconn) StdoutLine: {'line': b'3/6 Test #3: cpplint ..........................   Passed    0.98 sec\n'}
+[1.543058] (libmavconn) StdoutLine: {'line': b'test 4\n'}
+[1.543147] (libmavconn) StdoutLine: {'line': b'    Start 4: lint_cmake\n'}
+[1.543216] (libmavconn) StdoutLine: {'line': b'\n'}
+[1.543281] (libmavconn) StdoutLine: {'line': b'4: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/lint_cmake.xunit.xml" "--package-name" "libmavconn" "--output-file" "/home/grant/ros2_ws/build/libmavconn/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/lint_cmake.xunit.xml"\n'}
+[1.543350] (libmavconn) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[1.601914] (libmavconn) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/libmavconn':\n"}
+[1.602136] (libmavconn) StdoutLine: {'line': b'4:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/lint_cmake.xunit.xml\n'}
+[1.614038] (-) TimerEvent: {}
+[1.715636] (-) TimerEvent: {}
+[1.737841] (mavros_msgs) StdoutLine: {'line': b"5: File 'package.xml' is valid\n"}
+[1.738003] (mavros_msgs) StdoutLine: {'line': b'5: \n'}
+[1.738073] (mavros_msgs) StdoutLine: {'line': b'5: No problems found\n'}
+[1.755726] (mavros_msgs) StdoutLine: {'line': b'5: -- run_test.py: return code 0\n'}
+[1.756000] (mavros_msgs) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/xmllint.xunit.xml'\n"}
+[1.766183] (mavros_msgs) StdoutLine: {'line': b'5/5 Test #5: xmllint ..........................   Passed    0.47 sec\n'}
+[1.766478] (mavros_msgs) StdoutLine: {'line': b'\n'}
+[1.766570] (mavros_msgs) StdoutLine: {'line': b'\x1b[0;32m100% tests passed\x1b[0;0m, 0 tests failed\x1b[0;0m out of 5\n'}
+[1.766663] (mavros_msgs) StdoutLine: {'line': b'\n'}
+[1.766731] (mavros_msgs) StdoutLine: {'line': b'Label Time Summary:\n'}
+[1.766794] (mavros_msgs) StdoutLine: {'line': b'cppcheck      =   0.31 sec*proc (1 test)\n'}
+[1.766857] (mavros_msgs) StdoutLine: {'line': b'cpplint       =   0.34 sec*proc (1 test)\n'}
+[1.766919] (mavros_msgs) StdoutLine: {'line': b'lint_cmake    =   0.27 sec*proc (1 test)\n'}
+[1.766981] (mavros_msgs) StdoutLine: {'line': b'linter        =   1.68 sec*proc (5 tests)\n'}
+[1.767042] (mavros_msgs) StdoutLine: {'line': b'uncrustify    =   0.28 sec*proc (1 test)\n'}
+[1.767103] (mavros_msgs) StdoutLine: {'line': b'xmllint       =   0.47 sec*proc (1 test)\n'}
+[1.767195] (mavros_msgs) StdoutLine: {'line': b'\n'}
+[1.767261] (mavros_msgs) StdoutLine: {'line': b'Total Test time (real) =   1.68 sec\n'}
+[1.769223] (mavros_msgs) CommandEnded: {'returncode': 0}
+[1.769709] (mavros_msgs) JobEnded: {'identifier': 'mavros_msgs', 'rc': 0}
+[1.793939] (libmavconn) StdoutLine: {'line': b'4: \n'}
+[1.794129] (libmavconn) StdoutLine: {'line': b'4: No problems found\n'}
+[1.816283] (-) TimerEvent: {}
+[1.817076] (libmavconn) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[1.817349] (libmavconn) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/lint_cmake.xunit.xml'\n"}
+[1.831927] (libmavconn) StdoutLine: {'line': b'4/6 Test #4: lint_cmake .......................   Passed    0.29 sec\n'}
+[1.832224] (libmavconn) StdoutLine: {'line': b'test 5\n'}
+[1.832305] (libmavconn) StdoutLine: {'line': b'    Start 5: uncrustify\n'}
+[1.832370] (libmavconn) StdoutLine: {'line': b'\n'}
+[1.832432] (libmavconn) StdoutLine: {'line': b'5: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/uncrustify.xunit.xml" "--package-name" "libmavconn" "--output-file" "/home/grant/ros2_ws/build/libmavconn/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/uncrustify.xunit.xml"\n'}
+[1.832500] (libmavconn) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[1.891985] (libmavconn) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/libmavconn':\n"}
+[1.892186] (libmavconn) StdoutLine: {'line': b'5:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/uncrustify.xunit.xml\n'}
+[1.931352] (-) TimerEvent: {}
+[2.034922] (-) TimerEvent: {}
+[2.121712] (libmavconn) StdoutLine: {'line': b"5: No code style divergence in file 'include/mavconn/console_bridge_compat.hpp'\n"}
+[2.121910] (libmavconn) StdoutLine: {'line': b'5: \n'}
+[2.122104] (libmavconn) StdoutLine: {'line': b"5: No code style divergence in file 'include/mavconn/interface.hpp'\n"}
+[2.122191] (libmavconn) StdoutLine: {'line': b'5: \n'}
+[2.122270] (libmavconn) StdoutLine: {'line': b"5: No code style divergence in file 'include/mavconn/mavlink_dialect.hpp'\n"}
+[2.122354] (libmavconn) StdoutLine: {'line': b'5: \n'}
+[2.122556] (libmavconn) StdoutLine: {'line': b"5: No code style divergence in file 'include/mavconn/msgbuffer.hpp'\n"}
+[2.122649] (libmavconn) StdoutLine: {'line': b'5: \n'}
+[2.122717] (libmavconn) StdoutLine: {'line': b"5: No code style divergence in file 'include/mavconn/serial.hpp'\n"}
+[2.122781] (libmavconn) StdoutLine: {'line': b'5: \n'}
+[2.122843] (libmavconn) StdoutLine: {'line': b"5: No code style divergence in file 'include/mavconn/tcp.hpp'\n"}
+[2.122906] (libmavconn) StdoutLine: {'line': b'5: \n'}
+[2.122995] (libmavconn) StdoutLine: {'line': b"5: No code style divergence in file 'include/mavconn/thread_utils.hpp'\n"}
+[2.123061] (libmavconn) StdoutLine: {'line': b'5: \n'}
+[2.123123] (libmavconn) StdoutLine: {'line': b"5: No code style divergence in file 'include/mavconn/udp.hpp'\n"}
+[2.123185] (libmavconn) StdoutLine: {'line': b'5: \n'}
+[2.123246] (libmavconn) StdoutLine: {'line': b"5: No code style divergence in file 'src/interface.cpp'\n"}
+[2.123308] (libmavconn) StdoutLine: {'line': b'5: \n'}
+[2.123369] (libmavconn) StdoutLine: {'line': b"5: No code style divergence in file 'src/serial.cpp'\n"}
+[2.123449] (libmavconn) StdoutLine: {'line': b'5: \n'}
+[2.123524] (libmavconn) StdoutLine: {'line': b"5: No code style divergence in file 'src/tcp.cpp'\n"}
+[2.123587] (libmavconn) StdoutLine: {'line': b'5: \n'}
+[2.123648] (libmavconn) StdoutLine: {'line': b"5: No code style divergence in file 'src/udp.cpp'\n"}
+[2.123709] (libmavconn) StdoutLine: {'line': b'5: \n'}
+[2.123770] (libmavconn) StdoutLine: {'line': b"5: No code style divergence in file 'test/test_mavconn.cpp'\n"}
+[2.123832] (libmavconn) StdoutLine: {'line': b'5: \n'}
+[2.123893] (libmavconn) StdoutLine: {'line': b'5: No problems found\n'}
+[2.142084] (libmavconn) StdoutLine: {'line': b'5: -- run_test.py: return code 0\n'}
+[2.142201] (-) TimerEvent: {}
+[2.142299] (libmavconn) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/uncrustify.xunit.xml'\n"}
+[2.152067] (libmavconn) StdoutLine: {'line': b'5/6 Test #5: uncrustify .......................   Passed    0.32 sec\n'}
+[2.152316] (libmavconn) StdoutLine: {'line': b'test 6\n'}
+[2.152396] (libmavconn) StdoutLine: {'line': b'    Start 6: xmllint\n'}
+[2.152490] (libmavconn) StdoutLine: {'line': b'\n'}
+[2.152563] (libmavconn) StdoutLine: {'line': b'6: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/xmllint.xunit.xml" "--package-name" "libmavconn" "--output-file" "/home/grant/ros2_ws/build/libmavconn/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/xmllint.xunit.xml"\n'}
+[2.152633] (libmavconn) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[2.212158] (libmavconn) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/libmavconn':\n"}
+[2.212365] (libmavconn) StdoutLine: {'line': b'6:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/xmllint.xunit.xml\n'}
+[2.242594] (-) TimerEvent: {}
+[2.344183] (-) TimerEvent: {}
+[2.444771] (-) TimerEvent: {}
+[2.545369] (-) TimerEvent: {}
+[2.593593] (libmavconn) StdoutLine: {'line': b"6: File 'package.xml' is valid\n"}
+[2.594014] (libmavconn) StdoutLine: {'line': b'6: \n'}
+[2.594259] (libmavconn) StdoutLine: {'line': b'6: No problems found\n'}
+[2.614114] (libmavconn) StdoutLine: {'line': b'6: -- run_test.py: return code 0\n'}
+[2.614383] (libmavconn) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/xmllint.xunit.xml'\n"}
+[2.627447] (libmavconn) StdoutLine: {'line': b'6/6 Test #6: xmllint ..........................   Passed    0.48 sec\n'}
+[2.627720] (libmavconn) StdoutLine: {'line': b'\n'}
+[2.627818] (libmavconn) StdoutLine: {'line': b'\x1b[0;32m100% tests passed\x1b[0;0m, 0 tests failed\x1b[0;0m out of 6\n'}
+[2.627928] (libmavconn) StdoutLine: {'line': b'\n'}
+[2.628032] (libmavconn) StdoutLine: {'line': b'Label Time Summary:\n'}
+[2.628132] (libmavconn) StdoutLine: {'line': b'cppcheck      =   0.37 sec*proc (1 test)\n'}
+[2.628206] (libmavconn) StdoutLine: {'line': b'cpplint       =   0.98 sec*proc (1 test)\n'}
+[2.628463] (libmavconn) StdoutLine: {'line': b'gtest         =   0.08 sec*proc (1 test)\n'}
+[2.628536] (libmavconn) StdoutLine: {'line': b'lint_cmake    =   0.29 sec*proc (1 test)\n'}
+[2.628766] (libmavconn) StdoutLine: {'line': b'linter        =   2.43 sec*proc (5 tests)\n'}
+[2.628828] (libmavconn) StdoutLine: {'line': b'uncrustify    =   0.32 sec*proc (1 test)\n'}
+[2.628970] (libmavconn) StdoutLine: {'line': b'xmllint       =   0.48 sec*proc (1 test)\n'}
+[2.629072] (libmavconn) StdoutLine: {'line': b'\n'}
+[2.629141] (libmavconn) StdoutLine: {'line': b'Total Test time (real) =   2.52 sec\n'}
+[2.634556] (libmavconn) CommandEnded: {'returncode': 0}
+[2.634998] (libmavconn) JobEnded: {'identifier': 'libmavconn', 'rc': 0}
+[2.636180] (mavros) JobStarted: {'identifier': 'mavros'}
+[2.646682] (-) TimerEvent: {}
+[2.665054] (mavros) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/grant/ros2_ws/build/mavros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'grant'), ('SSH_AGENT_PID', '1368'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/grant'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/grant/vrx_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_IP', '192.168.0.5'), ('MANAGERPID', '1041'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/grant/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'grant'), ('JOURNAL_STREAM', '8:37906'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:/home/grant/vrx_ws/devel/lib/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'grant'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/grant/vrx_ws/src/adept-vrx/robotX_2022/models:/home/grant/vrx_ws/src/adept-vrx/wamv_description/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/grant/miniconda3/bin:/home/grant/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/grant/.local/bin:/home/grant/ardupilot/Tools/autotest:/home/grant/ros2_foxy/ros2-linux/bin'), ('SESSION_MANAGER', 'local/grant-2f:@/tmp/.ICE-unix/1454,unix/grant-2f:/tmp/.ICE-unix/1454'), ('INVOCATION_ID', 'd6fa7f9a22634c4e8c2de972c5c75c9c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ea465f44_b9d2_498d_ba63_e44ee9f324e0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/opt/ros/foxy:/home/grant/ros2_foxy/ros2-linux'), ('CONDA_PYTHON_EXE', '/home/grant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.0.5:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('_DOMAIN_ID', '0'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/grant/ros2_ws/build/mavros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/grant/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages'), ('ROS_HOSTNAME', '192.168.0.5'), ('CONDA_PREFIX', '/home/grant/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux')]), 'shell': False}
+[2.679734] (mavros) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/grant/ros2_ws/build/mavros/CTestConfiguration.ini\n'}
+[2.680024] (mavros) StdoutLine: {'line': b'Parse Config file:/home/grant/ros2_ws/build/mavros/CTestConfiguration.ini\n'}
+[2.680117] (mavros) StdoutLine: {'line': b'   Site: grant-2f\n'}
+[2.680185] (mavros) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[2.680250] (mavros) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[2.680312] (mavros) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[2.680375] (mavros) StdoutLine: {'line': b'Create new tag: 20221024-0050 - Experimental\n'}
+[2.680468] (mavros) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/grant/ros2_ws/build/mavros/CTestConfiguration.ini\n'}
+[2.680536] (mavros) StdoutLine: {'line': b'Parse Config file:/home/grant/ros2_ws/build/mavros/CTestConfiguration.ini\n'}
+[2.680598] (mavros) StdoutLine: {'line': b'Test project /home/grant/ros2_ws/build/mavros\n'}
+[2.680659] (mavros) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[2.680720] (mavros) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[2.680780] (mavros) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[2.680841] (mavros) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[2.680917] (mavros) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[2.680999] (mavros) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[2.681061] (mavros) StdoutLine: {'line': b'test 1\n'}
+[2.681123] (mavros) StdoutLine: {'line': b'      Start  1: libmavros-frame-conversions-test\n'}
+[2.681184] (mavros) StdoutLine: {'line': b'\n'}
+[2.681245] (mavros) StdoutLine: {'line': b'1: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-frame-conversions-test.gtest.xml" "--package-name" "mavros" "--output-file" "/home/grant/ros2_ws/build/mavros/ament_cmake_gtest/libmavros-frame-conversions-test.txt" "--command" "/home/grant/ros2_ws/build/mavros/libmavros-frame-conversions-test" "--gtest_output=xml:/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-frame-conversions-test.gtest.xml"\n'}
+[2.681313] (mavros) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[2.747575] (-) TimerEvent: {}
+[2.748685] (mavros) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/grant/ros2_ws/build/mavros':\n"}
+[2.748880] (mavros) StdoutLine: {'line': b'1:  - /home/grant/ros2_ws/build/mavros/libmavros-frame-conversions-test --gtest_output=xml:/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-frame-conversions-test.gtest.xml\n'}
+[2.766848] (mavros) StdoutLine: {'line': b'1: [==========] Running 9 tests from 1 test case.\n'}
+[2.768027] (mavros) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[2.768126] (mavros) StdoutLine: {'line': b'1: [----------] 9 tests from FRAME_TF\n'}
+[2.768206] (mavros) StdoutLine: {'line': b'1: [ RUN      ] FRAME_TF.transform_static_frame__aircraft_to_baselink_123\n'}
+[2.768422] (mavros) StdoutLine: {'line': b'1: [       OK ] FRAME_TF.transform_static_frame__aircraft_to_baselink_123 (0 ms)\n'}
+[2.768528] (mavros) StdoutLine: {'line': b'1: [ RUN      ] FRAME_TF.transform_static_frame__baselink_to_aircraft_123\n'}
+[2.768602] (mavros) StdoutLine: {'line': b'1: [       OK ] FRAME_TF.transform_static_frame__baselink_to_aircraft_123 (0 ms)\n'}
+[2.768680] (mavros) StdoutLine: {'line': b'1: [ RUN      ] FRAME_TF.transform_static_frame__enu_to_ned_123\n'}
+[2.768775] (mavros) StdoutLine: {'line': b'1: [       OK ] FRAME_TF.transform_static_frame__enu_to_ned_123 (1 ms)\n'}
+[2.768952] (mavros) StdoutLine: {'line': b'1: [ RUN      ] FRAME_TF.transform_static_frame__ned_to_enu_123\n'}
+[2.769414] (mavros) StdoutLine: {'line': b'1: [       OK ] FRAME_TF.transform_static_frame__ned_to_enu_123 (0 ms)\n'}
+[2.769496] (mavros) StdoutLine: {'line': b'1: [ RUN      ] FRAME_TF.transform_static_frame__ecef_to_enu_123_00\n'}
+[2.770046] (mavros) StdoutLine: {'line': b'1: [       OK ] FRAME_TF.transform_static_frame__ecef_to_enu_123_00 (0 ms)\n'}
+[2.770128] (mavros) StdoutLine: {'line': b'1: [ RUN      ] FRAME_TF.transform_static_frame__enu_to_ecef_123_00\n'}
+[2.770213] (mavros) StdoutLine: {'line': b'1: [       OK ] FRAME_TF.transform_static_frame__enu_to_ecef_123_00 (0 ms)\n'}
+[2.770297] (mavros) StdoutLine: {'line': b'1: [ RUN      ] FRAME_TF.transform_static_frame__ecef_to_enu_123_4030\n'}
+[2.770396] (mavros) StdoutLine: {'line': b'1: [       OK ] FRAME_TF.transform_static_frame__ecef_to_enu_123_4030 (0 ms)\n'}
+[2.770577] (mavros) StdoutLine: {'line': b'1: [ RUN      ] FRAME_TF.transform_static_frame__enu_to_ecef_123_4030\n'}
+[2.770657] (mavros) StdoutLine: {'line': b'1: [       OK ] FRAME_TF.transform_static_frame__enu_to_ecef_123_4030 (0 ms)\n'}
+[2.770753] (mavros) StdoutLine: {'line': b'1: [ RUN      ] FRAME_TF.quaternion_transforms__ned_to_ned_123\n'}
+[2.770817] (mavros) StdoutLine: {'line': b'1: [       OK ] FRAME_TF.quaternion_transforms__ned_to_ned_123 (0 ms)\n'}
+[2.771068] (mavros) StdoutLine: {'line': b'1: [----------] 9 tests from FRAME_TF (1 ms total)\n'}
+[2.771146] (mavros) StdoutLine: {'line': b'1: \n'}
+[2.771376] (mavros) StdoutLine: {'line': b'1: [----------] Global test environment tear-down\n'}
+[2.771437] (mavros) StdoutLine: {'line': b'1: [==========] 9 tests from 1 test case ran. (1 ms total)\n'}
+[2.771548] (mavros) StdoutLine: {'line': b'1: [  PASSED  ] 9 tests.\n'}
+[2.772411] (mavros) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[2.772888] (mavros) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-frame-conversions-test.gtest.xml'\n"}
+[2.773074] (mavros) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-frame-conversions-test.gtest.xml'\n"}
+[2.788834] (mavros) StdoutLine: {'line': b' 1/12 Test  #1: libmavros-frame-conversions-test ....   Passed    0.11 sec\n'}
+[2.789161] (mavros) StdoutLine: {'line': b'test 2\n'}
+[2.789486] (mavros) StdoutLine: {'line': b'      Start  2: libmavros-sensor-orientation-test\n'}
+[2.789586] (mavros) StdoutLine: {'line': b'\n'}
+[2.789652] (mavros) StdoutLine: {'line': b'2: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-sensor-orientation-test.gtest.xml" "--package-name" "mavros" "--output-file" "/home/grant/ros2_ws/build/mavros/ament_cmake_gtest/libmavros-sensor-orientation-test.txt" "--command" "/home/grant/ros2_ws/build/mavros/libmavros-sensor-orientation-test" "--gtest_output=xml:/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-sensor-orientation-test.gtest.xml"\n'}
+[2.789900] (mavros) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[2.848698] (-) TimerEvent: {}
+[2.856254] (mavros) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/grant/ros2_ws/build/mavros':\n"}
+[2.856401] (mavros) StdoutLine: {'line': b'2:  - /home/grant/ros2_ws/build/mavros/libmavros-sensor-orientation-test --gtest_output=xml:/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-sensor-orientation-test.gtest.xml\n'}
+[2.868226] (mavros) StdoutLine: {'line': b'2: [==========] Running 16 tests from 1 test case.\n'}
+[2.868378] (mavros) StdoutLine: {'line': b'2: [----------] Global test environment set-up.\n'}
+[2.868600] (mavros) StdoutLine: {'line': b'2: [----------] 16 tests from UTILS\n'}
+[2.868678] (mavros) StdoutLine: {'line': b'2: [ RUN      ] UTILS.sensor_orientation_matching__none\n'}
+[2.868743] (mavros) StdoutLine: {'line': b'2: [       OK ] UTILS.sensor_orientation_matching__none (0 ms)\n'}
+[2.868806] (mavros) StdoutLine: {'line': b'2: [ RUN      ] UTILS.sensor_orientation_matching__roll_180\n'}
+[2.868868] (mavros) StdoutLine: {'line': b'2: [       OK ] UTILS.sensor_orientation_matching__roll_180 (0 ms)\n'}
+[2.868930] (mavros) StdoutLine: {'line': b'2: [ RUN      ] UTILS.sensor_orientation_matching__roll_180_yaw_90\n'}
+[2.869001] (mavros) StdoutLine: {'line': b'2: [       OK ] UTILS.sensor_orientation_matching__roll_180_yaw_90 (0 ms)\n'}
+[2.869149] (mavros) StdoutLine: {'line': b'2: [ RUN      ] UTILS.sensor_orientation_matching__custom\n'}
+[2.869219] (mavros) StdoutLine: {'line': b'2: [       OK ] UTILS.sensor_orientation_matching__custom (0 ms)\n'}
+[2.869282] (mavros) StdoutLine: {'line': b'2: [ RUN      ] UTILS.to_string__none\n'}
+[2.869344] (mavros) StdoutLine: {'line': b'2: [       OK ] UTILS.to_string__none (0 ms)\n'}
+[2.869405] (mavros) StdoutLine: {'line': b'2: [ RUN      ] UTILS.to_string__roll_180\n'}
+[2.869467] (mavros) StdoutLine: {'line': b'2: [       OK ] UTILS.to_string__roll_180 (0 ms)\n'}
+[2.869527] (mavros) StdoutLine: {'line': b'2: [ RUN      ] UTILS.to_string__roll_180_yaw_90\n'}
+[2.869617] (mavros) StdoutLine: {'line': b'2: [       OK ] UTILS.to_string__roll_180_yaw_90 (0 ms)\n'}
+[2.869683] (mavros) StdoutLine: {'line': b'2: [ RUN      ] UTILS.to_string__custom\n'}
+[2.869745] (mavros) StdoutLine: {'line': b'2: [       OK ] UTILS.to_string__custom (0 ms)\n'}
+[2.869807] (mavros) StdoutLine: {'line': b'2: [ RUN      ] UTILS.sensor_orientation_from_str__none\n'}
+[2.869868] (mavros) StdoutLine: {'line': b'2: [       OK ] UTILS.sensor_orientation_from_str__none (0 ms)\n'}
+[2.869929] (mavros) StdoutLine: {'line': b'2: [ RUN      ] UTILS.sensor_orientation_from_str__unknown\n'}
+[2.869990] (mavros) StdoutLine: {'line': b'2: [ERROR] [1666572628.458007547] [uas.enum]: SENSOR: wrong orientation str: completely wrong identifier\n'}
+[2.870052] (mavros) StdoutLine: {'line': b'2: [       OK ] UTILS.sensor_orientation_from_str__unknown (1 ms)\n'}
+[2.870140] (mavros) StdoutLine: {'line': b'2: [ RUN      ] UTILS.sensor_orientation_from_str__number\n'}
+[2.870206] (mavros) StdoutLine: {'line': b'2: [       OK ] UTILS.sensor_orientation_from_str__number (0 ms)\n'}
+[2.870267] (mavros) StdoutLine: {'line': b'2: [ RUN      ] UTILS.sensor_orientation_from_str__wrong_number\n'}
+[2.870328] (mavros) StdoutLine: {'line': b'2: [ERROR] [1666572628.458055398] [uas.enum]: SENSOR: orientation index out of bound: 123\n'}
+[2.870389] (mavros) StdoutLine: {'line': b'2: [       OK ] UTILS.sensor_orientation_from_str__wrong_number (0 ms)\n'}
+[2.870450] (mavros) StdoutLine: {'line': b'2: [ RUN      ] UTILS.sensor_orientation_from_str__roll_180\n'}
+[2.870512] (mavros) StdoutLine: {'line': b'2: [       OK ] UTILS.sensor_orientation_from_str__roll_180 (0 ms)\n'}
+[2.870595] (mavros) StdoutLine: {'line': b'2: [ RUN      ] UTILS.sensor_orientation_from_str__roll_180_yaw_90\n'}
+[2.870669] (mavros) StdoutLine: {'line': b'2: [       OK ] UTILS.sensor_orientation_from_str__roll_180_yaw_90 (0 ms)\n'}
+[2.870731] (mavros) StdoutLine: {'line': b'2: [ RUN      ] UTILS.sensor_orientation_from_str__last_element_roll_90_yaw_270\n'}
+[2.870792] (mavros) StdoutLine: {'line': b'2: [       OK ] UTILS.sensor_orientation_from_str__last_element_roll_90_yaw_270 (0 ms)\n'}
+[2.870853] (mavros) StdoutLine: {'line': b'2: [ RUN      ] UTILS.sensor_orientation_from_str__custom\n'}
+[2.870949] (mavros) StdoutLine: {'line': b'2: [       OK ] UTILS.sensor_orientation_from_str__custom (0 ms)\n'}
+[2.871097] (mavros) StdoutLine: {'line': b'2: [----------] 16 tests from UTILS (1 ms total)\n'}
+[2.871174] (mavros) StdoutLine: {'line': b'2: \n'}
+[2.871246] (mavros) StdoutLine: {'line': b'2: [----------] Global test environment tear-down\n'}
+[2.871377] (mavros) StdoutLine: {'line': b'2: [==========] 16 tests from 1 test case ran. (1 ms total)\n'}
+[2.871446] (mavros) StdoutLine: {'line': b'2: [  PASSED  ] 16 tests.\n'}
+[2.871507] (mavros) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[2.871584] (mavros) StdoutLine: {'line': b"2: -- run_test.py: inject classname prefix into gtest result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-sensor-orientation-test.gtest.xml'\n"}
+[2.871662] (mavros) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-sensor-orientation-test.gtest.xml'\n"}
+[2.881112] (mavros) StdoutLine: {'line': b' 2/12 Test  #2: libmavros-sensor-orientation-test ...   Passed    0.09 sec\n'}
+[2.881455] (mavros) StdoutLine: {'line': b'test 3\n'}
+[2.881527] (mavros) StdoutLine: {'line': b'      Start  3: libmavros-quaternion-utils-test\n'}
+[2.881622] (mavros) StdoutLine: {'line': b'\n'}
+[2.881694] (mavros) StdoutLine: {'line': b'3: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-quaternion-utils-test.gtest.xml" "--package-name" "mavros" "--output-file" "/home/grant/ros2_ws/build/mavros/ament_cmake_gtest/libmavros-quaternion-utils-test.txt" "--command" "/home/grant/ros2_ws/build/mavros/libmavros-quaternion-utils-test" "--gtest_output=xml:/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-quaternion-utils-test.gtest.xml"\n'}
+[2.881764] (mavros) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[2.942343] (mavros) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/grant/ros2_ws/build/mavros':\n"}
+[2.942534] (mavros) StdoutLine: {'line': b'3:  - /home/grant/ros2_ws/build/mavros/libmavros-quaternion-utils-test --gtest_output=xml:/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-quaternion-utils-test.gtest.xml\n'}
+[2.949172] (-) TimerEvent: {}
+[2.953829] (mavros) StdoutLine: {'line': b'3: [==========] Running 7 tests from 1 test case.\n'}
+[2.953959] (mavros) StdoutLine: {'line': b'3: [----------] Global test environment set-up.\n'}
+[2.954044] (mavros) StdoutLine: {'line': b'3: [----------] 7 tests from FRAME_TF\n'}
+[2.954125] (mavros) StdoutLine: {'line': b'3: [ RUN      ] FRAME_TF.quaternion_from_rpy__check_compatibility\n'}
+[2.954235] (mavros) StdoutLine: {'line': b'3: [       OK ] FRAME_TF.quaternion_from_rpy__check_compatibility (0 ms)\n'}
+[2.954316] (mavros) StdoutLine: {'line': b'3: [ RUN      ] FRAME_TF.quaternion_from_rpy__paranoic_check\n'}
+[2.954396] (mavros) StdoutLine: {'line': b'3: [       OK ] FRAME_TF.quaternion_from_rpy__paranoic_check (0 ms)\n'}
+[2.954474] (mavros) StdoutLine: {'line': b'3: [ RUN      ] FRAME_TF.quaternion_to_rpy__123\n'}
+[2.954630] (mavros) StdoutLine: {'line': b'3: [       OK ] FRAME_TF.quaternion_to_rpy__123 (0 ms)\n'}
+[2.954733] (mavros) StdoutLine: {'line': b'3: [ RUN      ] FRAME_TF.quaternion_to_rpy__pm_pi\n'}
+[3.050827] (-) TimerEvent: {}
+[3.152397] (-) TimerEvent: {}
+[3.253470] (-) TimerEvent: {}
+[3.354083] (-) TimerEvent: {}
+[3.394045] (mavros) StdoutLine: {'line': b'3: [       OK ] FRAME_TF.quaternion_to_rpy__pm_pi (440 ms)\n'}
+[3.394204] (mavros) StdoutLine: {'line': b'3: [ RUN      ] FRAME_TF.quaternion_get_yaw__123\n'}
+[3.394273] (mavros) StdoutLine: {'line': b'3: [       OK ] FRAME_TF.quaternion_get_yaw__123 (0 ms)\n'}
+[3.394336] (mavros) StdoutLine: {'line': b'3: [ RUN      ] FRAME_TF.quaternion_get_yaw__pm_pi\n'}
+[3.399067] (mavros) StdoutLine: {'line': b'3: [       OK ] FRAME_TF.quaternion_get_yaw__pm_pi (5 ms)\n'}
+[3.399327] (mavros) StdoutLine: {'line': b'3: [ RUN      ] FRAME_TF.quaternion_to_mavlink__123\n'}
+[3.399546] (mavros) StdoutLine: {'line': b'3: [       OK ] FRAME_TF.quaternion_to_mavlink__123 (0 ms)\n'}
+[3.399677] (mavros) StdoutLine: {'line': b'3: [----------] 7 tests from FRAME_TF (445 ms total)\n'}
+[3.399763] (mavros) StdoutLine: {'line': b'3: \n'}
+[3.399828] (mavros) StdoutLine: {'line': b'3: [----------] Global test environment tear-down\n'}
+[3.399890] (mavros) StdoutLine: {'line': b'3: [==========] 7 tests from 1 test case ran. (445 ms total)\n'}
+[3.399953] (mavros) StdoutLine: {'line': b'3: [  PASSED  ] 7 tests.\n'}
+[3.402185] (mavros) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[3.402545] (mavros) StdoutLine: {'line': b"3: -- run_test.py: inject classname prefix into gtest result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-quaternion-utils-test.gtest.xml'\n"}
+[3.402700] (mavros) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-quaternion-utils-test.gtest.xml'\n"}
+[3.414306] (mavros) StdoutLine: {'line': b' 3/12 Test  #3: libmavros-quaternion-utils-test .....   Passed    0.53 sec\n'}
+[3.414489] (mavros) StdoutLine: {'line': b'test 4\n'}
+[3.414593] (mavros) StdoutLine: {'line': b'      Start  4: mavros-router-test\n'}
+[3.414664] (mavros) StdoutLine: {'line': b'\n'}
+[3.414728] (mavros) StdoutLine: {'line': b'4: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros/test_results/mavros/mavros-router-test.gtest.xml" "--package-name" "mavros" "--output-file" "/home/grant/ros2_ws/build/mavros/ament_cmake_gmock/mavros-router-test.txt" "--command" "/home/grant/ros2_ws/build/mavros/mavros-router-test" "--gtest_output=xml:/home/grant/ros2_ws/build/mavros/test_results/mavros/mavros-router-test.gtest.xml"\n'}
+[3.414808] (mavros) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[3.454117] (-) TimerEvent: {}
+[3.475190] (mavros) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/grant/ros2_ws/build/mavros':\n"}
+[3.475315] (mavros) StdoutLine: {'line': b'4:  - /home/grant/ros2_ws/build/mavros/mavros-router-test --gtest_output=xml:/home/grant/ros2_ws/build/mavros/test_results/mavros/mavros-router-test.gtest.xml\n'}
+[3.488479] (mavros) StdoutLine: {'line': b'4: [==========] Running 8 tests from 1 test case.\n'}
+[3.488732] (mavros) StdoutLine: {'line': b'4: [----------] Global test environment set-up.\n'}
+[3.488805] (mavros) StdoutLine: {'line': b'4: [----------] 8 tests from TestRouter\n'}
+[3.488868] (mavros) StdoutLine: {'line': b'4: [ RUN      ] TestRouter.set_parameter\n'}
+[3.498421] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.088033817] [test_mavros_router]: Built-in SIMD instructions: SSE, SSE2\n'}
+[3.498595] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.088116067] [test_mavros_router]: Built-in MAVLink package version: 2022.8.8\n'}
+[3.498697] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.088130767] [test_mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta\n'}
+[3.498833] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.088139947] [test_mavros_router]: MAVROS Router started\n'}
+[3.498904] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.088239978] [test_mavros_router]: Requested to add endpoint: type: 0, url: tcp-l://:57601\n'}
+[3.498968] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.088395788] [test_mavros_router]: Endpoint link[1000] created\n'}
+[3.500557] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.090248892] [test_mavros_router]: link[1000] opened successfully\n'}
+[3.500692] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.090291863] [test_mavros_router]: Requested to add endpoint: type: 0, url: udp://:45001@\n'}
+[3.500842] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.090337683] [test_mavros_router]: Endpoint link[1001] created\n'}
+[3.501012] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.090602533] [test_mavros_router]: link[1001] opened successfully\n'}
+[3.501117] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.090673394] [test_mavros_router]: Requested to add endpoint: type: 1, url: tcp-l://:57602\n'}
+[3.501219] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.090717344] [test_mavros_router]: Endpoint link[1002] created\n'}
+[3.501395] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.090852414] [test_mavros_router]: link[1002] opened successfully\n'}
+[3.501492] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.090878414] [test_mavros_router]: Requested to add endpoint: type: 1, url: udp://:45002@\n'}
+[3.501645] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.090916244] [test_mavros_router]: Endpoint link[1003] created\n'}
+[3.501721] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.091066624] [test_mavros_router]: link[1003] opened successfully\n'}
+[3.501789] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.091128295] [test_mavros_router]: Requested to add endpoint: type: 2, url: /uas1\n'}
+[3.501851] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.091205555] [test_mavros_router]: Endpoint link[1004] created\n'}
+[3.502505] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.092195447] [test_mavros_router]: link[1004] opened successfully\n'}
+[3.502623] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.092223257] [test_mavros_router]: Requested to add endpoint: type: 2, url: /uas2\n'}
+[3.502778] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.092284567] [test_mavros_router]: Endpoint link[1005] created\n'}
+[3.503015] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.092723699] [test_mavros_router]: link[1005] opened successfully\n'}
+[3.503369] (mavros) StdoutLine: {'line': b'4: [       OK ] TestRouter.set_parameter (16 ms)\n'}
+[3.503461] (mavros) StdoutLine: {'line': b'4: [ RUN      ] TestRouter.route_fcu_broadcast\n'}
+[3.509433] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.099110434] [test_mavros_router]: Built-in SIMD instructions: SSE, SSE2\n'}
+[3.509527] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.099139934] [test_mavros_router]: Built-in MAVLink package version: 2022.8.8\n'}
+[3.509595] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.099148734] [test_mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta\n'}
+[3.509686] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.099156644] [test_mavros_router]: MAVROS Router started\n'}
+[3.509823] (mavros) StdoutLine: {'line': b'4: [       OK ] TestRouter.route_fcu_broadcast (6 ms)\n'}
+[3.509908] (mavros) StdoutLine: {'line': b'4: [ RUN      ] TestRouter.route_uas_broadcast\n'}
+[3.516614] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.106287442] [test_mavros_router]: Built-in SIMD instructions: SSE, SSE2\n'}
+[3.516738] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.106315972] [test_mavros_router]: Built-in MAVLink package version: 2022.8.8\n'}
+[3.516810] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.106324322] [test_mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta\n'}
+[3.516877] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.106331172] [test_mavros_router]: MAVROS Router started\n'}
+[3.517006] (mavros) StdoutLine: {'line': b'4: [       OK ] TestRouter.route_uas_broadcast (7 ms)\n'}
+[3.517092] (mavros) StdoutLine: {'line': b'4: [ RUN      ] TestRouter.route_gcs_broadcast\n'}
+[3.540532] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.130169158] [test_mavros_router]: Built-in SIMD instructions: SSE, SSE2\n'}
+[3.540672] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.130200828] [test_mavros_router]: Built-in MAVLink package version: 2022.8.8\n'}
+[3.540755] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.130209668] [test_mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta\n'}
+[3.540869] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.130216468] [test_mavros_router]: MAVROS Router started\n'}
+[3.540949] (mavros) StdoutLine: {'line': b'4: [       OK ] TestRouter.route_gcs_broadcast (24 ms)\n'}
+[3.541011] (mavros) StdoutLine: {'line': b'4: [ RUN      ] TestRouter.route_targeted_one_system\n'}
+[3.548600] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.138283138] [test_mavros_router]: Built-in SIMD instructions: SSE, SSE2\n'}
+[3.548723] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.138312888] [test_mavros_router]: Built-in MAVLink package version: 2022.8.8\n'}
+[3.548798] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.138321228] [test_mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta\n'}
+[3.548873] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.138327818] [test_mavros_router]: MAVROS Router started\n'}
+[3.549000] (mavros) StdoutLine: {'line': b'4: [       OK ] TestRouter.route_targeted_one_system (8 ms)\n'}
+[3.549086] (mavros) StdoutLine: {'line': b'4: [ RUN      ] TestRouter.route_targeted_two_system\n'}
+[3.554205] (-) TimerEvent: {}
+[3.557680] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.147350899] [test_mavros_router]: Built-in SIMD instructions: SSE, SSE2\n'}
+[3.557782] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.147377419] [test_mavros_router]: Built-in MAVLink package version: 2022.8.8\n'}
+[3.557854] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.147385959] [test_mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta\n'}
+[3.557920] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.147393929] [test_mavros_router]: MAVROS Router started\n'}
+[3.558117] (mavros) StdoutLine: {'line': b'4: [       OK ] TestRouter.route_targeted_two_system (9 ms)\n'}
+[3.558226] (mavros) StdoutLine: {'line': b'4: [ RUN      ] TestRouter.route_targeted_system_component\n'}
+[3.567861] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.157516194] [test_mavros_router]: Built-in SIMD instructions: SSE, SSE2\n'}
+[3.567981] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.157553554] [test_mavros_router]: Built-in MAVLink package version: 2022.8.8\n'}
+[3.568052] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.157564774] [test_mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta\n'}
+[3.568119] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.157571814] [test_mavros_router]: MAVROS Router started\n'}
+[3.568282] (mavros) StdoutLine: {'line': b'4: [       OK ] TestRouter.route_targeted_system_component (10 ms)\n'}
+[3.568368] (mavros) StdoutLine: {'line': b'4: [ RUN      ] TestRouter.endpoint_recv_message\n'}
+[3.580507] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.170132555] [test_mavros_router]: Built-in SIMD instructions: SSE, SSE2\n'}
+[3.580755] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.170165385] [test_mavros_router]: Built-in MAVLink package version: 2022.8.8\n'}
+[3.580845] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.170174385] [test_mavros_router]: Known MAVLink dialects: common ardupilotmega ASLUAV AVSSUAS all development icarous matrixpilot paparazzi standard storm32 uAvionix ualberta\n'}
+[3.580917] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.170181015] [test_mavros_router]: MAVROS Router started\n'}
+[3.581017] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.170223195] [test_mavros_router]: Requested to add endpoint: type: 2, url: /uas1\n'}
+[3.581125] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.170285455] [test_mavros_router]: Endpoint link[1000] created\n'}
+[3.581578] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.171275228] [test_mavros_router]: link[1000] opened successfully\n'}
+[3.582040] (mavros) StdoutLine: {'line': b'4: [INFO] [1666572629.171383428] [test_mavros_router]: link[1000] detected remote address 1.191\n'}
+[3.582225] (mavros) StdoutLine: {'line': b'4: [WARN] [1666572629.171426248] [test_mavros_router]: Message dropped: msgid: 0, source: 1.191, target: 0.0\n'}
+[3.582392] (mavros) StdoutLine: {'line': b'4: [       OK ] TestRouter.endpoint_recv_message (14 ms)\n'}
+[3.582479] (mavros) StdoutLine: {'line': b'4: [----------] 8 tests from TestRouter (94 ms total)\n'}
+[3.582548] (mavros) StdoutLine: {'line': b'4: \n'}
+[3.582611] (mavros) StdoutLine: {'line': b'4: [----------] Global test environment tear-down\n'}
+[3.582811] (mavros) StdoutLine: {'line': b'4: [==========] 8 tests from 1 test case ran. (94 ms total)\n'}
+[3.582909] (mavros) StdoutLine: {'line': b'4: [  PASSED  ] 8 tests.\n'}
+[3.591667] (mavros) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[3.592065] (mavros) StdoutLine: {'line': b"4: -- run_test.py: inject classname prefix into gtest result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/mavros-router-test.gtest.xml'\n"}
+[3.592314] (mavros) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/mavros-router-test.gtest.xml'\n"}
+[3.605992] (mavros) StdoutLine: {'line': b' 4/12 Test  #4: mavros-router-test ..................   Passed    0.19 sec\n'}
+[3.606221] (mavros) StdoutLine: {'line': b'test 5\n'}
+[3.606328] (mavros) StdoutLine: {'line': b'      Start  5: mavros-uas-test\n'}
+[3.606471] (mavros) StdoutLine: {'line': b'\n'}
+[3.606543] (mavros) StdoutLine: {'line': b'5: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros/test_results/mavros/mavros-uas-test.gtest.xml" "--package-name" "mavros" "--output-file" "/home/grant/ros2_ws/build/mavros/ament_cmake_gmock/mavros-uas-test.txt" "--command" "/home/grant/ros2_ws/build/mavros/mavros-uas-test" "--gtest_output=xml:/home/grant/ros2_ws/build/mavros/test_results/mavros/mavros-uas-test.gtest.xml"\n'}
+[3.606636] (mavros) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[3.654380] (-) TimerEvent: {}
+[3.686656] (mavros) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/grant/ros2_ws/build/mavros':\n"}
+[3.687151] (mavros) StdoutLine: {'line': b'5:  - /home/grant/ros2_ws/build/mavros/mavros-uas-test --gtest_output=xml:/home/grant/ros2_ws/build/mavros/test_results/mavros/mavros-uas-test.gtest.xml\n'}
+[3.705021] (mavros) StdoutLine: {'line': b'5: [==========] Running 2 tests from 1 test case.\n'}
+[3.705249] (mavros) StdoutLine: {'line': b'5: [----------] Global test environment set-up.\n'}
+[3.705372] (mavros) StdoutLine: {'line': b'5: [----------] 2 tests from TestUAS\n'}
+[3.705610] (mavros) StdoutLine: {'line': b'5: [ RUN      ] TestUAS.is_plugin_allowed\n'}
+[3.744554] (mavros) StdoutLine: {'line': b'5: [       OK ] TestUAS.is_plugin_allowed (40 ms)\n'}
+[3.744762] (mavros) StdoutLine: {'line': b'5: [ RUN      ] TestUAS.add_plugin__route_message__filter\n'}
+[3.753343] (mavros) StdoutLine: {'line': b'5: [INFO] [1666572629.342807631] [test_mavros_uas]: Plugin test1 created\n'}
+[3.753836] (mavros) StdoutLine: {'line': b'5: [INFO] [1666572629.343487812] [test_mavros_uas]: Plugin test1 initialized\n'}
+[3.754044] (mavros) StdoutLine: {'line': b'5: [INFO] [1666572629.343526513] [test_mavros_uas]: Plugin test2 created\n'}
+[3.754138] (mavros) StdoutLine: {'line': b'5: [INFO] [1666572629.343560523] [test_mavros_uas]: Plugin test2 initialized\n'}
+[3.754501] (mavros) StdoutLine: {'line': b'5: [       OK ] TestUAS.add_plugin__route_message__filter (10 ms)\n'}
+[3.754595] (-) TimerEvent: {}
+[3.754881] (mavros) StdoutLine: {'line': b'5: [----------] 2 tests from TestUAS (50 ms total)\n'}
+[3.755198] (mavros) StdoutLine: {'line': b'5: \n'}
+[3.755286] (mavros) StdoutLine: {'line': b'5: [----------] Global test environment tear-down\n'}
+[3.755419] (mavros) StdoutLine: {'line': b'5: [==========] 2 tests from 1 test case ran. (50 ms total)\n'}
+[3.755489] (mavros) StdoutLine: {'line': b'5: [  PASSED  ] 2 tests.\n'}
+[3.761436] (mavros) StdoutLine: {'line': b'5: -- run_test.py: return code 0\n'}
+[3.761941] (mavros) StdoutLine: {'line': b"5: -- run_test.py: inject classname prefix into gtest result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/mavros-uas-test.gtest.xml'\n"}
+[3.762119] (mavros) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/mavros-uas-test.gtest.xml'\n"}
+[3.774413] (mavros) StdoutLine: {'line': b' 5/12 Test  #5: mavros-uas-test .....................   Passed    0.17 sec\n'}
+[3.774811] (mavros) StdoutLine: {'line': b'test 6\n'}
+[3.774920] (mavros) StdoutLine: {'line': b'      Start  6: cppcheck\n'}
+[3.775027] (mavros) StdoutLine: {'line': b'\n'}
+[3.775102] (mavros) StdoutLine: {'line': b'6: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros/test_results/mavros/cppcheck.xunit.xml" "--package-name" "mavros" "--output-file" "/home/grant/ros2_ws/build/mavros/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/grant/ros2_ws/build/mavros/test_results/mavros/cppcheck.xunit.xml" "--exclude" "./test/*.cpp" "--include_dirs" "/home/grant/ros2_ws/src/mavros/mavros/include"\n'}
+[3.775186] (mavros) StdoutLine: {'line': b'6: Test timeout computed to be: 300\n'}
+[3.839001] (mavros) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros':\n"}
+[3.839201] (mavros) StdoutLine: {'line': b'6:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/grant/ros2_ws/build/mavros/test_results/mavros/cppcheck.xunit.xml --exclude ./test/*.cpp --include_dirs /home/grant/ros2_ws/src/mavros/mavros/include\n'}
+[3.856737] (-) TimerEvent: {}
+[3.961104] (-) TimerEvent: {}
+[4.061664] (-) TimerEvent: {}
+[4.162315] (-) TimerEvent: {}
+[4.262943] (-) TimerEvent: {}
+[4.265132] (mavros) StdoutLine: {'line': b'6: No problems found\n'}
+[4.299865] (mavros) StdoutLine: {'line': b'6: -- run_test.py: return code 0\n'}
+[4.300204] (mavros) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/cppcheck.xunit.xml'\n"}
+[4.319785] (mavros) StdoutLine: {'line': b' 6/12 Test  #6: cppcheck ............................   Passed    0.54 sec\n'}
+[4.320256] (mavros) StdoutLine: {'line': b'test 7\n'}
+[4.320444] (mavros) StdoutLine: {'line': b'      Start  7: cpplint\n'}
+[4.320539] (mavros) StdoutLine: {'line': b'\n'}
+[4.320605] (mavros) StdoutLine: {'line': b'7: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros/test_results/mavros/cpplint.xunit.xml" "--package-name" "mavros" "--output-file" "/home/grant/ros2_ws/build/mavros/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/grant/ros2_ws/build/mavros/test_results/mavros/cpplint.xunit.xml"\n'}
+[4.320674] (mavros) StdoutLine: {'line': b'7: Test timeout computed to be: 120\n'}
+[4.365793] (-) TimerEvent: {}
+[4.388305] (mavros) StdoutLine: {'line': b"7: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros':\n"}
+[4.388513] (mavros) StdoutLine: {'line': b'7:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/grant/ros2_ws/build/mavros/test_results/mavros/cpplint.xunit.xml\n'}
+[4.467521] (-) TimerEvent: {}
+[4.568573] (-) TimerEvent: {}
+[4.668723] (-) TimerEvent: {}
+[4.768904] (-) TimerEvent: {}
+[4.869342] (-) TimerEvent: {}
+[4.971936] (-) TimerEvent: {}
+[5.080066] (-) TimerEvent: {}
+[5.183100] (-) TimerEvent: {}
+[5.296407] (-) TimerEvent: {}
+[5.403929] (-) TimerEvent: {}
+[5.508374] (-) TimerEvent: {}
+[5.612040] (-) TimerEvent: {}
+[5.714551] (-) TimerEvent: {}
+[5.814663] (-) TimerEvent: {}
+[5.915852] (-) TimerEvent: {}
+[6.018321] (-) TimerEvent: {}
+[6.119920] (-) TimerEvent: {}
+[6.221022] (-) TimerEvent: {}
+[6.322820] (-) TimerEvent: {}
+[6.423750] (-) TimerEvent: {}
+[6.524785] (-) TimerEvent: {}
+[6.625353] (-) TimerEvent: {}
+[6.726441] (-) TimerEvent: {}
+[6.840550] (-) TimerEvent: {}
+[6.941951] (-) TimerEvent: {}
+[7.042221] (-) TimerEvent: {}
+[7.154406] (-) TimerEvent: {}
+[7.256379] (-) TimerEvent: {}
+[7.356591] (-) TimerEvent: {}
+[7.459077] (-) TimerEvent: {}
+[7.562058] (-) TimerEvent: {}
+[7.664250] (-) TimerEvent: {}
+[7.764855] (-) TimerEvent: {}
+[7.865410] (-) TimerEvent: {}
+[7.991773] (-) TimerEvent: {}
+[8.092157] (-) TimerEvent: {}
+[8.192479] (-) TimerEvent: {}
+[8.293097] (-) TimerEvent: {}
+[8.393900] (-) TimerEvent: {}
+[8.503020] (-) TimerEvent: {}
+[8.604637] (-) TimerEvent: {}
+[8.705141] (-) TimerEvent: {}
+[8.807245] (-) TimerEvent: {}
+[8.909320] (-) TimerEvent: {}
+[8.979052] (mavros) StdoutLine: {'line': b"7: Using '--root=/home/grant/ros2_ws/src/mavros/mavros/include' argument\n"}
+[8.979199] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.979271] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/frame_tf.hpp\n'}
+[8.979367] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.979441] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/mavros_plugin_register_macro.hpp\n'}
+[8.979506] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.979569] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/mavros_router.hpp\n'}
+[8.979631] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.979693] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/mavros_uas.hpp\n'}
+[8.979755] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.979817] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/mission_protocol_base.hpp\n'}
+[8.979906] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.979974] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/plugin.hpp\n'}
+[8.980036] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.980098] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/plugin_filter.hpp\n'}
+[8.980160] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.980221] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/px4_custom_mode.hpp\n'}
+[8.980283] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.980364] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/setpoint_mixin.hpp\n'}
+[8.980437] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.980499] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/uas_executor.hpp\n'}
+[8.980562] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.980623] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/include/mavros/utils.hpp\n'}
+[8.980685] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.980746] (mavros) StdoutLine: {'line': b"7: Using '--root=/home/grant/ros2_ws/src/mavros/mavros/src' argument\n"}
+[8.980807] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.980896] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/mavros_node.cpp\n'}
+[8.980963] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.981025] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/enum_sensor_orientation.cpp\n'}
+[8.981087] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.981148] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/enum_to_string.cpp\n'}
+[8.981209] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.981270] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/ftf_frame_conversions.cpp\n'}
+[8.981347] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.981427] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/ftf_quaternion_utils.cpp\n'}
+[8.981491] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.981552] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/mavros_router.cpp\n'}
+[8.981614] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.981675] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/mavros_uas.cpp\n'}
+[8.981736] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.981798] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/plugin.cpp\n'}
+[8.981885] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.981952] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/uas_ap.cpp\n'}
+[8.982015] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.982076] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/uas_data.cpp\n'}
+[8.982138] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.982199] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/uas_executor.cpp\n'}
+[8.982267] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.982372] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/uas_stringify.cpp\n'}
+[8.982460] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.982525] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/uas_tf.cpp\n'}
+[8.982588] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.982649] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/lib/uas_timesync.cpp\n'}
+[8.982711] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.982772] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/actuator_control.cpp\n'}
+[8.982851] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.982929] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/altitude.cpp\n'}
+[8.982993] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.983054] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/command.cpp\n'}
+[8.983124] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.983187] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/dummy.cpp\n'}
+[8.983252] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.983314] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/ftp.cpp\n'}
+[8.983403] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.983470] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/geofence.cpp\n'}
+[8.983532] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.983594] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/global_position.cpp\n'}
+[8.983655] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.983716] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/home_position.cpp\n'}
+[8.983778] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.983854] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/imu.cpp\n'}
+[8.983931] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.983994] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/local_position.cpp\n'}
+[8.984055] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.984116] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/manual_control.cpp\n'}
+[8.984178] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.984239] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/mission_protocol_base.cpp\n'}
+[8.984301] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.984391] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/nav_controller_output.cpp\n'}
+[8.984459] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.984521] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/param.cpp\n'}
+[8.984583] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.984644] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/rallypoint.cpp\n'}
+[8.984706] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.984767] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/rc_io.cpp\n'}
+[8.984829] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.984923] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/setpoint_accel.cpp\n'}
+[8.984987] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.985049] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/setpoint_attitude.cpp\n'}
+[8.985110] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.985171] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/setpoint_position.cpp\n'}
+[8.985233] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.985300] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/setpoint_raw.cpp\n'}
+[8.985389] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.985457] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/setpoint_trajectory.cpp\n'}
+[8.985520] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.985581] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/setpoint_velocity.cpp\n'}
+[8.985643] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.985704] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/sys_status.cpp\n'}
+[8.985766] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.985827] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/sys_time.cpp\n'}
+[8.985930] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.985997] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/waypoint.cpp\n'}
+[8.986060] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.986123] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/src/plugins/wind_estimation.cpp\n'}
+[8.986184] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.986246] (mavros) StdoutLine: {'line': b"7: Using '--root=/home/grant/ros2_ws/src/mavros/mavros/test' argument\n"}
+[8.986308] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.986399] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/test/test_frame_conversions.cpp\n'}
+[8.986468] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.986530] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/test/test_quaternion_utils.cpp\n'}
+[8.986593] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.986654] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/test/test_router.cpp\n'}
+[8.986716] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.986778] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/test/test_sensor_orientation.cpp\n'}
+[8.986870] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.986949] (mavros) StdoutLine: {'line': b'7: Done processing /home/grant/ros2_ws/src/mavros/mavros/test/test_uas.cpp\n'}
+[8.987013] (mavros) StdoutLine: {'line': b'7: \n'}
+[8.987076] (mavros) StdoutLine: {'line': b'7: No problems found\n'}
+[8.994478] (mavros) StdoutLine: {'line': b'7: -- run_test.py: return code 0\n'}
+[8.994623] (mavros) StdoutLine: {'line': b"7: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/cpplint.xunit.xml'\n"}
+[9.004963] (mavros) StdoutLine: {'line': b' 7/12 Test  #7: cpplint .............................   Passed    4.69 sec\n'}
+[9.005195] (mavros) StdoutLine: {'line': b'test 8\n'}
+[9.005285] (mavros) StdoutLine: {'line': b'      Start  8: flake8\n'}
+[9.005370] (mavros) StdoutLine: {'line': b'\n'}
+[9.005450] (mavros) StdoutLine: {'line': b'8: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros/test_results/mavros/flake8.xunit.xml" "--package-name" "mavros" "--output-file" "/home/grant/ros2_ws/build/mavros/ament_flake8/flake8.txt" "--command" "/opt/ros/foxy/bin/ament_flake8" "--xunit-file" "/home/grant/ros2_ws/build/mavros/test_results/mavros/flake8.xunit.xml"\n'}
+[9.005521] (mavros) StdoutLine: {'line': b'8: Test timeout computed to be: 60\n'}
+[9.009899] (-) TimerEvent: {}
+[9.066260] (mavros) StdoutLine: {'line': b"8: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros':\n"}
+[9.066423] (mavros) StdoutLine: {'line': b'8:  - /opt/ros/foxy/bin/ament_flake8 --xunit-file /home/grant/ros2_ws/build/mavros/test_results/mavros/flake8.xunit.xml\n'}
+[9.110048] (-) TimerEvent: {}
+[9.213341] (-) TimerEvent: {}
+[9.313722] (-) TimerEvent: {}
+[9.414335] (-) TimerEvent: {}
+[9.514850] (-) TimerEvent: {}
+[9.573511] (mavros) StdoutLine: {'line': b'8: \n'}
+[9.573694] (mavros) StdoutLine: {'line': b'8: 27 files checked\n'}
+[9.573777] (mavros) StdoutLine: {'line': b'8: No problems found\n'}
+[9.573863] (mavros) StdoutLine: {'line': b'8: \n'}
+[9.573948] (mavros) StdoutLine: {'line': b'8: Checked files:\n'}
+[9.574013] (mavros) StdoutLine: {'line': b'8: \n'}
+[9.574076] (mavros) StdoutLine: {'line': b'8: * ./setup.py\n'}
+[9.574139] (mavros) StdoutLine: {'line': b'8: * ./mavros/ftp.py\n'}
+[9.574201] (mavros) StdoutLine: {'line': b'8: * ./mavros/command.py\n'}
+[9.574263] (mavros) StdoutLine: {'line': b'8: * ./mavros/global_position.py\n'}
+[9.574326] (mavros) StdoutLine: {'line': b'8: * ./mavros/param.py\n'}
+[9.574485] (mavros) StdoutLine: {'line': b'8: * ./mavros/setpoint.py\n'}
+[9.574563] (mavros) StdoutLine: {'line': b'8: * ./mavros/mission.py\n'}
+[9.574629] (mavros) StdoutLine: {'line': b'8: * ./mavros/system.py\n'}
+[9.574693] (mavros) StdoutLine: {'line': b'8: * ./mavros/mavlink.py\n'}
+[9.574756] (mavros) StdoutLine: {'line': b'8: * ./mavros/__init__.py\n'}
+[9.574819] (mavros) StdoutLine: {'line': b'8: * ./mavros/local_position.py\n'}
+[9.574929] (mavros) StdoutLine: {'line': b'8: * ./mavros/utils.py\n'}
+[9.575002] (mavros) StdoutLine: {'line': b'8: * ./mavros/nuttx_crc32.py\n'}
+[9.575067] (mavros) StdoutLine: {'line': b'8: * ./mavros/base.py\n'}
+[9.575129] (mavros) StdoutLine: {'line': b'8: * ./mavros/cmd/checkid.py\n'}
+[9.575192] (mavros) StdoutLine: {'line': b'8: * ./mavros/cmd/ftp.py\n'}
+[9.575254] (mavros) StdoutLine: {'line': b'8: * ./mavros/cmd/param.py\n'}
+[9.575316] (mavros) StdoutLine: {'line': b'8: * ./mavros/cmd/mission.py\n'}
+[9.575407] (mavros) StdoutLine: {'line': b'8: * ./mavros/cmd/system.py\n'}
+[9.575485] (mavros) StdoutLine: {'line': b'8: * ./mavros/cmd/__main__.py\n'}
+[9.575548] (mavros) StdoutLine: {'line': b'8: * ./mavros/cmd/cmd.py\n'}
+[9.575611] (mavros) StdoutLine: {'line': b'8: * ./mavros/cmd/__init__.py\n'}
+[9.575673] (mavros) StdoutLine: {'line': b'8: * ./mavros/cmd/safety.py\n'}
+[9.575735] (mavros) StdoutLine: {'line': b'8: * ./mavros/cmd/utils.py\n'}
+[9.575797] (mavros) StdoutLine: {'line': b'8: * ./test/mavros_py/test_mission.py\n'}
+[9.575882] (mavros) StdoutLine: {'line': b'8: * ./test/mavros_py/test_param.py\n'}
+[9.575953] (mavros) StdoutLine: {'line': b'8: * ./test/mavros_py/__init__.py\n'}
+[9.600924] (mavros) StdoutLine: {'line': b'8: -- run_test.py: return code 0\n'}
+[9.601123] (mavros) StdoutLine: {'line': b"8: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/flake8.xunit.xml'\n"}
+[9.612164] (mavros) StdoutLine: {'line': b' 8/12 Test  #8: flake8 ..............................   Passed    0.61 sec\n'}
+[9.612418] (mavros) StdoutLine: {'line': b'test 9\n'}
+[9.612509] (mavros) StdoutLine: {'line': b'      Start  9: lint_cmake\n'}
+[9.612577] (mavros) StdoutLine: {'line': b'\n'}
+[9.612641] (mavros) StdoutLine: {'line': b'9: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros/test_results/mavros/lint_cmake.xunit.xml" "--package-name" "mavros" "--output-file" "/home/grant/ros2_ws/build/mavros/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/grant/ros2_ws/build/mavros/test_results/mavros/lint_cmake.xunit.xml"\n'}
+[9.612708] (mavros) StdoutLine: {'line': b'9: Test timeout computed to be: 60\n'}
+[9.615919] (-) TimerEvent: {}
+[9.673993] (mavros) StdoutLine: {'line': b"9: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros':\n"}
+[9.674163] (mavros) StdoutLine: {'line': b'9:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/grant/ros2_ws/build/mavros/test_results/mavros/lint_cmake.xunit.xml\n'}
+[9.720517] (-) TimerEvent: {}
+[9.821616] (-) TimerEvent: {}
+[9.864820] (mavros) StdoutLine: {'line': b'9: \n'}
+[9.864984] (mavros) StdoutLine: {'line': b'9: No problems found\n'}
+[9.893123] (mavros) StdoutLine: {'line': b'9: -- run_test.py: return code 0\n'}
+[9.893463] (mavros) StdoutLine: {'line': b"9: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/lint_cmake.xunit.xml'\n"}
+[9.909402] (mavros) StdoutLine: {'line': b' 9/12 Test  #9: lint_cmake ..........................   Passed    0.30 sec\n'}
+[9.909788] (mavros) StdoutLine: {'line': b'test 10\n'}
+[9.909863] (mavros) StdoutLine: {'line': b'      Start 10: pep257\n'}
+[9.909928] (mavros) StdoutLine: {'line': b'\n'}
+[9.909991] (mavros) StdoutLine: {'line': b'10: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros/test_results/mavros/pep257.xunit.xml" "--package-name" "mavros" "--output-file" "/home/grant/ros2_ws/build/mavros/ament_pep257/pep257.txt" "--command" "/opt/ros/foxy/bin/ament_pep257" "--xunit-file" "/home/grant/ros2_ws/build/mavros/test_results/mavros/pep257.xunit.xml"\n'}
+[9.910060] (mavros) StdoutLine: {'line': b'10: Test timeout computed to be: 60\n'}
+[9.922676] (-) TimerEvent: {}
+[9.971979] (mavros) StdoutLine: {'line': b"10: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros':\n"}
+[9.972214] (mavros) StdoutLine: {'line': b'10:  - /opt/ros/foxy/bin/ament_pep257 --xunit-file /home/grant/ros2_ws/build/mavros/test_results/mavros/pep257.xunit.xml\n'}
+[10.024815] (-) TimerEvent: {}
+[10.125379] (-) TimerEvent: {}
+[10.226973] (-) TimerEvent: {}
+[10.330071] (-) TimerEvent: {}
+[10.430646] (-) TimerEvent: {}
+[10.491021] (mavros) StdoutLine: {'line': b'10: checking ./mavros/__init__.py\n'}
+[10.491231] (mavros) StdoutLine: {'line': b'10: checking ./mavros/base.py\n'}
+[10.491310] (mavros) StdoutLine: {'line': b'10: checking ./mavros/cmd/__init__.py\n'}
+[10.491375] (mavros) StdoutLine: {'line': b'10: checking ./mavros/cmd/__main__.py\n'}
+[10.491439] (mavros) StdoutLine: {'line': b'10: checking ./mavros/cmd/checkid.py\n'}
+[10.491502] (mavros) StdoutLine: {'line': b'10: checking ./mavros/cmd/cmd.py\n'}
+[10.491564] (mavros) StdoutLine: {'line': b'10: checking ./mavros/cmd/ftp.py\n'}
+[10.491625] (mavros) StdoutLine: {'line': b'10: checking ./mavros/cmd/mission.py\n'}
+[10.491723] (mavros) StdoutLine: {'line': b'10: checking ./mavros/cmd/param.py\n'}
+[10.491788] (mavros) StdoutLine: {'line': b'10: checking ./mavros/cmd/safety.py\n'}
+[10.491849] (mavros) StdoutLine: {'line': b'10: checking ./mavros/cmd/system.py\n'}
+[10.491910] (mavros) StdoutLine: {'line': b'10: checking ./mavros/cmd/utils.py\n'}
+[10.491971] (mavros) StdoutLine: {'line': b'10: checking ./mavros/command.py\n'}
+[10.492031] (mavros) StdoutLine: {'line': b'10: checking ./mavros/ftp.py\n'}
+[10.492092] (mavros) StdoutLine: {'line': b'10: checking ./mavros/global_position.py\n'}
+[10.492182] (mavros) StdoutLine: {'line': b'10: checking ./mavros/local_position.py\n'}
+[10.492249] (mavros) StdoutLine: {'line': b'10: checking ./mavros/mavlink.py\n'}
+[10.492310] (mavros) StdoutLine: {'line': b'10: checking ./mavros/mission.py\n'}
+[10.492371] (mavros) StdoutLine: {'line': b'10: checking ./mavros/nuttx_crc32.py\n'}
+[10.492431] (mavros) StdoutLine: {'line': b'10: checking ./mavros/param.py\n'}
+[10.492492] (mavros) StdoutLine: {'line': b'10: checking ./mavros/setpoint.py\n'}
+[10.492561] (mavros) StdoutLine: {'line': b'10: checking ./mavros/system.py\n'}
+[10.492623] (mavros) StdoutLine: {'line': b'10: checking ./mavros/utils.py\n'}
+[10.492717] (mavros) StdoutLine: {'line': b'10: checking ./setup.py\n'}
+[10.492782] (mavros) StdoutLine: {'line': b'10: checking ./test/mavros_py/__init__.py\n'}
+[10.492844] (mavros) StdoutLine: {'line': b'10: checking ./test/mavros_py/test_mission.py\n'}
+[10.492905] (mavros) StdoutLine: {'line': b'10: checking ./test/mavros_py/test_param.py\n'}
+[10.492965] (mavros) StdoutLine: {'line': b'10: No problems found\n'}
+[10.509524] (mavros) StdoutLine: {'line': b'10: -- run_test.py: return code 0\n'}
+[10.509757] (mavros) StdoutLine: {'line': b"10: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/pep257.xunit.xml'\n"}
+[10.521182] (mavros) StdoutLine: {'line': b'10/12 Test #10: pep257 ..............................   Passed    0.61 sec\n'}
+[10.521401] (mavros) StdoutLine: {'line': b'test 11\n'}
+[10.521495] (mavros) StdoutLine: {'line': b'      Start 11: uncrustify\n'}
+[10.521562] (mavros) StdoutLine: {'line': b'\n'}
+[10.521625] (mavros) StdoutLine: {'line': b'11: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros/test_results/mavros/uncrustify.xunit.xml" "--package-name" "mavros" "--output-file" "/home/grant/ros2_ws/build/mavros/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/grant/ros2_ws/build/mavros/test_results/mavros/uncrustify.xunit.xml"\n'}
+[10.521725] (mavros) StdoutLine: {'line': b'11: Test timeout computed to be: 60\n'}
+[10.533706] (-) TimerEvent: {}
+[10.583282] (mavros) StdoutLine: {'line': b"11: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros':\n"}
+[10.583493] (mavros) StdoutLine: {'line': b'11:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/grant/ros2_ws/build/mavros/test_results/mavros/uncrustify.xunit.xml\n'}
+[10.634330] (-) TimerEvent: {}
+[10.735936] (-) TimerEvent: {}
+[10.836499] (-) TimerEvent: {}
+[10.937598] (-) TimerEvent: {}
+[11.039674] (-) TimerEvent: {}
+[11.069500] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'include/mavros/frame_tf.hpp'\n"}
+[11.069973] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.070055] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'include/mavros/mavros_plugin_register_macro.hpp'\n"}
+[11.070124] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.070250] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'include/mavros/mavros_router.hpp'\n"}
+[11.070318] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.070381] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'include/mavros/mavros_uas.hpp'\n"}
+[11.070443] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.070505] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'include/mavros/mission_protocol_base.hpp'\n"}
+[11.070594] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.070702] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'include/mavros/plugin.hpp'\n"}
+[11.070770] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.070832] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'include/mavros/plugin_filter.hpp'\n"}
+[11.070895] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.070957] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'include/mavros/px4_custom_mode.hpp'\n"}
+[11.071019] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.071080] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'include/mavros/setpoint_mixin.hpp'\n"}
+[11.071174] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.071269] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'include/mavros/uas_executor.hpp'\n"}
+[11.071338] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.071401] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'include/mavros/utils.hpp'\n"}
+[11.071463] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.071524] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/lib/enum_sensor_orientation.cpp'\n"}
+[11.071586] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.071678] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/lib/enum_to_string.cpp'\n"}
+[11.071755] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.071815] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/lib/ftf_frame_conversions.cpp'\n"}
+[11.071877] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.071938] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/lib/ftf_quaternion_utils.cpp'\n"}
+[11.071999] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.072059] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/lib/mavros_router.cpp'\n"}
+[11.072119] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.072208] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/lib/mavros_uas.cpp'\n"}
+[11.072274] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.072343] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/lib/plugin.cpp'\n"}
+[11.072404] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.072464] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/lib/uas_ap.cpp'\n"}
+[11.072525] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.072586] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/lib/uas_data.cpp'\n"}
+[11.072668] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.072739] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/lib/uas_executor.cpp'\n"}
+[11.072801] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.072862] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/lib/uas_stringify.cpp'\n"}
+[11.072923] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.072984] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/lib/uas_tf.cpp'\n"}
+[11.073045] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.073105] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/lib/uas_timesync.cpp'\n"}
+[11.073197] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.073263] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/mavros_node.cpp'\n"}
+[11.073324] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.073385] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/actuator_control.cpp'\n"}
+[11.073446] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.073506] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/altitude.cpp'\n"}
+[11.073630] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.073724] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/command.cpp'\n"}
+[11.073787] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.073848] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/dummy.cpp'\n"}
+[11.073909] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.073969] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/ftp.cpp'\n"}
+[11.074030] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.074090] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/geofence.cpp'\n"}
+[11.074203] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.074274] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/global_position.cpp'\n"}
+[11.074336] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.074397] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/home_position.cpp'\n"}
+[11.074458] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.074518] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/imu.cpp'\n"}
+[11.074578] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.074656] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/local_position.cpp'\n"}
+[11.074734] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.074796] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/manual_control.cpp'\n"}
+[11.074857] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.074918] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/mission_protocol_base.cpp'\n"}
+[11.074979] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.075039] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/nav_controller_output.cpp'\n"}
+[11.075100] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.075187] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/param.cpp'\n"}
+[11.075253] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.075314] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/rallypoint.cpp'\n"}
+[11.075374] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.075438] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/rc_io.cpp'\n"}
+[11.075499] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.075559] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/setpoint_accel.cpp'\n"}
+[11.075625] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.075743] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/setpoint_attitude.cpp'\n"}
+[11.075819] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.075884] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/setpoint_position.cpp'\n"}
+[11.075948] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.076010] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/setpoint_raw.cpp'\n"}
+[11.076072] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.076147] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/setpoint_trajectory.cpp'\n"}
+[11.076227] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.076290] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/setpoint_velocity.cpp'\n"}
+[11.076352] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.076413] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/sys_status.cpp'\n"}
+[11.076474] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.076535] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/sys_time.cpp'\n"}
+[11.076596] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.076682] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/waypoint.cpp'\n"}
+[11.076750] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.076820] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'src/plugins/wind_estimation.cpp'\n"}
+[11.076890] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.076951] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'test/test_frame_conversions.cpp'\n"}
+[11.077012] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.077071] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'test/test_quaternion_utils.cpp'\n"}
+[11.077132] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.077221] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'test/test_router.cpp'\n"}
+[11.077283] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.077343] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'test/test_sensor_orientation.cpp'\n"}
+[11.077403] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.077462] (mavros) StdoutLine: {'line': b"11: No code style divergence in file 'test/test_uas.cpp'\n"}
+[11.077522] (mavros) StdoutLine: {'line': b'11: \n'}
+[11.077582] (mavros) StdoutLine: {'line': b'11: No problems found\n'}
+[11.086125] (mavros) StdoutLine: {'line': b'11: -- run_test.py: return code 0\n'}
+[11.086296] (mavros) StdoutLine: {'line': b"11: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/uncrustify.xunit.xml'\n"}
+[11.096685] (mavros) StdoutLine: {'line': b'11/12 Test #11: uncrustify ..........................   Passed    0.58 sec\n'}
+[11.096870] (mavros) StdoutLine: {'line': b'test 12\n'}
+[11.096944] (mavros) StdoutLine: {'line': b'      Start 12: xmllint\n'}
+[11.097007] (mavros) StdoutLine: {'line': b'\n'}
+[11.097069] (mavros) StdoutLine: {'line': b'12: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros/test_results/mavros/xmllint.xunit.xml" "--package-name" "mavros" "--output-file" "/home/grant/ros2_ws/build/mavros/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/grant/ros2_ws/build/mavros/test_results/mavros/xmllint.xunit.xml"\n'}
+[11.097135] (mavros) StdoutLine: {'line': b'12: Test timeout computed to be: 60\n'}
+[11.142787] (-) TimerEvent: {}
+[11.158158] (mavros) StdoutLine: {'line': b"12: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros':\n"}
+[11.158399] (mavros) StdoutLine: {'line': b'12:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/grant/ros2_ws/build/mavros/test_results/mavros/xmllint.xunit.xml\n'}
+[11.242855] (-) TimerEvent: {}
+[11.343939] (-) TimerEvent: {}
+[11.356585] (mavros) StdoutLine: {'line': b"12: File 'mavros_plugins.xml' is valid\n"}
+[11.356746] (mavros) StdoutLine: {'line': b'12: \n'}
+[11.356816] (mavros) StdoutLine: {'line': b"12: File 'package.xml' is valid\n"}
+[11.356895] (mavros) StdoutLine: {'line': b'12: \n'}
+[11.356973] (mavros) StdoutLine: {'line': b'12: No problems found\n'}
+[11.369979] (mavros) StdoutLine: {'line': b'12: -- run_test.py: return code 0\n'}
+[11.370179] (mavros) StdoutLine: {'line': b"12: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/xmllint.xunit.xml'\n"}
+[11.381065] (mavros) StdoutLine: {'line': b'12/12 Test #12: xmllint .............................   Passed    0.28 sec\n'}
+[11.381495] (mavros) StdoutLine: {'line': b'\n'}
+[11.381584] (mavros) StdoutLine: {'line': b'\x1b[0;32m100% tests passed\x1b[0;0m, 0 tests failed\x1b[0;0m out of 12\n'}
+[11.381653] (mavros) StdoutLine: {'line': b'\n'}
+[11.381716] (mavros) StdoutLine: {'line': b'Label Time Summary:\n'}
+[11.381778] (mavros) StdoutLine: {'line': b'cppcheck      =   0.54 sec*proc (1 test)\n'}
+[11.381840] (mavros) StdoutLine: {'line': b'cpplint       =   4.69 sec*proc (1 test)\n'}
+[11.381916] (mavros) StdoutLine: {'line': b'flake8        =   0.61 sec*proc (1 test)\n'}
+[11.381994] (mavros) StdoutLine: {'line': b'gmock         =   0.36 sec*proc (2 tests)\n'}
+[11.382062] (mavros) StdoutLine: {'line': b'gtest         =   0.74 sec*proc (3 tests)\n'}
+[11.382124] (mavros) StdoutLine: {'line': b'lint_cmake    =   0.30 sec*proc (1 test)\n'}
+[11.382185] (mavros) StdoutLine: {'line': b'linter        =   7.60 sec*proc (7 tests)\n'}
+[11.382246] (mavros) StdoutLine: {'line': b'pep257        =   0.61 sec*proc (1 test)\n'}
+[11.382306] (mavros) StdoutLine: {'line': b'uncrustify    =   0.58 sec*proc (1 test)\n'}
+[11.382366] (mavros) StdoutLine: {'line': b'xmllint       =   0.28 sec*proc (1 test)\n'}
+[11.382480] (mavros) StdoutLine: {'line': b'\n'}
+[11.382549] (mavros) StdoutLine: {'line': b'Total Test time (real) =   8.71 sec\n'}
+[11.386781] (mavros) CommandEnded: {'returncode': 0}
+[11.387451] (mavros) JobEnded: {'identifier': 'mavros', 'rc': 0}
+[11.391351] (mavros_extras) JobStarted: {'identifier': 'mavros_extras'}
+[11.430918] (mavros_extras) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/grant/ros2_ws/build/mavros_extras', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'grant'), ('SSH_AGENT_PID', '1368'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('HOME', '/home/grant'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/grant/vrx_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_IP', '192.168.0.5'), ('MANAGERPID', '1041'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/grant/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'grant'), ('JOURNAL_STREAM', '8:37906'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:/home/grant/vrx_ws/devel/lib/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_foxy/ros2-linux/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'grant'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/grant/vrx_ws/src/adept-vrx/robotX_2022/models:/home/grant/vrx_ws/src/adept-vrx/wamv_description/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/grant/miniconda3/bin:/home/grant/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/grant/.local/bin:/home/grant/ardupilot/Tools/autotest:/home/grant/ros2_foxy/ros2-linux/bin'), ('SESSION_MANAGER', 'local/grant-2f:@/tmp/.ICE-unix/1454,unix/grant-2f:/tmp/.ICE-unix/1454'), ('INVOCATION_ID', 'd6fa7f9a22634c4e8c2de972c5c75c9c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ea465f44_b9d2_498d_ba63_e44ee9f324e0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/opt/ros/foxy:/home/grant/ros2_foxy/ros2-linux'), ('CONDA_PYTHON_EXE', '/home/grant/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.0.5:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('_DOMAIN_ID', '0'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:/home/grant/ardupilot_gazebo/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/worlds:/home/grant/vrx_ws/src/adept-vrx/robotX_2022/world_models:/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/grant/ros2_ws/build/mavros_extras'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/grant/miniconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages'), ('ROS_HOSTNAME', '192.168.0.5'), ('CONDA_PREFIX', '/home/grant/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux')]), 'shell': False}
+[11.434681] (mavros_extras) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/grant/ros2_ws/build/mavros_extras/CTestConfiguration.ini\n'}
+[11.434836] (mavros_extras) StdoutLine: {'line': b'Parse Config file:/home/grant/ros2_ws/build/mavros_extras/CTestConfiguration.ini\n'}
+[11.434906] (mavros_extras) StdoutLine: {'line': b'   Site: grant-2f\n'}
+[11.435016] (mavros_extras) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[11.435181] (mavros_extras) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[11.435260] (mavros_extras) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[11.435325] (mavros_extras) StdoutLine: {'line': b'Create new tag: 20221024-0050 - Experimental\n'}
+[11.435386] (mavros_extras) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/grant/ros2_ws/build/mavros_extras/CTestConfiguration.ini\n'}
+[11.435473] (mavros_extras) StdoutLine: {'line': b'Parse Config file:/home/grant/ros2_ws/build/mavros_extras/CTestConfiguration.ini\n'}
+[11.435572] (mavros_extras) StdoutLine: {'line': b'Test project /home/grant/ros2_ws/build/mavros_extras\n'}
+[11.435662] (mavros_extras) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[11.435839] (mavros_extras) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[11.435911] (mavros_extras) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[11.436022] (mavros_extras) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[11.436096] (mavros_extras) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[11.436159] (mavros_extras) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[11.436219] (mavros_extras) StdoutLine: {'line': b'test 1\n'}
+[11.436279] (mavros_extras) StdoutLine: {'line': b'    Start 1: cppcheck\n'}
+[11.436339] (mavros_extras) StdoutLine: {'line': b'\n'}
+[11.436399] (mavros_extras) StdoutLine: {'line': b'1: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/cppcheck.xunit.xml" "--package-name" "mavros_extras" "--output-file" "/home/grant/ros2_ws/build/mavros_extras/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/cppcheck.xunit.xml" "--include_dirs" "/home/grant/ros2_ws/src/mavros/mavros_extras/include"\n'}
+[11.436492] (mavros_extras) StdoutLine: {'line': b'1: Test timeout computed to be: 300\n'}
+[11.444058] (-) TimerEvent: {}
+[11.500145] (mavros_extras) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_extras':\n"}
+[11.500353] (mavros_extras) StdoutLine: {'line': b'1:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/cppcheck.xunit.xml --include_dirs /home/grant/ros2_ws/src/mavros/mavros_extras/include\n'}
+[11.544604] (-) TimerEvent: {}
+[11.645699] (-) TimerEvent: {}
+[11.741283] (mavros_extras) StdoutLine: {'line': b'1: No problems found\n'}
+[11.745768] (-) TimerEvent: {}
+[11.757098] (mavros_extras) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[11.757321] (mavros_extras) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/cppcheck.xunit.xml'\n"}
+[11.767308] (mavros_extras) StdoutLine: {'line': b'1/5 Test #1: cppcheck .........................   Passed    0.33 sec\n'}
+[11.767489] (mavros_extras) StdoutLine: {'line': b'test 2\n'}
+[11.767563] (mavros_extras) StdoutLine: {'line': b'    Start 2: cpplint\n'}
+[11.767626] (mavros_extras) StdoutLine: {'line': b'\n'}
+[11.767688] (mavros_extras) StdoutLine: {'line': b'2: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/cpplint.xunit.xml" "--package-name" "mavros_extras" "--output-file" "/home/grant/ros2_ws/build/mavros_extras/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/cpplint.xunit.xml"\n'}
+[11.767785] (mavros_extras) StdoutLine: {'line': b'2: Test timeout computed to be: 120\n'}
+[11.829508] (mavros_extras) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_extras':\n"}
+[11.829704] (mavros_extras) StdoutLine: {'line': b'2:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/cpplint.xunit.xml\n'}
+[11.848848] (-) TimerEvent: {}
+[11.949456] (-) TimerEvent: {}
+[12.052554] (-) TimerEvent: {}
+[12.158650] (-) TimerEvent: {}
+[12.262716] (-) TimerEvent: {}
+[12.363354] (-) TimerEvent: {}
+[12.463920] (-) TimerEvent: {}
+[12.564485] (-) TimerEvent: {}
+[12.665574] (-) TimerEvent: {}
+[12.768165] (-) TimerEvent: {}
+[12.870827] (-) TimerEvent: {}
+[12.971338] (-) TimerEvent: {}
+[13.072429] (-) TimerEvent: {}
+[13.173052] (-) TimerEvent: {}
+[13.276602] (-) TimerEvent: {}
+[13.381703] (-) TimerEvent: {}
+[13.482282] (-) TimerEvent: {}
+[13.583335] (-) TimerEvent: {}
+[13.686955] (-) TimerEvent: {}
+[13.788775] (-) TimerEvent: {}
+[13.858990] (mavros_extras) StdoutLine: {'line': b'2: /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/guided_target.cpp:21:  Found C system header after C++ system header. Should be: guided_target.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[13.859202] (mavros_extras) StdoutLine: {'line': b'2: /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/mount_control.cpp:54:  Add #include <string> for string  [build/include_what_you_use] [4]\n'}
+[13.859446] (mavros_extras) StdoutLine: {'line': b"2: Category 'build/include_order' errors found: 1\n"}
+[13.859510] (mavros_extras) StdoutLine: {'line': b"2: Category 'build/include_what_you_use' errors found: 1\n"}
+[13.859775] (mavros_extras) StdoutLine: {'line': b'2: Total errors found: 2\n'}
+[13.859844] (mavros_extras) StdoutLine: {'line': b"2: Using '--root=/home/grant/ros2_ws/src/mavros/mavros_extras/include' argument\n"}
+[13.859906] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.859967] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/include/mavros_extras/servo_state_publisher.hpp\n'}
+[13.860065] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.860136] (mavros_extras) StdoutLine: {'line': b"2: Using '--root=/home/grant/ros2_ws/src/mavros/mavros_extras/src' argument\n"}
+[13.860198] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.860258] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/lib/servo_state_publisher.cpp\n'}
+[13.860319] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.860379] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/3dr_radio.cpp\n'}
+[13.860439] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.860561] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/adsb.cpp\n'}
+[13.860636] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.860856] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/cam_imu_sync.cpp\n'}
+[13.860919] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.860979] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/camera.cpp\n'}
+[13.861230] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.861295] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/cellular_status.cpp\n'}
+[13.861356] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.861439] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/companion_process_status.cpp\n'}
+[13.861514] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.861601] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/debug_value.cpp\n'}
+[13.861666] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.861726] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/distance_sensor.cpp\n'}
+[13.861786] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.861845] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/esc_status.cpp\n'}
+[13.861906] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.861965] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/esc_telemetry.cpp\n'}
+[13.862025] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.862113] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/fake_gps.cpp\n'}
+[13.862177] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.862237] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/gps_input.cpp\n'}
+[13.862297] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.862357] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/gps_rtk.cpp\n'}
+[13.862417] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.862477] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/gps_status.cpp\n'}
+[13.862551] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.862627] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/guided_target.cpp\n'}
+[13.862688] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.862780] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/hil.cpp\n'}
+[13.862856] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.862916] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/landing_target.cpp\n'}
+[13.862977] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.863049] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/log_transfer.cpp\n'}
+[13.863127] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.863188] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/mag_calibration_status.cpp\n'}
+[13.863248] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.863308] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/mocap_pose_estimate.cpp\n'}
+[13.863367] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.863427] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/mount_control.cpp\n'}
+[13.863493] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.863578] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/obstacle_distance.cpp\n'}
+[13.863646] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.863716] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/odom.cpp\n'}
+[13.863795] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.863856] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/onboard_computer_status.cpp\n'}
+[13.864099] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.864176] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/play_tune.cpp\n'}
+[13.864258] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.864466] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/px4flow.cpp\n'}
+[13.864526] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.864612] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/rangefinder.cpp\n'}
+[13.864703] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.864768] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/terrain.cpp\n'}
+[13.864829] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.864889] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/trajectory.cpp\n'}
+[13.864948] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.865008] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/tunnel.cpp\n'}
+[13.865093] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.865157] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/vfr_hud.cpp\n'}
+[13.865218] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.865277] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/vibration.cpp\n'}
+[13.865337] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.865397] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/vision_pose_estimate.cpp\n'}
+[13.865472] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.865573] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/vision_speed_estimate.cpp\n'}
+[13.865668] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.865755] (mavros_extras) StdoutLine: {'line': b'2: Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/wheel_odometry.cpp\n'}
+[13.865874] (mavros_extras) StdoutLine: {'line': b'2: \n'}
+[13.878286] (mavros_extras) StdoutLine: {'line': b'2: -- run_test.py: return code 1\n'}
+[13.878502] (mavros_extras) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/cpplint.xunit.xml'\n"}
+[13.889122] (-) TimerEvent: {}
+[13.892495] (mavros_extras) StdoutLine: {'line': b'2/5 Test #2: cpplint ..........................***Failed    2.12 sec\n'}
+[13.892772] (mavros_extras) StdoutLine: {'line': b'test 3\n'}
+[13.892868] (mavros_extras) StdoutLine: {'line': b'    Start 3: lint_cmake\n'}
+[13.892936] (mavros_extras) StdoutLine: {'line': b'\n'}
+[13.892999] (mavros_extras) StdoutLine: {'line': b'3: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/lint_cmake.xunit.xml" "--package-name" "mavros_extras" "--output-file" "/home/grant/ros2_ws/build/mavros_extras/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/lint_cmake.xunit.xml"\n'}
+[13.893129] (mavros_extras) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[13.960278] (mavros_extras) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_extras':\n"}
+[13.960477] (mavros_extras) StdoutLine: {'line': b'3:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/lint_cmake.xunit.xml\n'}
+[13.990202] (-) TimerEvent: {}
+[14.094335] (-) TimerEvent: {}
+[14.154978] (mavros_extras) StdoutLine: {'line': b'3: \n'}
+[14.155168] (mavros_extras) StdoutLine: {'line': b'3: No problems found\n'}
+[14.170471] (mavros_extras) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[14.170638] (mavros_extras) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/lint_cmake.xunit.xml'\n"}
+[14.181621] (mavros_extras) StdoutLine: {'line': b'3/5 Test #3: lint_cmake .......................   Passed    0.29 sec\n'}
+[14.182175] (mavros_extras) StdoutLine: {'line': b'test 4\n'}
+[14.182251] (mavros_extras) StdoutLine: {'line': b'    Start 4: uncrustify\n'}
+[14.182337] (mavros_extras) StdoutLine: {'line': b'\n'}
+[14.182415] (mavros_extras) StdoutLine: {'line': b'4: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/uncrustify.xunit.xml" "--package-name" "mavros_extras" "--output-file" "/home/grant/ros2_ws/build/mavros_extras/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/uncrustify.xunit.xml"\n'}
+[14.182484] (mavros_extras) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[14.198060] (-) TimerEvent: {}
+[14.244241] (mavros_extras) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_extras':\n"}
+[14.244468] (mavros_extras) StdoutLine: {'line': b'4:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/uncrustify.xunit.xml\n'}
+[14.301476] (-) TimerEvent: {}
+[14.403574] (-) TimerEvent: {}
+[14.504171] (-) TimerEvent: {}
+[14.553165] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'include/mavros_extras/servo_state_publisher.hpp'\n"}
+[14.553346] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.553415] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/lib/servo_state_publisher.cpp'\n"}
+[14.553478] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.553540] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/3dr_radio.cpp'\n"}
+[14.553601] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.553689] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/adsb.cpp'\n"}
+[14.553754] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.553814] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/cam_imu_sync.cpp'\n"}
+[14.553874] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.553934] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/camera.cpp'\n"}
+[14.553994] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.554053] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/cellular_status.cpp'\n"}
+[14.554113] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.554202] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/companion_process_status.cpp'\n"}
+[14.554267] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.554327] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/debug_value.cpp'\n"}
+[14.554387] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.554446] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/distance_sensor.cpp'\n"}
+[14.554516] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.554577] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/esc_status.cpp'\n"}
+[14.554655] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.554731] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/esc_telemetry.cpp'\n"}
+[14.554792] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.554852] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/fake_gps.cpp'\n"}
+[14.554911] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.554971] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/gps_input.cpp'\n"}
+[14.555031] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.555091] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/gps_rtk.cpp'\n"}
+[14.555175] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.555275] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/gps_status.cpp'\n"}
+[14.555343] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.555404] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/guided_target.cpp'\n"}
+[14.555464] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.555523] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/hil.cpp'\n"}
+[14.555583] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.555660] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/landing_target.cpp'\n"}
+[14.555733] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.555794] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/log_transfer.cpp'\n"}
+[14.555853] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.555913] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/mag_calibration_status.cpp'\n"}
+[14.555973] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.556032] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/mocap_pose_estimate.cpp'\n"}
+[14.556092] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.556176] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/mount_control.cpp'\n"}
+[14.556244] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.556304] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/obstacle_distance.cpp'\n"}
+[14.556363] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.556423] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/odom.cpp'\n"}
+[14.556483] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.556542] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/onboard_computer_status.cpp'\n"}
+[14.556602] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.556688] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/play_tune.cpp'\n"}
+[14.556752] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.556812] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/px4flow.cpp'\n"}
+[14.556872] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.556931] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/rangefinder.cpp'\n"}
+[14.556991] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.557050] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/terrain.cpp'\n"}
+[14.557109] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.557194] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/trajectory.cpp'\n"}
+[14.557258] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.557318] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/tunnel.cpp'\n"}
+[14.557378] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.557437] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/vfr_hud.cpp'\n"}
+[14.557503] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.557563] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/vibration.cpp'\n"}
+[14.557622] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.557709] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/vision_pose_estimate.cpp'\n"}
+[14.557773] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.557833] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/vision_speed_estimate.cpp'\n"}
+[14.557892] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.557952] (mavros_extras) StdoutLine: {'line': b"4: No code style divergence in file 'src/plugins/wheel_odometry.cpp'\n"}
+[14.558011] (mavros_extras) StdoutLine: {'line': b'4: \n'}
+[14.558070] (mavros_extras) StdoutLine: {'line': b'4: No problems found\n'}
+[14.568044] (mavros_extras) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[14.568227] (mavros_extras) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/uncrustify.xunit.xml'\n"}
+[14.578309] (mavros_extras) StdoutLine: {'line': b'4/5 Test #4: uncrustify .......................   Passed    0.40 sec\n'}
+[14.578591] (mavros_extras) StdoutLine: {'line': b'test 5\n'}
+[14.578698] (mavros_extras) StdoutLine: {'line': b'    Start 5: xmllint\n'}
+[14.578771] (mavros_extras) StdoutLine: {'line': b'\n'}
+[14.578833] (mavros_extras) StdoutLine: {'line': b'5: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/xmllint.xunit.xml" "--package-name" "mavros_extras" "--output-file" "/home/grant/ros2_ws/build/mavros_extras/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/xmllint.xunit.xml"\n'}
+[14.578910] (mavros_extras) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[14.605722] (-) TimerEvent: {}
+[14.638731] (mavros_extras) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_extras':\n"}
+[14.638851] (mavros_extras) StdoutLine: {'line': b'5:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/xmllint.xunit.xml\n'}
+[14.705850] (-) TimerEvent: {}
+[14.810041] (-) TimerEvent: {}
+[14.833156] (mavros_extras) StdoutLine: {'line': b"5: File 'mavros_plugins.xml' is valid\n"}
+[14.833397] (mavros_extras) StdoutLine: {'line': b'5: \n'}
+[14.833501] (mavros_extras) StdoutLine: {'line': b"5: File 'package.xml' is valid\n"}
+[14.833634] (mavros_extras) StdoutLine: {'line': b'5: \n'}
+[14.833704] (mavros_extras) StdoutLine: {'line': b'5: No problems found\n'}
+[14.846667] (mavros_extras) StdoutLine: {'line': b'5: -- run_test.py: return code 0\n'}
+[14.846975] (mavros_extras) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/xmllint.xunit.xml'\n"}
+[14.858557] (mavros_extras) StdoutLine: {'line': b'5/5 Test #5: xmllint ..........................   Passed    0.28 sec\n'}
+[14.858885] (mavros_extras) StdoutLine: {'line': b'\n'}
+[14.858992] (mavros_extras) StdoutLine: {'line': b'80% tests passed\x1b[0;0m, \x1b[0;31m1 tests failed\x1b[0;0m out of 5\n'}
+[14.859124] (mavros_extras) StdoutLine: {'line': b'\n'}
+[14.859203] (mavros_extras) StdoutLine: {'line': b'Label Time Summary:\n'}
+[14.859267] (mavros_extras) StdoutLine: {'line': b'cppcheck      =   0.33 sec*proc (1 test)\n'}
+[14.859336] (mavros_extras) StdoutLine: {'line': b'cpplint       =   2.12 sec*proc (1 test)\n'}
+[14.859417] (mavros_extras) StdoutLine: {'line': b'lint_cmake    =   0.29 sec*proc (1 test)\n'}
+[14.859494] (mavros_extras) StdoutLine: {'line': b'linter        =   3.42 sec*proc (5 tests)\n'}
+[14.859557] (mavros_extras) StdoutLine: {'line': b'uncrustify    =   0.40 sec*proc (1 test)\n'}
+[14.859624] (mavros_extras) StdoutLine: {'line': b'xmllint       =   0.28 sec*proc (1 test)\n'}
+[14.859685] (mavros_extras) StdoutLine: {'line': b'\n'}
+[14.859746] (mavros_extras) StdoutLine: {'line': b'Total Test time (real) =   3.42 sec\n'}
+[14.859807] (mavros_extras) StdoutLine: {'line': b'\n'}
+[14.859867] (mavros_extras) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[14.859954] (mavros_extras) StdoutLine: {'line': b'\t\x1b[0;31m  2 - cpplint (Failed)\x1b[0;0m\n'}
+[14.860452] (mavros_extras) StderrLine: {'line': b'Errors while running CTest\n'}
+[14.862624] (mavros_extras) CommandEnded: {'returncode': 8}
+[14.863092] (mavros_extras) TestFailure: {'identifier': 'mavros_extras'}
+[14.863130] (mavros_extras) JobEnded: {'identifier': 'mavros_extras', 'rc': 0}
+[14.863630] (-) EventReactorShutdown: {}

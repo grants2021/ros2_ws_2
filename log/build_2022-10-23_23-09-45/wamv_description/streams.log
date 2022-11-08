@@ -1,0 +1,48 @@
+[0.061s] Invoking command in '/home/grant/ros2_ws/build/wamv_description': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/VRX_Foxy/wamv_description -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/wamv_description
+[0.074s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.110s] -- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+[0.430s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[0.638s] -- Configuring done
+[0.640s] -- Generating done
+[0.641s] -- Build files have been written to: /home/grant/ros2_ws/build/wamv_description
+[0.643s] Invoked command in '/home/grant/ros2_ws/build/wamv_description' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/VRX_Foxy/wamv_description -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/wamv_description
+[0.646s] Invoking command in '/home/grant/ros2_ws/build/wamv_description': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/wamv_description -- -j8 -l8
+[0.767s] Invoked command in '/home/grant/ros2_ws/build/wamv_description' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/wamv_description -- -j8 -l8
+[1.006s] Invoking command in '/home/grant/ros2_ws/build/wamv_description': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/wamv_description
+[1.040s] -- Install configuration: ""
+[1.040s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models
+[1.040s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/WAM-V-Base
+[1.040s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/WAM-V-Base/mesh
+[1.040s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/WAM-V-Base/mesh/WamV.png
+[1.042s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/WAM-V-Base/mesh/WAM-V-Base.dae
+[1.042s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/WAM-V-Base/model.config
+[1.042s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/engine
+[1.042s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/engine/mesh
+[1.043s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/engine/mesh/engine.dae
+[1.043s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/engine/model.config
+[1.043s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/propeller
+[1.043s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/propeller/mesh
+[1.044s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/propeller/mesh/propeller.dae
+[1.044s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/models/propeller/model.config
+[1.044s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/urdf
+[1.044s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/urdf/battery.xacro
+[1.045s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/urdf/thrusters
+[1.045s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/urdf/thrusters/engine.xacro
+[1.045s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/urdf/cpu_cases.xacro
+[1.045s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/urdf/wamv_base.urdf.xacro
+[1.046s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/ament_index/resource_index/package_run_dependencies/wamv_description
+[1.047s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/ament_index/resource_index/parent_prefix_path/wamv_description
+[1.047s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/environment/ament_prefix_path.sh
+[1.047s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/environment/ament_prefix_path.dsv
+[1.047s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/environment/path.sh
+[1.057s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/environment/path.dsv
+[1.098s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/local_setup.bash
+[1.105s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/local_setup.sh
+[1.105s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/local_setup.zsh
+[1.105s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/local_setup.dsv
+[1.124s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/package.dsv
+[1.124s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/ament_index/resource_index/packages/wamv_description
+[1.124s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/cmake/wamv_descriptionConfig.cmake
+[1.124s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/cmake/wamv_descriptionConfig-version.cmake
+[1.125s] -- Installing: /home/grant/ros2_ws/install/wamv_description/share/wamv_description/package.xml
+[1.125s] Invoked command in '/home/grant/ros2_ws/build/wamv_description' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/wamv_description

@@ -1,0 +1,64 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/Waypoint.idl
+// generated code does not contain a copyright notice
+
+#ifndef __mavros_msgs__msg__waypoint__idl__
+#define __mavros_msgs__msg__waypoint__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module Waypoint_Constants {
+const octet FRAME_GLOBAL_ = 0;
+const octet FRAME_LOCAL_NED_ = 1;
+const octet FRAME_MISSION_ = 2;
+const octet FRAME_GLOBAL_REL_ALT_ = 3;
+const octet FRAME_LOCAL_ENU_ = 4;
+const octet FRAME_GLOBAL_INT_ = 5;
+const octet FRAME_GLOBAL_RELATIVE_ALT_INT_ = 6;
+const octet FRAME_LOCAL_OFFSET_NED_ = 7;
+const octet FRAME_BODY_NED_ = 8;
+const octet FRAME_BODY_OFFSET_NED_ = 9;
+const octet FRAME_GLOBAL_TERRAIN_ALT_ = 10;
+const octet FRAME_GLOBAL_TERRAIN_ALT_INT_ = 11;
+const octet FRAME_BODY_FRD_ = 12;
+const octet FRAME_RESERVED_13_ = 13;
+const octet FRAME_RESERVED_14_ = 14;
+const octet FRAME_RESERVED_15_ = 15;
+const octet FRAME_RESERVED_16_ = 16;
+const octet FRAME_RESERVED_17_ = 17;
+const octet FRAME_RESERVED_18_ = 18;
+const octet FRAME_RESERVED_19_ = 19;
+const octet FRAME_LOCAL_FRD_ = 20;
+const octet FRAME_LOCAL_FLU_ = 21;
+
+};
+
+struct Waypoint_ {
+octet frame_;
+unsigned short command_;
+boolean is_current_;
+boolean autocontinue_;
+float param1_;
+float param2_;
+float param3_;
+float param4_;
+double x_lat_;
+double y_long_;
+double z_alt_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__waypoint__idl__

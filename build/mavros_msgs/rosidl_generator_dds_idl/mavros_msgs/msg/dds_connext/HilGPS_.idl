@@ -1,0 +1,41 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/HilGPS.idl
+// generated code does not contain a copyright notice
+#include "geographic_msgs/msg/dds_connext/GeoPoint_.idl"
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__hil_gps__idl__
+#define __mavros_msgs__msg__hil_gps__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct HilGPS_ {
+std_msgs::msg::dds_::Header_ header_;
+octet fix_type_;
+geographic_msgs::msg::dds_::GeoPoint_ geo_;
+unsigned short eph_;
+unsigned short epv_;
+unsigned short vel_;
+short vn_;
+short ve_;
+short vd_;
+unsigned short cog_;
+octet satellites_visible_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__hil_gps__idl__

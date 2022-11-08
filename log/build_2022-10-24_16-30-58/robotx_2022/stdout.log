@@ -1,0 +1,266 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test COMPILER_SUPPORTS_CXX14
+-- Performing Test COMPILER_SUPPORTS_CXX14 - Success
+-- Performing Test COMPILER_SUPPORTS_CXX0X
+-- Performing Test COMPILER_SUPPORTS_CXX0X - Success
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /home/grant/miniconda3/bin/python3 (found suitable version "3.8.13", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'bullet>=2.82'
+--   Found bullet, version 2.88
+-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+-- Found assimp: /usr/include (found version "5.0.0") 
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Searching for dependencies of ignition-math6
+-- Looking for OGRE...
+-- OGRE_PREFIX_WATCH changed.
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-transport8 -- found version 8.3.0
+-- Searching for dependencies of ignition-transport8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.34.0
+-- Found UUID: TRUE  
+-- Looking for ignition-msgs5 -- found version 5.11.0
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for ignition-msgs5 -- found version 5.11.0
+-- Looking for ignition-common3 -- found version 3.15.1
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.15.1
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-fuel_tools4 -- found version 4.6.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Found JSONCPP: TRUE  
+-- Checking for module 'libzip'
+--   Found libzip, version 1.5.1
+-- Found ZIP: TRUE  
+-- Looking for ignition-common3 -- found version 3.15.1
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-msgs5 -- found version 5.11.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/grant/ros2_ws/build/robotx_2022
+[35m[1mScanning dependencies of target ArduPilotPlugin[0m
+[35m[1mScanning dependencies of target ArduCopterIRLockPlugin[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ArduCopterIRLockPlugin.dir/src/ArduCopterIRLockPlugin.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ArduPilotPlugin.dir/src/ArduPilotPlugin.cc.o[0m
+[ 75%] [32m[1mLinking CXX shared library libArduPilotPlugin.so[0m
+[ 75%] Built target ArduPilotPlugin
+[100%] [32m[1mLinking CXX shared library libArduCopterIRLockPlugin.so[0m
+[100%] Built target ArduCopterIRLockPlugin
+-- Install configuration: ""
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wave_motion_plot.perspective
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/front_stereo.perspective
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wamv_config
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wamv_config/component_compliance
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wamv_config/component_compliance/bounding_boxes.yaml
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wamv_config/component_compliance/numeric.yaml
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wamv_config/thruster_compliance
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wamv_config/thruster_compliance/bounding_boxes.yaml
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wamv_config/thruster_compliance/numeric.yaml
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wamv_config/example_component_config.yaml
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/wamv_config/example_thruster_config.yaml
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/custom_rosconsole.conf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/diffdrive.yaml
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/config/pinger.yaml
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds/empty_regatta_wplatform.world
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds/flat_ocean_wplatform.world
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds/flat_ocean_imports.world
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds/flat_ocean.world
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds/flat_ocean_replenish_marker_platformed.world
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds/grass_2_arucos.world
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds/empty_regatta.world
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds/flat_ocean_import.world
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/worlds/grass_replenish_marker.world
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera/model-1_2.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera/model-1_3.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera/model.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera/model.config
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera/model-1_4.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera/model-1_5.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/iris_with_standoffs
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/iris_with_standoffs/model.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/iris_with_standoffs/model.config
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/iris_with_standoffs/meshes
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/iris_with_standoffs/meshes/iris.dae
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/iris_with_standoffs/meshes/iris_prop_ccw.dae
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/iris_with_standoffs/meshes/iris_prop_cw.dae
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/landing_pad
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/landing_pad/materials
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/landing_pad/materials/textures
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/landing_pad/materials/textures/RobotX_Landing_Pad.png
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/landing_pad/model.config
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/landing_pad/meshes
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/landing_pad/meshes/Landing_Pad_Mesh.blend
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/landing_pad/meshes/RobotX_Landing_Pad.png
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/landing_pad/meshes/Landing_Pad_Mesh.dae
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/model.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/scripts
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/scripts/caster_vp.glsl
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/scripts/caster_fp.glsl
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/scripts/sydney_tree.material
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/textures
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/textures/Dock.png
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/textures/Wall_05.png
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/textures/RoofCorrugated.png
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/textures/Terrain.png
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/textures/MetalGalvanized.png
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/textures/TreeDiffuse.png
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/textures/Windows_Dark.png
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/materials/textures/DockDark.png
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/model.config
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/meshes
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/meshes/sydney_regatta_collision.dae
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/meshes/sydney_regatta_shore.dae
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sydney_regatta/meshes/sydney_regatta.dae
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/QR_wamv
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/QR_wamv/model.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/QR_wamv/model_og.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/QR_wamv/model.config
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/model.xacro
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/model.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/model.xacro.erb
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/programs
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/programs/GerstnerWaves.vert
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/programs/GerstnerWaves.frag
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/scripts
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/scripts/waves.material
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/textures
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/textures/wave_normals.dds
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/textures/clouds.jpg
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/textures/clouds_fr.jpg
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/textures/clouds_dn.jpg
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/textures/clouds_up.jpg
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/textures/clouds_rt.jpg
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/textures/clouds_bk.jpg
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/materials/textures/clouds_lf.jpg
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/model.config
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/meshes
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/meshes/mesh.blend
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/meshes/mesh.dae
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/flat_ocean_waves/meshes/mesh_below.dae
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera_g
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera_g/model-1_2.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera_g/model-1_3.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera_g/model.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera_g/model.config
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera_g/model-1_4.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/camera_g/model-1_5.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/robotx_iris_with_ardupilot
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/robotx_iris_with_ardupilot/model.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/robotx_iris_with_ardupilot/model.config
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/WAM-V-Base
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/WAM-V-Base/mesh
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/WAM-V-Base/mesh/WamV.png
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/WAM-V-Base/mesh/WAM-V-Base.dae
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/WAM-V-Base/model.config
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/engine
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/engine/mesh
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/engine/mesh/engine.dae
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/engine/model.config
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/propeller
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/propeller/mesh
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/propeller/mesh/propeller.dae
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/propeller/model.config
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/gimbal_small_2d
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/gimbal_small_2d/model.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/gimbal_small_2d/model.config
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/gimbal_small_2d/meshes
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/gimbal_small_2d/meshes/base_main.dae
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/gimbal_small_2d/meshes/tilt.dae
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/gimbal_small_2d/meshes/base_arm.dae
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sun
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sun/model-1_2.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sun/model-1_3.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sun/model.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sun/model.config
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/models/sun/model-1_4.sdf
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/emptyworld_platformed_drone_wamv_qr.launch
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/wamv_basic_commands.launch
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/grass_replenish_platform.launch
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/only_platform_empty.launch
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/visualworld_platformed_drone_wamv_qr.launch
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/only_wamv_qr_empty.launch
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/platformed_drone_wamv_qr_empty.launch
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/iris_double_world.launch
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/delayed_wamv_basic_commands.launch
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/empty_world_wamv.launch
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/launch/wamv_qr_empty.launch
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/include/robotx_2022
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/include/robotx_2022/GimbalSmall2dPlugin.hh
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/include/robotx_2022/ArduCopterIRLockPlugin.hh
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/include/robotx_2022/SelectionBuffer.hh
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/include/robotx_2022/ArduPilotPlugin.hh
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/lib/robotx_2022/boat_twist.py
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/lib/robotx_2022/wamv_dk_functions.py
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/lib/robotx_2022/spare_node.py
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/ament_index/resource_index/package_run_dependencies/robotx_2022
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/ament_index/resource_index/parent_prefix_path/robotx_2022
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/environment/ament_prefix_path.sh
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/environment/ament_prefix_path.dsv
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/environment/path.sh
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/environment/path.dsv
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/local_setup.bash
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/local_setup.sh
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/local_setup.zsh
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/local_setup.dsv
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/package.dsv
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/ament_index/resource_index/packages/robotx_2022
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/cmake/robotx_2022Config.cmake
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/cmake/robotx_2022Config-version.cmake
+-- Installing: /home/grant/ros2_ws/install/robotx_2022/share/robotx_2022/package.xml

@@ -1,0 +1,1 @@
+Invoking command in '/home/grant/ros2_ws/build/adept_msgs': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/adept-vrx/adept_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/adept_msgs

@@ -1,0 +1,58 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/GlobalPositionTarget.idl
+// generated code does not contain a copyright notice
+#include "geometry_msgs/msg/dds_connext/Vector3_.idl"
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__global_position_target__idl__
+#define __mavros_msgs__msg__global_position_target__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module GlobalPositionTarget_Constants {
+const octet FRAME_GLOBAL_INT_ = 5;
+const octet FRAME_GLOBAL_REL_ALT_ = 6;
+const octet FRAME_GLOBAL_TERRAIN_ALT_ = 11;
+const unsigned short IGNORE_LATITUDE_ = 1;
+const unsigned short IGNORE_LONGITUDE_ = 2;
+const unsigned short IGNORE_ALTITUDE_ = 4;
+const unsigned short IGNORE_VX_ = 8;
+const unsigned short IGNORE_VY_ = 16;
+const unsigned short IGNORE_VZ_ = 32;
+const unsigned short IGNORE_AFX_ = 64;
+const unsigned short IGNORE_AFY_ = 128;
+const unsigned short IGNORE_AFZ_ = 256;
+const unsigned short FORCE_ = 512;
+const unsigned short IGNORE_YAW_ = 1024;
+const unsigned short IGNORE_YAW_RATE_ = 2048;
+
+};
+
+struct GlobalPositionTarget_ {
+std_msgs::msg::dds_::Header_ header_;
+octet coordinate_frame_;
+unsigned short type_mask_;
+double latitude_;
+double longitude_;
+float altitude_;
+geometry_msgs::msg::dds_::Vector3_ velocity_;
+geometry_msgs::msg::dds_::Vector3_ acceleration_or_force_;
+float yaw_;
+float yaw_rate_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__global_position_target__idl__

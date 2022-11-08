@@ -1,0 +1,45 @@
+[0.024s] Invoking command in '/home/grant/ros2_ws/build/wave_gazebo_plugins': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/wave_gazebo_plugins
+[0.041s] CMake Deprecation Warning at CMakeLists.txt:25 (cmake_policy):
+[0.041s]   The OLD behavior for policy CMP0054 will be removed from a future version
+[0.041s]   of CMake.
+[0.041s] 
+[0.041s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.041s]   policies are deprecated and that a policy should be set to OLD only under
+[0.041s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.041s]   behavior and not rely on setting a policy to OLD.
+[0.041s] 
+[0.041s] 
+[0.044s] -- Found rosidl_default_generators: 1.0.1 (/home/grant/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake)
+[0.047s] -- Found ament_cmake_core: 0.9.9 (/home/grant/ros2_foxy/ros2-linux/share/ament_cmake_core/cmake)
+[0.084s] -- Found PythonInterp: /home/grant/miniconda3/bin/python3 (found suitable version "3.8.13", minimum required is "3") 
+[0.084s] -- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+[0.334s] CMake Warning (dev) at /home/grant/ros2_foxy/ros2-linux/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.334s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[0.334s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[0.334s]   set the policy and suppress this warning.
+[0.334s] 
+[0.334s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[0.334s]   Since the policy is not set the OLD behavior will be used.
+[0.334s] Call Stack (most recent call first):
+[0.334s]   /home/grant/ros2_foxy/ros2-linux/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake:51 (list_append_unique)
+[0.335s]   /home/grant/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:5 (ament_index_get_resources)
+[0.335s]   /home/grant/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+[0.335s]   CMakeLists.txt:31 (find_package)
+[0.335s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.335s] 
+[0.335s] CMake Error at /home/grant/ros2_foxy/ros2-linux/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.335s]   if given arguments:
+[0.335s] 
+[0.335s]     "NOT" "element" "IN_LIST" "paths_to_search"
+[0.335s] 
+[0.335s]   Unknown arguments specified
+[0.335s] Call Stack (most recent call first):
+[0.335s]   /home/grant/ros2_foxy/ros2-linux/share/ament_cmake_core/cmake/index/ament_index_get_resources.cmake:51 (list_append_unique)
+[0.335s]   /home/grant/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:5 (ament_index_get_resources)
+[0.336s]   /home/grant/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+[0.336s]   CMakeLists.txt:31 (find_package)
+[0.336s] 
+[0.336s] 
+[0.336s] -- Configuring incomplete, errors occurred!
+[0.336s] See also "/home/grant/ros2_ws/build/wave_gazebo_plugins/CMakeFiles/CMakeOutput.log".
+[0.337s] Invoked command in '/home/grant/ros2_ws/build/wave_gazebo_plugins' returned '1': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/wave_gazebo_plugins

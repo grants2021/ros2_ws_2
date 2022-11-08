@@ -1,0 +1,38 @@
+[01m[K/home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins/src/PhysicalConstants.cc:18:10:[m[K [01;31m[Kfatal error: [m[Kwave_gazebo_plugins/PhysicalConstants.hh: No such file or directory
+   18 | #include [01;31m[K"wave_gazebo_plugins/PhysicalConstants.hh"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/Hydrodynamics.dir/build.make:89: CMakeFiles/Hydrodynamics.dir/src/PhysicalConstants.cc.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins/src/Physics.cc:20:10:[m[K [01;31m[Kfatal error: [m[Kwave_gazebo_plugins/Physics.hh: No such file or directory
+   20 | #include [01;31m[K"wave_gazebo_plugins/Physics.hh"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/Hydrodynamics.dir/build.make:102: CMakeFiles/Hydrodynamics.dir/src/Physics.cc.o] Error 1
+[01m[K/home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins/src/Gazebo.cc:23:10:[m[K [01;31m[Kfatal error: [m[Kgazebo/gazebo.hh: No such file or directory
+   23 | #include [01;31m[K<gazebo/gazebo.hh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/Hydrodynamics.dir/build.make:63: CMakeFiles/Hydrodynamics.dir/src/Gazebo.cc.o] Error 1
+[01m[K/home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins/src/WavefieldEntity.cc:21:10:[m[K [01;31m[Kfatal error: [m[Kgazebo/common/Assert.hh: No such file or directory
+   21 | #include [01;31m[K<gazebo/common/Assert.hh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/Hydrodynamics.dir/build.make:141: CMakeFiles/Hydrodynamics.dir/src/WavefieldEntity.cc.o] Error 1
+[01m[K/home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins/src/Utilities.cc:22:10:[m[K [01;31m[Kfatal error: [m[Kgazebo/gazebo.hh: No such file or directory
+   22 | #include [01;31m[K<gazebo/gazebo.hh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/Hydrodynamics.dir/build.make:115: CMakeFiles/Hydrodynamics.dir/src/Utilities.cc.o] Error 1
+[01m[K/home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins/src/Geometry.cc:24:10:[m[K [01;31m[Kfatal error: [m[Kwave_gazebo_plugins/Geometry.hh: No such file or directory
+   24 | #include [01;31m[K"wave_gazebo_plugins/Geometry.hh"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/Hydrodynamics.dir/build.make:76: CMakeFiles/Hydrodynamics.dir/src/Geometry.cc.o] Error 1
+[01m[K/home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins/src/Wavefield.cc:25:10:[m[K [01;31m[Kfatal error: [m[Kgazebo/gazebo.hh: No such file or directory
+   25 | #include [01;31m[K<gazebo/gazebo.hh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/Hydrodynamics.dir/build.make:128: CMakeFiles/Hydrodynamics.dir/src/Wavefield.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/Hydrodynamics.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

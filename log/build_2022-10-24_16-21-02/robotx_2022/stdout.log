@@ -1,0 +1,4 @@
+[100%] Built target ArduPilotPlugin
+[100%] Built target ArduCopterIRLockPlugin
+-- Install configuration: ""
+-- Installing: /usr/lib/x86_64-linux-gnu/gazebo-11/plugins/libArduCopterIRLockPlugin.so

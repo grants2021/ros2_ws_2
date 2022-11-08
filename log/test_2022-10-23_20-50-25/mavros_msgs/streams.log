@@ -1,0 +1,94 @@
+[0.050s] Invoking command in '/home/grant/ros2_ws/build/mavros_msgs': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_msgs:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.059s] UpdateCTestConfiguration  from :/home/grant/ros2_ws/build/mavros_msgs/CTestConfiguration.ini
+[0.059s] Parse Config file:/home/grant/ros2_ws/build/mavros_msgs/CTestConfiguration.ini
+[0.059s]    Site: grant-2f
+[0.059s]    Build name: (empty)
+[0.059s]  Add coverage exclude regular expressions.
+[0.059s] SetCTestConfiguration:CMakeCommand:/usr/bin/cmake
+[0.059s] Create new tag: 20221024-0050 - Experimental
+[0.059s] UpdateCTestConfiguration  from :/home/grant/ros2_ws/build/mavros_msgs/CTestConfiguration.ini
+[0.060s] Parse Config file:/home/grant/ros2_ws/build/mavros_msgs/CTestConfiguration.ini
+[0.060s] Test project /home/grant/ros2_ws/build/mavros_msgs
+[0.060s] Constructing a list of tests
+[0.060s] Done constructing a list of tests
+[0.060s] Updating test list for fixtures
+[0.060s] Added 0 tests to meet fixture requirements
+[0.060s] Checking test dependency graph...
+[0.060s] Checking test dependency graph end
+[0.060s] test 1
+[0.060s]     Start 1: cppcheck
+[0.061s] 
+[0.061s] 1: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/cppcheck.xunit.xml" "--package-name" "mavros_msgs" "--output-file" "/home/grant/ros2_ws/build/mavros_msgs/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/cppcheck.xunit.xml"
+[0.061s] 1: Test timeout computed to be: 300
+[0.142s] 1: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_msgs':
+[0.142s] 1:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/cppcheck.xunit.xml
+[0.347s] 1: No problems found
+[0.363s] 1: -- run_test.py: return code 0
+[0.363s] 1: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/cppcheck.xunit.xml'
+[0.374s] 1/5 Test #1: cppcheck .........................   Passed    0.31 sec
+[0.374s] test 2
+[0.375s]     Start 2: cpplint
+[0.375s] 
+[0.375s] 2: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/cpplint.xunit.xml" "--package-name" "mavros_msgs" "--output-file" "/home/grant/ros2_ws/build/mavros_msgs/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/cpplint.xunit.xml"
+[0.375s] 2: Test timeout computed to be: 120
+[0.436s] 2: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_msgs':
+[0.436s] 2:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/cpplint.xunit.xml
+[0.691s] 2: Using '--root=/home/grant/ros2_ws/src/mavros/mavros_msgs/include' argument
+[0.691s] 2: 
+[0.691s] 2: Done processing /home/grant/ros2_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.hpp
+[0.691s] 2: 
+[0.691s] 2: No problems found
+[0.704s] 2: -- run_test.py: return code 0
+[0.704s] 2: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/cpplint.xunit.xml'
+[0.716s] 2/5 Test #2: cpplint ..........................   Passed    0.34 sec
+[0.716s] test 3
+[0.716s]     Start 3: lint_cmake
+[0.716s] 
+[0.716s] 3: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/lint_cmake.xunit.xml" "--package-name" "mavros_msgs" "--output-file" "/home/grant/ros2_ws/build/mavros_msgs/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/lint_cmake.xunit.xml"
+[0.716s] 3: Test timeout computed to be: 60
+[0.776s] 3: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_msgs':
+[0.776s] 3:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/lint_cmake.xunit.xml
+[0.966s] 3: 
+[0.966s] 3: No problems found
+[0.979s] 3: -- run_test.py: return code 0
+[0.979s] 3: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/lint_cmake.xunit.xml'
+[0.989s] 3/5 Test #3: lint_cmake .......................   Passed    0.27 sec
+[0.989s] test 4
+[0.989s]     Start 4: uncrustify
+[0.989s] 
+[0.989s] 4: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/uncrustify.xunit.xml" "--package-name" "mavros_msgs" "--output-file" "/home/grant/ros2_ws/build/mavros_msgs/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/uncrustify.xunit.xml"
+[0.989s] 4: Test timeout computed to be: 60
+[1.049s] 4: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_msgs':
+[1.049s] 4:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/uncrustify.xunit.xml
+[1.246s] 4: No code style divergence in file 'include/mavros_msgs/mavlink_convert.hpp'
+[1.246s] 4: 
+[1.246s] 4: No problems found
+[1.261s] 4: -- run_test.py: return code 0
+[1.261s] 4: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/uncrustify.xunit.xml'
+[1.271s] 4/5 Test #4: uncrustify .......................   Passed    0.28 sec
+[1.271s] test 5
+[1.271s]     Start 5: xmllint
+[1.271s] 
+[1.271s] 5: Test command: /home/grant/miniconda3/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/xmllint.xunit.xml" "--package-name" "mavros_msgs" "--output-file" "/home/grant/ros2_ws/build/mavros_msgs/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/xmllint.xunit.xml"
+[1.271s] 5: Test timeout computed to be: 60
+[1.338s] 5: -- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_msgs':
+[1.338s] 5:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/xmllint.xunit.xml
+[1.715s] 5: File 'package.xml' is valid
+[1.716s] 5: 
+[1.716s] 5: No problems found
+[1.733s] 5: -- run_test.py: return code 0
+[1.734s] 5: -- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_msgs/test_results/mavros_msgs/xmllint.xunit.xml'
+[1.744s] 5/5 Test #5: xmllint ..........................   Passed    0.47 sec
+[1.744s] 
+[1.744s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 5
+[1.744s] 
+[1.744s] Label Time Summary:
+[1.744s] cppcheck      =   0.31 sec*proc (1 test)
+[1.744s] cpplint       =   0.34 sec*proc (1 test)
+[1.744s] lint_cmake    =   0.27 sec*proc (1 test)
+[1.745s] linter        =   1.68 sec*proc (5 tests)
+[1.745s] uncrustify    =   0.28 sec*proc (1 test)
+[1.745s] xmllint       =   0.47 sec*proc (1 test)
+[1.745s] 
+[1.745s] Total Test time (real) =   1.68 sec
+[1.747s] Invoked command in '/home/grant/ros2_ws/build/mavros_msgs' returned '0': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_msgs:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

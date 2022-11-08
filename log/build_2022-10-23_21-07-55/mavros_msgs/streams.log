@@ -1,0 +1,19 @@
+[0.103s] Invoking command in '/home/grant/ros2_ws/build/mavros_msgs': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/mavros_msgs -- -j8 -l8
+[0.580s] [  0%] Built target mavros_msgs__cpp
+[0.611s] [  0%] Built target mavros_msgs__dds_connext_idl
+[0.631s] [  6%] Built target mavros_msgs__rosidl_generator_c
+[0.686s] [ 13%] Built target mavros_msgs__rosidl_typesupport_introspection_cpp
+[0.696s] [ 19%] Built target mavros_msgs__rosidl_typesupport_cpp
+[0.706s] [ 25%] Built target mavros_msgs__rosidl_typesupport_c
+[0.710s] [ 31%] Built target mavros_msgs__rosidl_typesupport_fastrtps_cpp
+[0.719s] [ 37%] Built target mavros_msgs__rosidl_typesupport_introspection_c
+[0.786s] [ 44%] Built target mavros_msgs__rosidl_typesupport_fastrtps_c
+[1.355s] [ 69%] Built target mavros_msgs__rosidl_typesupport_connext_cpp
+[2.033s] [ 94%] Built target mavros_msgs__rosidl_typesupport_connext_c
+[2.050s] [ 94%] Built target mavros_msgs
+[2.070s] [ 94%] Built target mavros_msgs__py
+[2.152s] [100%] Built target mavros_msgs__python
+[2.174s] [100%] Built target mavros_msgs__rosidl_typesupport_c__pyext
+[2.174s] [100%] Built target mavros_msgs__rosidl_typesupport_connext_c__pyext
+[2.175s] [100%] Built target mavros_msgs__rosidl_typesupport_introspection_c__pyext
+[2.177s] [100%] Built target mavros_msgs__rosidl_typesupport_fastrtps_c__pyext

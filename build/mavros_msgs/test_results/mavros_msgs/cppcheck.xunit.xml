@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="mavros_msgs.cppcheck"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.014"
+  skipped="0"
+>
+  <testcase
+    name="include/mavros_msgs/mavlink_convert.hpp"
+    classname="mavros_msgs.cppcheck"/>
+  <system-out>Checked files:
+* include/mavros_msgs/mavlink_convert.hpp</system-out>
+</testsuite>

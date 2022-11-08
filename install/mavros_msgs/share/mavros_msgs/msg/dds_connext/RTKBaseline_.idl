@@ -1,0 +1,48 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/RTKBaseline.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__rtk_baseline__idl__
+#define __mavros_msgs__msg__rtk_baseline__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module RTKBaseline_Constants {
+const octet RTK_BASELINE_COORDINATE_SYSTEM_ECEF_ = 0;
+const octet RTK_BASELINE_COORDINATE_SYSTEM_NED_ = 1;
+
+};
+
+struct RTKBaseline_ {
+std_msgs::msg::dds_::Header_ header_;
+unsigned long time_last_baseline_ms_;
+octet rtk_receiver_id_;
+unsigned short wn_;
+unsigned long tow_;
+octet rtk_health_;
+octet rtk_rate_;
+octet nsats_;
+octet baseline_coords_type_;
+long baseline_a_mm_;
+long baseline_b_mm_;
+long baseline_c_mm_;
+unsigned long accuracy_;
+long iar_num_hypotheses_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__rtk_baseline__idl__

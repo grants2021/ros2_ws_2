@@ -1,0 +1,5 @@
+CMake Error at cmake_install.cmake:49 (file):
+  file INSTALL cannot set permissions on
+  "/usr/share/gazebo-11/models/../models": Operation not permitted.
+
+

@@ -1,0 +1,36 @@
+teleop:
+  ros__parameters:
+    move:
+      type: topic
+      message_type: geometry_msgs/msg/Twist
+      topic_name: cmd_vel
+      axis_mappings:
+        linear-x:
+          axis: 1
+          scale: 1.0
+        angular-z:
+          axis: 3
+          scale: 1.0
+
+    joy_priority:
+      type: action
+      action_name: joy_priority_action
+      buttons: [9]
+
+    turn_left_thruster:
+      type: topic
+      message_type: std_msgs/msg/Float32
+      topic_name: /wamv/thrusters/left_thrust_angle
+      axis_mappings:
+        data:
+          axis: 2
+          scale: -1.0
+
+    turn_right_thruster:
+      type: topic
+      message_type: std_msgs/msg/Float32
+      topic_name: /wamv/thrusters/right_thrust_angle
+      axis_mappings:
+        data:
+          axis: 2
+          scale: -1.0

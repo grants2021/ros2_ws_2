@@ -1,0 +1,8 @@
+source;share/robotx_2022/hook/cmake_prefix_path.ps1
+source;share/robotx_2022/hook/cmake_prefix_path.dsv
+source;share/robotx_2022/hook/cmake_prefix_path.sh
+source;share/robotx_2022/local_setup.bash
+source;share/robotx_2022/local_setup.dsv
+source;share/robotx_2022/local_setup.ps1
+source;share/robotx_2022/local_setup.sh
+source;share/robotx_2022/local_setup.zsh

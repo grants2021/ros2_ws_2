@@ -1,0 +1,60 @@
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield.cc:[m[K In constructor ‘[01m[Kasv::WaveParametersPrivate::WaveParametersPrivate()[m[K’:
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield.cc:116:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kasv::WaveParametersPrivate::wavenumber[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  116 |     public: double [01;35m[Kwavenumber[m[K;
+      |                    [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield.cc:104:20:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble asv::WaveParametersPrivate::tau[m[K’ [[01;35m[K-Wreorder[m[K]
+  104 |     public: double [01;35m[Ktau[m[K;
+      |                    [01;35m[K^~~[m[K
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield.cc:58:13:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   58 |     public: [01;35m[KWaveParametersPrivate[m[K():
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield.cc: In instantiation of ‘[01m[Kasv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::<lambda(auto:24, auto:25, auto:26, auto:27&, auto:28&, auto:29&)> [with auto:24 = Eigen::Matrix<double, 2, 1>; auto:25 = Eigen::Matrix<double, 2, 1>; auto:26 = double; auto:27 = asv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::WaveParams; auto:28 = Eigen::Matrix<double, 2, 1>; auto:29 = Eigen::Matrix<double, 2, 2>][m[K’:
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield.cc:621:20:[m[K   required from ‘[01m[Kasv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::<lambda(auto:30&, auto:31, auto:32, auto:33, auto:34&, auto:35, auto:36)> [with auto:30 = asv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::<lambda(auto:24, auto:25, auto:26, auto:27&, auto:28&, auto:29&)>; auto:31 = Eigen::Matrix<double, 2, 1>; auto:32 = Eigen::Matrix<double, 2, 1>; auto:33 = double; auto:34 = asv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::WaveParams; auto:35 = double; auto:36 = double][m[K’
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield.cc:646:67:[m[K   required from here
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield.cc:578:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  578 |       for (auto&& i = 0; [01;35m[Ki < n[m[K; ++i) // NOLINT
+      |                          [01;35m[K~~^~~[m[K
+In file included from [01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Gazebo.cc:27[m[K:
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/include/wave_gazebo_plugins/Gazebo.hh:47:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   47 |   }[01;35m[K;[m[K
+      |    [01;35m[K^[m[K
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/WavefieldModelPlugin.cc:199:5:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K-Wcomment[m[K]
+  199 |     [01;35m[K/[m[K/ GZ_ASSERT(wavefieldEntity->GetWavefield() != nullptr, \
+      |     [01;35m[K^[m[K
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield_TEST.cc:[m[K In member function ‘[01m[Kvirtual void Wavefield_WaveSolver2D_Test::TestBody()[m[K’:
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield_TEST.cc:236:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KJ[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  236 |   auto [01;35m[KJ[m[K = wave_df(x0, p, t, wp);
+      |        [01;35m[K^[m[K
+/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield_TEST.cc: In instantiation of ‘[01m[KWavefield_NWaveSolver2D_Test::TestBody()::<lambda(auto:65, auto:66, auto:67&)> [with auto:65 = Eigen::Matrix<double, 2, 1>; auto:66 = double; auto:67 = Wavefield_NWaveSolver2D_Test::TestBody()::WaveParams][m[K’:
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield_TEST.cc:379:27:[m[K   required from here
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield_TEST.cc:286:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  286 |     for (auto&& i = 0; [01;35m[Ki < n[m[K; ++i) // NOLINT
+      |                        [01;35m[K~~^~~[m[K
+/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield_TEST.cc: In instantiation of ‘[01m[KWavefield_NWaveSolver2D_Test::TestBody()::<lambda(auto:68, auto:69, auto:70, auto:71&)> [with auto:68 = Eigen::Matrix<double, 2, 1>; auto:69 = Eigen::Matrix<double, 2, 1>; auto:70 = double; auto:71 = Wavefield_NWaveSolver2D_Test::TestBody()::WaveParams][m[K’:
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield_TEST.cc:381:32:[m[K   required from here
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield_TEST.cc:306:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  306 |     for (auto&& i = 0; [01;35m[Ki < n[m[K; ++i) // NOLINT
+      |                        [01;35m[K~~^~~[m[K
+/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield_TEST.cc: In instantiation of ‘[01m[KWavefield_NWaveSolver2D_Test::TestBody()::<lambda(auto:72, auto:73, auto:74, auto:75&)> [with auto:72 = Eigen::Matrix<double, 2, 1>; auto:73 = Eigen::Matrix<double, 2, 1>; auto:74 = double; auto:75 = Wavefield_NWaveSolver2D_Test::TestBody()::WaveParams][m[K’:
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield_TEST.cc:382:32:[m[K   required from here
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield_TEST.cc:328:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  328 |     for (auto&& i = 0; [01;35m[Ki < n[m[K; ++i) // NOLINT
+      |                        [01;35m[K~~^~~[m[K
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield_TEST.cc:[m[K In member function ‘[01m[Kvirtual void Wavefield_NWaveSolver2D_Test::TestBody()[m[K’:
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield_TEST.cc:382:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KJ[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  382 |   auto [01;35m[KJ[m[K = wave_df(x0, p, t, wp);
+      |        [01;35m[K^[m[K
+/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield_TEST.cc: In instantiation of ‘[01m[KWavefield_NWaveFdFSolver2D_Test::TestBody()::<lambda(auto:85, auto:86, auto:87&)> [with auto:85 = Eigen::Matrix<double, 2, 1>; auto:86 = double; auto:87 = Wavefield_NWaveFdFSolver2D_Test::TestBody()::WaveParams][m[K’:
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield_TEST.cc:509:27:[m[K   required from here
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield_TEST.cc:429:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  429 |     for (auto&& i = 0; [01;35m[Ki < n[m[K; ++i) // NOLINT
+      |                        [01;35m[K~~^~~[m[K
+/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield_TEST.cc: In instantiation of ‘[01m[KWavefield_NWaveFdFSolver2D_Test::TestBody()::<lambda(auto:88, auto:89, auto:90, auto:91&, auto:92&, auto:93&)> [with auto:88 = Eigen::Matrix<double, 2, 1>; auto:89 = Eigen::Matrix<double, 2, 1>; auto:90 = double; auto:91 = Wavefield_NWaveFdFSolver2D_Test::TestBody()::WaveParams; auto:92 = Eigen::Matrix<double, 2, 1>; auto:93 = Eigen::Matrix<double, 2, 2>][m[K’:
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield_TEST.cc:513:30:[m[K   required from here
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/Wavefield_TEST.cc:455:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  455 |     for (auto&& i = 0; [01;35m[Ki < n[m[K; ++i) // NOLINT
+      |                        [01;35m[K~~^~~[m[K
+In file included from [01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/src/WavefieldVisualPlugin.cc:43[m[K:
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins/include/wave_gazebo_plugins/Gazebo.hh:47:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   47 |   }[01;35m[K;[m[K
+      |    [01;35m[K^[m[K

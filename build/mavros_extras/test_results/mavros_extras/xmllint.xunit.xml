@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="mavros_extras.xmllint"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.006"
+>
+  <testcase
+    name="mavros_plugins.xml"
+    classname="mavros_extras.xmllint"/>
+  <testcase
+    name="package.xml"
+    classname="mavros_extras.xmllint"/>
+  <system-out>Checked files:
+* mavros_plugins.xml
+* package.xml</system-out>
+</testsuite>

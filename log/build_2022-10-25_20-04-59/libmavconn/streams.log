@@ -1,0 +1,49 @@
+[0.044s] Invoking command in '/home/grant/ros2_ws/build/libmavconn': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavlink:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/libmavconn -- -j8 -l8
+[0.135s] [ 16%] Built target gtest_main
+[0.159s] [ 66%] Built target mavconn
+[0.167s] [ 83%] Built target gtest
+[0.201s] [100%] Built target test_mavconn
+[0.214s] Invoked command in '/home/grant/ros2_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavlink:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/libmavconn -- -j8 -l8
+[0.269s] Invoking command in '/home/grant/ros2_ws/build/libmavconn': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavlink:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/libmavconn
+[0.278s] -- Install configuration: ""
+[0.278s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/lib/libmavconn.so
+[0.278s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/include
+[0.279s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/include/mavconn
+[0.279s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/include/mavconn/mavlink_dialect.hpp
+[0.279s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/include/mavconn/msgbuffer.hpp
+[0.279s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/include/mavconn/udp.hpp
+[0.279s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/include/mavconn/console_bridge_compat.hpp
+[0.279s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/include/mavconn/thread_utils.hpp
+[0.279s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/include/mavconn/serial.hpp
+[0.279s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/include/mavconn/tcp.hpp
+[0.279s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/include/mavconn/mavlink_dialect.hpp.em
+[0.280s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/include/mavconn/interface.hpp
+[0.280s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/include/mavconn
+[0.280s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/include/mavconn/mavlink_dialect.hpp
+[0.280s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake
+[0.280s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/Modules
+[0.280s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/Modules/em_expand.cmake
+[0.280s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/Modules/CheckGeographicLibDatasets.cmake
+[0.280s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/Modules/FindASIO.cmake
+[0.280s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/environment/library_path.sh
+[0.280s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/environment/library_path.dsv
+[0.280s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/ament_index/resource_index/package_run_dependencies/libmavconn
+[0.280s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/ament_index/resource_index/parent_prefix_path/libmavconn
+[0.280s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/environment/ament_prefix_path.sh
+[0.280s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/environment/ament_prefix_path.dsv
+[0.280s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/environment/path.sh
+[0.281s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/environment/path.dsv
+[0.281s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/local_setup.bash
+[0.281s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/local_setup.sh
+[0.281s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/local_setup.zsh
+[0.281s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/local_setup.dsv
+[0.281s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/package.dsv
+[0.281s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/ament_index/resource_index/packages/libmavconn
+[0.281s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/libmavconn-extras.cmake
+[0.281s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.281s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.281s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/ament_cmake_export_libraries-extras.cmake
+[0.282s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/libmavconnConfig.cmake
+[0.282s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/libmavconnConfig-version.cmake
+[0.282s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/package.xml
+[0.286s] Invoked command in '/home/grant/ros2_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavlink:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/grant/ros2_ws/build/libmavconn

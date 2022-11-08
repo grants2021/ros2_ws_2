@@ -1,0 +1,50 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vrx_gazebo/msg/Task.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+#include "builtin_interfaces/msg/Time.idl"
+
+module vrx_gazebo {
+  module msg {
+    @verbatim (language="comment", text=
+      " Task name.")
+    struct Task {
+      string name;
+
+      @verbatim (language="comment", text=
+        " Task state.")
+      string state;
+
+      @verbatim (language="comment", text=
+        " Absolute sim time when this task will be in \"ready\" state (ROS time).")
+      builtin_interfaces::msg::Time ready_time;
+
+      @verbatim (language="comment", text=
+        " Absolute sim time when this task will be in \"running\" state (ROS time).")
+      builtin_interfaces::msg::Time running_time;
+
+      @verbatim (language="comment", text=
+        " Time elapsed since task started (ROS time). This is the current sim time" "\n"
+        " minus start time." "\n"
+        " When the elapsed time reaches the task timeout, `timed_out` is set to true.")
+      builtin_interfaces::msg::Duration elapsed_time;
+
+      @verbatim (language="comment", text=
+        " Remaining time until the task times out (ROS time).")
+      builtin_interfaces::msg::Duration remaining_time;
+
+      @verbatim (language="comment", text=
+        " True if task timed out.")
+      boolean timed_out;
+
+      @verbatim (language="comment", text=
+        " Number of collisions.")
+      uint32 num_collisions;
+
+      @verbatim (language="comment", text=
+        " The score.")
+      double score;
+    };
+  };
+};

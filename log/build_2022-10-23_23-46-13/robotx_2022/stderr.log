@@ -1,0 +1,8 @@
+CMake Error at /opt/ros/foxy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:34 (message):
+  ament_python_install_package() called with unused arguments:
+  nodes/boat_twist.py;nodes/wamv_dk_functions.py;nodes/spare_node.py;DESTINATION
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:28 (_ament_cmake_python_install_package)
+  CMakeLists.txt:133 (ament_python_install_package)
+
+

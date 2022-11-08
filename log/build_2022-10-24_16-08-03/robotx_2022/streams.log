@@ -1,0 +1,109 @@
+[0.037s] Invoking command in '/home/grant/ros2_ws/build/robotx_2022': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/grant/ros2_ws/src/VRX_Foxy/robotX_2022 -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/robotx_2022
+[0.095s] -- The C compiler identification is GNU 9.4.0
+[0.149s] -- The CXX compiler identification is GNU 9.4.0
+[0.154s] -- Check for working C compiler: /usr/bin/cc
+[0.213s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.213s] -- Detecting C compiler ABI info
+[0.280s] -- Detecting C compiler ABI info - done
+[0.292s] -- Detecting C compile features
+[0.292s] -- Detecting C compile features - done
+[0.295s] -- Check for working CXX compiler: /usr/bin/c++
+[0.369s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.370s] -- Detecting CXX compiler ABI info
+[0.439s] -- Detecting CXX compiler ABI info - done
+[0.453s] -- Detecting CXX compile features
+[0.453s] -- Detecting CXX compile features - done
+[0.455s] -- Performing Test COMPILER_SUPPORTS_CXX14
+[0.523s] -- Performing Test COMPILER_SUPPORTS_CXX14 - Success
+[0.523s] -- Performing Test COMPILER_SUPPORTS_CXX0X
+[0.602s] -- Performing Test COMPILER_SUPPORTS_CXX0X - Success
+[0.604s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.632s] -- Found PythonInterp: /home/grant/miniconda3/bin/python3 (found suitable version "3.8.13", minimum required is "3") 
+[0.632s] -- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+[1.204s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.211s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.212s] -- Checking for module 'bullet>=2.82'
+[1.224s] --   Found bullet, version 2.88
+[1.322s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.368s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.413s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.440s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.472s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.488s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.496s] -- Searching for dependencies of ignition-math6
+[1.497s] -- Looking for OGRE...
+[1.498s] -- OGRE_PREFIX_WATCH changed.
+[1.503s] -- Checking for module 'OGRE'
+[1.515s] --   Found OGRE, version 1.9.0
+[1.545s] -- Found Ogre Ghadamon (1.9.0)
+[1.556s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.567s] -- Looking for OGRE_Paging...
+[1.577s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.577s] -- Looking for OGRE_Terrain...
+[1.586s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.586s] -- Looking for OGRE_Property...
+[1.595s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.595s] -- Looking for OGRE_RTShaderSystem...
+[1.603s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.603s] -- Looking for OGRE_Volume...
+[1.612s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.612s] -- Looking for OGRE_Overlay...
+[1.621s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.810s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.814s] -- Looking for ignition-transport8 -- found version 8.3.0
+[1.814s] -- Searching for dependencies of ignition-transport8
+[1.829s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.837s] -- Checking for module 'uuid'
+[1.850s] --   Found uuid, version 2.34.0
+[1.879s] -- Found UUID: TRUE  
+[1.883s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.883s] -- Searching for dependencies of ignition-msgs5
+[1.899s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.903s] -- Checking for module 'tinyxml2'
+[1.914s] --   Found tinyxml2, version 6.2.0
+[1.945s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.949s] -- Looking for ignition-common3 -- found version 3.15.1
+[1.949s] -- Searching for dependencies of ignition-common3
+[1.949s] -- Looking for dlfcn.h - found
+[1.951s] -- Looking for libdl - found
+[1.953s] -- Found DL: TRUE  
+[1.962s] -- Searching for <ignition-common3> component [graphics]
+[1.965s] -- Looking for ignition-common3-graphics -- found version 3.15.1
+[1.966s] -- Searching for dependencies of ignition-common3-graphics
+[1.966s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.970s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[1.971s] -- Searching for dependencies of ignition-fuel_tools4
+[2.031s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[2.040s] -- Checking for module 'jsoncpp'
+[2.052s] --   Found jsoncpp, version 1.7.4
+[2.080s] -- Found JSONCPP: TRUE  
+[2.086s] -- Checking for module 'libzip'
+[2.098s] --   Found libzip, version 1.5.1
+[2.125s] -- Found ZIP: TRUE  
+[2.125s] -- Looking for ignition-common3 -- found version 3.15.1
+[2.126s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.126s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[2.215s] -- Configuring done
+[2.231s] -- Generating done
+[2.233s] -- Build files have been written to: /home/grant/ros2_ws/build/robotx_2022
+[2.240s] Invoked command in '/home/grant/ros2_ws/build/robotx_2022' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/grant/ros2_ws/src/VRX_Foxy/robotX_2022 -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/robotx_2022
+[2.243s] Invoking command in '/home/grant/ros2_ws/build/robotx_2022': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/grant/ros2_ws/build/robotx_2022 -- -j8 -l8
+[2.277s] [35m[1mScanning dependencies of target ArduPilotPlugin[0m
+[2.277s] [35m[1mScanning dependencies of target ArduCopterIRLockPlugin[0m
+[2.371s] [ 25%] [32mBuilding CXX object CMakeFiles/ArduCopterIRLockPlugin.dir/src/ArduCopterIRLockPlugin.cc.o[0m
+[2.385s] [ 50%] [32mBuilding CXX object CMakeFiles/ArduPilotPlugin.dir/src/ArduPilotPlugin.cc.o[0m
+[3.627s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/robotX_2022/src/ArduPilotPlugin.cc:48:10:[m[K [01;31m[Kfatal error: [m[Kinclude/ArduPilotPlugin.hh: No such file or directory
+[3.627s]    48 | #include [01;31m[K"include/ArduPilotPlugin.hh"[m[K
+[3.627s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.627s] compilation terminated.
+[3.634s] make[2]: *** [CMakeFiles/ArduPilotPlugin.dir/build.make:63: CMakeFiles/ArduPilotPlugin.dir/src/ArduPilotPlugin.cc.o] Error 1
+[3.634s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/ArduPilotPlugin.dir/all] Error 2
+[3.634s] make[1]: *** Waiting for unfinished jobs....
+[3.954s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/robotX_2022/src/ArduCopterIRLockPlugin.cc:48:10:[m[K [01;31m[Kfatal error: [m[Kinclude/SelectionBuffer.hh: No such file or directory
+[3.954s]    48 | #include [01;31m[K<include/SelectionBuffer.hh>[m[K
+[3.954s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.954s] compilation terminated.
+[3.961s] make[2]: *** [CMakeFiles/ArduCopterIRLockPlugin.dir/build.make:63: CMakeFiles/ArduCopterIRLockPlugin.dir/src/ArduCopterIRLockPlugin.cc.o] Error 1
+[3.961s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/ArduCopterIRLockPlugin.dir/all] Error 2
+[3.961s] make: *** [Makefile:141: all] Error 2
+[3.963s] Invoked command in '/home/grant/ros2_ws/build/robotx_2022' returned '2': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/opt/ros/noetic/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/grant/ros2_ws/build/robotx_2022 -- -j8 -l8

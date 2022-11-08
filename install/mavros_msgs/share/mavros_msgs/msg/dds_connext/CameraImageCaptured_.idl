@@ -1,0 +1,38 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/CameraImageCaptured.idl
+// generated code does not contain a copyright notice
+#include "geographic_msgs/msg/dds_connext/GeoPoint_.idl"
+#include "geometry_msgs/msg/dds_connext/Quaternion_.idl"
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__camera_image_captured__idl__
+#define __mavros_msgs__msg__camera_image_captured__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct CameraImageCaptured_ {
+std_msgs::msg::dds_::Header_ header_;
+geometry_msgs::msg::dds_::Quaternion_ orientation_;
+geographic_msgs::msg::dds_::GeoPoint_ geo_;
+float relative_alt_;
+long image_index_;
+octet capture_result_;
+string file_url_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__camera_image_captured__idl__

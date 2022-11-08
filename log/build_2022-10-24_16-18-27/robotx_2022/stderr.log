@@ -1,0 +1,34 @@
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/robotX_2022/src/ArduCopterIRLockPlugin.cc:48:10:[m[K [01;31m[Kfatal error: [m[Kinclude/SelectionBuffer.hh: No such file or directory
+   48 | #include [01;31m[K<include/SelectionBuffer.hh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/ArduCopterIRLockPlugin.dir/build.make:63: CMakeFiles/ArduCopterIRLockPlugin.dir/src/ArduCopterIRLockPlugin.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/ArduCopterIRLockPlugin.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/home/grant/ros2_ws/src/VRX_Foxy/robotX_2022/src/ArduPilotPlugin.cc: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = Control; _Args = {const Control&}; _Tp = Control][m[K’:
+[01m[K/usr/include/c++/9/bits/alloc_traits.h:483:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = Control; _Args = {const Control&}; _Tp = Control; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<Control>][m[K’
+[01m[K/usr/include/c++/9/bits/stl_vector.h:1189:30:[m[K   required from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = Control; _Alloc = std::allocator<Control>; std::vector<_Tp, _Alloc>::value_type = Control][m[K’
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/robotX_2022/src/ArduPilotPlugin.cc:625:46:[m[K   required from here
+[01m[K/home/grant/ros2_ws/src/VRX_Foxy/robotX_2022/src/ArduPilotPlugin.cc:109:7:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr gazebo::common::PID::PID(const gazebo::common::PID&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  109 | class [01;35m[KControl[m[K
+      |       [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/physics/JointController.hh:25[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:23[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/WirelessTransmitter.hh:22[m[K,
+                 from [01m[K/usr/include/gazebo-11/gazebo/sensors/sensors.hh:27[m[K,
+                 from [01m[K/home/grant/ros2_ws/src/VRX_Foxy/robotX_2022/src/ArduPilotPlugin.cc:46[m[K:
+[01m[K/usr/include/gazebo-11/gazebo/common/PID.hh:157:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgazebo::common::PID[m[K’ has user-provided ‘[01m[Kgazebo::common::PID& gazebo::common::PID::operator=(const gazebo::common::PID&)[m[K’
+  157 |       public: PID &[01;36m[Koperator[m[K=(const PID &_p)
+      |                    [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/9/string:41[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/functional:54[m[K,
+                 from [01m[K/home/grant/ros2_ws/src/VRX_Foxy/robotX_2022/src/ArduPilotPlugin.cc:17[m[K:
+[01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[KControl::Control(const Control&)[m[K’ first required here
+  146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make: *** [Makefile:141: all] Error 2

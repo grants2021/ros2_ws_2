@@ -1,0 +1,35 @@
+-- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros':
+ - /opt/ros/foxy/bin/ament_pep257 --xunit-file /home/grant/ros2_ws/build/mavros/test_results/mavros/pep257.xunit.xml
+
+checking ./mavros/__init__.py
+checking ./mavros/base.py
+checking ./mavros/cmd/__init__.py
+checking ./mavros/cmd/__main__.py
+checking ./mavros/cmd/checkid.py
+checking ./mavros/cmd/cmd.py
+checking ./mavros/cmd/ftp.py
+checking ./mavros/cmd/mission.py
+checking ./mavros/cmd/param.py
+checking ./mavros/cmd/safety.py
+checking ./mavros/cmd/system.py
+checking ./mavros/cmd/utils.py
+checking ./mavros/command.py
+checking ./mavros/ftp.py
+checking ./mavros/global_position.py
+checking ./mavros/local_position.py
+checking ./mavros/mavlink.py
+checking ./mavros/mission.py
+checking ./mavros/nuttx_crc32.py
+checking ./mavros/param.py
+checking ./mavros/setpoint.py
+checking ./mavros/system.py
+checking ./mavros/utils.py
+checking ./setup.py
+checking ./test/mavros_py/__init__.py
+checking ./test/mavros_py/test_mission.py
+checking ./test/mavros_py/test_param.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/pep257.xunit.xml'

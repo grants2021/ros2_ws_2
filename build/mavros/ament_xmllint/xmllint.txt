@@ -1,0 +1,12 @@
+-- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros':
+ - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/grant/ros2_ws/build/mavros/test_results/mavros/xmllint.xunit.xml
+
+File 'mavros_plugins.xml' is valid
+
+File 'package.xml' is valid
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/xmllint.xunit.xml'

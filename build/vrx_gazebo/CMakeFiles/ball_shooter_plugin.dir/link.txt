@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++17     -shared -Wl,-soname,libball_shooter_plugin.so -o libball_shooter_plugin.so CMakeFiles/ball_shooter_plugin.dir/src/ball_shooter_plugin.cc.o   -L/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0 

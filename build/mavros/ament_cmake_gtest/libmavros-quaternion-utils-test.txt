@@ -1,0 +1,30 @@
+-- run_test.py: invoking following command in '/home/grant/ros2_ws/build/mavros':
+ - /home/grant/ros2_ws/build/mavros/libmavros-quaternion-utils-test --gtest_output=xml:/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-quaternion-utils-test.gtest.xml
+
+[==========] Running 7 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 7 tests from FRAME_TF
+[ RUN      ] FRAME_TF.quaternion_from_rpy__check_compatibility
+[       OK ] FRAME_TF.quaternion_from_rpy__check_compatibility (0 ms)
+[ RUN      ] FRAME_TF.quaternion_from_rpy__paranoic_check
+[       OK ] FRAME_TF.quaternion_from_rpy__paranoic_check (0 ms)
+[ RUN      ] FRAME_TF.quaternion_to_rpy__123
+[       OK ] FRAME_TF.quaternion_to_rpy__123 (0 ms)
+[ RUN      ] FRAME_TF.quaternion_to_rpy__pm_pi
+[       OK ] FRAME_TF.quaternion_to_rpy__pm_pi (428 ms)
+[ RUN      ] FRAME_TF.quaternion_get_yaw__123
+[       OK ] FRAME_TF.quaternion_get_yaw__123 (0 ms)
+[ RUN      ] FRAME_TF.quaternion_get_yaw__pm_pi
+[       OK ] FRAME_TF.quaternion_get_yaw__pm_pi (4 ms)
+[ RUN      ] FRAME_TF.quaternion_to_mavlink__123
+[       OK ] FRAME_TF.quaternion_to_mavlink__123 (0 ms)
+[----------] 7 tests from FRAME_TF (433 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test case ran. (433 ms total)
+[  PASSED  ] 7 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-quaternion-utils-test.gtest.xml'
+-- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros/test_results/mavros/libmavros-quaternion-utils-test.gtest.xml'

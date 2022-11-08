@@ -1,0 +1,81 @@
+[0.023s] Invoking command in '/home/grant/ros2_ws/build/wave_gazebo_plugins': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/wave_gazebo_plugins
+[0.038s] -- Found rosidl_default_generators: 1.0.1 (/home/grant/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake)
+[0.039s] -- Found ament_cmake_core: 0.9.9 (/home/grant/ros2_foxy/ros2-linux/share/ament_cmake_core/cmake)
+[0.064s] -- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+[0.313s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_connext_c
+[0.330s] -- Found rosidl_adapter: 1.2.1 (/home/grant/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)
+[0.408s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.436s] -- Found FastRTPS: /home/grant/ros2_foxy/ros2-linux/include  
+[0.591s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[1.336s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp;rosidl_typesupport_connext_cpp
+[1.390s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.392s] -- Checking for module 'bullet>=2.82'
+[1.402s] --   Found bullet, version 2.88
+[1.497s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.538s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.581s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.618s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.875s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.905s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.915s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.927s] -- Searching for dependencies of ignition-math6
+[1.931s] -- Looking for OGRE...
+[1.933s] -- OGRE_PREFIX_WATCH changed.
+[1.937s] -- Checking for module 'OGRE'
+[1.950s] --   Found OGRE, version 1.9.0
+[1.979s] -- Found Ogre Ghadamon (1.9.0)
+[1.990s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.002s] -- Looking for OGRE_Paging...
+[2.010s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.010s] -- Looking for OGRE_Terrain...
+[2.018s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.018s] -- Looking for OGRE_Property...
+[2.026s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.026s] -- Looking for OGRE_RTShaderSystem...
+[2.034s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.034s] -- Looking for OGRE_Volume...
+[2.042s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.043s] -- Looking for OGRE_Overlay...
+[2.051s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.225s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.229s] -- Looking for ignition-transport8 -- found version 8.3.0
+[2.230s] -- Searching for dependencies of ignition-transport8
+[2.245s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[2.255s] -- Checking for module 'uuid'
+[2.267s] --   Found uuid, version 2.34.0
+[2.295s] -- Found UUID: TRUE  
+[2.299s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[2.299s] -- Searching for dependencies of ignition-msgs5
+[2.315s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.319s] -- Checking for module 'tinyxml2'
+[2.330s] --   Found tinyxml2, version 6.2.0
+[2.360s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[2.364s] -- Looking for ignition-common3 -- found version 3.15.1
+[2.365s] -- Searching for dependencies of ignition-common3
+[2.365s] -- Looking for dlfcn.h - found
+[2.367s] -- Looking for libdl - found
+[2.368s] -- Found DL: TRUE  
+[2.379s] -- Searching for <ignition-common3> component [graphics]
+[2.383s] -- Looking for ignition-common3-graphics -- found version 3.15.1
+[2.383s] -- Searching for dependencies of ignition-common3-graphics
+[2.383s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.389s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[2.390s] -- Searching for dependencies of ignition-fuel_tools4
+[2.446s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[2.457s] -- Checking for module 'jsoncpp'
+[2.469s] --   Found jsoncpp, version 1.7.4
+[2.496s] -- Found JSONCPP: TRUE  
+[2.504s] -- Checking for module 'libzip'
+[2.516s] --   Found libzip, version 1.5.1
+[2.542s] -- Found ZIP: TRUE  
+[2.543s] -- Looking for ignition-common3 -- found version 3.15.1
+[2.543s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.544s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[2.547s] CMake Error at CMakeLists.txt:28 (catkin_package):
+[2.547s]   Unknown CMake command "catkin_package".
+[2.547s] 
+[2.547s] 
+[2.548s] -- Configuring incomplete, errors occurred!
+[2.548s] See also "/home/grant/ros2_ws/build/wave_gazebo_plugins/CMakeFiles/CMakeOutput.log".
+[2.548s] See also "/home/grant/ros2_ws/build/wave_gazebo_plugins/CMakeFiles/CMakeError.log".
+[2.555s] Invoked command in '/home/grant/ros2_ws/build/wave_gazebo_plugins' returned '1': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/wave_gazebo_plugins

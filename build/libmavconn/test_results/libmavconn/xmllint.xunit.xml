@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="libmavconn.xmllint"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.063"
+>
+  <testcase
+    name="package.xml"
+    classname="libmavconn.xmllint"/>
+  <system-out>Checked files:
+* package.xml</system-out>
+</testsuite>

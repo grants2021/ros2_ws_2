@@ -1,0 +1,35 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/OverrideRCIn.idl
+// generated code does not contain a copyright notice
+
+#ifndef __mavros_msgs__msg__override_rc_in__idl__
+#define __mavros_msgs__msg__override_rc_in__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module OverrideRCIn_Constants {
+const unsigned short CHAN_RELEASE_ = 0;
+const unsigned short CHAN_NOCHANGE_ = 65535;
+
+};
+
+struct OverrideRCIn_ {
+unsigned short channels_[18];
+
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__override_rc_in__idl__

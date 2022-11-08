@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target ArduCopterIRLockPlugin[0m
+[ 50%] Built target ArduPilotPlugin
+[ 75%] [32mBuilding CXX object CMakeFiles/ArduCopterIRLockPlugin.dir/src/ArduCopterIRLockPlugin.cc.o[0m
+[100%] [32m[1mLinking CXX shared library libArduCopterIRLockPlugin.so[0m
+[100%] Built target ArduCopterIRLockPlugin
+-- Install configuration: ""
+-- Installing: /usr/lib/x86_64-linux-gnu/gazebo-11/plugins/libArduCopterIRLockPlugin.so

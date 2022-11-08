@@ -1,0 +1,54 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/VehicleInfo.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__vehicle_info__idl__
+#define __mavros_msgs__msg__vehicle_info__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module VehicleInfo_Constants {
+const octet HAVE_INFO_HEARTBEAT_ = 1;
+const octet HAVE_INFO_AUTOPILOT_VERSION_ = 2;
+
+};
+
+struct VehicleInfo_ {
+std_msgs::msg::dds_::Header_ header_;
+octet available_info_;
+octet sysid_;
+octet compid_;
+octet autopilot_;
+octet type_;
+octet system_status_;
+octet base_mode_;
+unsigned long custom_mode_;
+string mode_;
+unsigned long mode_id_;
+unsigned long long capabilities_;
+unsigned long flight_sw_version_;
+unsigned long middleware_sw_version_;
+unsigned long os_sw_version_;
+unsigned long board_version_;
+string flight_custom_version_;
+unsigned short vendor_id_;
+unsigned short product_id_;
+unsigned long long uid_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__vehicle_info__idl__

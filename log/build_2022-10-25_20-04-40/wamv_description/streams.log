@@ -1,0 +1,22 @@
+[0.100s] Invoking command in '/home/grant/ros2_ws/build/wamv_description': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/VRX_Foxy/wamv_description -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/wamv_description
+[0.389s] -- The C compiler identification is GNU 9.4.0
+[0.629s] -- The CXX compiler identification is GNU 9.4.0
+[0.637s] -- Check for working C compiler: /usr/bin/cc
+[0.732s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.740s] -- Detecting C compiler ABI info
+[0.819s] -- Detecting C compiler ABI info - done
+[0.835s] -- Detecting C compile features
+[0.836s] -- Detecting C compile features - done
+[0.838s] -- Check for working CXX compiler: /usr/bin/c++
+[0.920s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.921s] -- Detecting CXX compiler ABI info
+[1.023s] -- Detecting CXX compiler ABI info - done
+[1.036s] -- Detecting CXX compile features
+[1.037s] -- Detecting CXX compile features - done
+[1.040s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.068s] -- Found PythonInterp: /home/grant/miniconda3/bin/python3 (found suitable version "3.8.13", minimum required is "3") 
+[1.068s] -- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+[1.346s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[1.463s] -- Configuring done
+[1.465s] -- Generating done
+[1.466s] -- Build files have been written to: /home/grant/ros2_ws/build/wamv_description

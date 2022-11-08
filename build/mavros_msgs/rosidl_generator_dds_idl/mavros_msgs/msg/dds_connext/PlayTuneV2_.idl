@@ -1,0 +1,35 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/PlayTuneV2.idl
+// generated code does not contain a copyright notice
+
+#ifndef __mavros_msgs__msg__play_tune_v2__idl__
+#define __mavros_msgs__msg__play_tune_v2__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module PlayTuneV2_Constants {
+const octet QBASIC1_1_ = 1;
+const octet MML_MODERN_ = 2;
+
+};
+
+struct PlayTuneV2_ {
+octet format_;
+string tune_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__play_tune_v2__idl__

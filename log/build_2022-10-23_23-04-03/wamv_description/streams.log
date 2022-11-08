@@ -1,0 +1,38 @@
+[0.049s] Invoking command in '/home/grant/ros2_ws/build/wamv_description': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/VRX_Foxy/wamv_description -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/wamv_description
+[0.151s] -- The C compiler identification is GNU 9.4.0
+[0.234s] -- The CXX compiler identification is GNU 9.4.0
+[0.239s] -- Check for working C compiler: /usr/bin/cc
+[0.299s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.300s] -- Detecting C compiler ABI info
+[0.442s] -- Detecting C compiler ABI info - done
+[0.442s] -- Detecting C compile features
+[0.442s] -- Detecting C compile features - done
+[0.442s] -- Check for working CXX compiler: /usr/bin/c++
+[0.446s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.446s] -- Detecting CXX compiler ABI info
+[0.540s] -- Detecting CXX compiler ABI info - done
+[0.548s] -- Detecting CXX compile features
+[0.548s] -- Detecting CXX compile features - done
+[0.550s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.594s] -- Found PythonInterp: /home/grant/miniconda3/bin/python3 (found suitable version "3.8.13", minimum required is "3") 
+[0.594s] -- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+[0.878s] CMake Error at CMakeLists.txt:4 (find_package):
+[0.878s]   By not providing "Findxacro.cmake" in CMAKE_MODULE_PATH this project has
+[0.878s]   asked CMake to find a package configuration file provided by "xacro", but
+[0.878s]   CMake did not find one.
+[0.879s] 
+[0.879s]   Could not find a package configuration file provided by "xacro" with any of
+[0.879s]   the following names:
+[0.879s] 
+[0.879s]     xacroConfig.cmake
+[0.879s]     xacro-config.cmake
+[0.879s] 
+[0.879s]   Add the installation prefix of "xacro" to CMAKE_PREFIX_PATH or set
+[0.879s]   "xacro_DIR" to a directory containing one of the above files.  If "xacro"
+[0.879s]   provides a separate development package or SDK, be sure it has been
+[0.879s]   installed.
+[0.880s] 
+[0.880s] 
+[0.880s] -- Configuring incomplete, errors occurred!
+[0.880s] See also "/home/grant/ros2_ws/build/wamv_description/CMakeFiles/CMakeOutput.log".
+[0.884s] Invoked command in '/home/grant/ros2_ws/build/wamv_description' returned '1': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/VRX_Foxy/wamv_description -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/wamv_description

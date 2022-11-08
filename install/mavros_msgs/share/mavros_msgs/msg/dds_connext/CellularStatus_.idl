@@ -1,0 +1,35 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/CellularStatus.idl
+// generated code does not contain a copyright notice
+
+#ifndef __mavros_msgs__msg__cellular_status__idl__
+#define __mavros_msgs__msg__cellular_status__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct CellularStatus_ {
+octet status_;
+octet failure_reason_;
+octet type_;
+octet quality_;
+unsigned short mcc_;
+unsigned short mnc_;
+unsigned short lac_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__cellular_status__idl__

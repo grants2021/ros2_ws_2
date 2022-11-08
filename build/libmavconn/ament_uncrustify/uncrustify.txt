@@ -1,0 +1,34 @@
+-- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/libmavconn':
+ - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/uncrustify.xunit.xml
+
+No code style divergence in file 'include/mavconn/console_bridge_compat.hpp'
+
+No code style divergence in file 'include/mavconn/interface.hpp'
+
+No code style divergence in file 'include/mavconn/mavlink_dialect.hpp'
+
+No code style divergence in file 'include/mavconn/msgbuffer.hpp'
+
+No code style divergence in file 'include/mavconn/serial.hpp'
+
+No code style divergence in file 'include/mavconn/tcp.hpp'
+
+No code style divergence in file 'include/mavconn/thread_utils.hpp'
+
+No code style divergence in file 'include/mavconn/udp.hpp'
+
+No code style divergence in file 'src/interface.cpp'
+
+No code style divergence in file 'src/serial.cpp'
+
+No code style divergence in file 'src/tcp.cpp'
+
+No code style divergence in file 'src/udp.cpp'
+
+No code style divergence in file 'test/test_mavconn.cpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/uncrustify.xunit.xml'

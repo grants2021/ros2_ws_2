@@ -1,0 +1,9 @@
+[  0%] Built target mavros_msgs__dds_connext_idl
+[  0%] Built target mavros_msgs__cpp
+[  6%] Built target mavros_msgs__rosidl_generator_c
+[ 12%] Built target mavros_msgs__rosidl_typesupport_cpp
+[ 19%] Built target mavros_msgs__rosidl_typesupport_introspection_cpp
+[ 25%] Built target mavros_msgs__rosidl_typesupport_c
+[ 31%] Built target mavros_msgs__rosidl_typesupport_fastrtps_cpp
+[ 37%] Built target mavros_msgs__rosidl_typesupport_introspection_c
+[ 44%] Built target mavros_msgs__rosidl_typesupport_fastrtps_c

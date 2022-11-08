@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target ArduPilotPlugin[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ArduCopterIRLockPlugin.dir/src/ArduCopterIRLockPlugin.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ArduPilotPlugin.dir/src/ArduPilotPlugin.cc.o[0m
+[ 75%] [32m[1mLinking CXX shared library libArduPilotPlugin.so[0m
+[ 75%] Built target ArduPilotPlugin

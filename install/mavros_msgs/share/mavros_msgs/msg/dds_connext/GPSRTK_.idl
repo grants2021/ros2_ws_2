@@ -1,0 +1,41 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/GPSRTK.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__gpsrtk__idl__
+#define __mavros_msgs__msg__gpsrtk__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct GPSRTK_ {
+std_msgs::msg::dds_::Header_ header_;
+octet rtk_receiver_id_;
+short wn_;
+unsigned long tow_;
+octet rtk_health_;
+octet rtk_rate_;
+octet nsats_;
+long baseline_a_;
+long baseline_b_;
+long baseline_c_;
+unsigned long accuracy_;
+long iar_num_hypotheses_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__gpsrtk__idl__

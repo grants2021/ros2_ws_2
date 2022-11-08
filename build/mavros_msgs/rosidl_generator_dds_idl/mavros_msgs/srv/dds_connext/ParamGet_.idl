@@ -1,0 +1,51 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:srv/ParamGet.idl
+// generated code does not contain a copyright notice
+#include "mavros_msgs/msg/dds_connext/ParamValue_.idl"
+
+#ifndef __mavros_msgs__srv__param_get__idl__
+#define __mavros_msgs__srv__param_get__idl__
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct ParamGet_Request_ {
+string param_id_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct ParamGet_Response_ {
+boolean success_;
+mavros_msgs::msg::dds_::ParamValue_ value_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__srv__param_get__idl__

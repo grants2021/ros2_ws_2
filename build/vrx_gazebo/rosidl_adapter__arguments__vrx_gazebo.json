@@ -1,0 +1,8 @@
+{
+  "package_name": "vrx_gazebo",
+  "non_idl_tuples": [
+    "/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo:msg/Task.msg",
+    "/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo:msg/Contact.msg",
+    "/home/grant/ros2_ws/src/VRX_Foxy/vrx_gazebo:srv/ColorSequence.srv"
+  ]
+}

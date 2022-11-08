@@ -1,0 +1,4 @@
+source;share/robotx_2022/local_setup.bash
+source;share/robotx_2022/local_setup.dsv
+source;share/robotx_2022/local_setup.sh
+source;share/robotx_2022/local_setup.zsh

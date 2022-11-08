@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="libmavconn.lint_cmake"
+  tests="5"
+  errors="0"
+  failures="0"
+  time="0.006"
+>
+  <testcase
+    name="CMakeLists.txt"
+    classname="libmavconn.lint_cmake"/>
+  <testcase
+    name="libmavconn-extras.cmake"
+    classname="libmavconn.lint_cmake"/>
+  <testcase
+    name="cmake/Modules/CheckGeographicLibDatasets.cmake"
+    classname="libmavconn.lint_cmake"/>
+  <testcase
+    name="cmake/Modules/FindASIO.cmake"
+    classname="libmavconn.lint_cmake"/>
+  <testcase
+    name="cmake/Modules/em_expand.cmake"
+    classname="libmavconn.lint_cmake"/>
+  <system-out>Checked files:
+* CMakeLists.txt
+* libmavconn-extras.cmake
+* cmake/Modules/CheckGeographicLibDatasets.cmake
+* cmake/Modules/FindASIO.cmake
+* cmake/Modules/em_expand.cmake</system-out>
+</testsuite>

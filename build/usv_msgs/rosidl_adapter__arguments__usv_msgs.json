@@ -1,0 +1,6 @@
+{
+  "package_name": "usv_msgs",
+  "non_idl_tuples": [
+    "/home/grant/ros2_ws/src/VRX_Foxy/usv_msgs:msg/RangeBearing.msg"
+  ]
+}

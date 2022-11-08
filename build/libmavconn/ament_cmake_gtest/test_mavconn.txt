@@ -1,0 +1,59 @@
+-- run_test.py: invoking following command in '/home/grant/ros2_ws/build/libmavconn':
+ - /home/grant/ros2_ws/build/libmavconn/test_mavconn --gtest_output=xml:/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/test_mavconn.gtest.xml
+
+[==========] Running 8 tests from 4 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from UDP
+[ RUN      ] UDP.send_message
+[       OK ] UDP.send_message (3 ms)
+[----------] 1 test from UDP (3 ms total)
+
+[----------] 4 tests from TCP
+[ RUN      ] TCP.bind_error
+[       OK ] TCP.bind_error (1 ms)
+[ RUN      ] TCP.connect_error
+[       OK ] TCP.connect_error (0 ms)
+[ RUN      ] TCP.send_message
+[       OK ] TCP.send_message (0 ms)
+[ RUN      ] TCP.client_reconnect
+[       OK ] TCP.client_reconnectError:   mavconn: tcp12: receive: End of file
+         at line 283 in /home/grant/ros2_ws/src/mavros/libmavconn/src/tcp.cpp
+ (1 ms)
+[----------] 4 tests from TCP (2 ms total)
+
+[----------] 1 test from SERIAL
+[ RUN      ] SERIAL.open_error
+[       OK ] SERIAL.open_error (0 ms)
+[----------] 1 test from SERIAL (0 ms total)
+
+[----------] 2 tests from URL
+[ RUN      ] URL.open_url_udp
+Warning: mavconn: You did not provide message handling callback to open_url(), It is unsafe to set it later.
+         at line 446 in /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp
+Warning: mavconn: You did not provide message handling callback to open_url(), It is unsafe to set it later.
+         at line 446 in /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp
+Warning: mavconn: You did not provide message handling callback to open_url(), It is unsafe to set it later.
+         at line 446 in /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp
+Error:   mavconn: UDP URL should contain @!
+         at line 303 in /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp
+[       OK ] URL.open_url_udp (1 ms)
+[ RUN      ] URL.open_url_tcp
+Warning: mavconn: You did not provide message handling callback to open_url(), It is unsafe to set it later.
+         at line 446 in /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp
+Warning: mavconn: You did not provide message handling callback to open_url(), It is unsafe to set it later.
+         at line 446 in /home/grant/ros2_ws/src/mavros/libmavconn/src/interface.cpp
+Error:   mavconn: tcp14: receive: End of file
+         at line 283 in /home/grant/ros2_ws/src/mavros/libmavconn/src/tcp.cpp
+Error:   mavconn: tcp16: receive: End of file
+         at line 283 in /home/grant/ros2_ws/src/mavros/libmavconn/src/tcp.cpp
+[       OK ] URL.open_url_tcp (3 ms)
+[----------] 2 tests from URL (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 4 test cases ran. (10 ms total)
+[  PASSED  ] 8 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/test_mavconn.gtest.xml'
+-- run_test.py: verify result file '/home/grant/ros2_ws/build/libmavconn/test_results/libmavconn/test_mavconn.gtest.xml'

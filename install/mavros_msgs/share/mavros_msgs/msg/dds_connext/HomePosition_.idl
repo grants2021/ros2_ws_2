@@ -1,0 +1,38 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/HomePosition.idl
+// generated code does not contain a copyright notice
+#include "geographic_msgs/msg/dds_connext/GeoPoint_.idl"
+#include "geometry_msgs/msg/dds_connext/Point_.idl"
+#include "geometry_msgs/msg/dds_connext/Quaternion_.idl"
+#include "geometry_msgs/msg/dds_connext/Vector3_.idl"
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__home_position__idl__
+#define __mavros_msgs__msg__home_position__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct HomePosition_ {
+std_msgs::msg::dds_::Header_ header_;
+geographic_msgs::msg::dds_::GeoPoint_ geo_;
+geometry_msgs::msg::dds_::Point_ position_;
+geometry_msgs::msg::dds_::Quaternion_ orientation_;
+geometry_msgs::msg::dds_::Vector3_ approach_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__home_position__idl__

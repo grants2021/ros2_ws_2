@@ -1,0 +1,7 @@
+CMake Error at cmake_install.cmake:55 (file):
+  file INSTALL cannot copy file
+  "/home/grant/ros2_ws/build/robotx_2022/libArduCopterIRLockPlugin.so" to
+  "/usr/lib/x86_64-linux-gnu/gazebo-11/plugins/libArduCopterIRLockPlugin.so":
+  Permission denied.
+
+

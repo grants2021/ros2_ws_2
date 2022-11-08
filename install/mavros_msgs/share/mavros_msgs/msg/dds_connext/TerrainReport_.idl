@@ -1,0 +1,37 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/TerrainReport.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__terrain_report__idl__
+#define __mavros_msgs__msg__terrain_report__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct TerrainReport_ {
+std_msgs::msg::dds_::Header_ header_;
+double latitude_;
+double longitude_;
+unsigned short spacing_;
+float terrain_height_;
+float current_height_;
+unsigned short pending_;
+unsigned short loaded_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__terrain_report__idl__

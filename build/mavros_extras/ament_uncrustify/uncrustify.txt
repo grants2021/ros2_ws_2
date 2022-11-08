@@ -1,0 +1,82 @@
+-- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_extras':
+ - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/uncrustify.xunit.xml
+
+No code style divergence in file 'include/mavros_extras/servo_state_publisher.hpp'
+
+No code style divergence in file 'src/lib/servo_state_publisher.cpp'
+
+No code style divergence in file 'src/plugins/3dr_radio.cpp'
+
+No code style divergence in file 'src/plugins/adsb.cpp'
+
+No code style divergence in file 'src/plugins/cam_imu_sync.cpp'
+
+No code style divergence in file 'src/plugins/camera.cpp'
+
+No code style divergence in file 'src/plugins/cellular_status.cpp'
+
+No code style divergence in file 'src/plugins/companion_process_status.cpp'
+
+No code style divergence in file 'src/plugins/debug_value.cpp'
+
+No code style divergence in file 'src/plugins/distance_sensor.cpp'
+
+No code style divergence in file 'src/plugins/esc_status.cpp'
+
+No code style divergence in file 'src/plugins/esc_telemetry.cpp'
+
+No code style divergence in file 'src/plugins/fake_gps.cpp'
+
+No code style divergence in file 'src/plugins/gps_input.cpp'
+
+No code style divergence in file 'src/plugins/gps_rtk.cpp'
+
+No code style divergence in file 'src/plugins/gps_status.cpp'
+
+No code style divergence in file 'src/plugins/guided_target.cpp'
+
+No code style divergence in file 'src/plugins/hil.cpp'
+
+No code style divergence in file 'src/plugins/landing_target.cpp'
+
+No code style divergence in file 'src/plugins/log_transfer.cpp'
+
+No code style divergence in file 'src/plugins/mag_calibration_status.cpp'
+
+No code style divergence in file 'src/plugins/mocap_pose_estimate.cpp'
+
+No code style divergence in file 'src/plugins/mount_control.cpp'
+
+No code style divergence in file 'src/plugins/obstacle_distance.cpp'
+
+No code style divergence in file 'src/plugins/odom.cpp'
+
+No code style divergence in file 'src/plugins/onboard_computer_status.cpp'
+
+No code style divergence in file 'src/plugins/play_tune.cpp'
+
+No code style divergence in file 'src/plugins/px4flow.cpp'
+
+No code style divergence in file 'src/plugins/rangefinder.cpp'
+
+No code style divergence in file 'src/plugins/terrain.cpp'
+
+No code style divergence in file 'src/plugins/trajectory.cpp'
+
+No code style divergence in file 'src/plugins/tunnel.cpp'
+
+No code style divergence in file 'src/plugins/vfr_hud.cpp'
+
+No code style divergence in file 'src/plugins/vibration.cpp'
+
+No code style divergence in file 'src/plugins/vision_pose_estimate.cpp'
+
+No code style divergence in file 'src/plugins/vision_speed_estimate.cpp'
+
+No code style divergence in file 'src/plugins/wheel_odometry.cpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/uncrustify.xunit.xml'

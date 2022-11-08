@@ -1,0 +1,112 @@
+[0.095s] Invoking command in '/home/grant/ros2_ws/build/wave_gazebo_plugins': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/wave_gazebo_plugins
+[0.155s] -- The C compiler identification is GNU 9.4.0
+[0.233s] -- The CXX compiler identification is GNU 9.4.0
+[0.234s] -- Check for working C compiler: /usr/bin/cc
+[0.319s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.319s] -- Detecting C compiler ABI info
+[0.402s] -- Detecting C compiler ABI info - done
+[0.506s] -- Detecting C compile features
+[0.510s] -- Detecting C compile features - done
+[0.510s] -- Check for working CXX compiler: /usr/bin/c++
+[0.511s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.512s] -- Detecting CXX compiler ABI info
+[0.543s] -- Detecting CXX compiler ABI info - done
+[0.558s] -- Detecting CXX compile features
+[0.558s] -- Detecting CXX compile features - done
+[0.560s] -- Performing Test COMPILER_SUPPORTS_CXX14
+[0.685s] -- Performing Test COMPILER_SUPPORTS_CXX14 - Success
+[0.686s] -- Performing Test COMPILER_SUPPORTS_CXX0X
+[0.759s] -- Performing Test COMPILER_SUPPORTS_CXX0X - Success
+[0.759s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.784s] -- Found PythonInterp: /home/grant/miniconda3/bin/python3 (found suitable version "3.8.13", minimum required is "3") 
+[0.784s] -- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+[1.064s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.109s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_connext_c
+[1.115s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.177s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.203s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.279s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[2.016s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp;rosidl_typesupport_connext_cpp
+[2.075s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.076s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.077s] -- Looking for pthread.h
+[2.136s] -- Looking for pthread.h - found
+[2.136s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.214s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.214s] -- Looking for pthread_create in pthreads
+[2.266s] -- Looking for pthread_create in pthreads - not found
+[2.266s] -- Looking for pthread_create in pthread
+[2.324s] -- Looking for pthread_create in pthread - found
+[2.325s] -- Found Threads: TRUE  
+[2.493s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[2.506s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.508s] -- Checking for module 'bullet>=2.82'
+[2.519s] --   Found bullet, version 2.88
+[2.611s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[2.653s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[2.696s] -- Found assimp: /usr/include (found version "5.0.0") 
+[2.721s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.749s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.771s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[2.777s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.785s] -- Searching for dependencies of ignition-math6
+[2.786s] -- Looking for OGRE...
+[2.787s] -- OGRE_PREFIX_WATCH changed.
+[2.791s] -- Checking for module 'OGRE'
+[2.802s] --   Found OGRE, version 1.9.0
+[2.830s] -- Found Ogre Ghadamon (1.9.0)
+[2.840s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.851s] -- Looking for OGRE_Paging...
+[2.861s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.861s] -- Looking for OGRE_Terrain...
+[2.869s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.870s] -- Looking for OGRE_Property...
+[2.878s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.878s] -- Looking for OGRE_RTShaderSystem...
+[2.886s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.886s] -- Looking for OGRE_Volume...
+[2.895s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.895s] -- Looking for OGRE_Overlay...
+[2.903s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.082s] -- Looking for ignition-math6 -- found version 6.13.0
+[3.085s] -- Looking for ignition-transport8 -- found version 8.3.0
+[3.086s] -- Searching for dependencies of ignition-transport8
+[3.102s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[3.114s] -- Checking for module 'uuid'
+[3.126s] --   Found uuid, version 2.34.0
+[3.157s] -- Found UUID: TRUE  
+[3.160s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[3.161s] -- Searching for dependencies of ignition-msgs5
+[3.177s] -- Looking for ignition-math6 -- found version 6.13.0
+[3.181s] -- Checking for module 'tinyxml2'
+[3.193s] --   Found tinyxml2, version 6.2.0
+[3.221s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[3.225s] -- Looking for ignition-common3 -- found version 3.15.1
+[3.225s] -- Searching for dependencies of ignition-common3
+[3.225s] -- Looking for dlfcn.h - found
+[3.226s] -- Looking for libdl - found
+[3.228s] -- Found DL: TRUE  
+[3.235s] -- Searching for <ignition-common3> component [graphics]
+[3.238s] -- Looking for ignition-common3-graphics -- found version 3.15.1
+[3.239s] -- Searching for dependencies of ignition-common3-graphics
+[3.239s] -- Looking for ignition-math6 -- found version 6.13.0
+[3.243s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[3.243s] -- Searching for dependencies of ignition-fuel_tools4
+[3.301s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[3.310s] -- Checking for module 'jsoncpp'
+[3.320s] --   Found jsoncpp, version 1.7.4
+[3.347s] -- Found JSONCPP: TRUE  
+[3.352s] -- Checking for module 'libzip'
+[3.364s] --   Found libzip, version 1.5.1
+[3.392s] -- Found ZIP: TRUE  
+[3.393s] -- Looking for ignition-common3 -- found version 3.15.1
+[3.393s] -- Looking for ignition-math6 -- found version 6.13.0
+[3.394s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[3.395s] -- Gazebo version: 11.12
+[3.402s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[3.404s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.407s] -- Check if compiler accepts -pthread
+[3.476s] -- Check if compiler accepts -pthread - yes
+[3.564s] -- Configuring done
+[3.609s] -- Generating done
+[3.612s] -- Build files have been written to: /home/grant/ros2_ws/build/wave_gazebo_plugins

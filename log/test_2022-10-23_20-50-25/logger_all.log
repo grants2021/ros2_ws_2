@@ -1,0 +1,203 @@
+[0.230s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test']
+[0.230s] DEBUG:colcon:Parsed command line arguments: Namespace(abort_on_error=False, allow_overriding=[], base_paths=['.'], build_base='build', ctest_args=None, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method TestVerb.main of <colcon_core.verb.test.TestVerb object at 0x7f6d7e078310>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, pytest_args=None, pytest_with_coverage=False, python_testing=None, retest_until_fail=0, retest_until_pass=0, return_code_on_test_failure=False, test_result_base=None, unittest_args=None, verb_extension=<colcon_core.verb.test.TestVerb object at 0x7f6d7e078310>, verb_name='test', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6d7e082d30>)
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.250s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/grant/ros2_ws'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavlink' with type 'ros.cmake' and name 'mavlink'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ros'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['cmake', 'python']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'cmake'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'python'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['python_setup_py']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'python_setup_py'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ros'
+[0.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/libmavconn' with type 'ros.ament_cmake' and name 'libmavconn'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros' with type 'ros.ament_cmake' and name 'mavros'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ros'
+[0.283s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros_extras' with type 'ros.ament_cmake' and name 'mavros_extras'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ros'
+[0.284s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros_msgs' with type 'ros.ament_cmake' and name 'mavros_msgs'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) ignored
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'mavlink' test argument 'ctest_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'mavlink' test argument 'python_testing' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'mavlink' test argument 'pytest_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'mavlink' test argument 'pytest_with_coverage' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'mavlink' test argument 'unittest_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'mavlink' test argument 'retest_until_pass' from command line to '0'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'mavlink' test argument 'retest_until_fail' from command line to '0'
+[0.293s] DEBUG:colcon.colcon_core.verb.test:Testing package 'mavlink' with the following arguments: {'build_base': '/home/grant/ros2_ws/build/mavlink', 'ctest_args': None, 'install_base': '/home/grant/ros2_ws/install/mavlink', 'path': '/home/grant/ros2_ws/src/mavlink', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' test argument 'ctest_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' test argument 'python_testing' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' test argument 'pytest_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' test argument 'pytest_with_coverage' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' test argument 'unittest_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' test argument 'retest_until_pass' from command line to '0'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' test argument 'retest_until_fail' from command line to '0'
+[0.294s] DEBUG:colcon.colcon_core.verb.test:Testing package 'mavros_msgs' with the following arguments: {'build_base': '/home/grant/ros2_ws/build/mavros_msgs', 'ctest_args': None, 'install_base': '/home/grant/ros2_ws/install/mavros_msgs', 'path': '/home/grant/ros2_ws/src/mavros/mavros_msgs', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' test argument 'ctest_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' test argument 'python_testing' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' test argument 'pytest_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' test argument 'pytest_with_coverage' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' test argument 'unittest_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' test argument 'retest_until_pass' from command line to '0'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' test argument 'retest_until_fail' from command line to '0'
+[0.296s] DEBUG:colcon.colcon_core.verb.test:Testing package 'libmavconn' with the following arguments: {'build_base': '/home/grant/ros2_ws/build/libmavconn', 'ctest_args': None, 'install_base': '/home/grant/ros2_ws/install/libmavconn', 'path': '/home/grant/ros2_ws/src/mavros/libmavconn', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'mavros' test argument 'ctest_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'mavros' test argument 'python_testing' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'mavros' test argument 'pytest_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'mavros' test argument 'pytest_with_coverage' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'mavros' test argument 'unittest_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'mavros' test argument 'retest_until_pass' from command line to '0'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'mavros' test argument 'retest_until_fail' from command line to '0'
+[0.297s] DEBUG:colcon.colcon_core.verb.test:Testing package 'mavros' with the following arguments: {'build_base': '/home/grant/ros2_ws/build/mavros', 'ctest_args': None, 'install_base': '/home/grant/ros2_ws/install/mavros', 'path': '/home/grant/ros2_ws/src/mavros/mavros', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' test argument 'ctest_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' test argument 'python_testing' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' test argument 'pytest_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' test argument 'pytest_with_coverage' from command line to 'False'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' test argument 'unittest_args' from command line to 'None'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' test argument 'retest_until_pass' from command line to '0'
+[0.298s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' test argument 'retest_until_fail' from command line to '0'
+[0.298s] DEBUG:colcon.colcon_core.verb.test:Testing package 'mavros_extras' with the following arguments: {'build_base': '/home/grant/ros2_ws/build/mavros_extras', 'ctest_args': None, 'install_base': '/home/grant/ros2_ws/install/mavros_extras', 'path': '/home/grant/ros2_ws/src/mavros/mavros_extras', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.299s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.304s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.304s] INFO:colcon.colcon_ros.task.cmake.test:Testing ROS package in '/home/grant/ros2_ws/src/mavlink' with build type 'cmake'
+[0.304s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/grant/ros2_ws/src/mavlink'
+[0.309s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.320s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/grant/vrx_ws/devel'
+[0.324s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/grant/ros2_ws/src/mavros/mavros_msgs' with build type 'ament_cmake'
+[0.324s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/grant/ros2_ws/src/mavros/mavros_msgs'
+[0.326s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.326s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.336s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/grant/vrx_ws/devel'
+[0.351s] Level 5:colcon.colcon_cmake.task.cmake.test:No ctests found in '/home/grant/ros2_ws/src/mavlink'
+[0.351s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/grant/ros2_ws/src/mavros/libmavconn' with build type 'ament_cmake'
+[0.352s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/grant/ros2_ws/src/mavros/libmavconn'
+[0.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.365s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/grant/vrx_ws/devel'
+[0.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/mavros_msgs': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_msgs:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/libmavconn': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/libmavconn/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[2.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/mavros_msgs' returned '0': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_msgs:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[2.936s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/grant/ros2_ws/src/mavros/mavros' with build type 'ament_cmake'
+[2.936s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/grant/ros2_ws/src/mavros/mavros'
+[2.938s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.938s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/libmavconn' returned '0': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/libmavconn/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[2.949s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/grant/vrx_ws/devel'
+[2.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/mavros': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[11.691s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/grant/ros2_ws/src/mavros/mavros_extras' with build type 'ament_cmake'
+[11.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/mavros' returned '0': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[11.692s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/grant/ros2_ws/src/mavros/mavros_extras'
+[11.694s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.694s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.704s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/grant/vrx_ws/devel'
+[11.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/grant/ros2_ws/build/mavros_extras': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[15.167s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.167s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.167s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.167s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/grant/ros2_ws/build/mavros_extras' returned '8': AMENT_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/mavlink:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[15.175s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.175s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.175s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.193s] DEBUG:colcon.colcon_core.event_reactor:joined thread

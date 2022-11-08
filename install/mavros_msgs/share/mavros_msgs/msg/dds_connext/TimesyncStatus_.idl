@@ -1,0 +1,34 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/TimesyncStatus.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__timesync_status__idl__
+#define __mavros_msgs__msg__timesync_status__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct TimesyncStatus_ {
+std_msgs::msg::dds_::Header_ header_;
+unsigned long long remote_timestamp_ns_;
+long long observed_offset_ns_;
+long long estimated_offset_ns_;
+float round_trip_time_ms_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__timesync_status__idl__

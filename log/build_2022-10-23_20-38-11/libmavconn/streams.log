@@ -1,0 +1,110 @@
+[0.017s] Invoking command in '/home/grant/ros2_ws/build/libmavconn': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake /home/grant/ros2_ws/src/mavros/libmavconn -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/libmavconn
+[0.067s] -- The C compiler identification is GNU 9.4.0
+[0.123s] -- The CXX compiler identification is GNU 9.4.0
+[0.128s] -- Check for working C compiler: /usr/bin/cc
+[0.182s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.182s] -- Detecting C compiler ABI info
+[0.235s] -- Detecting C compiler ABI info - done
+[0.248s] -- Detecting C compile features
+[0.248s] -- Detecting C compile features - done
+[0.250s] -- Check for working CXX compiler: /usr/bin/c++
+[0.314s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.315s] -- Detecting CXX compiler ABI info
+[0.377s] -- Detecting CXX compiler ABI info - done
+[0.391s] -- Detecting CXX compile features
+[0.391s] -- Detecting CXX compile features - done
+[0.393s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.416s] -- Found PythonInterp: /home/grant/miniconda3/bin/python3 (found suitable version "3.8.13", minimum required is "3") 
+[0.416s] -- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+[0.673s] -- Found ASIO: /usr/include  
+[1.047s] -- Found Python3: /home/grant/miniconda3/bin/python3.8 (found version "3.8.13") found components: Interpreter 
+[1.121s] -- Copy mavlink_dialect.hpp to source tree
+[1.122s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.126s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.233s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.237s] -- Looking for pthread.h
+[1.295s] -- Looking for pthread.h - found
+[1.295s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.353s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.353s] -- Check if compiler accepts -pthread
+[1.421s] -- Check if compiler accepts -pthread - yes
+[1.422s] -- Found Threads: TRUE  
+[1.433s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.434s] -- Configured cppcheck include dirs: /home/grant/ros2_ws/src/mavros/libmavconn/include
+[1.434s] -- Configured cppcheck exclude dirs and/or files: 
+[1.435s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.435s] -- Configured cpplint exclude dirs and/or files: 
+[1.437s] -- Added test 'lint_cmake' to check CMake code style
+[1.439s] -- Added test 'uncrustify' to check C / C++ code style
+[1.439s] -- Configured uncrustify additional arguments: 
+[1.440s] -- Added test 'xmllint' to check XML markup files
+[1.447s] -- Configuring done
+[1.454s] -- Generating done
+[1.455s] -- Build files have been written to: /home/grant/ros2_ws/build/libmavconn
+[1.459s] Invoked command in '/home/grant/ros2_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake /home/grant/ros2_ws/src/mavros/libmavconn -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/libmavconn
+[1.462s] Invoking command in '/home/grant/ros2_ws/build/libmavconn': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake --build /home/grant/ros2_ws/build/libmavconn -- -j8 -l8
+[1.490s] [35m[1mScanning dependencies of target mavconn[0m
+[1.490s] [35m[1mScanning dependencies of target gtest[0m
+[1.491s] [35m[1mScanning dependencies of target gtest_main[0m
+[1.516s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.516s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.539s] [ 41%] [32mBuilding CXX object CMakeFiles/mavconn.dir/generated/src/mavlink_helpers.cpp.o[0m
+[1.539s] [ 41%] [32mBuilding CXX object CMakeFiles/mavconn.dir/src/interface.cpp.o[0m
+[1.539s] [ 50%] [32mBuilding CXX object CMakeFiles/mavconn.dir/src/udp.cpp.o[0m
+[1.539s] [ 41%] [32mBuilding CXX object CMakeFiles/mavconn.dir/src/tcp.cpp.o[0m
+[1.540s] [ 58%] [32mBuilding CXX object CMakeFiles/mavconn.dir/src/serial.cpp.o[0m
+[2.857s] [ 66%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.891s] [ 66%] Built target gtest_main
+[5.850s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.953s] [ 75%] Built target gtest
+[7.290s] [ 83%] [32m[1mLinking CXX shared library libmavconn.so[0m
+[7.469s] [ 83%] Built target mavconn
+[7.476s] [35m[1mScanning dependencies of target test_mavconn[0m
+[7.512s] [ 91%] [32mBuilding CXX object CMakeFiles/test_mavconn.dir/test/test_mavconn.cpp.o[0m
+[11.992s] [100%] [32m[1mLinking CXX executable test_mavconn[0m
+[12.225s] [100%] Built target test_mavconn
+[12.238s] Invoked command in '/home/grant/ros2_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake --build /home/grant/ros2_ws/build/libmavconn -- -j8 -l8
+[12.271s] Invoking command in '/home/grant/ros2_ws/build/libmavconn': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake --install /home/grant/ros2_ws/build/libmavconn
+[12.278s] -- Install configuration: ""
+[12.278s] -- Installing: /home/grant/ros2_ws/install/libmavconn/lib/libmavconn.so
+[12.280s] -- Set runtime path of "/home/grant/ros2_ws/install/libmavconn/lib/libmavconn.so" to ""
+[12.280s] -- Installing: /home/grant/ros2_ws/install/libmavconn/include
+[12.280s] -- Installing: /home/grant/ros2_ws/install/libmavconn/include/mavconn
+[12.280s] -- Installing: /home/grant/ros2_ws/install/libmavconn/include/mavconn/mavlink_dialect.hpp
+[12.280s] -- Installing: /home/grant/ros2_ws/install/libmavconn/include/mavconn/msgbuffer.hpp
+[12.280s] -- Installing: /home/grant/ros2_ws/install/libmavconn/include/mavconn/udp.hpp
+[12.280s] -- Installing: /home/grant/ros2_ws/install/libmavconn/include/mavconn/console_bridge_compat.hpp
+[12.280s] -- Installing: /home/grant/ros2_ws/install/libmavconn/include/mavconn/thread_utils.hpp
+[12.281s] -- Installing: /home/grant/ros2_ws/install/libmavconn/include/mavconn/serial.hpp
+[12.281s] -- Installing: /home/grant/ros2_ws/install/libmavconn/include/mavconn/tcp.hpp
+[12.281s] -- Installing: /home/grant/ros2_ws/install/libmavconn/include/mavconn/mavlink_dialect.hpp.em
+[12.281s] -- Installing: /home/grant/ros2_ws/install/libmavconn/include/mavconn/interface.hpp
+[12.281s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/include/mavconn
+[12.281s] -- Up-to-date: /home/grant/ros2_ws/install/libmavconn/include/mavconn/mavlink_dialect.hpp
+[12.281s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake
+[12.281s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/Modules
+[12.281s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/Modules/em_expand.cmake
+[12.282s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/Modules/CheckGeographicLibDatasets.cmake
+[12.282s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/Modules/FindASIO.cmake
+[12.282s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/environment/library_path.sh
+[12.282s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/environment/library_path.dsv
+[12.282s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/ament_index/resource_index/package_run_dependencies/libmavconn
+[12.282s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/ament_index/resource_index/parent_prefix_path/libmavconn
+[12.282s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/environment/ament_prefix_path.sh
+[12.282s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/environment/ament_prefix_path.dsv
+[12.282s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/environment/path.sh
+[12.282s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/environment/path.dsv
+[12.283s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/local_setup.bash
+[12.283s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/local_setup.sh
+[12.283s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/local_setup.zsh
+[12.283s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/local_setup.dsv
+[12.284s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/package.dsv
+[12.284s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/ament_index/resource_index/packages/libmavconn
+[12.284s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/libmavconn-extras.cmake
+[12.284s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.284s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.284s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/ament_cmake_export_libraries-extras.cmake
+[12.284s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/libmavconnConfig.cmake
+[12.284s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/cmake/libmavconnConfig-version.cmake
+[12.284s] -- Installing: /home/grant/ros2_ws/install/libmavconn/share/libmavconn/package.xml
+[12.289s] Invoked command in '/home/grant/ros2_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) PKG_CONFIG_PATH=/home/grant/ros2_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/grant/ros2_ws/install/mavlink/lib/pkgconfig:${PKG_CONFIG_PATH} /usr/bin/cmake --install /home/grant/ros2_ws/build/libmavconn

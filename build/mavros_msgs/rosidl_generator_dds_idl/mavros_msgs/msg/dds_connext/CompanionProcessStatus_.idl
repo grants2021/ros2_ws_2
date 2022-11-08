@@ -1,0 +1,46 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/CompanionProcessStatus.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__companion_process_status__idl__
+#define __mavros_msgs__msg__companion_process_status__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module CompanionProcessStatus_Constants {
+const octet MAV_STATE_UNINIT_ = 0;
+const octet MAV_STATE_BOOT_ = 1;
+const octet MAV_STATE_CALIBRATING_ = 2;
+const octet MAV_STATE_STANDBY_ = 3;
+const octet MAV_STATE_ACTIVE_ = 4;
+const octet MAV_STATE_CRITICAL_ = 5;
+const octet MAV_STATE_EMERGENCY_ = 6;
+const octet MAV_STATE_POWEROFF_ = 7;
+const octet MAV_STATE_FLIGHT_TERMINATION_ = 8;
+const octet MAV_COMP_ID_OBSTACLE_AVOIDANCE_ = 196;
+const octet MAV_COMP_ID_VISUAL_INERTIAL_ODOMETRY_ = 197;
+
+};
+
+struct CompanionProcessStatus_ {
+std_msgs::msg::dds_::Header_ header_;
+octet state_;
+octet component_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__companion_process_status__idl__

@@ -1,0 +1,69 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:srv/MountConfigure.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__srv__mount_configure__idl__
+#define __mavros_msgs__srv__mount_configure__idl__
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+module MountConfigure_Request_Constants {
+const octet MODE_RETRACT_ = 0;
+const octet MODE_NEUTRAL_ = 1;
+const octet MODE_MAVLINK_TARGETING_ = 2;
+const octet MODE_RC_TARGETING_ = 3;
+const octet MODE_GPS_POINT_ = 4;
+const octet INPUT_ANGLE_BODY_FRAME_ = 0;
+const octet INPUT_ANGULAR_RATE_ = 1;
+const octet INPUT_ANGLE_ABSOLUTE_FRAME_ = 2;
+
+};
+
+struct MountConfigure_Request_ {
+std_msgs::msg::dds_::Header_ header_;
+octet mode_;
+boolean stabilize_roll_;
+boolean stabilize_pitch_;
+boolean stabilize_yaw_;
+octet roll_input_;
+octet pitch_input_;
+octet yaw_input_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct MountConfigure_Response_ {
+boolean success_;
+octet result_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__srv__mount_configure__idl__

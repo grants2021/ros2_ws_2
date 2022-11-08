@@ -1,0 +1,133 @@
+[0.025s] Invoking command in '/home/grant/ros2_ws/build/wave_gazebo_plugins': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/wave_gazebo_plugins
+[0.086s] -- The C compiler identification is GNU 9.4.0
+[0.139s] -- The CXX compiler identification is GNU 9.4.0
+[0.144s] -- Check for working C compiler: /usr/bin/cc
+[0.199s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.200s] -- Detecting C compiler ABI info
+[0.256s] -- Detecting C compiler ABI info - done
+[0.268s] -- Detecting C compile features
+[0.269s] -- Detecting C compile features - done
+[0.271s] -- Check for working CXX compiler: /usr/bin/c++
+[0.335s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.336s] -- Detecting CXX compiler ABI info
+[0.403s] -- Detecting CXX compiler ABI info - done
+[0.416s] -- Detecting CXX compile features
+[0.416s] -- Detecting CXX compile features - done
+[0.418s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.447s] -- Found PythonInterp: /home/grant/miniconda3/bin/python3 (found suitable version "3.8.13", minimum required is "3") 
+[0.447s] -- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+[0.716s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.719s] -- Checking for module 'bullet>=2.82'
+[0.730s] --   Found bullet, version 2.88
+[0.821s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[0.861s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[0.902s] -- Found assimp: /usr/include (found version "5.0.0") 
+[0.927s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.178s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.200s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.207s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.214s] -- Searching for dependencies of ignition-math6
+[1.216s] -- Looking for OGRE...
+[1.216s] -- OGRE_PREFIX_WATCH changed.
+[1.221s] -- Checking for module 'OGRE'
+[1.232s] --   Found OGRE, version 1.9.0
+[1.260s] -- Found Ogre Ghadamon (1.9.0)
+[1.270s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.281s] -- Looking for OGRE_Paging...
+[1.289s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.289s] -- Looking for OGRE_Terrain...
+[1.297s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.297s] -- Looking for OGRE_Property...
+[1.306s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.306s] -- Looking for OGRE_RTShaderSystem...
+[1.314s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.314s] -- Looking for OGRE_Volume...
+[1.322s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.322s] -- Looking for OGRE_Overlay...
+[1.330s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.507s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.510s] -- Looking for ignition-transport8 -- found version 8.3.0
+[1.510s] -- Searching for dependencies of ignition-transport8
+[1.525s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.533s] -- Checking for module 'uuid'
+[1.544s] --   Found uuid, version 2.34.0
+[1.573s] -- Found UUID: TRUE  
+[1.576s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.576s] -- Searching for dependencies of ignition-msgs5
+[1.592s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.596s] -- Checking for module 'tinyxml2'
+[1.608s] --   Found tinyxml2, version 6.2.0
+[1.636s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.639s] -- Looking for ignition-common3 -- found version 3.15.1
+[1.640s] -- Searching for dependencies of ignition-common3
+[1.640s] -- Looking for dlfcn.h - found
+[1.641s] -- Looking for libdl - found
+[1.643s] -- Found DL: TRUE  
+[1.650s] -- Searching for <ignition-common3> component [graphics]
+[1.653s] -- Looking for ignition-common3-graphics -- found version 3.15.1
+[1.653s] -- Searching for dependencies of ignition-common3-graphics
+[1.654s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.658s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[1.658s] -- Searching for dependencies of ignition-fuel_tools4
+[1.716s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[1.724s] -- Checking for module 'jsoncpp'
+[1.735s] --   Found jsoncpp, version 1.7.4
+[1.763s] -- Found JSONCPP: TRUE  
+[1.768s] -- Checking for module 'libzip'
+[1.780s] --   Found libzip, version 1.5.1
+[1.808s] -- Found ZIP: TRUE  
+[1.809s] -- Looking for ignition-common3 -- found version 3.15.1
+[1.809s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.809s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.814s] -- Configuring done
+[1.848s] -- Generating done
+[1.851s] -- Build files have been written to: /home/grant/ros2_ws/build/wave_gazebo_plugins
+[1.860s] Invoked command in '/home/grant/ros2_ws/build/wave_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/wave_gazebo_plugins
+[1.863s] Invoking command in '/home/grant/ros2_ws/build/wave_gazebo_plugins': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/wave_gazebo_plugins -- -j8 -l8
+[1.895s] [35m[1mScanning dependencies of target Hydrodynamics[0m
+[1.949s] [ 14%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Gazebo.cc.o[0m
+[1.949s] [ 14%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/PhysicalConstants.cc.o[0m
+[1.949s] [ 21%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Utilities.cc.o[0m
+[1.949s] [ 28%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Geometry.cc.o[0m
+[1.949s] [ 35%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Physics.cc.o[0m
+[1.950s] [ 42%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/Wavefield.cc.o[0m
+[1.951s] [ 50%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/src/WavefieldEntity.cc.o[0m
+[1.955s] [01m[K/home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins/src/PhysicalConstants.cc:18:10:[m[K [01;31m[Kfatal error: [m[Kwave_gazebo_plugins/PhysicalConstants.hh: No such file or directory
+[1.955s]    18 | #include [01;31m[K"wave_gazebo_plugins/PhysicalConstants.hh"[m[K
+[1.956s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.956s] compilation terminated.
+[1.956s] make[2]: *** [CMakeFiles/Hydrodynamics.dir/build.make:89: CMakeFiles/Hydrodynamics.dir/src/PhysicalConstants.cc.o] Error 1
+[1.956s] make[2]: *** Waiting for unfinished jobs....
+[1.983s] [01m[K/home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins/src/Physics.cc:20:10:[m[K [01;31m[Kfatal error: [m[Kwave_gazebo_plugins/Physics.hh: No such file or directory
+[1.983s]    20 | #include [01;31m[K"wave_gazebo_plugins/Physics.hh"[m[K
+[1.983s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.983s] compilation terminated.
+[1.984s] make[2]: *** [CMakeFiles/Hydrodynamics.dir/build.make:102: CMakeFiles/Hydrodynamics.dir/src/Physics.cc.o] Error 1
+[1.988s] [01m[K/home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins/src/Gazebo.cc:23:10:[m[K [01;31m[Kfatal error: [m[Kgazebo/gazebo.hh: No such file or directory
+[1.988s]    23 | #include [01;31m[K<gazebo/gazebo.hh>[m[K
+[1.988s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.988s] compilation terminated.
+[1.989s] make[2]: *** [CMakeFiles/Hydrodynamics.dir/build.make:63: CMakeFiles/Hydrodynamics.dir/src/Gazebo.cc.o] Error 1
+[1.990s] [01m[K/home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins/src/WavefieldEntity.cc:21:10:[m[K [01;31m[Kfatal error: [m[Kgazebo/common/Assert.hh: No such file or directory
+[1.990s]    21 | #include [01;31m[K<gazebo/common/Assert.hh>[m[K
+[1.990s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.990s] compilation terminated.
+[1.991s] make[2]: *** [CMakeFiles/Hydrodynamics.dir/build.make:141: CMakeFiles/Hydrodynamics.dir/src/WavefieldEntity.cc.o] Error 1
+[1.998s] [01m[K/home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins/src/Utilities.cc:22:10:[m[K [01;31m[Kfatal error: [m[Kgazebo/gazebo.hh: No such file or directory
+[1.998s]    22 | #include [01;31m[K<gazebo/gazebo.hh>[m[K
+[1.998s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.998s] compilation terminated.
+[1.999s] make[2]: *** [CMakeFiles/Hydrodynamics.dir/build.make:115: CMakeFiles/Hydrodynamics.dir/src/Utilities.cc.o] Error 1
+[2.031s] [01m[K/home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins/src/Geometry.cc:24:10:[m[K [01;31m[Kfatal error: [m[Kwave_gazebo_plugins/Geometry.hh: No such file or directory
+[2.031s]    24 | #include [01;31m[K"wave_gazebo_plugins/Geometry.hh"[m[K
+[2.031s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.031s] compilation terminated.
+[2.032s] make[2]: *** [CMakeFiles/Hydrodynamics.dir/build.make:76: CMakeFiles/Hydrodynamics.dir/src/Geometry.cc.o] Error 1
+[2.061s] [01m[K/home/grant/ros2_ws/src/adept-vrx/wave_gazebo_plugins/src/Wavefield.cc:25:10:[m[K [01;31m[Kfatal error: [m[Kgazebo/gazebo.hh: No such file or directory
+[2.061s]    25 | #include [01;31m[K<gazebo/gazebo.hh>[m[K
+[2.061s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.061s] compilation terminated.
+[2.063s] make[2]: *** [CMakeFiles/Hydrodynamics.dir/build.make:128: CMakeFiles/Hydrodynamics.dir/src/Wavefield.cc.o] Error 1
+[2.063s] make[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/Hydrodynamics.dir/all] Error 2
+[2.064s] make: *** [Makefile:141: all] Error 2
+[2.066s] Invoked command in '/home/grant/ros2_ws/build/wave_gazebo_plugins' returned '2': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/opt/ros/noetic:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws/build/wave_gazebo_plugins -- -j8 -l8

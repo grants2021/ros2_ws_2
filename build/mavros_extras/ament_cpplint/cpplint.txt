@@ -1,0 +1,90 @@
+-- run_test.py: invoking following command in '/home/grant/ros2_ws/src/mavros/mavros_extras':
+ - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/cpplint.xunit.xml
+
+/home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/guided_target.cpp:21:  Found C system header after C++ system header. Should be: guided_target.h, c system, c++ system, other.  [build/include_order] [4]
+/home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/mount_control.cpp:54:  Add #include <string> for string  [build/include_what_you_use] [4]
+Category 'build/include_order' errors found: 1
+Category 'build/include_what_you_use' errors found: 1
+Total errors found: 2
+Using '--root=/home/grant/ros2_ws/src/mavros/mavros_extras/include' argument
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/include/mavros_extras/servo_state_publisher.hpp
+
+Using '--root=/home/grant/ros2_ws/src/mavros/mavros_extras/src' argument
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/lib/servo_state_publisher.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/3dr_radio.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/adsb.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/cam_imu_sync.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/camera.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/cellular_status.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/companion_process_status.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/debug_value.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/distance_sensor.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/esc_status.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/esc_telemetry.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/fake_gps.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/gps_input.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/gps_rtk.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/gps_status.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/guided_target.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/hil.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/landing_target.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/log_transfer.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/mag_calibration_status.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/mocap_pose_estimate.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/mount_control.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/obstacle_distance.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/odom.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/onboard_computer_status.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/play_tune.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/px4flow.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/rangefinder.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/terrain.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/trajectory.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/tunnel.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/vfr_hud.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/vibration.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/vision_pose_estimate.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/vision_speed_estimate.cpp
+
+Done processing /home/grant/ros2_ws/src/mavros/mavros_extras/src/plugins/wheel_odometry.cpp
+
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/grant/ros2_ws/build/mavros_extras/test_results/mavros_extras/cpplint.xunit.xml'

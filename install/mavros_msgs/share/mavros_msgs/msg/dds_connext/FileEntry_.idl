@@ -1,0 +1,36 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/FileEntry.idl
+// generated code does not contain a copyright notice
+
+#ifndef __mavros_msgs__msg__file_entry__idl__
+#define __mavros_msgs__msg__file_entry__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module FileEntry_Constants {
+const octet TYPE_FILE_ = 0;
+const octet TYPE_DIRECTORY_ = 1;
+
+};
+
+struct FileEntry_ {
+string name_;
+octet type_;
+unsigned long long size_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__file_entry__idl__

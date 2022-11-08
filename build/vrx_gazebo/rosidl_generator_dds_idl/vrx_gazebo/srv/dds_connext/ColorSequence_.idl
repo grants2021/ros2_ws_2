@@ -1,0 +1,51 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from vrx_gazebo:srv/ColorSequence.idl
+// generated code does not contain a copyright notice
+
+#ifndef __vrx_gazebo__srv__color_sequence__idl__
+#define __vrx_gazebo__srv__color_sequence__idl__
+
+
+module vrx_gazebo {
+
+module srv {
+
+module dds_ {
+
+
+struct ColorSequence_Request_ {
+string color1_;
+string color2_;
+string color3_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module vrx_gazebo
+
+
+module vrx_gazebo {
+
+module srv {
+
+module dds_ {
+
+
+struct ColorSequence_Response_ {
+boolean success_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module vrx_gazebo
+
+
+#endif  // __vrx_gazebo__srv__color_sequence__idl__

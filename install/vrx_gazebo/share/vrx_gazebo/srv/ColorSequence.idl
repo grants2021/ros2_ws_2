@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from vrx_gazebo/srv/ColorSequence.srv
+// generated code does not contain a copyright notice
+
+
+module vrx_gazebo {
+  module srv {
+    @verbatim (language="comment", text=
+      " Color sequence submission")
+    struct ColorSequence_Request {
+      @verbatim (language="comment", text=
+        " Color sequence")
+      string color1;
+
+      string color2;
+
+      string color3;
+    };
+    struct ColorSequence_Response {
+      boolean success;
+    };
+  };
+};

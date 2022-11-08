@@ -1,0 +1,19 @@
+CMake Warning at /opt/ros/foxy/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:77 (message):
+  The Python module 'pytest' was not found, pytests can not be run (e.g.  on
+  Ubuntu/Debian install the package 'python3-pytest')
+Call Stack (most recent call first):
+  CMakeLists.txt:262 (ament_add_pytest_test)
+
+
+[01m[K/home/grant/ros2_ws/src/mavros/mavros/src/plugins/sys_status.cpp:[m[K In member function ‘[01m[Kvoid mavros::std_plugins::SystemStatusPlugin::process_autopilot_version_normal(mavlink::common::msg::AUTOPILOT_VERSION&, uint8_t, uint8_t)[m[K’:
+[01m[K/home/grant/ros2_ws/src/mavros/mavros/src/plugins/sys_status.cpp:759:36:[m[K [01;35m[Kwarning: [m[Klambda templates are only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+  759 |     auto log_info = [&lg, &prefix] [01;35m[K<[m[K typename ... Args > (const std::string & fmt, Args ... args) {
+      |                                    [01;35m[K^[m[K
+[01m[K/home/grant/ros2_ws/src/mavros/mavros/src/plugins/sys_status.cpp:[m[K In member function ‘[01m[Kvoid mavros::std_plugins::SystemStatusPlugin::process_autopilot_version_apm_quirk(mavlink::common::msg::AUTOPILOT_VERSION&, uint8_t, uint8_t)[m[K’:
+[01m[K/home/grant/ros2_ws/src/mavros/mavros/src/plugins/sys_status.cpp:787:36:[m[K [01;35m[Kwarning: [m[Klambda templates are only available with ‘[01m[K-std=c++2a[m[K’ or ‘[01m[K-std=gnu++2a[m[K’ [[01;35m[K-Wpedantic[m[K]
+  787 |     auto log_info = [&lg, &prefix] [01;35m[K<[m[K typename ... Args > (const std::string & fmt, Args ... args) {
+      |                                    [01;35m[K^[m[K
+[01m[K/home/grant/ros2_ws/src/mavros/mavros/src/plugins/sys_status.cpp:[m[K In member function ‘[01m[Kvoid mavros::std_plugins::SystemStatusPlugin::handle_battery_status(const mavlink_message_t*, mavlink::common::msg::BATTERY_STATUS&, mavros::plugin::filter::SystemAndOk)[m[K’:
+[01m[K/home/grant/ros2_ws/src/mavros/mavros/src/plugins/sys_status.cpp:1111:32:[m[K [01;35m[Kwarning: [m[Kcomparison is always true due to limited range of data type [[01;35m[K-Wtype-limits[m[K]
+ 1111 |     if (!disable_diag && [01;35m[Kbs.id >= 0[m[K && bs.id < MAX_NR_BATTERY_STATUS) {
+      |                          [01;35m[K~~~~~~^~~~[m[K

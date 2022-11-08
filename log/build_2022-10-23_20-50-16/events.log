@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000438] (-) JobUnselected: {'identifier': 'libmavconn'}
+[0.000472] (-) JobUnselected: {'identifier': 'mavlink'}
+[0.000497] (-) JobUnselected: {'identifier': 'mavros'}
+[0.000540] (-) JobUnselected: {'identifier': 'mavros_extras'}
+[0.000566] (-) JobUnselected: {'identifier': 'mavros_msgs'}
+[0.000765] (-) EventReactorShutdown: {}

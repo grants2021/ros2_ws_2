@@ -1,0 +1,194 @@
+[0.053s] Invoking command in '/home/grant/ros2_ws/build/usv_gazebo_plugins': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages:/home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages /usr/bin/cmake --build /home/grant/ros2_ws/build/usv_gazebo_plugins -- -j8 -l8
+[0.092s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.124s] -- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+[0.406s] -- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)
+[0.453s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.489s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-pthread (found version "3.6.1") 
+[0.490s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.495s] -- Searching for dependencies of ignition-math6
+[0.497s] -- Looking for OGRE...
+[0.502s] -- Found Ogre Ghadamon (1.9.0)
+[0.502s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.512s] -- Looking for OGRE_Paging...
+[0.513s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.513s] -- Looking for OGRE_Terrain...
+[0.513s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.513s] -- Looking for OGRE_Property...
+[0.513s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.513s] -- Looking for OGRE_RTShaderSystem...
+[0.513s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.513s] -- Looking for OGRE_Volume...
+[0.514s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.514s] -- Looking for OGRE_Overlay...
+[0.514s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.774s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.774s] -- Looking for ignition-transport8 -- found version 8.3.0
+[0.775s] -- Searching for dependencies of ignition-transport8
+[0.792s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-pthread (found suitable version "3.6.1", minimum required is "3") 
+[0.797s] -- Checking for module 'uuid'
+[0.810s] --   Found uuid, version 2.34.0
+[0.844s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[0.844s] -- Searching for dependencies of ignition-msgs5
+[0.860s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.865s] -- Checking for module 'tinyxml2'
+[0.879s] --   Found tinyxml2, version 6.2.0
+[0.915s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[0.915s] -- Looking for ignition-common3 -- found version 3.15.1
+[0.915s] -- Searching for dependencies of ignition-common3
+[0.916s] -- Looking for dlfcn.h - found
+[0.916s] -- Looking for libdl - found
+[0.927s] -- Searching for <ignition-common3> component [graphics]
+[0.927s] -- Looking for ignition-common3-graphics -- found version 3.15.1
+[0.928s] -- Searching for dependencies of ignition-common3-graphics
+[0.928s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.930s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[0.930s] -- Searching for dependencies of ignition-fuel_tools4
+[0.972s] -- Checking for module 'jsoncpp'
+[0.987s] --   Found jsoncpp, version 1.7.4
+[1.023s] -- Checking for module 'libzip'
+[1.043s] --   Found libzip, version 1.5.1
+[1.071s] -- Looking for ignition-common3 -- found version 3.15.1
+[1.071s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.071s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.072s] -- Gazebo version: 11.12
+[1.073s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.105s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_connext_c
+[1.109s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.239s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[1.591s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp;rosidl_typesupport_connext_cpp
+[1.653s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.655s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.847s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[1.922s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[1.924s] -- Found usv_msgs: 0.0.1 (/home/grant/ros2_ws/install/usv_msgs/share/usv_msgs/cmake)
+[1.975s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.062s] -- Found wave_gazebo_plugins: 1.3.0 (/home/grant/ros2_ws/install/wave_gazebo_plugins/share/wave_gazebo_plugins/cmake)
+[2.088s] -- xacro: determining deps for: worlds/buoyancy_plugin_demo.world.xacro ...
+[2.168s] -- Found ament_cmake_gtest: 0.9.11 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.169s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.319s] -- Configuring done
+[2.847s] -- Generating done
+[2.849s] -- Build files have been written to: /home/grant/ros2_ws/build/usv_gazebo_plugins
+[2.912s] [ 10%] Built target gtest
+[2.915s] [ 21%] Built target gtest_main
+[2.917s] [ 26%] Built target usv_gazebo_plugins__xacro_auto_generate
+[2.925s] [ 31%] [32mBuilding CXX object CMakeFiles/buoyancy_gazebo_plugin.dir/src/buoyancy_gazebo_plugin.cc.o[0m
+[2.925s] [ 36%] [32mBuilding CXX object CMakeFiles/buoyancy_gazebo_plugin.dir/src/shape_volume.cc.o[0m
+[2.935s] [ 42%] [32mBuilding CXX object CMakeFiles/buoyancy_gazebo_plugin.dir/src/polyhedron_volume.cc.o[0m
+[2.936s] [ 47%] [32mBuilding CXX object CMakeFiles/usv_gazebo_thrust_plugin.dir/src/usv_gazebo_thrust_plugin.cc.o[0m
+[2.938s] [ 52%] [32mBuilding CXX object CMakeFiles/usv_gazebo_wind_plugin.dir/src/usv_gazebo_wind_plugin.cc.o[0m
+[2.947s] [ 57%] [32mBuilding CXX object CMakeFiles/usv_gazebo_acoustic_pinger_plugin.dir/src/acoustic_pinger_plugin.cc.o[0m
+[2.948s] [ 63%] [32mBuilding CXX object CMakeFiles/usv_gazebo_dynamics_plugin.dir/src/usv_gazebo_dynamics_plugin.cc.o[0m
+[6.511s] In file included from [01m[K/usr/include/c++/9/cassert:44[m[K,
+[6.511s]                  from [01m[K/usr/include/google/protobuf/extension_set.h:42[m[K,
+[6.511s]                  from [01m[K/usr/include/gazebo-11/gazebo/msgs/poses_stamped.pb.h:31[m[K,
+[6.511s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/PhysicsTypes.hh:26[m[K,
+[6.511s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:41[m[K,
+[6.512s]                  from [01m[K/usr/include/gazebo-11/gazebo/common/common.hh:36[m[K,
+[6.512s]                  from [01m[K/home/grant/ros2_ws/src/VRX_Foxy/usv_gazebo_plugins/include/usv_gazebo_plugins/polyhedron_volume.hh:22[m[K,
+[6.512s]                  from [01m[K/home/grant/ros2_ws/src/VRX_Foxy/usv_gazebo_plugins/src/polyhedron_volume.cc:18[m[K:
+[6.512s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/usv_gazebo_plugins/src/polyhedron_volume.cc:[m[K In static member function ‘[01m[Kstatic buoyancy::Polyhedron buoyancy::Polyhedron::makeCylinder(double, double, int)[m[K’:
+[6.512s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/usv_gazebo_plugins/src/polyhedron_volume.cc:121:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<ignition::math::v6::Vector3<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[6.512s]   121 |   assert([01;35m[Kcylinder.vertices.size() == 2 * n + 2[m[K);
+[6.512s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[6.512s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/usv_gazebo_plugins/src/polyhedron_volume.cc:122:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<buoyancy::Polyhedron::Face>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[6.512s]   122 |   assert([01;35m[Kcylinder.faces.size() == 4 * n[m[K);
+[6.512s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[10.974s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/usv_gazebo_plugins/src/usv_gazebo_wind_plugin.cc:299:40:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[10.974s]   299 | GZ_REGISTER_WORLD_PLUGIN(UsvWindPlugin)[01;35m[K;[m[K
+[10.974s]       |                                        [01;35m[K^[m[K
+[11.086s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/usv_gazebo_plugins/src/usv_gazebo_thrust_plugin.cc:456:36:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[11.086s]   456 | GZ_REGISTER_MODEL_PLUGIN(UsvThrust)[01;35m[K;[m[K
+[11.086s]       |                                    [01;35m[K^[m[K
+[11.109s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/usv_gazebo_plugins/src/acoustic_pinger_plugin.cc:55:41:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[11.109s]    55 | GZ_REGISTER_MODEL_PLUGIN(AcousticPinger)[01;35m[K;[m[K
+[11.109s]       |                                         [01;35m[K^[m[K
+[12.181s] In file included from [01m[K/home/grant/ros2_ws/src/VRX_Foxy/usv_gazebo_plugins/src/usv_gazebo_thrust_plugin.cc:25[m[K:
+[12.181s] /home/grant/ros2_ws/src/VRX_Foxy/usv_gazebo_plugins/include/usv_gazebo_plugins/usv_gazebo_thrust_plugin.hh: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = gazebo::Thruster; _Args = {const gazebo::Thruster&}; _Tp = gazebo::Thruster][m[K’:
+[12.181s] [01m[K/usr/include/c++/9/bits/alloc_traits.h:483:4:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = gazebo::Thruster; _Args = {const gazebo::Thruster&}; _Tp = gazebo::Thruster; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<gazebo::Thruster>][m[K’
+[12.181s] [01m[K/usr/include/c++/9/bits/stl_vector.h:1189:30:[m[K   required from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = gazebo::Thruster; _Alloc = std::allocator<gazebo::Thruster>; std::vector<_Tp, _Alloc>::value_type = gazebo::Thruster][m[K’
+[12.182s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/usv_gazebo_plugins/src/usv_gazebo_thrust_plugin.cc:243:41:[m[K   required from here
+[12.182s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/usv_gazebo_plugins/include/usv_gazebo_plugins/usv_gazebo_thrust_plugin.hh:41:9:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr gazebo::common::PID::PID(const gazebo::common::PID&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+[12.182s]    41 |   class [01;35m[KThruster[m[K
+[12.182s]       |         [01;35m[K^~~~~~~~[m[K
+[12.182s] In file included from [01m[K/usr/include/gazebo-11/gazebo/physics/JointController.hh:25[m[K,
+[12.182s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/physics.hh:23[m[K,
+[12.182s]                  from [01m[K/home/grant/ros2_ws/src/VRX_Foxy/usv_gazebo_plugins/include/usv_gazebo_plugins/usv_gazebo_thrust_plugin.hh:31[m[K,
+[12.182s]                  from [01m[K/home/grant/ros2_ws/src/VRX_Foxy/usv_gazebo_plugins/src/usv_gazebo_thrust_plugin.cc:25[m[K:
+[12.182s] [01m[K/usr/include/gazebo-11/gazebo/common/PID.hh:157:20:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[Kgazebo::common::PID[m[K’ has user-provided ‘[01m[Kgazebo::common::PID& gazebo::common::PID::operator=(const gazebo::common::PID&)[m[K’
+[12.183s]   157 |       public: PID &[01;36m[Koperator[m[K=(const PID &_p)
+[12.183s]       |                    [01;36m[K^~~~~~~~[m[K
+[12.183s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+[12.183s]                  from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+[12.183s]                  from [01m[K/usr/include/c++/9/string:41[m[K,
+[12.183s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[12.183s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[12.183s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[12.183s]                  from [01m[K/usr/include/c++/9/functional:54[m[K,
+[12.183s]                  from [01m[K/usr/include/boost/algorithm/clamp.hpp:22[m[K,
+[12.183s]                  from [01m[K/home/grant/ros2_ws/src/VRX_Foxy/usv_gazebo_plugins/src/usv_gazebo_thrust_plugin.cc:18[m[K:
+[12.183s] [01m[K/usr/include/c++/9/ext/new_allocator.h:146:4:[m[K [01;36m[Knote: [m[Ksynthesized method ‘[01m[Kgazebo::Thruster::Thruster(const gazebo::Thruster&)[m[K’ first required here
+[12.183s]   146 |  { [01;36m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[12.184s]       |    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.038s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/usv_gazebo_plugins/src/usv_gazebo_dynamics_plugin.cc:364:44:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[14.038s]   364 | GZ_REGISTER_MODEL_PLUGIN(UsvDynamicsPlugin)[01;35m[K;[m[K
+[14.038s]       |                                            [01;35m[K^[m[K
+[16.103s] [ 68%] [32m[1mLinking CXX shared library libbuoyancy_gazebo_plugin.so[0m
+[16.695s] [ 68%] Built target buoyancy_gazebo_plugin
+[16.724s] [ 73%] [32mBuilding CXX object CMakeFiles/buoyancy_plugin_test.dir/test/buoyancy_test.cc.o[0m
+[16.920s] [ 78%] [32m[1mLinking CXX shared library libusv_gazebo_wind_plugin.so[0m
+[17.628s] [01m[K/home/grant/ros2_ws/src/VRX_Foxy/usv_gazebo_plugins/test/buoyancy_test.cc:96:3:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K-Wcomment[m[K]
+[17.628s]    96 |   [01;35m[K/[m[K/       /\
+[17.628s]       |   [01;35m[K^[m[K
+[17.945s] [ 78%] Built target usv_gazebo_wind_plugin
+[18.476s] [ 84%] [32m[1mLinking CXX shared library libusv_gazebo_dynamics_plugin.so[0m
+[18.966s] [ 84%] Built target usv_gazebo_dynamics_plugin
+[19.466s] [ 89%] [32m[1mLinking CXX shared library libusv_gazebo_acoustic_pinger_plugin.so[0m
+[19.532s] [ 94%] [32m[1mLinking CXX shared library libusv_gazebo_thrust_plugin.so[0m
+[20.509s] [ 94%] Built target usv_gazebo_acoustic_pinger_plugin
+[21.578s] [ 94%] Built target usv_gazebo_thrust_plugin
+[23.449s] [100%] [32m[1mLinking CXX executable buoyancy_plugin_test[0m
+[24.768s] [100%] Built target buoyancy_plugin_test
+[24.777s] Invoked command in '/home/grant/ros2_ws/build/usv_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages:/home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages /usr/bin/cmake --build /home/grant/ros2_ws/build/usv_gazebo_plugins -- -j8 -l8
+[24.817s] Invoking command in '/home/grant/ros2_ws/build/usv_gazebo_plugins': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages:/home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages /usr/bin/cmake --install /home/grant/ros2_ws/build/usv_gazebo_plugins
+[24.824s] -- Install configuration: ""
+[24.827s] -- Installing: /home/grant/ros2_ws/install/usv_gazebo_plugins/lib/libbuoyancy_gazebo_plugin.so
+[24.828s] -- Set runtime path of "/home/grant/ros2_ws/install/usv_gazebo_plugins/lib/libbuoyancy_gazebo_plugin.so" to ""
+[24.830s] -- Installing: /home/grant/ros2_ws/install/usv_gazebo_plugins/lib/libusv_gazebo_dynamics_plugin.so
+[24.832s] -- Set runtime path of "/home/grant/ros2_ws/install/usv_gazebo_plugins/lib/libusv_gazebo_dynamics_plugin.so" to ""
+[24.834s] -- Installing: /home/grant/ros2_ws/install/usv_gazebo_plugins/lib/libusv_gazebo_thrust_plugin.so
+[24.848s] -- Set runtime path of "/home/grant/ros2_ws/install/usv_gazebo_plugins/lib/libusv_gazebo_thrust_plugin.so" to ""
+[24.850s] -- Installing: /home/grant/ros2_ws/install/usv_gazebo_plugins/lib/libusv_gazebo_wind_plugin.so
+[24.853s] -- Set runtime path of "/home/grant/ros2_ws/install/usv_gazebo_plugins/lib/libusv_gazebo_wind_plugin.so" to ""
+[24.855s] -- Installing: /home/grant/ros2_ws/install/usv_gazebo_plugins/lib/libusv_gazebo_acoustic_pinger_plugin.so
+[24.859s] -- Set runtime path of "/home/grant/ros2_ws/install/usv_gazebo_plugins/lib/libusv_gazebo_acoustic_pinger_plugin.so" to ""
+[24.860s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/library_path.sh
+[24.860s] -- Installing: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/library_path.dsv
+[24.860s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world
+[24.860s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/worlds
+[24.860s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/worlds/buoyancy_plugin_demo.world.xacro
+[24.860s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/include
+[24.860s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/include/shape_volume.hh
+[24.861s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/include/polyhedron_volume.hh
+[24.861s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/include/usv_gazebo_wind_plugin.hh
+[24.861s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/include/usv_gazebo_dynamics_plugin.hh
+[24.861s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/include/buoyancy_gazebo_plugin.hh
+[24.861s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/include/acoustic_pinger_plugin.hh
+[24.861s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/include/usv_gazebo_thrust_plugin.hh
+[24.861s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/usv_gazebo_plugins
+[24.861s] -- Installing: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/usv_gazebo_plugins
+[24.862s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/ament_prefix_path.sh
+[24.862s] -- Installing: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/ament_prefix_path.dsv
+[24.862s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/path.sh
+[24.862s] -- Installing: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/environment/path.dsv
+[24.862s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/local_setup.bash
+[24.862s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/local_setup.sh
+[24.862s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/local_setup.zsh
+[24.862s] -- Installing: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/local_setup.dsv
+[24.863s] -- Installing: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/package.dsv
+[24.863s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/ament_index/resource_index/packages/usv_gazebo_plugins
+[24.863s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[24.863s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake/usv_gazebo_pluginsConfig.cmake
+[24.864s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake/usv_gazebo_pluginsConfig-version.cmake
+[24.864s] -- Up-to-date: /home/grant/ros2_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/package.xml
+[24.869s] Invoked command in '/home/grant/ros2_ws/build/usv_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/grant/ros2_ws/install/wave_gazebo_plugins:/home/grant/ros2_ws/install/usv_msgs:/home/grant/ros2_ws/install/robotx_2022:/home/grant/ros2_ws/install/vrx_gazebo:/home/grant/ros2_ws/install/wave_gazebo:/home/grant/ros2_ws/install/wamv_gazebo:/home/grant/ros2_ws/install/usv_gazebo_plugins:/home/grant/ros2_ws/install/wamv_description:/home/grant/ros2_ws/install/mavros_extras:/home/grant/ros2_ws/install/mavros:/home/grant/ros2_ws/install/mavros_msgs:/home/grant/ros2_ws/install/libmavconn:/home/grant/ros2_ws/install/mavlink:/opt/ros/foxy:/home/grant/vrx_ws/devel:/home/grant/ros2_foxy/ros2-linux CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/grant/ros2_ws/install/wave_gazebo_plugins/lib:/home/grant/ros2_ws/install/usv_msgs/lib:/home/grant/ros2_ws/install/vrx_gazebo/lib:/home/grant/ros2_ws/install/usv_gazebo_plugins/lib:/home/grant/ros2_ws/install/mavros_extras/lib:/home/grant/ros2_ws/install/mavros/lib:/home/grant/ros2_ws/install/mavros_msgs/lib:/home/grant/ros2_ws/install/libmavconn/lib:/home/grant/vrx_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/grant/ros2_foxy/ros2-linux/opt/yaml_cpp_vendor/lib:/home/grant/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/grant/ros2_foxy/ros2-linux/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/grant/ros2_ws/install/usv_msgs/lib/python3.8/site-packages:/home/grant/ros2_ws/install/vrx_gazebo/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/grant/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/grant/vrx_ws/devel/lib/python3/dist-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/grant/ros2_foxy/ros2-linux/lib/python3.8/site-packages /usr/bin/cmake --install /home/grant/ros2_ws/build/usv_gazebo_plugins

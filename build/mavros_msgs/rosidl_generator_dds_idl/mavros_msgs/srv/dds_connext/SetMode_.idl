@@ -1,0 +1,64 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:srv/SetMode.idl
+// generated code does not contain a copyright notice
+
+#ifndef __mavros_msgs__srv__set_mode__idl__
+#define __mavros_msgs__srv__set_mode__idl__
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+module SetMode_Request_Constants {
+const octet MAV_MODE_PREFLIGHT_ = 0;
+const octet MAV_MODE_STABILIZE_DISARMED_ = 80;
+const octet MAV_MODE_STABILIZE_ARMED_ = 208;
+const octet MAV_MODE_MANUAL_DISARMED_ = 64;
+const octet MAV_MODE_MANUAL_ARMED_ = 192;
+const octet MAV_MODE_GUIDED_DISARMED_ = 88;
+const octet MAV_MODE_GUIDED_ARMED_ = 216;
+const octet MAV_MODE_AUTO_DISARMED_ = 92;
+const octet MAV_MODE_AUTO_ARMED_ = 220;
+const octet MAV_MODE_TEST_DISARMED_ = 66;
+const octet MAV_MODE_TEST_ARMED_ = 194;
+
+};
+
+struct SetMode_Request_ {
+octet base_mode_;
+string custom_mode_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+module mavros_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct SetMode_Response_ {
+boolean mode_sent_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__srv__set_mode__idl__

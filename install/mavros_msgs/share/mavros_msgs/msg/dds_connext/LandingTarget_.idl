@@ -1,0 +1,59 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/LandingTarget.idl
+// generated code does not contain a copyright notice
+#include "geometry_msgs/msg/dds_connext/Pose_.idl"
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__landing_target__idl__
+#define __mavros_msgs__msg__landing_target__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+module LandingTarget_Constants {
+const octet GLOBAL_ = 0;
+const octet LOCAL_NED_ = 2;
+const octet MISSION_ = 3;
+const octet GLOBAL_RELATIVE_ALT_ = 4;
+const octet LOCAL_ENU_ = 5;
+const octet GLOBAL_INT_ = 6;
+const octet GLOBAL_RELATIVE_ALT_INT_ = 7;
+const octet LOCAL_OFFSET_NED_ = 8;
+const octet BODY_NED_ = 9;
+const octet BODY_OFFSET_NED_ = 10;
+const octet GLOBAL_TERRAIN_ALT_ = 11;
+const octet GLOBAL_TERRAIN_ALT_INT_ = 12;
+const octet LIGHT_BEACON_ = 0;
+const octet RADIO_BEACON_ = 1;
+const octet VISION_FIDUCIAL_ = 2;
+const octet VISION_OTHER_ = 3;
+
+};
+
+struct LandingTarget_ {
+std_msgs::msg::dds_::Header_ header_;
+octet target_num_;
+octet frame_;
+float angle_[2];
+
+float distance_;
+float size_[2];
+
+geometry_msgs::msg::dds_::Pose_ pose_;
+octet type_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__landing_target__idl__

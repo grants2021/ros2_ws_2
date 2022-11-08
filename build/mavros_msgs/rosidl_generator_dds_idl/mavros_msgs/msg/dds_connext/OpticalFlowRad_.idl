@@ -1,0 +1,40 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/OpticalFlowRad.idl
+// generated code does not contain a copyright notice
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__optical_flow_rad__idl__
+#define __mavros_msgs__msg__optical_flow_rad__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct OpticalFlowRad_ {
+std_msgs::msg::dds_::Header_ header_;
+unsigned long integration_time_us_;
+float integrated_x_;
+float integrated_y_;
+float integrated_xgyro_;
+float integrated_ygyro_;
+float integrated_zgyro_;
+short temperature_;
+octet quality_;
+unsigned long time_delta_distance_us_;
+float distance_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__optical_flow_rad__idl__

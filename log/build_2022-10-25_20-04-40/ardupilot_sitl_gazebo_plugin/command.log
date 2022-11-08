@@ -1,0 +1,2 @@
+Invoking command in '/home/grant/ros2_ws/build/ardupilot_sitl_gazebo_plugin': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/ardupilot_models -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/ardupilot_sitl_gazebo_plugin
+Invoked command in '/home/grant/ros2_ws/build/ardupilot_sitl_gazebo_plugin' returned '1': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/grant/ros2_ws/src/ardupilot_models -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/grant/ros2_ws/install/ardupilot_sitl_gazebo_plugin

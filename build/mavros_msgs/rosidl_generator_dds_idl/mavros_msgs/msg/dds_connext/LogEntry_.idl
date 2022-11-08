@@ -1,0 +1,36 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from mavros_msgs:msg/LogEntry.idl
+// generated code does not contain a copyright notice
+#include "builtin_interfaces/msg/dds_connext/Time_.idl"
+#include "std_msgs/msg/dds_connext/Header_.idl"
+
+#ifndef __mavros_msgs__msg__log_entry__idl__
+#define __mavros_msgs__msg__log_entry__idl__
+
+
+module mavros_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct LogEntry_ {
+std_msgs::msg::dds_::Header_ header_;
+unsigned short id_;
+unsigned short num_logs_;
+unsigned short last_log_num_;
+builtin_interfaces::msg::dds_::Time_ time_utc_;
+unsigned long size_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module mavros_msgs
+
+
+#endif  // __mavros_msgs__msg__log_entry__idl__

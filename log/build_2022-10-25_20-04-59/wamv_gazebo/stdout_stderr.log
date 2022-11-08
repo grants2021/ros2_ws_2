@@ -1,0 +1,73 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /home/grant/miniconda3/bin/python3 (found suitable version "3.8.13", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/grant/miniconda3/bin/python3
+-- Found wamv_description: 1.3.0 (/home/grant/ros2_ws/install/wamv_description/share/wamv_description/cmake)
+-- Found usv_gazebo_plugins: 1.3.0 (/home/grant/ros2_ws/install/usv_gazebo_plugins/share/usv_gazebo_plugins/cmake)
+-- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/grant/ros2_ws/build/wamv_gazebo
+-- Install configuration: ""
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/models
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/models/gps
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/models/gps/mesh
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/models/gps/mesh/gps.png
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/models/gps/mesh/gps.dae
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/models/gps/model.config
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_p3d.xacro
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_camera.xacro
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_pinger.xacro
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_gps.xacro
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_imu.xacro
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_planar_lidar.xacro
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/wamv_3d_lidar.xacro
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/sensors/lidar.xacro
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/dynamics
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/dynamics/wamv_gazebo_dynamics_plugin.xacro
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/macros.xacro
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.xacro
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/ball_shooter
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/ball_shooter/ball_shooter.xacro
+-- Installing: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/wamv_gazebo.urdf.xacro
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/thruster_layouts
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/thruster_layouts/wamv_x_thrusters.xacro
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/thruster_layouts/wamv_t_thrusters.xacro
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/thruster_layouts/wamv_gazebo_thruster_config.xacro
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/urdf/thruster_layouts/wamv_aft_thrusters.xacro
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/config
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/config/rviz_vrx.rviz
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/launch
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/launch/rviz_vrx.launch
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/launch/localization_example.launch
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/launch/rviz_example.launch
+-- Installing: /home/grant/ros2_ws/install/wamv_gazebo/share/ament_index/resource_index/package_run_dependencies/wamv_gazebo
+-- Installing: /home/grant/ros2_ws/install/wamv_gazebo/share/ament_index/resource_index/parent_prefix_path/wamv_gazebo
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/environment/ament_prefix_path.sh
+-- Installing: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/environment/path.sh
+-- Installing: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/environment/path.dsv
+-- Installing: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/local_setup.bash
+-- Installing: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/local_setup.sh
+-- Installing: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/local_setup.zsh
+-- Installing: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/local_setup.dsv
+-- Installing: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/package.dsv
+-- Installing: /home/grant/ros2_ws/install/wamv_gazebo/share/ament_index/resource_index/packages/wamv_gazebo
+-- Installing: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/cmake/wamv_gazeboConfig.cmake
+-- Installing: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/cmake/wamv_gazeboConfig-version.cmake
+-- Up-to-date: /home/grant/ros2_ws/install/wamv_gazebo/share/wamv_gazebo/package.xml
