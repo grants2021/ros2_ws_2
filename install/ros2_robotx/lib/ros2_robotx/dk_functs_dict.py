@@ -25,7 +25,7 @@ parameters = aruco.DetectorParameters_create()
 wamv_height = 1.3
 drone_height = 0.194923
 LAND_SPEED = 20
-landThreshold = 0.38
+landThreshold = 0.1
 landDesent = 0.4
 camera_matrix = [[530.8269276712998, 0.0, 320.5],[0.0, 530.8269276712998, 240.5],[0.0, 0.0, 1.0]]
 np_camera_matrix = np.array(camera_matrix)
@@ -249,10 +249,16 @@ def landing_controller(vehicle,spawn_height,wamv_landing,marker_landing,msg,land
     if land_stagein == 4:
         cutoffresult = landing_finisher(vehicle)
         if cutoffresult:
-            land_stageout = 10
             vehicle.armed = False
+            land_stageout = 5
+            time.sleep(0.001)
         else:
             land_stageout = 4
+    elif land_stagein == 5:
+        if not vehicle.armed:
+            land_stageout = 10
+        else:
+            land_stageout = 5
     else:
         if marker_landing:
             if not IDs_Dict:
@@ -293,7 +299,7 @@ def free_landing(vehicle,qralt):
     cmd_vx = 0
     cmd_vy = 0
     vland = (LAND_SPEED/100)
-    if qralt>landDesent:
+    if qralt>=landDesent:
         cmd_vz = vland
     else:
         cmd_vz = math.sqrt(abs((qralt-.1)/.3))*vland

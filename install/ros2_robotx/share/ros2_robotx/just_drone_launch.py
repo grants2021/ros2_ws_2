@@ -11,6 +11,7 @@ sys.path.append(r'/opt/ros/foxy/lib/python3.8/site-packages')
 
 import os
 import time
+import getpass
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
 from launch.conditions import IfCondition, UnlessCondition
@@ -125,4 +126,8 @@ def generate_launch_description():
     return ld
 
 time.sleep(1)
-os.system('xdotool key "ctrl+shift+t";xdotool type "~/ardupilot/Tools/autotest/sim_vehicle.py -f gazebo-iris --console -v ArduCopter";xdotool key Return')
+
+if getpass.getuser() == 'batman':
+  os.system('xdotool key "ctrl+shift+t";xdotool type "~/courseRoot/apm/ardupilot/Tools/autotest/sim_vehicle.py -f gazebo-iris --console -v ArduCopter";xdotool key Return')
+else:
+  os.system('xdotool key "ctrl+shift+t";xdotool type "~/ardupilot/Tools/autotest/sim_vehicle.py -f gazebo-iris --console -v ArduCopter";xdotool key Return')

@@ -41,7 +41,7 @@ Created on Sat Nov  5 17:54:31 2022
 
 import sys
 
-from geometry_msgs.msg import TwistWithCovarianceStamped
+import geometry_msgs.msg
 import rclpy
 
 if sys.platform == 'win32':
@@ -143,9 +143,9 @@ def main():
     rclpy.init()
 
     node = rclpy.create_node('teleop_twist_keyboard')
-    pub = node.create_publisher(TwistWithCovarianceStamped, 'cmd_vel', 10)
+    pub = node.create_publisher(geometry_msgs.msg.Twist, 'cmd_vel', 10)
 
-    speed = 1.0
+    speed = 0.5
     turn = 1.0
     x = 0.0
     y = 0.0
@@ -179,41 +179,27 @@ def main():
                 if (key == '\x03'):
                     break
 
-            newmsg = TwistWithCovarianceStamped()
-            newmsg.header.stamp = node.get_clock().now().to_msg()
-            newmsg.header.frame_id = 'cmd_vel'
-            
-            newmsg.twist.twist.linear.x = x * speed
-            newmsg.twist.twist.linear.y = y * speed
-            newmsg.twist.twist.linear.z = z * speed
-            newmsg.twist.twist.angular.x = 0.0
-            newmsg.twist.twist.angular.y = 0.0
-            newmsg.twist.twist.angular.z = th * turn
-            
-            newmsg.twist.covariance[0] = 0.01
-            newmsg.twist.covariance[7] = 0.01
-            newmsg.twist.covariance[14] = 0.01
-            pub.publish(newmsg)
+            twist = geometry_msgs.msg.Twist()
+            twist.linear.x = x * speed
+            twist.linear.y = y * speed
+            twist.linear.z = z * speed
+            twist.angular.x = 0.0
+            twist.angular.y = 0.0
+            twist.angular.z = th * turn
+            pub.publish(twist)
 
     except Exception as e:
         print(e)
 
     finally:
-        newmsg = TwistWithCovarianceStamped()
-        newmsg.header.stamp = node.get_clock().now().to_msg()
-        newmsg.header.frame_id = 'cmd_vel'
-        
-        newmsg.twist.twist.linear.x = x * speed
-        newmsg.twist.twist.linear.y = y * speed
-        newmsg.twist.twist.linear.z = z * speed
-        newmsg.twist.twist.angular.x = 0.0
-        newmsg.twist.twist.angular.y = 0.0
-        newmsg.twist.twist.angular.z = th * turn
-        
-        newmsg.twist.covariance[0] = 0.01
-        newmsg.twist.covariance[7] = 0.01
-        newmsg.twist.covariance[14] = 0.01
-        pub.publish(newmsg)
+        twist = geometry_msgs.msg.Twist()
+        twist.linear.x = 0.0
+        twist.linear.y = 0.0
+        twist.linear.z = 0.0
+        twist.angular.x = 0.0
+        twist.angular.y = 0.0
+        twist.angular.z = 0.0
+        pub.publish(twist)
 
         restoreTerminalSettings(settings)
 

@@ -87,7 +87,7 @@ class drone_control(Node):
         self.RTL_stage = 0
         self.no_lat_cnt = 0
         self.RTL_dist = -1
-        self.land_stage = 5
+        self.land_stage = 0
         self.cmd_land_sub = self.create_subscription(Bool,
                                                         '/cmd_land',
                                                         self.simple_land_callback,
@@ -210,16 +210,17 @@ class drone_control(Node):
                     self.RTL_dist = -1
                 elif self.RTL_stage == -1:
                     print('RTL failure')
-                    
             else:
                 if self.land_stage == 0:
                     print('starting landing')
                 self.land_stage, self.IDs_Dict = dk.landing_controller(self.vehicle,self.spawn_height,\
                                                      self.wamv_landing,self.marker_landing,\
                                                          msg,self.land_stage,self.IDs_Dict)
-                #if self.land_stage == 3:
-                #    print('Going to power off')
-                if self.land_stage == 4:
+                if self.land_stage == 3:
+                    print('Going to power off')
+                elif self.land_stage == 4:
+                    print("Power is off")
+                elif self.land_stage == 4:
                     print("Power is off")
                 elif self.land_stage == 10:
                     print('landing complete')
