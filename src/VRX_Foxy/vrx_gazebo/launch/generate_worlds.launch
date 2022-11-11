@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<!-- Generates competition worlds. Used by vrx-docker for competition
+     evaluation -->
+
+<launch>
+  <!-- Task configuration YAML file -->
+  <arg name="requested" default=""/>
+  <arg name="world_xacro_target" default=""/>
+  <arg name="world_target" default=""/>
+
+  <!-- Only used for gymkhana task for pinger position configuration YAML -->
+  <arg name="config_target" default=""/>
+  <arg name="competition_pkg" default="vrx_gazebo"/>
+  <arg name="world_name" default="robotx_example_course"/>
+
+  <node name="world_gen" pkg="vrx_gazebo" exec="generate_worlds" required="true" output="screen">
+    <param name="requested" value="$(var requested)"/>
+    <param name="world_xacro_target" value="$(var world_xacro_target)"/>
+    <param name="world_target" value="$(var world_target)"/>
+    <param name="config_target" value="$(var config_target)"/>
+    <param name="competition_pkg" value="$(var competition_pkg)"/>
+    <param name="world_name" value="$(var world_name)"/>
+  </node>
+
+</launch>
