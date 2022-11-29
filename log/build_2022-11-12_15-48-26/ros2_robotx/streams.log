@@ -1,0 +1,27 @@
+[2.635s] Invoking command in '/home/adept/ros2_ws_2/src/ros2_robotx': PYTHONPATH=/home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_robotx build --build-base /home/adept/ros2_ws_2/build/ros2_robotx/build install --prefix /home/adept/ros2_ws_2/install/ros2_robotx --record /home/adept/ros2_ws_2/build/ros2_robotx/install.log --single-version-externally-managed
+[3.309s] running egg_info
+[3.310s] writing ../../build/ros2_robotx/ros2_robotx.egg-info/PKG-INFO
+[3.310s] writing dependency_links to ../../build/ros2_robotx/ros2_robotx.egg-info/dependency_links.txt
+[3.311s] writing entry points to ../../build/ros2_robotx/ros2_robotx.egg-info/entry_points.txt
+[3.312s] writing requirements to ../../build/ros2_robotx/ros2_robotx.egg-info/requires.txt
+[3.312s] writing top-level names to ../../build/ros2_robotx/ros2_robotx.egg-info/top_level.txt
+[3.442s] reading manifest file '../../build/ros2_robotx/ros2_robotx.egg-info/SOURCES.txt'
+[3.444s] writing manifest file '../../build/ros2_robotx/ros2_robotx.egg-info/SOURCES.txt'
+[3.445s] running build
+[3.445s] running build_py
+[3.445s] copying ros2_robotx/drone_control.py -> /home/adept/ros2_ws_2/build/ros2_robotx/build/lib/ros2_robotx
+[3.446s] running install
+[3.447s] running install_lib
+[3.449s] copying /home/adept/ros2_ws_2/build/ros2_robotx/build/lib/ros2_robotx/drone_control.py -> /home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages/ros2_robotx
+[3.450s] byte-compiling /home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages/ros2_robotx/drone_control.py to drone_control.cpython-38.pyc
+[3.454s] Sorry: IndentationError: unexpected indent (drone_control.py, line 277)
+[3.455s] running install_data
+[3.458s] running install_egg_info
+[3.465s] removing '/home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages/ros2_robotx-0.0.0-py3.8.egg-info' (and everything under it)
+[3.467s] Copying ../../build/ros2_robotx/ros2_robotx.egg-info to /home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages/ros2_robotx-0.0.0-py3.8.egg-info
+[3.470s] running install_scripts
+[3.522s] Installing drone_control script to /home/adept/ros2_ws_2/install/ros2_robotx/lib/ros2_robotx
+[3.522s] Installing teleop_key script to /home/adept/ros2_ws_2/install/ros2_robotx/lib/ros2_robotx
+[3.522s] Installing wamv_sim script to /home/adept/ros2_ws_2/install/ros2_robotx/lib/ros2_robotx
+[3.523s] writing list of installed files to '/home/adept/ros2_ws_2/build/ros2_robotx/install.log'
+[3.590s] Invoked command in '/home/adept/ros2_ws_2/src/ros2_robotx' returned '0': PYTHONPATH=/home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_robotx build --build-base /home/adept/ros2_ws_2/build/ros2_robotx/build install --prefix /home/adept/ros2_ws_2/install/ros2_robotx --record /home/adept/ros2_ws_2/build/ros2_robotx/install.log --single-version-externally-managed

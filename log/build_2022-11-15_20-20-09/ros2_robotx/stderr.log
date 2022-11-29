@@ -1,0 +1,5 @@
+  File "/home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages/ros2_robotx/drone_control.py", line 304
+    print("target reached')
+                          ^
+SyntaxError: EOL while scanning string literal
+

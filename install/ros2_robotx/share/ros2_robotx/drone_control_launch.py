@@ -28,12 +28,13 @@ def generate_launch_description():
      
     # Set the path to this package.
     pkg_share = FindPackageShare(package='robotx_2022').find('robotx_2022')
-     
+    
+    wrlds_share = FindPackageShare(package='ros2_robotx').find('ros2_robotx')
     
     # Set the path to the world file
-    world_file_name = 'grass_replenish_marker.world'#'flat_ocean_wplatform.world'
+    world_file_name = 'grass_replenish_marker.world'#'2022_qualifying_task.world''flat_ocean_wplatform.world'
     
-    world_path = os.path.join(pkg_share, 'worlds', world_file_name)    
+    world_path = os.path.join(wrlds_share, world_file_name)    
     
     # Set the path to the SDF model files.
     gazebo_models_path = os.path.join(pkg_share, 'models')
@@ -107,7 +108,7 @@ def generate_launch_description():
                                  '-z','1.33'],
                       output='screen')
     
-    add_drone_control_cmd = Node(package='robotx_2022', executable='drone_control.py')
+    #add_drone_control_cmd = Node(package='robotx_2022', executable='drone_control.py')
     # Create the launch description and populate
     ld = LaunchDescription()
      

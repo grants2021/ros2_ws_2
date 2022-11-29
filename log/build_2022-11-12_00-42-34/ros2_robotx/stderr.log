@@ -1,0 +1,7 @@
+  File "/home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages/ros2_robotx/drone_control.py", line 282
+    dk.landing_pad_finder(self.vehicle, self.cap, \
+                        self.vehicle.location.global_relative_frame.alt, self.newimg_pub):
+                                                   
+                              ^
+SyntaxError: invalid syntax
+

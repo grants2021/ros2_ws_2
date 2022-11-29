@@ -1,0 +1,5 @@
+source /opt/ros/foxy/setup.bash
+source ~/ros2_ws_2/install/setup.bash
+export PYTHONPATH="${PYTHONPATH}:/usr/lib/python3/dist-packages/"
+export GAZEBO_RESOURCE_PATH=/home/adept/ros2_ws_2/install/robotx_2022/share/robotx_2022/worlds:/home/adept/ros2_ws_2/install/ros2_robotx/share/ros2_robotx
+source /usr/share/gazebo/setup.bash

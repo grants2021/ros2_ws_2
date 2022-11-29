@@ -1,0 +1,6 @@
+[0.056s] Invoking command in '/home/adept/ros2_ws_2/build/wave_gazebo_plugins': /usr/bin/cmake --build /home/adept/ros2_ws_2/build/wave_gazebo_plugins -- -j8 -l8
+[0.256s] CMake Error: The current CMakeCache.txt directory /home/adept/ros2_ws_2/build/wave_gazebo_plugins/CMakeCache.txt is different than the directory /home/grant/ros2_ws/build/wave_gazebo_plugins where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.257s] CMake Error: The source directory "/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins" does not exist.
+[0.257s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.258s] make: *** [Makefile:650: cmake_check_build_system] Error 1
+[0.263s] Invoked command in '/home/adept/ros2_ws_2/build/wave_gazebo_plugins' returned '2': /usr/bin/cmake --build /home/adept/ros2_ws_2/build/wave_gazebo_plugins -- -j8 -l8

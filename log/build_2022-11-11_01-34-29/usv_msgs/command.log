@@ -1,0 +1,2 @@
+Invoking command in '/home/adept/ros2_ws_2/build/usv_msgs': /usr/bin/cmake --build /home/adept/ros2_ws_2/build/usv_msgs -- -j8 -l8
+Invoked command in '/home/adept/ros2_ws_2/build/usv_msgs' returned '2': /usr/bin/cmake --build /home/adept/ros2_ws_2/build/usv_msgs -- -j8 -l8

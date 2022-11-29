@@ -27,6 +27,7 @@ from rclpy.node import Node
 
 from geometry_msgs.msg import Twist
 from std_msgs.msg import Bool, Int16
+from sensor_msgs.msg import NavSatFix
 
     
 class wamv_sim(Node):
@@ -35,8 +36,14 @@ class wamv_sim(Node):
         
         self.takeoff_start = ()
         self.time_to_wait = 0
-        self.follow_start = ()
-        self.time_to_follow = 3
+        self.run_task = True
+        
+        
+        self.armed_antispam = False
+        self.cmd_prep = False
+        self.cmd_prep_pub = self.create_publisher(Bool,
+                                                     '/cmd_prep',
+                                                     1)
         
         # waiting for arm pub
         self.cmd_armable_pub = self.create_publisher(Bool,
@@ -44,12 +51,16 @@ class wamv_sim(Node):
                                                      1)
         
         # takeoff commands sub
+        self.takeoff_antispam = False
         self.cmd_takeoff = False
         self.cmd_takeoff_pub = self.create_publisher(Bool,
                                                 '/cmd_takeoff',
                                                 1)
-        
-        self.cmd_follow = False
+        self.task_antispam = False
+        self.cmd_task = False
+        self.cmd_task_pub = self.create_publisher(Bool,
+                                                '/cmd_task',
+                                                1)
         
         self.cmd_land = False
         self.land_antispam = False
@@ -57,19 +68,29 @@ class wamv_sim(Node):
                                                 '/cmd_land',
                                                 1)
         
+        self.loc_msg = NavSatFix()
+        self.loc_msg.latitude = -35.36317156847902 
+        self.loc_msg.longitude = 149.16534429782516
+        
+        self.land_loc_pub = self.create_publisher(NavSatFix,
+                                                '/land_loc',
+                                                1)
+        
         self.cmd_destroy = False
         self.cmd_destroy_pub = self.create_publisher(Bool,
                                                 '/cmd_destroy',
                                                 1)
         
-        #False
-        #False
-        #False
+        self.destroy_flag = False
+        self.landed_flag = False
         self.land_flag = False     #16
-        self.follow_flag = False   #8
+        self.task_complete = False
+        self.task_flag = False   #8
+        self.tookoff_flag = False
         self.takeoff_flag = False  #4
         self.armable_flag = False  #2
         self.arming_flag = False   #1
+        self.prep_flag = False
         self.heartbeat_sub = self.create_subscription(Int16, 
                                                          '/drone/heartbeat', 
                                                          self.heartbeat_callback,
@@ -80,43 +101,88 @@ class wamv_sim(Node):
     
     def heartbeat_callback(self,msg):
         msgInt = msg.data
+        msgArray = np.unpackbits(np.uint8(msgInt))>0
+        newmsg = Bool()
+        newmsg.data = True
+        if False:#sum(msgArray) != 0:
+            print(msgArray)
         if msgInt == 0:
-            pass
-        elif msgInt == 1:
+            if not self.prep_flag:
+                self.prep_flag = True
+                self.cmd_prep_pub.publish(newmsg)
+            elif not self.arming_flag:
+                self.cmd_prep_pub.publish(newmsg)
+                print('commanding prep')
+            else:
+                #print('passing')
+                pass
+            
+        elif msgArray[-1]:
             if not self.arming_flag:
                 self.arming_flag = True
+            if not self.armed_antispam:
                 print('Waiting for armable')
-        elif msgInt == 3:
+                self.armed_antispam = True
+            
+        elif msgArray[-2]:
             if not self.armable_flag:
                 self.armable_flag = True
-                print('Armable, sending takeoff')
+                newmsg.data = False
+                self.cmd_prep_pub.publish(newmsg)
+            print('Armable, sending takeoff')
             self.takeoff_callback()
-        elif msgInt == 7:
+            
+        elif msgArray[-3]:
             if not self.takeoff_flag:
                 self.takeoff_flag = True
-                print('Drone has completed takeoff')
-            self.follow_callback()
-        elif msgInt == 15:
-            if not self.follow_flag:
-                self.follow_flag = True
-                print('Drone is following')
-            if self.cmd_land and not self.land_antispam:
+            if not self.takeoff_antispam:
+                print('Drone is taking off')
+                self.takeoff_antispam = True
+            
+        elif msgArray[-4]:
+            self.tookoff_flag = True
+            self.task_callback()
+            print('Drone has completed takeoff')
+            
+        elif msgArray[-5]:
+            if not self.task_antispam:
+                print('Drone is running task')
+                self.task_antispam = True
+                
+            if not self.task_flag:
+                self.task_flag = True
+                print('Drone is running task')
+                
+            if self.cmd_land:
+                print('Drone is landing')
+                
+            self.task_callback()
+        
+            if msgArray[-6]:
+                self.task_complete = True
+                print('Task complete1')
+                
+        elif msgArray[-6]:
+                self.task_complete = True
+                print('Task complete2')
+                self.task_callback()
+        
+        elif msgArray[-7]:
+            self.land_flag = True
+            if not self.land_antispam:
                 print('Drone is landing')
                 self.land_antispam = True
-            self.follow_callback()
-        elif msgInt == 31:
+        
+        elif msgArray[-8]:
             print('Drone has landed, sending shutdown')
-            self.land_flag = True
+            self.landed_flag = True
             self.destroy_flag = True
-            newmsg = Bool()
-            newmsg.data = True
             self.cmd_destroy_pub.publish(newmsg)
-        elif msgInt == 63:
-            print('Mission complete')
-            #self.destroy_node()
-            #self.executor.shutdown()
-            #rclpy.signal_shutdown()
             sys.exit(0)
+            
+            
+        elif sum(msgArray) > 1:
+            print('two flags triggered')
         else:
             print('Unknown int {} returned'.format(msgInt))
         
@@ -150,36 +216,42 @@ class wamv_sim(Node):
             else:
                 newmsg.data = True
         self.cmd_takeoff_pub.publish(newmsg)
-            
         
-    def follow_callback(self):       
-        if self.cmd_land:
-            self.land_callback()
-        else:
-            if not self.cmd_follow and not self.follow_start:
-                self.follow_start = time.time()
-                self.cmd_follow = True
-            elif self.cmd_follow and not self.follow_start:
-                self.follow_start = time.time()
-                print('Already commanded to follow but no follow start time found')
+        
+    def task_callback(self):  
+        
+        tskmsg = Bool()
+        
+        if not self.task_complete:
+            if self.cmd_land:
+                tskmsg.data = False
+                self.cmd_task = False
+                self.land_callback()
             else:
-                if time.time() - self.follow_start > self.time_to_follow:
-                    self.cmd_land = True
-                    self.cmd_follow = False
-                    newmsg = Bool()
-                    newmsg.data = False
-                    self.cmd_land_pub.publish(newmsg)
+                tskmsg.data = True
+        else:
+            self.cmd_land = True
+            self.cmd_task = False
+            tskmsg.data = False
+            lndmsg = Bool()
+            lndmsg.data = True
+            self.land_loc_pub.publish(self.loc_msg)
+            self.cmd_land_pub.publish(lndmsg)
+        self.cmd_task_pub.publish(tskmsg)
         
     def land_callback(self):
         #print('running landing')
-        newmsg = Bool()
+        cmd_msg = Bool()
         if self.land_flag:
             self.cmd_land = False
-            newmsg.data = False
+            cmd_msg.data = False
         else:
-            newmsg.data = True
+            cmd_msg.data = True
+            
         #print('Takeoff {}   Follow {}   Land {}'.format(self.takeoff_flag,self.follow_flag,self.land_flag))
-        self.cmd_land_pub.publish(newmsg)
+        self.land_loc_pub.publish(self.loc_msg)
+        self.cmd_land_pub.publish(cmd_msg)
+        
     
     
 def main(args=None):
@@ -187,7 +259,7 @@ def main(args=None):
     
     wamv_node = wamv_sim()
     
-    arm_received = False
+    #arm_received = False
     #while not arm_received:
     #    arm_received = wamv_node.arm_received()
     #    time.sleep(1/wamv_node.refresh_rate)

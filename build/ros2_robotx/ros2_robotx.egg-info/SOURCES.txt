@@ -11,8 +11,10 @@ setup.py
 include/dictonary_gen.py
 include/dk_functs_dict.py
 launch/drone_control_launch.py
+launch/drone_land_wamv.py
 launch/just_drone_launch.py
-launch/wamv_and_done.py
+launch/land_wamv_launch.py
+launch/wamv_and_done_launch.py
 resource/ros2_robotx
 ros2_robotx/__init__.py
 ros2_robotx/drone_control.py
@@ -21,3 +23,4 @@ ros2_robotx/wamv_sim.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+worlds/grass_replenish_marker.world

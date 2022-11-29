@@ -1,0 +1,6 @@
+[0.024s] Invoking command in '/home/adept/ros2_ws_2/build/wamv_description': /usr/bin/cmake --build /home/adept/ros2_ws_2/build/wamv_description -- -j8 -l8
+[0.220s] CMake Error: The current CMakeCache.txt directory /home/adept/ros2_ws_2/build/wamv_description/CMakeCache.txt is different than the directory /home/grant/ros2_ws/build/wamv_description where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.221s] CMake Error: The source directory "/home/grant/ros2_ws/src/VRX_Foxy/wamv_description" does not exist.
+[0.221s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.222s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.223s] Invoked command in '/home/adept/ros2_ws_2/build/wamv_description' returned '2': /usr/bin/cmake --build /home/adept/ros2_ws_2/build/wamv_description -- -j8 -l8

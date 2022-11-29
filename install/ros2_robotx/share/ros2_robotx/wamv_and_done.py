@@ -27,13 +27,15 @@ def generate_launch_description():
      
     # Set the path to this package.
     pkg_share = FindPackageShare(package='robotx_2022').find('robotx_2022')
-     
+    
     wamv_pkg_share = FindPackageShare(package='wamv_gazebo').find('wamv_gazebo')
     
-    # Set the path to the world file
-    world_file_name = 'flat_ocean_wplatform.world'
+    wrlds_share = FindPackageShare(package='ros2_robotx').find('ros2_robotx')
     
-    world_path = os.path.join(pkg_share, 'worlds', world_file_name)    
+    # Set the path to the world file
+    world_file_name = 'grass_replenish_marker.world'#'2022_qualifying_task.world''flat_ocean_wplatform.world'
+    
+    world_path = os.path.join(wrlds_share, world_file_name) 
     
     # Set the path to the SDF model files.
     gazebo_models_path = os.path.join(pkg_share, 'models')
@@ -122,12 +124,12 @@ def generate_launch_description():
                       arguments=['-entity', 'iris_demo', '-file', drone_model,
                                  '-x','0',
                                  '-y','0',
-                                 '-z','1.33'],
+                                 '-z','0'],
                       output='screen')
     
     add_wamv_gazebo_cmd = Node(package='gazebo_ros', executable='spawn_entity.py',
                       arguments=['-entity', 'WAM-V', '-topic', 'robot_description',
-                                 '-x','0',
+                                 '-x','-10',
                                  '-y','0',
                                  '-z','0'],
                       output='screen')
