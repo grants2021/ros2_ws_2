@@ -2,6 +2,7 @@ Before I start geting into the details I need to clarify that I worked the major
 
 Most of the ROS2 source files to build from are located in ~/ros2_ws_2/src/VRX_Foxy/ find someone who knows ROS2 to help relocate those files properly, or else that can be a lot to go through and fix by hand. I believe the ros2_robotx and the robotX_2022 folders should be correctly done, and can be transplanted into a new workstation (which I highly recommend starting clean and avoiding my mess as much as possible)
 
+SOFTWARE VERSIONS REQUIRED: Ubuntu-focal fosa, ROS2-foxy fitzroy, Gazebo-Gazebo classic(recently moved to new Gazebo)
 
 BEFORE RUNNING ANYTHING MAKE SURE TO SOURCE ~/ros2_ws_2/.ros_source to source the workstation
 
