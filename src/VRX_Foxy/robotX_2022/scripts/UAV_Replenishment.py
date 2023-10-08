@@ -159,15 +159,16 @@ if __name__ == "__main__":
             endloc = drone.vehicle.location.global_relative_frame
         time.sleep(5)
         endloc2=vehicle.location.global_relative_frame
-        #drone.send_local_ned_velocity(5,0,0)
+        drone.send_local_ned_velocity(5,0,0)
         #LP_Dict, Disk_Dict, out_message = drone.simple_look(LP_Dict,Disk_Dict)
-        '''startTime = time.time()
+        startTime = time.time()
+        '''
         print('starting keydrive follow')
         while time.time()<=startTime+30:
             drone.keydrive_vel_follower(0)
             
         print('ending keydrive follow')
-        
+        '''
         alldone = drone.landing_subscriber(IDsDict,wamv_landing)
         while drone.vehicle.armed == True or not rclpy.is_shutdown() or not alldone:
             try:    
@@ -181,7 +182,7 @@ if __name__ == "__main__":
             LP_Dict, Disk_Dict, out_message = drone.simple_look(LP_Dict,Disk_Dict)
             sub = rospy.Subscriber('/camera/color/image_raw', Image, drone.platform_search)
             sub.unregister()
-            '''
+            
     except APIException or KeyboardInterrupt or SystemExit as e:
         print('Drone Core Loop Break')
         print(e)
