@@ -1,0 +1,2 @@
+Invoking command in '/home/grant/ros2_ws_2/build/usv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws_2/build/usv_msgs -- -j8 -l8
+Invoked command in '/home/grant/ros2_ws_2/build/usv_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws_2/build/usv_msgs -- -j8 -l8

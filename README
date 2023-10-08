@@ -1,0 +1,28 @@
+Before I start geting into the details I need to clarify that I worked the majority of my project within ROS1, and only started the translation to ROS2 at the tail end before the competition. You will notice the filesystems are really fucked up because of this; however, all of the elements you should need are here, dont be afraid to reach out and ask with questions, but I warn you I'm not too sure how any of the ROS2 actually comes together and works. 
+
+Most of the ROS2 source files to build from are located in ~/ros2_ws_2/src/VRX_Foxy/ find someone who knows ROS2 to help relocate those files properly, or else that can be a lot to go through and fix by hand. I believe the ros2_robotx and the robotX_2022 folders should be correctly done, and can be transplanted into a new workstation (which I highly recommend starting clean and avoiding my mess as much as possible)
+
+
+BEFORE RUNNING ANYTHING MAKE SURE TO SOURCE ~/ros2_ws_2/.ros_source to source the workstation
+
+
+Scripting locations: These files are the final development I made. 
+~/ros2_ws_2/src/VRX_Foxy/robotX_2022/scripts
+
+Dict_dk_functions.py will be your primary work-from location. You can pull any of these functions into you mission function (i.e. UAV_Replenishment.py) and the drone will do as commanded.
+quickLaunch.py is a helpful macro I made that is ran bu the ROS2 launch files, unfortunately not located in the same folder, see launch files below:
+ros_img_functs.py is a camera reader and interpreter used by the drone. I left this one in a seperate file because in real life you'll need to use a script for the physical camera. I have ROS1 examples of real life testing in the scripts_ROS1 folder
+
+
+Launch files are here: these are the ROS2 launch files and will set up the worlds and nodes used.
+~/ros2_ws_2/src/ros2_robotx/launch
+
+
+
+To run a launch file open a terminal window, and run ros2 launch ros2_robotx drone_control_launch.py and give the macro a second to make a new window and launch the ardupilot/MAVLink software. Then in a new terminal window run one of the scripts by typing python UAV_Replenishment.py This process should work and the drone should take off and hover over the marker before traveling over to the fake WAM-V "aka the dual aruco markers on the ground" and come into land. Somethings have clearly changed in ROS because the functions I was using before to make sure ROS was okay aka rclpy.is_ok doesn't work anymore....
+
+**I'm not sure why but I was getting a smash stacking detected error on some of the launch files, idk what that is or why it only now started popping up**
+
+
+Things you/someone with ROS2 knowledge really should do:
+The build folder contains all of the edits I made to different elements of the simulation, like a WAM-V with a qr code on top of it and the drone make files. However, these are not properly done at all, and for that I am sorry. Someone that knows ROS2 should be able to easily move these into a new workstation and get them to build, I just am not that person.

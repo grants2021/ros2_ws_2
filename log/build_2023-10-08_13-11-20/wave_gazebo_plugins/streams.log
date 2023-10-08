@@ -1,0 +1,6 @@
+[0.717s] Invoking command in '/home/grant/ros2_ws_2/build/wave_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws_2/build/wave_gazebo_plugins -- -j8 -l8
+[0.776s] CMake Error: The current CMakeCache.txt directory /home/grant/ros2_ws_2/build/wave_gazebo_plugins/CMakeCache.txt is different than the directory /home/grant/ros2_ws/build/wave_gazebo_plugins where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.798s] CMake Error: The source directory "/home/grant/ros2_ws/src/VRX_Foxy/wave_gazebo_plugins" does not exist.
+[0.798s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.799s] make: *** [Makefile:650: cmake_check_build_system] Error 1
+[1.110s] Invoked command in '/home/grant/ros2_ws_2/build/wave_gazebo_plugins' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws_2/build/wave_gazebo_plugins -- -j8 -l8

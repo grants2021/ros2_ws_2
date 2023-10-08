@@ -1,0 +1,375 @@
+[2.050s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ros2_robotx', 'robotx_2022']
+[2.050s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6de9a0aaf0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['ros2_robotx', 'robotx_2022'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6de9a0aaf0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6de9a0adf0>)
+[2.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.135s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/grant/ros2_ws_2'
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extensions ['ignore', 'ignore_ament_install']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extension 'ignore'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extension 'ignore_ament_install'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extensions ['colcon_pkg']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extension 'colcon_pkg'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extensions ['colcon_meta']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extension 'colcon_meta'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extensions ['ros']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extension 'ros'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extensions ['cmake', 'python']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extension 'cmake'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extension 'python'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extensions ['python_setup_py']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy) by extension 'python_setup_py'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extensions ['ignore', 'ignore_ament_install']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extension 'ignore'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extension 'ignore_ament_install'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extensions ['colcon_pkg']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extension 'colcon_pkg'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extensions ['colcon_meta']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extension 'colcon_meta'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extensions ['ros']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extension 'ros'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extensions ['cmake', 'python']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extension 'cmake'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extension 'python'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extensions ['python_setup_py']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/images) by extension 'python_setup_py'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/robotX_2022) by extensions ['ignore', 'ignore_ament_install']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/robotX_2022) by extension 'ignore'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/robotX_2022) by extension 'ignore_ament_install'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/robotX_2022) by extensions ['colcon_pkg']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/robotX_2022) by extension 'colcon_pkg'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/robotX_2022) by extensions ['colcon_meta']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/robotX_2022) by extension 'colcon_meta'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/robotX_2022) by extensions ['ros']
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/robotX_2022) by extension 'ros'
+[2.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VRX_Foxy/robotX_2022' with type 'ros.ament_cmake' and name 'robotx_2022'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old) by extensions ['ignore', 'ignore_ament_install']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old) by extension 'ignore'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old) by extension 'ignore_ament_install'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old) by extensions ['colcon_pkg']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old) by extension 'colcon_pkg'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old) by extensions ['colcon_meta']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old) by extension 'colcon_meta'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old) by extensions ['ros']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old) by extension 'ros'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old) by extensions ['cmake', 'python']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old) by extension 'cmake'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old) by extension 'python'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old) by extensions ['python_setup_py']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old) by extension 'python_setup_py'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/launch) by extensions ['ignore', 'ignore_ament_install']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/launch) by extension 'ignore'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/launch) by extension 'ignore_ament_install'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/launch) by extensions ['colcon_pkg']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/launch) by extension 'colcon_pkg'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/launch) by extensions ['colcon_meta']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/launch) by extension 'colcon_meta'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/launch) by extensions ['ros']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/launch) by extension 'ros'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/launch) by extensions ['cmake', 'python']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/launch) by extension 'cmake'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/launch) by extension 'python'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/launch) by extensions ['python_setup_py']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/launch) by extension 'python_setup_py'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/ros2_robotx) by extensions ['ignore', 'ignore_ament_install']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/ros2_robotx) by extension 'ignore'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/ros2_robotx) by extension 'ignore_ament_install'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/ros2_robotx) by extensions ['colcon_pkg']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/ros2_robotx) by extension 'colcon_pkg'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/ros2_robotx) by extensions ['colcon_meta']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/ros2_robotx) by extension 'colcon_meta'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/ros2_robotx) by extensions ['ros']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/ros2_robotx) by extension 'ros'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/ros2_robotx) by extensions ['cmake', 'python']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/ros2_robotx) by extension 'cmake'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/ros2_robotx) by extension 'python'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/ros2_robotx) by extensions ['python_setup_py']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/ros2_robotx_old/ros2_robotx) by extension 'python_setup_py'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extensions ['ignore', 'ignore_ament_install']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extension 'ignore'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extension 'ignore_ament_install'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extensions ['colcon_pkg']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extension 'colcon_pkg'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extensions ['colcon_meta']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extension 'colcon_meta'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extensions ['ros']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extension 'ros'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extensions ['cmake', 'python']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extension 'cmake'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extension 'python'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extensions ['python_setup_py']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/tools) by extension 'python_setup_py'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_gazebo_plugins) by extension 'ignore'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_gazebo_plugins) by extension 'ignore_ament_install'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_gazebo_plugins) by extensions ['colcon_pkg']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_gazebo_plugins) by extension 'colcon_pkg'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_gazebo_plugins) by extensions ['colcon_meta']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_gazebo_plugins) by extension 'colcon_meta'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_gazebo_plugins) by extensions ['ros']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_gazebo_plugins) by extension 'ros'
+[2.151s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VRX_Foxy/usv_gazebo_plugins' with type 'ros.ament_cmake' and name 'usv_gazebo_plugins'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_msgs) by extension 'ignore'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_msgs) by extension 'ignore_ament_install'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_msgs) by extensions ['colcon_pkg']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_msgs) by extension 'colcon_pkg'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_msgs) by extensions ['colcon_meta']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_msgs) by extension 'colcon_meta'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_msgs) by extensions ['ros']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/usv_msgs) by extension 'ros'
+[2.152s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VRX_Foxy/usv_msgs' with type 'ros.ament_cmake' and name 'usv_msgs'
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/vrx_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/vrx_gazebo) by extension 'ignore'
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/vrx_gazebo) by extension 'ignore_ament_install'
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/vrx_gazebo) by extensions ['colcon_pkg']
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/vrx_gazebo) by extension 'colcon_pkg'
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/vrx_gazebo) by extensions ['colcon_meta']
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/vrx_gazebo) by extension 'colcon_meta'
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/vrx_gazebo) by extensions ['ros']
+[2.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/vrx_gazebo) by extension 'ros'
+[2.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VRX_Foxy/vrx_gazebo' with type 'ros.ament_cmake' and name 'vrx_gazebo'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_description) by extensions ['ignore', 'ignore_ament_install']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_description) by extension 'ignore'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_description) by extension 'ignore_ament_install'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_description) by extensions ['colcon_pkg']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_description) by extension 'colcon_pkg'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_description) by extensions ['colcon_meta']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_description) by extension 'colcon_meta'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_description) by extensions ['ros']
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_description) by extension 'ros'
+[2.154s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VRX_Foxy/wamv_description' with type 'ros.ament_cmake' and name 'wamv_description'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_gazebo) by extension 'ignore'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_gazebo) by extension 'ignore_ament_install'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_gazebo) by extensions ['colcon_pkg']
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_gazebo) by extension 'colcon_pkg'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_gazebo) by extensions ['colcon_meta']
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_gazebo) by extension 'colcon_meta'
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_gazebo) by extensions ['ros']
+[2.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wamv_gazebo) by extension 'ros'
+[2.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VRX_Foxy/wamv_gazebo' with type 'ros.ament_cmake' and name 'wamv_gazebo'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo) by extension 'ignore'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo) by extension 'ignore_ament_install'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo) by extensions ['colcon_pkg']
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo) by extension 'colcon_pkg'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo) by extensions ['colcon_meta']
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo) by extension 'colcon_meta'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo) by extensions ['ros']
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo) by extension 'ros'
+[2.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VRX_Foxy/wave_gazebo' with type 'ros.ament_cmake' and name 'wave_gazebo'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo_plugins) by extension 'ignore'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo_plugins) by extension 'ignore_ament_install'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo_plugins) by extensions ['colcon_pkg']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo_plugins) by extension 'colcon_pkg'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo_plugins) by extensions ['colcon_meta']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo_plugins) by extension 'colcon_meta'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo_plugins) by extensions ['ros']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/VRX_Foxy/wave_gazebo_plugins) by extension 'ros'
+[2.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/VRX_Foxy/wave_gazebo_plugins' with type 'ros.ament_cmake' and name 'wave_gazebo_plugins'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['ignore', 'ignore_ament_install']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'ignore'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'ignore_ament_install'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['colcon_pkg']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'colcon_pkg'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['colcon_meta']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'colcon_meta'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['ros']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'ros'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['cmake', 'python']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'cmake'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'python'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['python_setup_py']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'python_setup_py'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['ignore', 'ignore_ament_install']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ignore'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ignore_ament_install'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['colcon_pkg']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'colcon_pkg'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['colcon_meta']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'colcon_meta'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['ros']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ros'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['cmake', 'python']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'cmake'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'python'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['python_setup_py']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'python_setup_py'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotx) by extensions ['ignore', 'ignore_ament_install']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotx) by extension 'ignore'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotx) by extension 'ignore_ament_install'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotx) by extensions ['colcon_pkg']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotx) by extension 'colcon_pkg'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotx) by extensions ['colcon_meta']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotx) by extension 'colcon_meta'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotx) by extensions ['ros']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_robotx) by extension 'ros'
+[2.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_robotx' with type 'ros.ament_python' and name 'ros2_robotx'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extensions ['ignore', 'ignore_ament_install']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extension 'ignore'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extension 'ignore_ament_install'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extensions ['colcon_pkg']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extension 'colcon_pkg'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extensions ['colcon_meta']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extension 'colcon_meta'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extensions ['ros']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extension 'ros'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extensions ['cmake', 'python']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extension 'cmake'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extension 'python'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extensions ['python_setup_py']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(terrain) by extension 'python_setup_py'
+[2.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.285s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'usv_msgs' in 'src/VRX_Foxy/usv_msgs'
+[2.285s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'wamv_description' in 'src/VRX_Foxy/wamv_description'
+[2.285s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'wave_gazebo_plugins' in 'src/VRX_Foxy/wave_gazebo_plugins'
+[2.286s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'usv_gazebo_plugins' in 'src/VRX_Foxy/usv_gazebo_plugins'
+[2.286s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'wave_gazebo' in 'src/VRX_Foxy/wave_gazebo'
+[2.286s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'wamv_gazebo' in 'src/VRX_Foxy/wamv_gazebo'
+[2.286s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vrx_gazebo' in 'src/VRX_Foxy/vrx_gazebo'
+[2.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.430s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 311 installed packages in /home/grant/ros2_foxy/ros2-linux
+[2.467s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/foxy
+[2.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'ros2_robotx' build argument 'cmake_args' from command line to 'None'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'ros2_robotx' build argument 'cmake_target' from command line to 'None'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'ros2_robotx' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'ros2_robotx' build argument 'cmake_clean_cache' from command line to 'False'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'ros2_robotx' build argument 'cmake_clean_first' from command line to 'False'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'ros2_robotx' build argument 'cmake_force_configure' from command line to 'False'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'ros2_robotx' build argument 'ament_cmake_args' from command line to 'None'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'ros2_robotx' build argument 'catkin_cmake_args' from command line to 'None'
+[2.613s] Level 5:colcon.colcon_core.verb:set package 'ros2_robotx' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.613s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_robotx' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws_2/build/ros2_robotx', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws_2/install/ros2_robotx', 'merge_install': False, 'path': '/home/grant/ros2_ws_2/src/ros2_robotx', 'symlink_install': False, 'test_result_base': None}
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'robotx_2022' build argument 'cmake_args' from command line to 'None'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'robotx_2022' build argument 'cmake_target' from command line to 'None'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'robotx_2022' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'robotx_2022' build argument 'cmake_clean_cache' from command line to 'False'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'robotx_2022' build argument 'cmake_clean_first' from command line to 'False'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'robotx_2022' build argument 'cmake_force_configure' from command line to 'False'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'robotx_2022' build argument 'ament_cmake_args' from command line to 'None'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'robotx_2022' build argument 'catkin_cmake_args' from command line to 'None'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'robotx_2022' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.649s] DEBUG:colcon.colcon_core.verb:Building package 'robotx_2022' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/grant/ros2_ws_2/build/robotx_2022', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/grant/ros2_ws_2/install/robotx_2022', 'merge_install': False, 'path': '/home/grant/ros2_ws_2/src/VRX_Foxy/robotX_2022', 'symlink_install': False, 'test_result_base': None}
+[2.684s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.719s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.719s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/grant/ros2_ws_2/src/ros2_robotx' with build type 'ament_python'
+[2.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_robotx', 'ament_prefix_path')
+[2.759s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws_2/install/ros2_robotx/share/ros2_robotx/hook/ament_prefix_path.ps1'
+[2.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws_2/install/ros2_robotx/share/ros2_robotx/hook/ament_prefix_path.dsv'
+[2.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws_2/install/ros2_robotx/share/ros2_robotx/hook/ament_prefix_path.sh'
+[2.796s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.796s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.916s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/grant/ros2_ws_2/src/VRX_Foxy/robotX_2022' with build type 'ament_cmake'
+[2.916s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/grant/ros2_ws_2/src/VRX_Foxy/robotX_2022'
+[2.968s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.968s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.265s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/grant/ros2_ws_2/src/ros2_robotx'
+[3.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.417s] ERROR:colcon.colcon_core.shell:Exception in shell extension 'sh': Expected ['.', '/home/grant/ros2_ws_2/build/robotx_2022/colcon_command_prefix_build.sh', '&&', 'env'] to pass: The build time path "/home/grant/ros2_ws/install/usv_gazebo_plugins" doesn't exist. Either source a script for a different shell or set the environment variable "COLCON_CURRENT_PREFIX" explicitly.
+The build time path "/home/grant/ros2_ws/install/wave_gazebo" doesn't exist. Either source a script for a different shell or set the environment variable "COLCON_CURRENT_PREFIX" explicitly.
+The build time path "/home/grant/ros2_ws/install/wamv_gazebo" doesn't exist. Either source a script for a different shell or set the environment variable "COLCON_CURRENT_PREFIX" explicitly.
+The build time path "/home/grant/ros2_ws/install/vrx_gazebo" doesn't exist. Either source a script for a different shell or set the environment variable "COLCON_CURRENT_PREFIX" explicitly.
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/__init__.py", line 306, in get_command_environment
+    return await extension.generate_command_environment(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/sh.py", line 154, in generate_command_environment
+    env = await get_environment_variables(cmd, cwd=str(build_base))
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/__init__.py", line 342, in get_environment_variables
+    output = await check_output(cmd, cwd=cwd, shell=shell)
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['.', '/home/grant/ros2_ws_2/build/robotx_2022/colcon_command_prefix_build.sh', '&&', 'env'] to pass: The build time path "/home/grant/ros2_ws/install/usv_gazebo_plugins" doesn't exist. Either source a script for a different shell or set the environment variable "COLCON_CURRENT_PREFIX" explicitly.
+The build time path "/home/grant/ros2_ws/install/wave_gazebo" doesn't exist. Either source a script for a different shell or set the environment variable "COLCON_CURRENT_PREFIX" explicitly.
+The build time path "/home/grant/ros2_ws/install/wamv_gazebo" doesn't exist. Either source a script for a different shell or set the environment variable "COLCON_CURRENT_PREFIX" explicitly.
+The build time path "/home/grant/ros2_ws/install/vrx_gazebo" doesn't exist. Either source a script for a different shell or set the environment variable "COLCON_CURRENT_PREFIX" explicitly.
+
+
+[3.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'bash' for command environment
+[3.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'zsh' for command environment
+[3.418s] ERROR:colcon.colcon_cmake.task.cmake.build:Could not find a shell extension for the command environment
+[3.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robotx_2022)
+[3.537s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws_2/install/robotx_2022' for CMake module files
+[3.537s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws_2/install/robotx_2022' for CMake config files
+[3.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('robotx_2022', 'cmake_prefix_path')
+[3.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws_2/install/robotx_2022/share/robotx_2022/hook/cmake_prefix_path.ps1'
+[3.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/grant/ros2_ws_2/install/robotx_2022/share/robotx_2022/hook/cmake_prefix_path.dsv'
+[3.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/grant/ros2_ws_2/install/robotx_2022/share/robotx_2022/hook/cmake_prefix_path.sh'
+[3.576s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws_2/install/robotx_2022/lib'
+[3.576s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws_2/install/robotx_2022/bin'
+[3.576s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws_2/install/robotx_2022/lib/pkgconfig/robotx_2022.pc'
+[3.577s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws_2/install/robotx_2022/lib/python3.8/site-packages'
+[3.577s] Level 1:colcon.colcon_core.environment:checking '/home/grant/ros2_ws_2/install/robotx_2022/bin'
+[3.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws_2/install/robotx_2022/share/robotx_2022/package.ps1'
+[3.618s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/grant/ros2_ws_2/install/robotx_2022/share/robotx_2022/package.dsv'
+[3.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws_2/install/robotx_2022/share/robotx_2022/package.sh'
+[3.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws_2/install/robotx_2022/share/robotx_2022/package.bash'
+[3.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/grant/ros2_ws_2/install/robotx_2022/share/robotx_2022/package.zsh'
+[3.621s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/grant/ros2_ws_2/install/robotx_2022/share/colcon-core/packages/robotx_2022)
+[3.725s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.725s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.725s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[3.726s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.767s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.767s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.767s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.777s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.812s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/grant/ros2_ws_2/install/local_setup.ps1'
+[3.812s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/grant/ros2_ws_2/install/_local_setup_util_ps1.py'
+[3.815s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/grant/ros2_ws_2/install/setup.ps1'
+[3.850s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/grant/ros2_ws_2/install/local_setup.sh'
+[3.852s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/grant/ros2_ws_2/install/_local_setup_util_sh.py'
+[3.855s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/grant/ros2_ws_2/install/setup.sh'
+[3.890s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/grant/ros2_ws_2/install/local_setup.bash'
+[3.890s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/grant/ros2_ws_2/install/setup.bash'
+[3.927s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/grant/ros2_ws_2/install/local_setup.zsh'
+[3.927s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/grant/ros2_ws_2/install/setup.zsh'

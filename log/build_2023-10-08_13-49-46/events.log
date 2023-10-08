@@ -1,0 +1,24 @@
+[0.000000] (-) TimerEvent: {}
+[0.000146] (-) JobUnselected: {'identifier': 'usv_gazebo_plugins'}
+[0.000170] (-) JobUnselected: {'identifier': 'usv_msgs'}
+[0.000184] (-) JobUnselected: {'identifier': 'vrx_gazebo'}
+[0.000196] (-) JobUnselected: {'identifier': 'wamv_description'}
+[0.000206] (-) JobUnselected: {'identifier': 'wamv_gazebo'}
+[0.000216] (-) JobUnselected: {'identifier': 'wave_gazebo'}
+[0.000225] (-) JobUnselected: {'identifier': 'wave_gazebo_plugins'}
+[0.000239] (ros2_robotx) JobQueued: {'identifier': 'ros2_robotx', 'dependencies': OrderedDict()}
+[0.000306] (robotx_2022) JobQueued: {'identifier': 'robotx_2022', 'dependencies': OrderedDict([('usv_msgs', '/home/grant/ros2_ws_2/install/usv_msgs'), ('wamv_description', '/home/grant/ros2_ws_2/install/wamv_description'), ('wave_gazebo_plugins', '/home/grant/ros2_ws_2/install/wave_gazebo_plugins'), ('usv_gazebo_plugins', '/home/grant/ros2_ws_2/install/usv_gazebo_plugins'), ('wave_gazebo', '/home/grant/ros2_ws_2/install/wave_gazebo'), ('wamv_gazebo', '/home/grant/ros2_ws_2/install/wamv_gazebo'), ('vrx_gazebo', '/home/grant/ros2_ws_2/install/vrx_gazebo')])}
+[0.000386] (ros2_robotx) JobStarted: {'identifier': 'ros2_robotx'}
+[0.117829] (-) TimerEvent: {}
+[0.197021] (robotx_2022) JobStarted: {'identifier': 'robotx_2022'}
+[0.249264] (-) TimerEvent: {}
+[0.374755] (-) TimerEvent: {}
+[0.475277] (-) TimerEvent: {}
+[0.583020] (-) TimerEvent: {}
+[0.685091] (-) TimerEvent: {}
+[0.789092] (-) TimerEvent: {}
+[0.897919] (-) TimerEvent: {}
+[0.901639] (robotx_2022) JobEnded: {'identifier': 'robotx_2022', 'rc': 1}
+[0.994054] (ros2_robotx) JobEnded: {'identifier': 'ros2_robotx', 'rc': 'SIGINT'}
+[0.999090] (-) TimerEvent: {}
+[1.006173] (-) EventReactorShutdown: {}

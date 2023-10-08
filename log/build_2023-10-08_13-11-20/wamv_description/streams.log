@@ -1,0 +1,6 @@
+[0.401s] Invoking command in '/home/grant/ros2_ws_2/build/wamv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws_2/build/wamv_description -- -j8 -l8
+[0.435s] CMake Error: The current CMakeCache.txt directory /home/grant/ros2_ws_2/build/wamv_description/CMakeCache.txt is different than the directory /home/grant/ros2_ws/build/wamv_description where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.452s] CMake Error: The source directory "/home/grant/ros2_ws/src/VRX_Foxy/wamv_description" does not exist.
+[0.452s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.456s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.764s] Invoked command in '/home/grant/ros2_ws_2/build/wamv_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws_2/build/wamv_description -- -j8 -l8

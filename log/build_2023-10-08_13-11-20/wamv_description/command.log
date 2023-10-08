@@ -1,0 +1,2 @@
+Invoking command in '/home/grant/ros2_ws_2/build/wamv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws_2/build/wamv_description -- -j8 -l8
+Invoked command in '/home/grant/ros2_ws_2/build/wamv_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/grant/ros2_ws_2/build/wamv_description -- -j8 -l8
