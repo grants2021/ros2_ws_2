@@ -1,0 +1,14 @@
+[0.000000] (-) TimerEvent: {}
+[0.000500] (-) JobUnselected: {'identifier': 'ros2_robotx'}
+[0.000675] (-) JobUnselected: {'identifier': 'usv_gazebo_plugins'}
+[0.001927] (-) JobUnselected: {'identifier': 'usv_msgs'}
+[0.002043] (-) JobUnselected: {'identifier': 'vrx_gazebo'}
+[0.002080] (-) JobUnselected: {'identifier': 'wamv_description'}
+[0.002107] (-) JobUnselected: {'identifier': 'wamv_gazebo'}
+[0.002125] (-) JobUnselected: {'identifier': 'wave_gazebo'}
+[0.002148] (-) JobUnselected: {'identifier': 'wave_gazebo_plugins'}
+[0.002251] (robotx_2022) JobQueued: {'identifier': 'robotx_2022', 'dependencies': OrderedDict([('usv_msgs', '/home/adept/ros2_ws_2/install/usv_msgs'), ('wamv_description', '/home/adept/ros2_ws_2/install/wamv_description'), ('wave_gazebo_plugins', '/home/adept/ros2_ws_2/install/wave_gazebo_plugins'), ('usv_gazebo_plugins', '/home/adept/ros2_ws_2/install/usv_gazebo_plugins'), ('wave_gazebo', '/home/adept/ros2_ws_2/install/wave_gazebo'), ('wamv_gazebo', '/home/adept/ros2_ws_2/install/wamv_gazebo'), ('vrx_gazebo', '/home/adept/ros2_ws_2/install/vrx_gazebo')])}
+[0.002316] (robotx_2022) JobStarted: {'identifier': 'robotx_2022'}
+[0.101128] (-) TimerEvent: {}
+[0.116613] (robotx_2022) JobEnded: {'identifier': 'robotx_2022', 'rc': 1}
+[0.127191] (-) EventReactorShutdown: {}

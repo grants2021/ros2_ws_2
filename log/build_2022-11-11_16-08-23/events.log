@@ -1,0 +1,49 @@
+[0.000000] (-) TimerEvent: {}
+[0.000286] (-) JobUnselected: {'identifier': 'robotx_2022'}
+[0.000328] (-) JobUnselected: {'identifier': 'usv_gazebo_plugins'}
+[0.000527] (-) JobUnselected: {'identifier': 'usv_msgs'}
+[0.000837] (-) JobUnselected: {'identifier': 'vrx_gazebo'}
+[0.001051] (-) JobUnselected: {'identifier': 'wamv_description'}
+[0.001422] (-) JobUnselected: {'identifier': 'wamv_gazebo'}
+[0.001487] (-) JobUnselected: {'identifier': 'wave_gazebo'}
+[0.001519] (-) JobUnselected: {'identifier': 'wave_gazebo_plugins'}
+[0.001558] (ros2_robotx) JobQueued: {'identifier': 'ros2_robotx', 'dependencies': OrderedDict()}
+[0.001628] (ros2_robotx) JobStarted: {'identifier': 'ros2_robotx'}
+[0.099690] (-) TimerEvent: {}
+[0.200140] (-) TimerEvent: {}
+[0.300556] (-) TimerEvent: {}
+[0.400920] (-) TimerEvent: {}
+[0.501234] (-) TimerEvent: {}
+[0.601576] (-) TimerEvent: {}
+[0.701953] (-) TimerEvent: {}
+[0.785544] (ros2_robotx) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_robotx', 'build', '--build-base', '/home/adept/ros2_ws_2/build/ros2_robotx/build', 'install', '--prefix', '/home/adept/ros2_ws_2/install/ros2_robotx', '--record', '/home/adept/ros2_ws_2/build/ros2_robotx/install.log', '--single-version-externally-managed'], 'cwd': '/home/adept/ros2_ws_2/src/ros2_robotx', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'adept', 'SSH_AGENT_PID': '1644', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'HOME': '/home/adept', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1425', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'LOGNAME': 'adept', 'JOURNAL_STREAM': '8:47029', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adept', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/usr/lib/ccache:/home/adept/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/adept/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ADEPT-EVE:@/tmp/.ICE-unix/1679,unix/ADEPT-EVE:/tmp/.ICE-unix/1679', 'INVOCATION_ID': 'ba4417ed813c45f7849b7c23bf544998', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/070be5c5_e731_4800_a760_9e6cada88969', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.87', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adept/ros2_ws_2/build/ros2_robotx', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'VTE_VERSION': '6003', 'PYTHONPATH': '/home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages:'}, 'shell': False}
+[0.802107] (-) TimerEvent: {}
+[0.902531] (-) TimerEvent: {}
+[0.993942] (ros2_robotx) StdoutLine: {'line': b'running egg_info\n'}
+[0.994298] (ros2_robotx) StdoutLine: {'line': b'writing ../../build/ros2_robotx/ros2_robotx.egg-info/PKG-INFO\n'}
+[0.994508] (ros2_robotx) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_robotx/ros2_robotx.egg-info/dependency_links.txt\n'}
+[0.994661] (ros2_robotx) StdoutLine: {'line': b'writing entry points to ../../build/ros2_robotx/ros2_robotx.egg-info/entry_points.txt\n'}
+[0.994878] (ros2_robotx) StdoutLine: {'line': b'writing requirements to ../../build/ros2_robotx/ros2_robotx.egg-info/requires.txt\n'}
+[0.995037] (ros2_robotx) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_robotx/ros2_robotx.egg-info/top_level.txt\n'}
+[1.002637] (-) TimerEvent: {}
+[1.026608] (ros2_robotx) StdoutLine: {'line': b"reading manifest file '../../build/ros2_robotx/ros2_robotx.egg-info/SOURCES.txt'\n"}
+[1.027706] (ros2_robotx) StdoutLine: {'line': b"writing manifest file '../../build/ros2_robotx/ros2_robotx.egg-info/SOURCES.txt'\n"}
+[1.027888] (ros2_robotx) StdoutLine: {'line': b'running build\n'}
+[1.028172] (ros2_robotx) StdoutLine: {'line': b'running build_py\n'}
+[1.028271] (ros2_robotx) StdoutLine: {'line': b'copying ros2_robotx/wamv_sim.py -> /home/adept/ros2_ws_2/build/ros2_robotx/build/lib/ros2_robotx\n'}
+[1.028406] (ros2_robotx) StdoutLine: {'line': b'running install\n'}
+[1.029092] (ros2_robotx) StdoutLine: {'line': b'running install_lib\n'}
+[1.030387] (ros2_robotx) StdoutLine: {'line': b'copying /home/adept/ros2_ws_2/build/ros2_robotx/build/lib/ros2_robotx/wamv_sim.py -> /home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages/ros2_robotx\n'}
+[1.030949] (ros2_robotx) StdoutLine: {'line': b'byte-compiling /home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages/ros2_robotx/wamv_sim.py to wamv_sim.cpython-38.pyc\n'}
+[1.033115] (ros2_robotx) StdoutLine: {'line': b'running install_data\n'}
+[1.033779] (ros2_robotx) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.035278] (ros2_robotx) StdoutLine: {'line': b"removing '/home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages/ros2_robotx-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.035682] (ros2_robotx) StdoutLine: {'line': b'Copying ../../build/ros2_robotx/ros2_robotx.egg-info to /home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages/ros2_robotx-0.0.0-py3.8.egg-info\n'}
+[1.036635] (ros2_robotx) StdoutLine: {'line': b'running install_scripts\n'}
+[1.052116] (ros2_robotx) StdoutLine: {'line': b'Installing drone_control script to /home/adept/ros2_ws_2/install/ros2_robotx/lib/ros2_robotx\n'}
+[1.052464] (ros2_robotx) StdoutLine: {'line': b'Installing teleop_key script to /home/adept/ros2_ws_2/install/ros2_robotx/lib/ros2_robotx\n'}
+[1.052613] (ros2_robotx) StdoutLine: {'line': b'Installing wamv_sim script to /home/adept/ros2_ws_2/install/ros2_robotx/lib/ros2_robotx\n'}
+[1.052748] (ros2_robotx) StdoutLine: {'line': b"writing list of installed files to '/home/adept/ros2_ws_2/build/ros2_robotx/install.log'\n"}
+[1.083423] (ros2_robotx) CommandEnded: {'returncode': 0}
+[1.098229] (ros2_robotx) JobEnded: {'identifier': 'ros2_robotx', 'rc': 0}
+[1.099060] (-) EventReactorShutdown: {}

@@ -2,8 +2,8 @@
 <!-- Basic WAM-V with gazebo plugins for dynamics -->
 <robot xmlns:xacro="http://ros.org/wiki/xacro"
        name="WAM-V">
-  <xacro:arg name="locked" default="false" />
-  <xacro:arg name="thruster_config" default="H" />
+  <xacro:arg name="locked" default="true" />
+  <xacro:arg name="thruster_config" default="X" />
   <xacro:arg name="front_camera_enabled" default="true" />
   <xacro:arg name="chase_camera_enabled" default="false" />
   <xacro:arg name="arucos_enabled" default="true" />
@@ -85,7 +85,13 @@
 
   <!-- === Decide if we lock the robot to the world === -->
   <xacro:if value="$(arg locked)">
+    <gazebo reference="wamv">
+      <static>true</static>
+    </gazebo>
+    <!--
     <gazebo>
+    
+    
       <link name="wamv_external_link"/>
       <joint name="wamv_external_pivot_joint" type="universal">
         <parent>wamv::wamv/base_link</parent>
@@ -97,18 +103,13 @@
           <xyz>0 1 0</xyz>
         </axis2>
       </joint>
-      <joint name="wamv_external_riser" type="prismatic">
+      <joint name="wamv_external_fix_joint" type="fixed">
         <parent>world</parent>
         <child>wamv_external_link</child>
-        <axis>
-          <limit>
-            <lower>-3</lower>
-            <upper>3</upper>
-          </limit>
-          <xyz>0 0 1</xyz>
-        </axis>
+        <origin xyz="0 0 0" rpy="0 0 0" />
       </joint>
     </gazebo>
+    -->
   </xacro:if>
 
   <!-- === Sensors === -->

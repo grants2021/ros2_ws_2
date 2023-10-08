@@ -16,7 +16,7 @@
       </geometry>
       <material>
         <script>
-          <uri>/home/grant/vrx_ws/src/adept-vrx/wamv_description/materials/scripts/gazebo.material</uri>
+          <uri>/home/adept/ros2_ws_2/src/VRX_Foxy/robotX_2022/materials/scripts/gazebo.material</uri>
           <name>Gazebo/Aruco129</name>
         </script>
         <shader type="pixel"/>
@@ -55,7 +55,7 @@
       </geometry>
       <material>
         <script>
-          <uri>/home/grant/vrx_ws/src/adept-vrx/wamv_description/materials/scripts/gazebo.material</uri>
+          <uri>/home/adept/ros2_ws_2/src/VRX_Foxy/robotX_2022/materials/scripts/gazebo.material</uri>
           <name>Gazebo/Aruco129</name>
         </script>
         <shader type="pixel"/>

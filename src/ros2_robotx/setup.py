@@ -12,6 +12,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name, glob('launch/*')),
+        ('share/' + package_name, glob('worlds/*')),
         ('lib/' + package_name, glob('include/*'))
     ],
     install_requires=['setuptools'],

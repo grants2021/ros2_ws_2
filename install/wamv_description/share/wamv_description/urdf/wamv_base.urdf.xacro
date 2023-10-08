@@ -130,5 +130,4 @@
       <inertia ixx="120.0" ixy="0.0" ixz="0.0" iyy="393" iyz="0.0" izz="446.0"/>
     </inertial>
   </link>
-
 </robot>

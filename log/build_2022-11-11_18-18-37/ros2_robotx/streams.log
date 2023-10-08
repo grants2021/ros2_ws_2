@@ -1,0 +1,26 @@
+[0.877s] Invoking command in '/home/adept/ros2_ws_2/src/ros2_robotx': PYTHONPATH=/home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_robotx build --build-base /home/adept/ros2_ws_2/build/ros2_robotx/build install --prefix /home/adept/ros2_ws_2/install/ros2_robotx --record /home/adept/ros2_ws_2/build/ros2_robotx/install.log --single-version-externally-managed
+[1.132s] running egg_info
+[1.132s] writing ../../build/ros2_robotx/ros2_robotx.egg-info/PKG-INFO
+[1.132s] writing dependency_links to ../../build/ros2_robotx/ros2_robotx.egg-info/dependency_links.txt
+[1.133s] writing entry points to ../../build/ros2_robotx/ros2_robotx.egg-info/entry_points.txt
+[1.133s] writing requirements to ../../build/ros2_robotx/ros2_robotx.egg-info/requires.txt
+[1.133s] writing top-level names to ../../build/ros2_robotx/ros2_robotx.egg-info/top_level.txt
+[1.174s] reading manifest file '../../build/ros2_robotx/ros2_robotx.egg-info/SOURCES.txt'
+[1.176s] writing manifest file '../../build/ros2_robotx/ros2_robotx.egg-info/SOURCES.txt'
+[1.176s] running build
+[1.176s] running build_py
+[1.176s] copying ros2_robotx/wamv_sim.py -> /home/adept/ros2_ws_2/build/ros2_robotx/build/lib/ros2_robotx
+[1.176s] running install
+[1.177s] running install_lib
+[1.178s] copying /home/adept/ros2_ws_2/build/ros2_robotx/build/lib/ros2_robotx/wamv_sim.py -> /home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages/ros2_robotx
+[1.179s] byte-compiling /home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages/ros2_robotx/wamv_sim.py to wamv_sim.cpython-38.pyc
+[1.181s] running install_data
+[1.182s] running install_egg_info
+[1.184s] removing '/home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages/ros2_robotx-0.0.0-py3.8.egg-info' (and everything under it)
+[1.185s] Copying ../../build/ros2_robotx/ros2_robotx.egg-info to /home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages/ros2_robotx-0.0.0-py3.8.egg-info
+[1.186s] running install_scripts
+[1.204s] Installing drone_control script to /home/adept/ros2_ws_2/install/ros2_robotx/lib/ros2_robotx
+[1.204s] Installing teleop_key script to /home/adept/ros2_ws_2/install/ros2_robotx/lib/ros2_robotx
+[1.204s] Installing wamv_sim script to /home/adept/ros2_ws_2/install/ros2_robotx/lib/ros2_robotx
+[1.205s] writing list of installed files to '/home/adept/ros2_ws_2/build/ros2_robotx/install.log'
+[1.229s] Invoked command in '/home/adept/ros2_ws_2/src/ros2_robotx' returned '0': PYTHONPATH=/home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_robotx build --build-base /home/adept/ros2_ws_2/build/ros2_robotx/build install --prefix /home/adept/ros2_ws_2/install/ros2_robotx --record /home/adept/ros2_ws_2/build/ros2_robotx/install.log --single-version-externally-managed

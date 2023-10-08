@@ -1,0 +1,5 @@
+  File "/home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages/ros2_robotx/wamv_sim.py", line 144
+    if not self.land_antispam
+                            ^
+SyntaxError: invalid syntax
+

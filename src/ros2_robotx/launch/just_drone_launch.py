@@ -71,7 +71,7 @@ def generate_launch_description():
     
     declare_verbose_cmd = DeclareLaunchArgument(
       name='verbose',
-      default_value='false',
+      default_value='True',
       description='Verbose logging on off')
      
     declare_world_cmd = DeclareLaunchArgument(
@@ -90,8 +90,8 @@ def generate_launch_description():
     start_gazebo_server_cmd = IncludeLaunchDescription(
       PythonLaunchDescriptionSource(os.path.join(pkg_gazebo_ros, 'launch', 'gzserver.launch.py')),
       condition=IfCondition(use_simulator),
-      launch_arguments={'world': world}.items())
-      #launch_arguments={'world': world,'verbose':verbose}.items())
+      #launch_arguments={'world': world}.items())
+      launch_arguments={'world': world,'verbose':verbose}.items())
      
     # Start Gazebo client    
     start_gazebo_client_cmd = IncludeLaunchDescription(

@@ -28,3 +28,21 @@ def ids_dict():
                                index=['size','height','fcount','nfcount','enfcount',\
                                       'xloc','yloc','lastT'])
     return IDs_Dict
+
+def lp_dict():
+    LP_ids = [0,1] #0 = empty 1 = full
+    LP_sizes = [200,200] #cm
+    LP_heights = [7,7]
+
+    LP_found_count = [0]*len(LP_ids)
+    LP_notfound_count = [0]*len(LP_ids)
+    LP_enotfound_count = [0]*len(LP_ids)
+    LP_latlong = [0]*len(LP_ids)
+    LP_last_seen = [0]*len(LP_ids)
+    
+    LP_Dict = pd.DataFrame([LP_sizes,LP_heights,LP_found_count,\
+                            LP_notfound_count,LP_enotfound_count,LP_latlong,\
+                                LP_last_seen],columns=LP_ids,
+                               index=['size','height','fcount','nfcount','enfcount',\
+                                      'latlong','lastT'])
+    return LP_Dict

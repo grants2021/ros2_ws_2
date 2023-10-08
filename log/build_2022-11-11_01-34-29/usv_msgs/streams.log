@@ -1,0 +1,6 @@
+[0.028s] Invoking command in '/home/adept/ros2_ws_2/build/usv_msgs': /usr/bin/cmake --build /home/adept/ros2_ws_2/build/usv_msgs -- -j8 -l8
+[0.225s] CMake Error: The current CMakeCache.txt directory /home/adept/ros2_ws_2/build/usv_msgs/CMakeCache.txt is different than the directory /home/grant/ros2_ws/build/usv_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.226s] CMake Error: The source directory "/home/grant/ros2_ws/src/VRX_Foxy/usv_msgs" does not exist.
+[0.226s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.226s] make: *** [Makefile:993: cmake_check_build_system] Error 1
+[0.231s] Invoked command in '/home/adept/ros2_ws_2/build/usv_msgs' returned '2': /usr/bin/cmake --build /home/adept/ros2_ws_2/build/usv_msgs -- -j8 -l8

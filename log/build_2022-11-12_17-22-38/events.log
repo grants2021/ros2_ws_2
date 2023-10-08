@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000557] (-) JobUnselected: {'identifier': 'robotx_2022'}
+[0.000661] (-) JobUnselected: {'identifier': 'usv_gazebo_plugins'}
+[0.000732] (-) JobUnselected: {'identifier': 'usv_msgs'}
+[0.000796] (-) JobUnselected: {'identifier': 'vrx_gazebo'}
+[0.000856] (-) JobUnselected: {'identifier': 'wamv_description'}
+[0.000916] (-) JobUnselected: {'identifier': 'wamv_gazebo'}
+[0.000974] (-) JobUnselected: {'identifier': 'wave_gazebo'}
+[0.001071] (-) JobUnselected: {'identifier': 'wave_gazebo_plugins'}
+[0.001159] (ros2_robotx) JobQueued: {'identifier': 'ros2_robotx', 'dependencies': OrderedDict()}
+[0.005067] (ros2_robotx) JobStarted: {'identifier': 'ros2_robotx'}
+[0.099481] (-) TimerEvent: {}
+[0.201356] (-) TimerEvent: {}
+[0.302086] (-) TimerEvent: {}
+[0.403028] (-) TimerEvent: {}
+[0.503827] (-) TimerEvent: {}
+[0.604641] (-) TimerEvent: {}
+[0.705456] (-) TimerEvent: {}
+[0.806090] (-) TimerEvent: {}
+[0.906742] (-) TimerEvent: {}
+[1.007308] (-) TimerEvent: {}
+[1.107986] (-) TimerEvent: {}
+[1.208889] (-) TimerEvent: {}
+[1.309632] (-) TimerEvent: {}
+[1.410468] (-) TimerEvent: {}
+[1.511649] (-) TimerEvent: {}
+[1.612156] (-) TimerEvent: {}
+[1.712750] (-) TimerEvent: {}
+[1.813533] (-) TimerEvent: {}
+[1.914057] (-) TimerEvent: {}
+[2.014868] (-) TimerEvent: {}
+[2.115509] (-) TimerEvent: {}
+[2.216191] (-) TimerEvent: {}
+[2.316744] (-) TimerEvent: {}
+[2.417513] (-) TimerEvent: {}
+[2.518121] (-) TimerEvent: {}
+[2.618956] (-) TimerEvent: {}
+[2.719599] (-) TimerEvent: {}
+[2.820144] (-) TimerEvent: {}
+[2.920889] (-) TimerEvent: {}
+[3.021518] (-) TimerEvent: {}
+[3.122132] (-) TimerEvent: {}
+[3.222675] (-) TimerEvent: {}
+[3.323340] (-) TimerEvent: {}
+[3.424014] (-) TimerEvent: {}
+[3.524771] (-) TimerEvent: {}
+[3.625557] (-) TimerEvent: {}
+[3.726051] (-) TimerEvent: {}
+[3.738891] (ros2_robotx) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/ros2_robotx', 'build', '--build-base', '/home/adept/ros2_ws_2/build/ros2_robotx/build', 'install', '--prefix', '/home/adept/ros2_ws_2/install/ros2_robotx', '--record', '/home/adept/ros2_ws_2/build/ros2_robotx/install.log', '--single-version-externally-managed'], 'cwd': '/home/adept/ros2_ws_2/src/ros2_robotx', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'adept', 'SSH_AGENT_PID': '1647', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/adept/ros2_ws_2/install/vrx_gazebo/lib:/home/adept/ros2_ws_2/install/usv_gazebo_plugins/lib:/home/adept/ros2_ws_2/install/wave_gazebo_plugins/lib:/home/adept/ros2_ws_2/install/usv_msgs/lib:/home/adept/ros2_ws_2/install/mavros_extras/lib:/home/adept/ros2_ws_2/install/mavros/lib:/home/adept/ros2_ws_2/install/mavros_msgs/lib:/home/adept/ros2_ws_2/install/libmavconn/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/adept', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1429', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/adept/ros2_ws_2/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'adept', 'JOURNAL_STREAM': '8:48477', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/adept/ros2_ws_2/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/adept/ros2_ws_2/install/mavlink/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'adept', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo/../../share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/foxy/bin:/usr/lib/ccache:/home/adept/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/adept/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ADEPT-EVE:@/tmp/.ICE-unix/1682,unix/ADEPT-EVE:/tmp/.ICE-unix/1682', 'INVOCATION_ID': '4795ace081624e888a13777eaefa61cc', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/122e11e9_7187_4c4c_8ac3_d6ec5086fc60', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.82', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/adept/ros2_ws_2/install/robotx_2022:/home/adept/ros2_ws_2/install/vrx_gazebo:/home/adept/ros2_ws_2/install/wamv_gazebo:/home/adept/ros2_ws_2/install/usv_gazebo_plugins:/home/adept/ros2_ws_2/install/wave_gazebo_plugins:/home/adept/ros2_ws_2/install/wamv_description:/home/adept/ros2_ws_2/install/usv_msgs:/home/adept/ros2_ws_2/install/ros2_robotx:/home/adept/ros2_ws_2/install/mavros_extras:/home/adept/ros2_ws_2/install/mavros:/home/adept/ros2_ws_2/install/mavros_msgs:/home/adept/ros2_ws_2/install/libmavconn:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo/../../share/gazebo-11:/home/adept/ros2_ws_2/install/robotx_2022/share/robotx_2022/worlds', 'GJS_DEBUG_OUTPUT': 'stderr', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/adept/ros2_ws_2/build/ros2_robotx', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages:/home/adept/ros2_ws_2/install/vrx_gazebo/lib/python3.8/site-packages:/home/adept/ros2_ws_2/install/usv_msgs/lib/python3.8/site-packages:/home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages:/home/adept/ros2_ws_2/install/mavros/lib/python3.8/site-packages:/home/adept/ros2_ws_2/install/mavros_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/usr/lib/python3/dist-packages/', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/adept/ros2_ws_2/install/robotx_2022:/home/adept/ros2_ws_2/install/vrx_gazebo:/home/adept/ros2_ws_2/install/wave_gazebo:/home/adept/ros2_ws_2/install/wamv_gazebo:/home/adept/ros2_ws_2/install/usv_gazebo_plugins:/home/adept/ros2_ws_2/install/wave_gazebo_plugins:/home/adept/ros2_ws_2/install/wamv_description:/home/adept/ros2_ws_2/install/usv_msgs:/home/adept/ros2_ws_2/install/mavros_extras:/home/adept/ros2_ws_2/install/mavros:/home/adept/ros2_ws_2/install/mavros_msgs:/home/adept/ros2_ws_2/install/libmavconn:/home/adept/ros2_ws_2/install/mavlink'}, 'shell': False}
+[3.826351] (-) TimerEvent: {}
+[3.927527] (-) TimerEvent: {}
+[4.028145] (-) TimerEvent: {}
+[4.128697] (-) TimerEvent: {}
+[4.229306] (-) TimerEvent: {}
+[4.329912] (-) TimerEvent: {}
+[4.430571] (-) TimerEvent: {}
+[4.531209] (-) TimerEvent: {}
+[4.632010] (-) TimerEvent: {}
+[4.732651] (-) TimerEvent: {}
+[4.833294] (-) TimerEvent: {}
+[4.921333] (ros2_robotx) StdoutLine: {'line': b'running egg_info\n'}
+[4.923616] (ros2_robotx) StdoutLine: {'line': b'writing ../../build/ros2_robotx/ros2_robotx.egg-info/PKG-INFO\n'}
+[4.924565] (ros2_robotx) StdoutLine: {'line': b'writing dependency_links to ../../build/ros2_robotx/ros2_robotx.egg-info/dependency_links.txt\n'}
+[4.925320] (ros2_robotx) StdoutLine: {'line': b'writing entry points to ../../build/ros2_robotx/ros2_robotx.egg-info/entry_points.txt\n'}
+[4.925810] (ros2_robotx) StdoutLine: {'line': b'writing requirements to ../../build/ros2_robotx/ros2_robotx.egg-info/requires.txt\n'}
+[4.926291] (ros2_robotx) StdoutLine: {'line': b'writing top-level names to ../../build/ros2_robotx/ros2_robotx.egg-info/top_level.txt\n'}
+[4.933446] (-) TimerEvent: {}
+[5.034120] (-) TimerEvent: {}
+[5.116847] (ros2_robotx) StdoutLine: {'line': b"reading manifest file '../../build/ros2_robotx/ros2_robotx.egg-info/SOURCES.txt'\n"}
+[5.121523] (ros2_robotx) StdoutLine: {'line': b"writing manifest file '../../build/ros2_robotx/ros2_robotx.egg-info/SOURCES.txt'\n"}
+[5.122514] (ros2_robotx) StdoutLine: {'line': b'running build\n'}
+[5.123374] (ros2_robotx) StdoutLine: {'line': b'running build_py\n'}
+[5.124423] (ros2_robotx) StdoutLine: {'line': b'copying ros2_robotx/drone_control.py -> /home/adept/ros2_ws_2/build/ros2_robotx/build/lib/ros2_robotx\n'}
+[5.125329] (ros2_robotx) StdoutLine: {'line': b'running install\n'}
+[5.129782] (ros2_robotx) StdoutLine: {'line': b'running install_lib\n'}
+[5.133457] (ros2_robotx) StdoutLine: {'line': b'copying /home/adept/ros2_ws_2/build/ros2_robotx/build/lib/ros2_robotx/drone_control.py -> /home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages/ros2_robotx\n'}
+[5.134232] (-) TimerEvent: {}
+[5.135468] (ros2_robotx) StdoutLine: {'line': b'byte-compiling /home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages/ros2_robotx/drone_control.py to drone_control.cpython-38.pyc\n'}
+[5.155636] (ros2_robotx) StdoutLine: {'line': b'running install_data\n'}
+[5.159162] (ros2_robotx) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.168067] (ros2_robotx) StdoutLine: {'line': b"removing '/home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages/ros2_robotx-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.168762] (ros2_robotx) StdoutLine: {'line': b'Copying ../../build/ros2_robotx/ros2_robotx.egg-info to /home/adept/ros2_ws_2/install/ros2_robotx/lib/python3.8/site-packages/ros2_robotx-0.0.0-py3.8.egg-info\n'}
+[5.171101] (ros2_robotx) StdoutLine: {'line': b'running install_scripts\n'}
+[5.234435] (-) TimerEvent: {}
+[5.258057] (ros2_robotx) StdoutLine: {'line': b'Installing drone_control script to /home/adept/ros2_ws_2/install/ros2_robotx/lib/ros2_robotx\n'}
+[5.259390] (ros2_robotx) StdoutLine: {'line': b'Installing teleop_key script to /home/adept/ros2_ws_2/install/ros2_robotx/lib/ros2_robotx\n'}
+[5.260124] (ros2_robotx) StdoutLine: {'line': b'Installing wamv_sim script to /home/adept/ros2_ws_2/install/ros2_robotx/lib/ros2_robotx\n'}
+[5.260827] (ros2_robotx) StdoutLine: {'line': b"writing list of installed files to '/home/adept/ros2_ws_2/build/ros2_robotx/install.log'\n"}
+[5.334675] (-) TimerEvent: {}
+[5.353364] (ros2_robotx) CommandEnded: {'returncode': 0}
+[5.433543] (ros2_robotx) JobEnded: {'identifier': 'ros2_robotx', 'rc': 0}
+[5.436877] (-) TimerEvent: {}
+[5.437264] (-) EventReactorShutdown: {}
